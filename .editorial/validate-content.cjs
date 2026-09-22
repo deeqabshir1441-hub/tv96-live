@@ -91,12 +91,13 @@ execFileSync(process.execPath, [path.join(__dirname, 'sync-site-chrome.cjs'), '-
 assert(!read('watch-live.html').includes('// PWA Install Button'), 'Legacy install handler conflicts with shared header');
 assert(read('site-header.js').includes("window.addEventListener('beforeinstallprompt'"), 'Shared install handler missing');
 for (const file of protectedFiles) assert.equal(stripSiteChrome(file, read(file)), stripSiteChrome(file, file === 'watch-live.html' ? removeAds(baseline(file)) : baseline(file)), `Protected file changed outside site chrome: ${file}`);
-// The homepage's only authorized JavaScript edit is the fallback image URL.
+// Featured rendering is authorized; all other homepage JavaScript remains protected.
 const inlineScripts = html => Array.from(html.matchAll(/<script\b([^>]*)>([\s\S]*?)<\/script>/gi)).filter(m => !/src=/.test(m[1])).map(m => m[2].replace(/\r\n/g, '\n'));
 const approvedHomepage = baseline('index.html')
     .replace(/https:\/\/via\.placeholder\.com\/[^']+/g, '/football-fallback.svg')
     .replace('alt="${escapeArticleText(article.title)}"', 'alt="${escapeArticleText(article.imageAlt || article.title)}"');
-assert.deepEqual(inlineScripts(read('index.html')), inlineScripts(approvedHomepage), 'Unrelated homepage logic changed');
+const withoutFeaturedRenderer = html => html.replace(/    function updateNews\(\) \{[\s\S]*?\n    \}\n/, '    function updateNews() {}\n');
+assert.deepEqual(inlineScripts(withoutFeaturedRenderer(read('index.html').replace(/\r\n/g, '\n'))), inlineScripts(withoutFeaturedRenderer(approvedHomepage.replace(/\r\n/g, '\n'))), 'Unrelated homepage logic changed');
 for (const file of ['index.html', 'news.html', 'article-template.html', 'about.html', ...published.map(a => `articles/${a.id}.html`)]) {
     const loaders = html => Array.from(html.matchAll(/<script\b[^>]*src="(?:https:\/\/(?:pagead2\.googlesyndication\.com|cloud\.umami\.is)[^"]*|\/_vercel\/insights\/script\.js)"[^>]*>[\s\S]*?<\/script>/g), match => match[0].replace(/\r\n/g, '\n'));
     assert.deepEqual(loaders(read(file === 'article-template.html' ? '.editorial/article-template.html' : file)), loaders(baseline(file.startsWith('articles/') ? 'article-template.html' : file)), `Advertising/analytics changed: ${file}`);

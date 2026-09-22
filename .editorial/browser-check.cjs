@@ -156,6 +156,48 @@ let chrome, socket;
     assert(await evaluate(`[...document.querySelectorAll('#news-container article')].every(element => element.getBoundingClientRect().right <= innerWidth + 1)`), 'Editorial cards exceed home viewport');
     await screenshot('home-mobile');
     assert(homeWidth <= 361, 'Homepage overflow after entrance animations');
+    // Featured composition, automatic selection, approved images and both themes.
+    for (const theme of ['dark', 'light']) {
+        await evaluate(`document.body.classList.toggle('light-mode', ${theme == 'light'})`);
+        for (const width of [1440, 390, 360, 320]) {
+            await viewport(width);
+            await evaluate(`document.getElementById('news').scrollIntoView({block: 'start', behavior: 'instant'})`);
+            await pause(300);
+            const featured = await evaluate(`(() => {
+                const main = document.querySelector('.home-news-featured');
+                const list = document.querySelector('.home-news-list');
+                const box = element => { const r = element.getBoundingClientRect(); return {x:r.x,y:r.y,width:r.width,right:r.right}; };
+                const expected = getPublishedArticles().filter(a => new Date(a.publishedAt) <= Date.now()).sort((a,b) => new Date(b.publishedAt)-new Date(a.publishedAt) || b.id-a.id).slice(0,4);
+                return { main:box(main), list:box(list), count:list.children.length,
+                    links:[...document.querySelectorAll('.home-story-link')].map(a=>a.getAttribute('href')),
+                    expected:expected.map(a=>'/articles/'+a.id),
+                    images:[...document.querySelectorAll('.home-story img')].every(img=>img.complete && img.naturalWidth > 0),
+                    approved:[...document.querySelectorAll('.home-story img')].every(img=>expected.some(a=>a.image===img.getAttribute('src')))
+                };
+            })()`);
+            assert.equal(featured.count, 3);
+            assert.deepEqual(featured.links, featured.expected);
+            assert(featured.images && featured.approved, 'Featured images missing or unregistered');
+            assert(!await overflow(), `Featured overflow at ${width} in ${theme}`);
+            if (width >= 1024) {
+                assert(featured.list.right < featured.main.x, 'Secondary stories must sit on the left');
+                assert(featured.main.width > featured.list.width, 'Lead story must dominate');
+            } else assert(featured.main.y < featured.list.y, 'Lead story must come first on mobile');
+            if ([1440, 390].includes(width)) await screenshot(`featured-${theme}-${width}`);
+        }
+    }
+    await evaluate(`document.body.classList.remove('light-mode')`);
+    await evaluate(`(() => {
+        window.installTestPrompted = false;
+        const event = new Event('beforeinstallprompt', {cancelable:true});
+        event.prompt = () => { window.installTestPrompted = true; };
+        event.userChoice = Promise.resolve({outcome:'accepted'});
+        window.dispatchEvent(event);
+    })()`);
+    assert(await evaluate(`!document.getElementById('installBtn').hidden`));
+    await evaluate(`document.getElementById('installBtn').click()`);
+    assert(await evaluate(`window.installTestPrompted && document.getElementById('installBtn').hidden`));
+    console.log('PASS: Featured desktop/mobile composition, newest published selection, registered images, both themes and simulated Install App prompt.');
     await navigate('/matches'); assert(await evaluate(`document.querySelectorAll('.match-card').length > 0`));
     await navigate('/standings');
     for (let i = 0; i < 100 && !await evaluate(`document.getElementById('standingsBody').innerText.includes('Arsenal')`); i++) await pause(50);

@@ -74,6 +74,17 @@
    </div>
   </section>
   <main>
+    <div class="home-featured-section">
+     <section class="section-block" id="news">
+      <div style="padding: 0;">
+       <div class="home-news-header">
+        <div><h2>Featured</h2><p>Understand the rules, follow the leagues and explore the stories</p></div>
+        <a href="/news">View News &amp; Guides <i data-lucide="arrow-right"></i></a>
+       </div>
+       <div class="home-news-layout" id="news-container"></div>
+      </div>
+     </section>
+    </div>
    <div class="main-layout-container">
     <div class="content-left">
      <section class="section-block" id="matches">
@@ -90,17 +101,6 @@
        <div id="matches-container" aria-live="polite">
         <div class="matches-skeleton" aria-hidden="true"><span></span><span></span><span></span></div>
        </div>
-      </div>
-     </section>
-    </div>
-    <div class="content-middle">
-     <section class="section-block" id="news">
-      <div style="padding: 0;">
-       <div class="home-news-header">
-        <div><h2>Latest Football Guides &amp; Analysis</h2><p>Understand the rules, follow the leagues and explore the stories</p></div>
-        <a href="/news">View News &amp; Guides <i data-lucide="arrow-right"></i></a>
-       </div>
-       <div class="home-news-layout" id="news-container"></div>
       </div>
      </section>
     </div>
@@ -793,21 +793,25 @@ if (totalMinutes < 0) {
 
         if (!container) return;
 
-        // Curated in news-data.js and filtered by publication status.
-        const latestArticles = getFeaturedArticles(4);
+        // Use the existing published-only metadata; never surface future-dated stories.
+        const latestArticles = getPublishedArticles()
+            .filter(article => new Date(article.publishedAt).getTime() <= Date.now())
+            .sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt) || b.id - a.id)
+            .slice(0, 4);
 
         const articleCard = (article, featured = false) => `
-            <article class="news-card ${featured ? 'home-news-featured' : 'home-news-compact'}">
-                <a class="home-news-image-link news-thumb" href="/articles/${article.id}" aria-label="Read ${escapeArticleText(article.title)}">
-                    ${article.image ? `<img src="${article.image}" alt="${escapeArticleText(article.imageAlt || article.title)}" loading="${featured ? 'eager' : 'lazy'}">` : ''}
-                    <span class="news-tag">${article.category}</span>
+            <article class="home-story ${featured ? 'home-news-featured' : 'home-news-compact'}">
+                <a class="home-story-link" href="/articles/${article.id}">
+                    <div class="home-story-image">
+                        ${article.image ? `<img src="${escapeArticleText(article.image)}" alt="${escapeArticleText(article.imageAlt || article.title)}" loading="${featured ? 'eager' : 'lazy'}" decoding="async">` : ''}
+                    </div>
+                    <div class="home-story-info">
+                        <span class="home-story-category">${escapeArticleText(article.category)}</span>
+                        <h3>${escapeArticleText(article.title)}</h3>
+                        <div class="home-story-meta"><time datetime="${escapeArticleText(article.publishedAt)}">${formatArticleDate(article.publishedAt)}</time><span>${getArticleReadingTime(article)}</span></div>
+                        ${featured ? `<p>${escapeArticleText(article.description)}</p><span class="home-story-read">Read full story <span aria-hidden="true">&rarr;</span></span>` : ''}
+                    </div>
                 </a>
-                <div class="news-info">
-                    <div class="news-meta"><time datetime="${article.publishedAt}"><i data-lucide="calendar"></i> ${formatArticleDate(article.publishedAt)}</time><span>${getArticleReadingTime(article)}</span></div>
-                    <h3><a href="/articles/${article.id}">${escapeArticleText(article.title)}</a></h3>
-                    <p>${escapeArticleText(article.description)}</p>
-                    <a href="/articles/${article.id}" class="btn-read">Read full story <i data-lucide="arrow-right"></i></a>
-                </div>
             </article>`;
 
         const [featuredArticle, ...otherArticles] = latestArticles;

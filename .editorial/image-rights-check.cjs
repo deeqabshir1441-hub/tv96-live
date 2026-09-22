@@ -46,7 +46,7 @@ for (const file of ['index.html', 'news.html', 'news-data.js', ...published.map(
         continue;
     }
     if (file === 'index.html') {
-        assert(html.includes('getFeaturedArticles(4)'), 'Homepage must use central featured records');
+        assert(html.includes('const latestArticles = getPublishedArticles()'), 'Homepage must use central published records');
         continue;
     }
     if (file === 'news.html') {
