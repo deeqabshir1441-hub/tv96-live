@@ -826,12 +826,12 @@ const articles = [
         "articleType": "Breaking news",
         "author": "TV96 Live Editorial Team",
         "publishedAt": "2026-09-15T20:00:00+03:00",
-        "image": "/editorial-fallback.png",
-        "imageAlt": "Original TV96 Live football news and guides fallback artwork",
-        "imageType": "site-fallback",
-        "rightsStatus": "reviewed",
-        "brandingReview": "clear",
-        "imageCredit": "Original TV96 Live text and geometric artwork",
+        "image": "/images/articles/jj-gabriel.png",
+        "imageAlt": "JJ Gabriel in a Manchester United shirt with the club crest and stadium background",
+        "imageType": "user-provided",
+        "rightsStatus": "user-provided",
+        "brandingReview": "required",
+        "imageCredit": "Image supplied by the TV96 Live publisher",
         "sources": [
             {
                 "name": "BBC Sport: JJ Gabriel asks to leave Manchester United",
@@ -850,6 +850,7 @@ const articles = [
 // not approve it. Future marks-free graphics may use brandingReview: 'clear'.
 // Rights review is an editorial record, not permission to use competition marks.
 const editorialImageRegistry = {
+    32: '/images/articles/jj-gabriel.png',
     4: '/images/articles/johan-manzambi-aston-villa.png',
     7: '/images/articles/mbappe-world-cup-contributions.png',
     8: '/images/articles/arsenal-alvarez-statement.png',
@@ -872,8 +873,8 @@ const editorialImageRegistry = {
 };
 for (const article of articles) {
     if (article.image !== editorialImageRegistry[article.id]) continue;
-    article.imageType = 'original-editorial';
-    article.rightsStatus = 'reviewed';
+    article.imageType = article.imageType === 'user-provided' ? 'user-provided' : 'original-editorial';
+    article.rightsStatus = article.imageType === 'user-provided' ? 'user-provided' : 'reviewed';
     article.brandingReview = article.brandingReview || 'required';
 }
 for (const id of [12, 14]) articles.find(article => article.id === id).brandingReview = 'required';

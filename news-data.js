@@ -507,9 +507,9 @@ const articles = [
         "articleType": "Breaking news",
         "author": "TV96 Live Editorial Team",
         "publishedAt": "2026-09-15T20:00:00+03:00",
-        "image": "/editorial-fallback.png",
-        "imageAlt": "Original TV96 Live football news and guides fallback artwork",
-        "imageCredit": "Original TV96 Live text and geometric artwork",
+        "image": "/images/articles/jj-gabriel.webp",
+        "imageAlt": "JJ Gabriel in a Manchester United shirt with the club crest and stadium background",
+        "imageCredit": "Image supplied by the TV96 Live publisher",
         "sources": [
             {
                 "name": "BBC Sport: JJ Gabriel asks to leave Manchester United",

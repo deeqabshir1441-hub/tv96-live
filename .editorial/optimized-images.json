@@ -150,5 +150,13 @@
     "height": 800,
     "sourceBytes": 2464945,
     "deliveryBytes": 235104
+  },
+  "/images/articles/jj-gabriel.png": {
+    "sourceSha256": "1403d94c1586fd3164b9533e7f5fbabbbd8c6e69f5137b0ef480c12ce78f5ff0",
+    "deliverySha256": "95b1ec83dbd334d4e73adc50c75392953e035ad17a5a7fd61f169397eabbe9d9",
+    "width": 1200,
+    "height": 800,
+    "sourceBytes": 2690796,
+    "deliveryBytes": 247896
   }
 }

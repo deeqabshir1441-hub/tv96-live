@@ -20,8 +20,8 @@ for (const a of published) {
         continue;
     }
     assert(/^\/images\/articles\/[a-z0-9-]+\.png$/.test(a.image), `Invalid source: ${a.id}`);
-    assert.equal(a.imageType, 'original-editorial', `Unregistered type: ${a.id}`);
-    assert.equal(a.rightsStatus, 'reviewed', `Unreviewed rights: ${a.id}`);
+    assert(['original-editorial', 'user-provided'].includes(a.imageType), `Unregistered type: ${a.id}`);
+    assert.equal(a.rightsStatus, a.imageType === 'user-provided' ? 'user-provided' : 'reviewed', `Missing provenance: ${a.id}`);
     assert(['required', 'clear'].includes(a.brandingReview), `Missing branding review: ${a.id}`);
     if ([12, 14].includes(a.id)) assert.equal(a.brandingReview, 'required');
     assert(a.imageAlt?.trim(), `Missing alt: ${a.id}`);
@@ -34,7 +34,7 @@ for (const a of published) {
 }
 // Retired articles retain their source/optimized assets for editorial history.
 // Only active article assets may appear in public editorial navigation.
-const archivedAndActive = model.articles.filter(a => a.imageType === 'original-editorial' && a.image);
+const archivedAndActive = model.articles.filter(a => ['original-editorial', 'user-provided'].includes(a.imageType) && a.image);
 assert.deepEqual(Object.keys(manifest).sort(), Array.from(archivedAndActive, a => a.image).sort(), 'Orphan or unregistered manifest entry');
 assert.deepEqual(fs.readdirSync(path.join(root, 'images/articles')).filter(name => name.endsWith('.webp')).sort(), Array.from(archivedAndActive, a => path.basename(a.image).replace(/\.png$/, '.webp')).sort(), 'Orphan or unregistered WebP file');
 const allowed = new Set([fallback, '/football-fallback.svg', ...registered.keys()]);
