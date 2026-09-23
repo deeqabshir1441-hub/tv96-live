@@ -86,6 +86,12 @@ for (const [name, value] of Object.entries({ FEATURED: model.getFeaturedArticles
     news = news.replace(pattern, (_, start, end) => start + value + end);
 }
 output('news.html', news);
+const home = read('index.html');
+const homeMarker = /(<!-- BEGIN STATIC HOME -->)[\s\S]*?(<!-- END STATIC HOME -->)/;
+assert(homeMarker.test(home), 'Missing homepage Featured marker');
+output('index.html', home.replace(homeMarker, (_, start, end) => start + model.renderHomeFeatured(model.getHomeArticles().map(a => ({ ...a, image: deliveryImage(a) }))).replace(/[\t ]+$/gm, '') + end));
+const streamingEnabled = /const STREAMING_ENABLED\s*=\s*true/.test(read('site-config.js'));
+output('watch-live.html', read('watch-live.html').replace(/(<!-- BEGIN STREAMING INDEXING -->)[\s\S]*?(<!-- END STREAMING INDEXING -->)/, (_, start, end) => start + (streamingEnabled ? '' : '<meta name="robots" content="noindex, follow">') + end));
 const pages = ['', 'matches', 'standings', 'news', 'about', 'contact', 'privacy', 'terms'];
 const urls = pages.map(page => `  <url><loc>${origin}/${page}</loc></url>`);
 for (const a of published) urls.push(`  <url><loc>${origin}/articles/${a.id}</loc><lastmod>${(a.updatedAt || a.publishedAt).slice(0,10)}</lastmod></url>`);
@@ -93,7 +99,14 @@ output('sitemap.xml', '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="ht
 const config = JSON.parse(read('vercel.json'));
 config.rewrites = (config.rewrites || []).filter(rule => rule.source !== '/articles/:id');
 if (!config.rewrites.length) delete config.rewrites;
-config.redirects = config.redirects.filter(rule => rule.source !== '/article-template');
+const retirements = require('./article-retirements.cjs');
+const mergedRoutes = Object.keys(retirements.merged).map(id => `/articles/${id}`);
+config.redirects = config.redirects.filter(rule => rule.source !== '/article-template' && !mergedRoutes.includes(rule.source));
 config.redirects.push(...published.map(a => ({ source: '/article-template', has: [{ type: 'query', key: 'id', value: String(a.id) }], destination: `/articles/${a.id}`, permanent: true })));
+for (const [id, destination] of Object.entries(retirements.merged)) {
+    assert(published.some(a => a.id === destination), `Unpublished merge destination: ${destination}`);
+    config.redirects.push({ source: `/articles/${id}`, destination: `/articles/${destination}`, permanent: true });
+    config.redirects.push({ source: '/article-template', has: [{ type: 'query', key: 'id', value: id }], destination: `/articles/${destination}`, permanent: true });
+}
 output('vercel.json', JSON.stringify(config, null, 2) + '\n');
 console.log(`PASS: ${published.length} static articles ${check ? 'verified' : 'generated'}, published-only metadata, raw News discovery, sitemap and legacy redirects.`);

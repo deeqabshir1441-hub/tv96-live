@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- BEGIN STREAMING INDEXING --><meta name="robots" content="noindex, follow"><!-- END STREAMING INDEXING -->
+    <style>[hidden] { display: none !important; }</style>
     <meta charset="UTF-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Live Viewing Unavailable | TV96 Live</title>
@@ -66,6 +68,7 @@
         </div>
     </main>
 
+    <template id="streaming-template">
     <div class="main-content-wrapper" id="streaming-experience" hidden>
         
         <main class="video-section">
@@ -130,6 +133,7 @@
         <div id="historyContainer" class="history-grid"></div>
     </section>
 
+    </template>
       <footer class="main-footer">
    <div class="footer-container">
     <div class="footer-col about-col"><a href="/" aria-label="TV96 Live home"><img src="/logo/Logo.png" alt="TV96 Live Logo" class="footer-logo"></a>
@@ -163,6 +167,8 @@
 
     <script>
         if (window.TV96_CONFIG.STREAMING_ENABLED) {
+            const template = document.getElementById('streaming-template');
+            template.before(template.content.cloneNode(true));
             document.getElementById('streaming-unavailable').hidden = true;
             document.getElementById('streaming-experience').hidden = false;
             document.write('<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"><\/script>');
@@ -175,7 +181,11 @@
         }
     </script>
     <script src="matches-data.js"></script>
-    <script src="history-data.js"></script>
+    <script>
+        if (window.TV96_CONFIG.STREAMING_ENABLED) {
+            document.write('<script src="history-data.js"><\/script>');
+        }
+    </script>
     <script>
     if (window.TV96_CONFIG.STREAMING_ENABLED) {
     document.addEventListener("DOMContentLoaded", function() {

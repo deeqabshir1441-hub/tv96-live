@@ -2,7 +2,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 const vm = require('node:vm');
 const context = vm.createContext({});
-const helpers = ['getPublishedArticles', 'getRelatedArticles', 'getFeaturedArticles', 'escapeArticleText', 'getArticleReadingTime', 'renderArticleSummary', 'formatArticleDate', 'renderNewsCard'];
+const helpers = ['getPublishedArticles', 'getRelatedArticles', 'getFeaturedArticles', 'escapeArticleText', 'getArticleReadingTime', 'renderArticleSummary', 'formatArticleDate', 'renderNewsCard', 'getHomeArticles', 'renderHomeStory', 'renderHomeFeatured'];
 vm.runInContext(fs.readFileSync(path.join(__dirname, 'news-data.js'), 'utf8') + '\n' + fs.readFileSync(path.join(__dirname, 'article-content.js'), 'utf8') + `\nglobalThis.model = { articles, articleContent, ${helpers.join(', ')} };`, context);
 const model = context.model;
 for (const article of model.getPublishedArticles()) {

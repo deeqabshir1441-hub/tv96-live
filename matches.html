@@ -59,6 +59,7 @@
             }
         }
     </style>
+<style>.data-context { margin: 24px 0; padding: 20px; border: 1px solid var(--border-color, #777); border-radius: 12px; color: var(--text-primary); background: var(--bg-secondary); line-height: 1.7; overflow-wrap: anywhere; } .data-context h2 { font-size: 1.25rem; margin: 0 0 12px; } .data-context p { margin: 10px 0; } .data-context a { color: var(--accent-color, #16855e); text-decoration: underline; } .data-context dl { display: grid; grid-template-columns: max-content 1fr; gap: 6px 16px; } .data-context dt { font-weight: 700; } .data-context dd { margin: 0; }</style>
 </head>
 <body class="matches-list-page">
     <header class="main-header">
@@ -126,6 +127,13 @@
                 </div>
             </div>
         </section>
+        <section class="data-context" aria-labelledby="coverage-heading">
+            <h2 id="coverage-heading">Coverage and match times</h2>
+            <p>TV96 displays provider-supplied Premier League and Champions League fixtures, plus selected clubs from La Liga (Real Madrid, Barcelona, Atl&eacute;tico Madrid), Serie A (Milan, Inter, Juventus, Napoli, Roma), Bundesliga (Bayern Munich, Dortmund) and Ligue 1 (Paris Saint-Germain). This is a selected fixture feed, not every match in those four domestic leagues.</p>
+            <p>Yesterday, Today and Tomorrow use East Africa Time (Africa/Nairobi, UTC+3). Kick-off times use that same zone. An ongoing match that crosses midnight stays in Today while live. The Updated label uses your browser's local time and records when the display was refreshed, not when the provider last confirmed a score.</p>
+            <p>Fixtures, scores and statuses come from football-data.org; occasional featured fixtures may be curated separately. Updates can be delayed or unavailable. An empty day means no matching fixtures were returned for our coverage, not that no football is being played. Try another day; if loading fails, reload later or consult the competition's official fixtures.</p>
+            <p>Use <a href="/standings">Standings</a> for table context, or read <a href="/articles/12">how Premier League results become points</a> and <a href="/articles/14">how Champions League ties work</a>.</p>
+        </section>
     </main>
 
     <footer class="main-footer">
@@ -177,6 +185,7 @@
             })[character]);
         }
 
+        let matchLoadFailed = false;
         function renderMatches(day) {
             const container = document.getElementById("matches-container");
             const matches = typeof matchesData !== "undefined" && Array.isArray(matchesData[day])
@@ -198,8 +207,13 @@
                 updated.textContent = `Updated ${new Intl.DateTimeFormat("en-GB", { hour: "2-digit", minute: "2-digit", hour12: false }).format(new Date())}`;
             }
 
+            if (matchLoadFailed && !matches.length) {
+                container.innerHTML = '<div class="matches-empty">Match data could not be loaded. This does not mean there are no fixtures. Reload later or check the official competition schedule.</div>';
+                document.getElementById("matches-updated").textContent = "Update unavailable";
+                return;
+            }
             if (!matches.length) {
-                container.innerHTML = '<div class="matches-empty"><i class="fa-regular fa-futbol"></i>No matches available.</div>';
+                container.innerHTML = '<div class="matches-empty"><i class="fa-regular fa-futbol"></i>No fixtures returned for this day within our coverage. Try Yesterday, Today or Tomorrow.</div>';
                 return;
             }
 
@@ -286,8 +300,9 @@
         }
 
         renderMatches(currentDay());
-        window.addEventListener("matchesDataUpdated", () => renderMatches(currentDay()));
-        window.matchesDataReady?.then(() => renderMatches(currentDay()));
+        window.addEventListener("matchesDataUpdated", () => { matchLoadFailed = false; renderMatches(currentDay()); });
+        window.addEventListener("matchesDataFailed", () => { matchLoadFailed = true; renderMatches(currentDay()); });
+        window.matchesDataReady?.then(result => { matchLoadFailed = Boolean(result?.error); renderMatches(currentDay()); });
     </script>
 </body>
 </html>

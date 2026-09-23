@@ -2,44 +2,9 @@
   "mode": "Local HTTP; Vercel clean URLs and deployment exclusions modeled; no JavaScript execution",
   "articles": [
     {
-      "route": "/articles/1",
-      "status": 200,
-      "words": 524,
-      "h1": 1,
-      "related": 3
-    },
-    {
-      "route": "/articles/2",
-      "status": 200,
-      "words": 524,
-      "h1": 1,
-      "related": 3
-    },
-    {
       "route": "/articles/3",
       "status": 200,
-      "words": 481,
-      "h1": 1,
-      "related": 3
-    },
-    {
-      "route": "/articles/4",
-      "status": 200,
-      "words": 528,
-      "h1": 1,
-      "related": 3
-    },
-    {
-      "route": "/articles/7",
-      "status": 200,
-      "words": 536,
-      "h1": 1,
-      "related": 3
-    },
-    {
-      "route": "/articles/8",
-      "status": 200,
-      "words": 455,
+      "words": 466,
       "h1": 1,
       "related": 3
     },
@@ -53,35 +18,28 @@
     {
       "route": "/articles/10",
       "status": 200,
-      "words": 718,
-      "h1": 1,
-      "related": 3
-    },
-    {
-      "route": "/articles/11",
-      "status": 200,
-      "words": 540,
+      "words": 324,
       "h1": 1,
       "related": 3
     },
     {
       "route": "/articles/12",
       "status": 200,
-      "words": 792,
+      "words": 881,
       "h1": 1,
       "related": 3
     },
     {
       "route": "/articles/13",
       "status": 200,
-      "words": 804,
+      "words": 823,
       "h1": 1,
       "related": 3
     },
     {
       "route": "/articles/14",
       "status": 200,
-      "words": 810,
+      "words": 951,
       "h1": 1,
       "related": 3
     },
@@ -109,35 +67,28 @@
     {
       "route": "/articles/18",
       "status": 200,
-      "words": 854,
+      "words": 841,
       "h1": 1,
       "related": 3
     },
     {
       "route": "/articles/19",
       "status": 200,
-      "words": 885,
-      "h1": 1,
-      "related": 3
-    },
-    {
-      "route": "/articles/20",
-      "status": 200,
-      "words": 802,
+      "words": 904,
       "h1": 1,
       "related": 3
     },
     {
       "route": "/articles/21",
       "status": 200,
-      "words": 834,
+      "words": 777,
       "h1": 1,
       "related": 3
     },
     {
       "route": "/articles/22",
       "status": 200,
-      "words": 839,
+      "words": 849,
       "h1": 1,
       "related": 3
     },
@@ -156,13 +107,6 @@
       "related": 3
     },
     {
-      "route": "/articles/25",
-      "status": 200,
-      "words": 840,
-      "h1": 1,
-      "related": 3
-    },
-    {
       "route": "/articles/32",
       "status": 200,
       "words": 885,
@@ -171,15 +115,9 @@
     }
   ],
   "newsIds": [
-    1,
-    2,
     3,
-    4,
-    7,
-    8,
     9,
     10,
-    11,
     12,
     13,
     14,
@@ -188,21 +126,39 @@
     17,
     18,
     19,
-    20,
     21,
     22,
     23,
     24,
-    25,
     32
   ],
   "excluded": [
+    {
+      "route": "/articles/1",
+      "status": 404
+    },
+    {
+      "route": "/articles/2",
+      "status": 404
+    },
+    {
+      "route": "/articles/4",
+      "status": 404
+    },
     {
       "route": "/articles/5",
       "status": 404
     },
     {
       "route": "/articles/6",
+      "status": 404
+    },
+    {
+      "route": "/articles/7",
+      "status": 404
+    },
+    {
+      "route": "/articles/11",
       "status": 404
     },
     {
@@ -227,6 +183,26 @@
     },
     {
       "route": "/articles/31",
+      "status": 404
+    },
+    {
+      "route": "/article-template?id=1",
+      "status": 404
+    },
+    {
+      "route": "/article-template?id=2",
+      "status": 404
+    },
+    {
+      "route": "/article-template?id=4",
+      "status": 404
+    },
+    {
+      "route": "/article-template?id=7",
+      "status": 404
+    },
+    {
+      "route": "/article-template?id=11",
       "status": 404
     },
     {
@@ -275,15 +251,9 @@
     "/contact",
     "/privacy",
     "/terms",
-    "/articles/1",
-    "/articles/2",
     "/articles/3",
-    "/articles/4",
-    "/articles/7",
-    "/articles/8",
     "/articles/9",
     "/articles/10",
-    "/articles/11",
     "/articles/12",
     "/articles/13",
     "/articles/14",
@@ -292,12 +262,10 @@
     "/articles/17",
     "/articles/18",
     "/articles/19",
-    "/articles/20",
     "/articles/21",
     "/articles/22",
     "/articles/23",
     "/articles/24",
-    "/articles/25",
     "/articles/32"
   ]
 }

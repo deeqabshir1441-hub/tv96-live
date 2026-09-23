@@ -26,7 +26,7 @@ const articles = [
         "imageCredit": "Original TV96 Live text and geometric artwork",
         "sourceReviewRequired": false,
         "imageReviewRequired": true,
-        "isPublished": true,
+        "isPublished": false,
         "wordCount": 524,
         "imageAlt": "TV96 Live - Football News & Guides"
     },
@@ -52,7 +52,7 @@ const articles = [
         "imageCredit": "Original TV96 Live text and geometric artwork",
         "sourceReviewRequired": false,
         "imageReviewRequired": true,
-        "isPublished": true,
+        "isPublished": false,
         "wordCount": 524,
         "imageAlt": "TV96 Live - Football News & Guides"
     },
@@ -78,7 +78,13 @@ const articles = [
         "imageReviewRequired": true,
         "isPublished": true,
         "wordCount": 481,
-        "imageAlt": "TV96 Live - Football News & Guides"
+        "imageAlt": "TV96 Live - Football News & Guides",
+        "section": "Football Guides",
+        "relatedIds": [
+            16,
+            15,
+            14
+        ]
     },
     {
         "id": 4,
@@ -102,7 +108,7 @@ const articles = [
         "imageCredit": "AI-generated editorial illustration for TV96 Live",
         "sourceReviewRequired": false,
         "imageReviewRequired": true,
-        "isPublished": true,
+        "isPublished": false,
         "wordCount": 528,
         "imageAlt": "Editorial illustration of a claret and sky-blue shirt for the Johan Manzambi Aston Villa article - TV96 Live"
     },
@@ -164,7 +170,7 @@ const articles = [
         "imageCredit": "AI-generated editorial illustration for TV96 Live",
         "sourceReviewRequired": false,
         "imageReviewRequired": true,
-        "isPublished": true,
+        "isPublished": false,
         "wordCount": 536,
         "imageAlt": "Editorial illustration for the Mbappe 11 goal contributions article - TV96 Live"
     },
@@ -180,7 +186,7 @@ const articles = [
         "image": "/images/articles/arsenal-alvarez-statement.png",
         "imageAlt": "Illustration of an empty press lectern for the Arsenal and Alvarez statement analysis - TV96 Live",
         "imageReviewRequired": true,
-        "isPublished": true,
+        "isPublished": false,
         "sources": [
             {
                 "name": "Atlético de Madrid",
@@ -212,26 +218,40 @@ const articles = [
             {
                 "name": "Comparison reading: TV96 Live Champions League format explainer",
                 "url": "https://www.tv96live.org/articles/14"
+            },
+            {
+                "name": "UEFA: 2026/27 draw announcement and separate fixture-list confirmation",
+                "url": "https://www.uefa.com/uefachampionsleague/news/02a8-215821715a96-9a3b43fad585-1000--uefa-champions-league-league-phase-draw/"
             }
         ],
         "wordCount": 477,
         "imageCandidate": "/news image/9.png",
-        "imageCredit": "AI-generated editorial illustration for TV96 Live"
+        "imageCredit": "AI-generated editorial illustration for TV96 Live",
+        "section": "Football Guides",
+        "relatedIds": [
+            14,
+            13,
+            23
+        ]
     },
     {
         "id": 10,
-        "title": "Álvarez Meeting Report: What the Recorded Sources Establish",
-        "description": "Julián Álvarez and his representatives reportedly held a late-night meeting lasting more than five hours as the Atlético Madrid striker weighs up whether to stay in Spain or consider a move to Arsenal.",
+        "title": "Álvarez in August 2026: Atlético's Statement and the Reported Meeting",
+        "description": "A dated account of Atlético's Barcelona statement and the August 27 reports about Álvarez, separating confirmed positions from reported discussions.",
         "category": "Premier League",
         "articleType": "Sourced news summary and analysis",
         "author": "TV96 Live Editorial Team",
         "publishedAt": "2026-08-28T15:30:00+03:00",
-        "updatedAt": "2026-09-06",
+        "updatedAt": "2026-09-22",
         "image": "/images/articles/alvarez-meeting-report.png",
         "imageAlt": "Illustration of an empty meeting room for the Alvarez meeting report - TV96 Live",
         "imageReviewRequired": true,
         "isPublished": true,
         "sources": [
+            {
+                "name": "Atlético de Madrid",
+                "url": "https://en.atleticodemadrid.com/noticias/unanimous-support-from-the-board-of-directors-for-the-club-s-strategy"
+            },
             {
                 "name": "Cadena SER",
                 "url": "https://cadenaser.com/nacional/2026/08/27/julian-alvarez-con-su-futuro-en-el-aire-ha-tenido-una-reunion-de-mas-de-cinco-horas-para-decidir-que-hacer-cadena-ser/"
@@ -243,7 +263,13 @@ const articles = [
         ],
         "wordCount": 739,
         "imageCandidate": "/news image/10.png",
-        "imageCredit": "AI-generated editorial illustration for TV96 Live"
+        "imageCredit": "AI-generated editorial illustration for TV96 Live",
+        "section": "Archived Reports",
+        "relatedIds": [
+            32,
+            21,
+            12
+        ]
     },
     {
         "id": 11,
@@ -257,7 +283,7 @@ const articles = [
         "image": "/images/articles/fernandez-omission.png",
         "imageAlt": "Illustration of an empty substitutes bench and blue shirt for the Fernandez omission report - TV96 Live",
         "imageReviewRequired": true,
-        "isPublished": true,
+        "isPublished": false,
         "sources": [
             {
                 "name": "Sky Sports",
@@ -279,9 +305,9 @@ const articles = [
         "category": "Premier League",
         "section": "Football Guides",
         "relatedIds": [
-            20,
             15,
-            18
+            18,
+            19
         ],
         "articleType": "Evergreen guide",
         "author": "TV96 Live Editorial Team",
@@ -304,7 +330,8 @@ const articles = [
         "isPublished": true,
         "wordCount": 792,
         "imageAlt": "How the Premier League works: complete guide - TV96 Live",
-        "imageCredit": "AI-generated editorial artwork for TV96 Live"
+        "imageCredit": "AI-generated editorial artwork for TV96 Live",
+        "updatedAt": "2026-09-22"
     },
     {
         "id": 13,
@@ -314,7 +341,6 @@ const articles = [
         "section": "Football Guides",
         "relatedIds": [
             14,
-            25,
             19
         ],
         "articleType": "Evergreen guide",
@@ -327,18 +353,23 @@ const articles = [
                 "url": "https://www.uefa.com/news-media/news/0268-12157d69ce2d-9f011c70f6fa-1000--how-clubs-qualify-for-europe/"
             },
             {
-                "name": "UEFA: 2026/27 Champions League regulations",
-                "url": "https://documents.uefa.com/r/Regulations-of-the-UEFA-Champions-League-2026/27/G.1-Introduction-Online"
-            },
-            {
                 "name": "UEFA: European Performance Spots",
                 "url": "https://www.uefa.com/uefachampionsleague/news/02a2-1fdbe9a25733-8d37ff5f9226-1000--202627-uefa-champions-league-which-teams-are-in-the-european-performance-spots-as-it-stands/"
+            },
+            {
+                "name": "UEFA 2026/27: Article 3 - entries, title holders and performance spots",
+                "url": "https://documents.uefa.com/r/Regulations-of-the-UEFA-Champions-League-2026/27/Article-3-Entries-for-the-competition-Online?contentId=EgXhqnzQsuW60mwbyCqWtw"
+            },
+            {
+                "name": "UEFA 2026/27: Annex A - access list",
+                "url": "https://documents.uefa.com/r/Regulations-of-the-UEFA-Champions-League-2026/27/Annex-A-Access-List-for-the-2026/27-UEFA-Club-Competitions-Online?contentId=aLaDNKItLtBltlOvVMG_jw"
             }
         ],
         "isPublished": true,
         "wordCount": 804,
         "imageAlt": "How Champions League qualification works - TV96 Live",
-        "imageCredit": "AI-generated editorial artwork for TV96 Live"
+        "imageCredit": "AI-generated editorial artwork for TV96 Live",
+        "updatedAt": "2026-09-22"
     },
     {
         "id": 14,
@@ -348,8 +379,8 @@ const articles = [
         "section": "Football Guides",
         "relatedIds": [
             13,
-            25,
-            19
+            9,
+            17
         ],
         "articleType": "Evergreen guide",
         "author": "TV96 Live Editorial Team",
@@ -361,14 +392,31 @@ const articles = [
                 "url": "https://www.uefa.com/news-media/news/0268-12157d69ce2d-9f011c70f6fa-1000--how-clubs-qualify-for-europe/"
             },
             {
-                "name": "UEFA: 2026/27 Champions League regulations",
-                "url": "https://documents.uefa.com/r/Regulations-of-the-UEFA-Champions-League-2026/27/G.1-Introduction-Online"
+                "name": "UEFA 2026/27: Article 17 - league phase and progression",
+                "url": "https://documents.uefa.com/r/Regulations-of-the-UEFA-Champions-League-2026/27/Article-17-Match-system-league-phase-Online?contentId=z80npkZwtB5MkmwVqnk6XA"
+            },
+            {
+                "name": "UEFA 2026/27: Article 18 - league-phase tiebreakers",
+                "url": "https://documents.uefa.com/r/Regulations-of-the-UEFA-Champions-League-2026/27/Article-18-Equality-of-points-league-phase-Online?contentId=d~m2tmtG82UhZujMH0i~aQ"
+            },
+            {
+                "name": "UEFA 2026/27: Article 20 - two legs and aggregate score",
+                "url": "https://documents.uefa.com/r/Regulations-of-the-UEFA-Champions-League-2026/27/Article-20-Match-system-knockout-phase-Online?contentId=5j1kwD2WHBsLErtGHWuxOA"
+            },
+            {
+                "name": "UEFA 2026/27: Article 21 - extra time and penalties",
+                "url": "https://documents.uefa.com/r/Regulations-of-the-UEFA-Champions-League-2026/27/Article-21-Knockout-system-extra-time-and-penalty-shoot-outs-Online?contentId=aBOyMYjtgYYIYwn~YRHF5Q"
+            },
+            {
+                "name": "UEFA 2026/27: Article 22 - the final",
+                "url": "https://documents.uefa.com/r/Regulations-of-the-UEFA-Champions-League-2026/27/Article-22-Match-system-final-Online?contentId=p6pndZ3IAsUzrTVR64sVPw"
             }
         ],
         "isPublished": true,
         "wordCount": 810,
         "imageAlt": "Champions League format explained - TV96 Live",
-        "imageCredit": "Original TV96 Live text and geometric artwork"
+        "imageCredit": "Original TV96 Live text and geometric artwork",
+        "updatedAt": "2026-09-22"
     },
     {
         "id": 15,
@@ -377,9 +425,8 @@ const articles = [
         "category": "Football Guides",
         "section": "Football Guides",
         "relatedIds": [
-            20,
-            18,
-            12
+            12,
+            18
         ],
         "articleType": "Evergreen guide",
         "author": "TV96 Live Editorial Team",
@@ -395,8 +442,8 @@ const articles = [
                 "url": "https://www.premierleague.com/en/news/4657245/202526-premier-league-relegation-faq"
             },
             {
-                "name": "LALIGA: regulations directory",
-                "url": "https://www.laliga.com/es-NL/transparencia/normativa"
+                "name": "Lega Serie A: relegation play-off context",
+                "url": "https://en.legaseriea.it/serie-a/news/the-final-reckoning-lecce-and-cremonese-face-a-decisive-final-day"
             }
         ],
         "isPublished": true,
@@ -411,9 +458,9 @@ const articles = [
         "category": "Football Guides",
         "section": "Football Guides",
         "relatedIds": [
+            3,
             15,
-            20,
-            25
+            17
         ],
         "articleType": "Evergreen guide",
         "author": "TV96 Live Editorial Team",
@@ -439,7 +486,7 @@ const articles = [
         "relatedIds": [
             16,
             12,
-            25
+            14
         ],
         "articleType": "Evergreen guide",
         "author": "TV96 Live Editorial Team",
@@ -468,8 +515,7 @@ const articles = [
         "section": "Football Guides",
         "relatedIds": [
             12,
-            15,
-            20
+            15
         ],
         "articleType": "Evergreen guide",
         "author": "TV96 Live Editorial Team",
@@ -492,7 +538,8 @@ const articles = [
         "isPublished": true,
         "wordCount": 854,
         "imageAlt": "Premier League relegation explained - TV96 Live",
-        "imageCredit": "AI-generated editorial artwork for TV96 Live"
+        "imageCredit": "AI-generated editorial artwork for TV96 Live",
+        "updatedAt": "2026-09-22"
     },
     {
         "id": 19,
@@ -503,7 +550,7 @@ const articles = [
         "relatedIds": [
             13,
             14,
-            20
+            12
         ],
         "articleType": "Evergreen guide",
         "author": "TV96 Live Editorial Team",
@@ -519,14 +566,19 @@ const articles = [
                 "url": "https://www.uefa.com/uefachampionsleague/news/02a2-1fdbe9a25733-8d37ff5f9226-1000--202627-uefa-champions-league-which-teams-are-in-the-european-performance-spots-as-it-stands/"
             },
             {
-                "name": "UEFA: 2026/27 Champions League regulations",
-                "url": "https://documents.uefa.com/r/Regulations-of-the-UEFA-Champions-League-2026/27/G.1-Introduction-Online"
+                "name": "UEFA 2026/27: Article 3 - entries, title holders and performance spots",
+                "url": "https://documents.uefa.com/r/Regulations-of-the-UEFA-Champions-League-2026/27/Article-3-Entries-for-the-competition-Online?contentId=EgXhqnzQsuW60mwbyCqWtw"
+            },
+            {
+                "name": "UEFA 2026/27: Annex A - access list",
+                "url": "https://documents.uefa.com/r/Regulations-of-the-UEFA-Champions-League-2026/27/Annex-A-Access-List-for-the-2026/27-UEFA-Club-Competitions-Online?contentId=aLaDNKItLtBltlOvVMG_jw"
             }
         ],
         "isPublished": true,
         "wordCount": 885,
         "imageAlt": "How European qualification works in the Premier League - TV96 Live",
-        "imageCredit": "AI-generated editorial artwork for TV96 Live"
+        "imageCredit": "AI-generated editorial artwork for TV96 Live",
+        "updatedAt": "2026-09-22"
     },
     {
         "id": 20,
@@ -553,7 +605,7 @@ const articles = [
                 "url": "https://www.premierleague.com/en/news/373663"
             }
         ],
-        "isPublished": true,
+        "isPublished": false,
         "wordCount": 802,
         "imageAlt": "TV96 Live - Football News & Guides",
         "imageCredit": "Original TV96 Live text and geometric artwork"
@@ -565,9 +617,9 @@ const articles = [
         "category": "La Liga",
         "section": "League & Competition Guides",
         "relatedIds": [
-            15,
-            13,
-            23
+            22,
+            23,
+            13
         ],
         "articleType": "Evergreen guide",
         "author": "TV96 Live Editorial Team",
@@ -577,16 +629,13 @@ const articles = [
             {
                 "name": "LALIGA: official standings and competition information",
                 "url": "https://www.laliga.com/en-GB/laliga-easports/standing"
-            },
-            {
-                "name": "LALIGA: regulations directory",
-                "url": "https://www.laliga.com/es-NL/transparencia/normativa"
             }
         ],
         "isPublished": true,
         "wordCount": 834,
         "imageAlt": "La Liga guide - TV96 Live",
-        "imageCredit": "AI-generated editorial artwork for TV96 Live"
+        "imageCredit": "AI-generated editorial artwork for TV96 Live",
+        "updatedAt": "2026-09-22"
     },
     {
         "id": 22,
@@ -595,8 +644,8 @@ const articles = [
         "category": "Serie A",
         "section": "League & Competition Guides",
         "relatedIds": [
+            21,
             15,
-            13,
             16
         ],
         "articleType": "Evergreen guide",
@@ -616,7 +665,8 @@ const articles = [
         "isPublished": true,
         "wordCount": 839,
         "imageAlt": "Serie A guide - TV96 Live",
-        "imageCredit": "AI-generated editorial artwork for TV96 Live"
+        "imageCredit": "AI-generated editorial artwork for TV96 Live",
+        "updatedAt": "2026-09-22"
     },
     {
         "id": 23,
@@ -703,7 +753,7 @@ const articles = [
                 "url": "https://documents.uefa.com/r/Regulations-of-the-UEFA-Champions-League-2026/27/G.1-Introduction-Online"
             }
         ],
-        "isPublished": true,
+        "isPublished": false,
         "wordCount": 840,
         "imageAlt": "UEFA Champions League guide - TV96 Live",
         "imageCredit": "AI-generated editorial artwork for TV96 Live"
@@ -768,7 +818,11 @@ const articles = [
         "description": "BBC Sport reports JJ Gabriel has asked for his Manchester United registration to be cancelled. United are seeking a resolution as the 15-year-old forward's future remains unsettled.",
         "category": "Manchester United / Latest News",
         "section": "Latest News",
-        "relatedIds": [20, 12, 18],
+        "relatedIds": [
+            10,
+            12,
+            16
+        ],
         "articleType": "Breaking news",
         "author": "TV96 Live Editorial Team",
         "publishedAt": "2026-09-15T20:00:00+03:00",
@@ -779,8 +833,14 @@ const articles = [
         "brandingReview": "clear",
         "imageCredit": "Original TV96 Live text and geometric artwork",
         "sources": [
-            { "name": "BBC Sport: JJ Gabriel asks to leave Manchester United", "url": "https://www.bbc.co.uk/sport/football/articles/c95y4dxr0v6do" },
-            { "name": "Manchester Evening News: JJ Gabriel and Ryan Giggs context", "url": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-utd-jj-gabriel-carrick-34607865" }
+            {
+                "name": "BBC Sport: JJ Gabriel asks to leave Manchester United",
+                "url": "https://www.bbc.co.uk/sport/football/articles/c95y4dxr0v6do"
+            },
+            {
+                "name": "Manchester Evening News: JJ Gabriel and Ryan Giggs context",
+                "url": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-utd-jj-gabriel-carrick-34607865"
+            }
         ],
         "isPublished": true
     }
@@ -832,7 +892,7 @@ function getRelatedArticles(article, limit = 3) {
 
 function getFeaturedArticles(limit = 4) {
     const published = getPublishedArticles();
-    return [32, 12, 14, 16, 20].map(id => published.find(article => article.id === id)).filter(Boolean).slice(0, limit);
+    return [32, 12, 14, 16, 23].map(id => published.find(article => article.id === id)).filter(Boolean).slice(0, limit);
 }
 
 function escapeArticleText(value) {
@@ -872,4 +932,30 @@ function renderNewsCard(a) {
             <div class="news-card-footer"><time class="news-time" datetime="${escapeArticleText(a.publishedAt)}"><i class="fa-regular fa-clock"></i> ${formatArticleDate(a.publishedAt)} &middot; ${getArticleReadingTime(a)}</time><span class="read-more">Read More <i class="fa-solid fa-arrow-right"></i></span></div>
         </div>
     </a>`;
+}
+
+function getHomeArticles(limit = 4) {
+    return getPublishedArticles().filter(article => new Date(article.publishedAt).getTime() <= Date.now()).sort((a,b) => new Date(b.publishedAt) - new Date(a.publishedAt) || b.id - a.id).slice(0, limit);
+}
+
+function renderHomeStory(article, featured = false) {
+    return `
+            <article class="home-story ${featured ? 'home-news-featured' : 'home-news-compact'}">
+                <a class="home-story-link" href="/articles/${article.id}">
+                    <div class="home-story-image">
+                        ${article.image ? `<img src="${escapeArticleText(article.image)}" alt="${escapeArticleText(article.imageAlt || article.title)}" loading="${featured ? 'eager' : 'lazy'}" decoding="async">` : ''}
+                    </div>
+                    <div class="home-story-info">
+                        <span class="home-story-category">${escapeArticleText(article.category)}</span>
+                        <h3>${escapeArticleText(article.title)}</h3>
+                        <div class="home-story-meta"><time datetime="${escapeArticleText(article.publishedAt)}">${formatArticleDate(article.publishedAt)}</time><span>${getArticleReadingTime(article)}</span></div>
+                        ${featured ? `<p>${escapeArticleText(article.description)}</p><span class="home-story-read">Read full story <span aria-hidden="true">&rarr;</span></span>` : ''}
+                    </div>
+                </a>
+            </article>`;
+}
+
+function renderHomeFeatured(list = getHomeArticles()) {
+    const [featured, ...others] = list;
+    return featured ? renderHomeStory(featured, true) + '<div class="home-news-list">' + others.map(article => renderHomeStory(article)).join('') + '</div>' : '<p>No news is available right now.</p>';
 }

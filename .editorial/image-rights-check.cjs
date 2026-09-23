@@ -32,8 +32,11 @@ for (const a of published) {
     assert(!registered.has(delivered), `Duplicate path: ${delivered}`);
     registered.set(delivered, a);
 }
-assert.deepEqual(Object.keys(manifest).sort(), Array.from(published.filter(a => a.image && a.image !== fallback), a => a.image).sort(), 'Orphan or unregistered manifest entry');
-assert.deepEqual(fs.readdirSync(path.join(root, 'images/articles')).filter(name => name.endsWith('.webp')).sort(), [...registered.keys()].map(name => path.basename(name)).sort(), 'Orphan or unregistered WebP file');
+// Retired articles retain their source/optimized assets for editorial history.
+// Only active article assets may appear in public editorial navigation.
+const archivedAndActive = model.articles.filter(a => a.imageType === 'original-editorial' && a.image);
+assert.deepEqual(Object.keys(manifest).sort(), Array.from(archivedAndActive, a => a.image).sort(), 'Orphan or unregistered manifest entry');
+assert.deepEqual(fs.readdirSync(path.join(root, 'images/articles')).filter(name => name.endsWith('.webp')).sort(), Array.from(archivedAndActive, a => path.basename(a.image).replace(/\.png$/, '.webp')).sort(), 'Orphan or unregistered WebP file');
 const allowed = new Set([fallback, '/football-fallback.svg', ...registered.keys()]);
 for (const file of ['index.html', 'news.html', 'news-data.js', ...published.map(a => `articles/${a.id}.html`)]) {
     const html = read(file);
@@ -46,7 +49,8 @@ for (const file of ['index.html', 'news.html', 'news-data.js', ...published.map(
         continue;
     }
     if (file === 'index.html') {
-        assert(html.includes('const latestArticles = getPublishedArticles()'), 'Homepage must use central published records');
+        assert(html.includes('container.innerHTML = renderHomeFeatured()'), 'Homepage must use shared central renderer');
+        for (const match of html.matchAll(/src="(\/images\/articles\/[^\"]+)"/g)) assert(registered.has(match[1]), 'Retired homepage image');
         continue;
     }
     if (file === 'news.html') {

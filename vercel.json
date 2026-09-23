@@ -34,70 +34,10 @@
         {
           "type": "query",
           "key": "id",
-          "value": "1"
-        }
-      ],
-      "destination": "/articles/1",
-      "permanent": true
-    },
-    {
-      "source": "/article-template",
-      "has": [
-        {
-          "type": "query",
-          "key": "id",
-          "value": "2"
-        }
-      ],
-      "destination": "/articles/2",
-      "permanent": true
-    },
-    {
-      "source": "/article-template",
-      "has": [
-        {
-          "type": "query",
-          "key": "id",
           "value": "3"
         }
       ],
       "destination": "/articles/3",
-      "permanent": true
-    },
-    {
-      "source": "/article-template",
-      "has": [
-        {
-          "type": "query",
-          "key": "id",
-          "value": "4"
-        }
-      ],
-      "destination": "/articles/4",
-      "permanent": true
-    },
-    {
-      "source": "/article-template",
-      "has": [
-        {
-          "type": "query",
-          "key": "id",
-          "value": "7"
-        }
-      ],
-      "destination": "/articles/7",
-      "permanent": true
-    },
-    {
-      "source": "/article-template",
-      "has": [
-        {
-          "type": "query",
-          "key": "id",
-          "value": "8"
-        }
-      ],
-      "destination": "/articles/8",
       "permanent": true
     },
     {
@@ -122,18 +62,6 @@
         }
       ],
       "destination": "/articles/10",
-      "permanent": true
-    },
-    {
-      "source": "/article-template",
-      "has": [
-        {
-          "type": "query",
-          "key": "id",
-          "value": "11"
-        }
-      ],
-      "destination": "/articles/11",
       "permanent": true
     },
     {
@@ -238,18 +166,6 @@
         {
           "type": "query",
           "key": "id",
-          "value": "20"
-        }
-      ],
-      "destination": "/articles/20",
-      "permanent": true
-    },
-    {
-      "source": "/article-template",
-      "has": [
-        {
-          "type": "query",
-          "key": "id",
           "value": "21"
         }
       ],
@@ -298,10 +214,15 @@
         {
           "type": "query",
           "key": "id",
-          "value": "25"
+          "value": "32"
         }
       ],
-      "destination": "/articles/25",
+      "destination": "/articles/32",
+      "permanent": true
+    },
+    {
+      "source": "/articles/8",
+      "destination": "/articles/10",
       "permanent": true
     },
     {
@@ -310,10 +231,44 @@
         {
           "type": "query",
           "key": "id",
-          "value": "32"
+          "value": "8"
         }
       ],
-      "destination": "/articles/32",
+      "destination": "/articles/10",
+      "permanent": true
+    },
+    {
+      "source": "/articles/20",
+      "destination": "/articles/12",
+      "permanent": true
+    },
+    {
+      "source": "/article-template",
+      "has": [
+        {
+          "type": "query",
+          "key": "id",
+          "value": "20"
+        }
+      ],
+      "destination": "/articles/12",
+      "permanent": true
+    },
+    {
+      "source": "/articles/25",
+      "destination": "/articles/14",
+      "permanent": true
+    },
+    {
+      "source": "/article-template",
+      "has": [
+        {
+          "type": "query",
+          "key": "id",
+          "value": "25"
+        }
+      ],
+      "destination": "/articles/14",
       "permanent": true
     }
   ]

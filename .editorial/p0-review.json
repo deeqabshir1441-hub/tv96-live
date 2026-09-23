@@ -1,0 +1,84 @@
+{
+  "baseCommit": "1e9bc5450c8f2845247d21958fca12212d98af39",
+  "reviewedAt": "2026-09-22",
+  "bodies": {
+    "3": {
+      "reason": "Remove retired contextual link",
+      "before": "96424c15767ac8a9c932a9095ef0d1197c046192d6ae227da29723d21317d15e",
+      "after": "5bded1d323053f657e3089fdfe2a7d510ec3ea1ecd6d777010e869b9ea5d0b36"
+    },
+    "10": {
+      "reason": "Merge official statement; correct executives; dated chronology and revision history",
+      "before": "656d6c81fc83df54f76cbf6ae4a43f98e8dc10b409bd4add180129e18f886404",
+      "after": "afc81f59907d19a824d12f627a9a4d528bb9f4215f1519edbde62c1645dd8611"
+    },
+    "12": {
+      "reason": "Merge useful schedule example; PL standings destination",
+      "before": "ceaa101d80833d605614fd709e7da842aae3dde0bddae13b7af4ad8496c42f3d",
+      "after": "a424391ab3934f7f818b64ba3a4d4a706ba93179756085bf95c0f950ffcd38c6"
+    },
+    "13": {
+      "reason": "Exact UEFA entries/access citations and merged link",
+      "before": "750113d34b84221883e8f0ab910cf9da9ca2b9eca42b206ecb2a7ce05cbeb926",
+      "after": "7687bc47b893934b3ca838bc738ae02ef54be67ded0184a46b7b48428ea8491e"
+    },
+    "14": {
+      "reason": "Merge aggregate example; precise sporting provisions; CL standings destination",
+      "before": "a2ebce827fe3a9aac9677f072dbe9813510684642d988071bd1c691563c9fd5e",
+      "after": "3bc76559925e95db6af5daf1b0d5d6f53aa4fbebab6a5ce4fdff546ce6eb7dce"
+    },
+    "18": {
+      "reason": "Narrow unverified play-off field; PL standings destination",
+      "before": "91930a1d69356f23a39dad38ec003a30503969d72d5020f1476e3605942de690",
+      "after": "5c49b920a5639b6c7977a3004bcbbfed6d2f50356435f5403fe7fd943103e095"
+    },
+    "19": {
+      "reason": "Precise UEFA sources; merged and PL standings links",
+      "before": "83ad96514d96ba59053053d692f43ec14838161a8c4a45a8284c45dabda4aebe",
+      "after": "33f0fb161e273ab2f89be3eb74515526e0e76a959bcfcb5edf1e929c2c097236"
+    },
+    "21": {
+      "reason": "Narrow unverified ranking/history assertions; La Liga standings destination",
+      "before": "cab3f5bbe1be0e0dad951b4aa746c122d4e552e585a55c41f23426f385541d34",
+      "after": "85d2ddfc243a599b23e84cccef46b4a761b9c5bddfeaa981bdd032fcab22bad8"
+    },
+    "22": {
+      "reason": "Narrow play-off assertion to cited dated example; Serie A standings destination",
+      "before": "7a898fafd3edafd48c1c96ab8d1f8ce31bfb38a69aaff4077780e97d35606947",
+      "after": "fd23a5d2be8d2193ed5880095d54cffc036c90866bb3c9917fcd211eb0aa5534"
+    },
+    "23": {
+      "reason": "Bundesliga standings destination",
+      "before": "0749f84fcde43d5e65974c46dca865cc08b7005f29c6a0a934f1866e526c8596",
+      "after": "a4286ac81baed1665636782029f764e87d935a91b01f45d81936aee2902dc231"
+    },
+    "24": {
+      "reason": "Ligue 1 standings destination",
+      "before": "2a972daf661f65e8b15a75c1b571e721e8a1c31a98dd4a06d5f39528a2a67621",
+      "after": "02e8db6b47eb20fdc9d0ddf5d33e73699aafd396625e28779caec66874e2358b"
+    },
+    "32": {
+      "reason": "Retarget merged Premier League guide",
+      "before": "d564f17e4c8fb1de73ce9a38812a83b5719c87d56b79c7db300ca3dfeac939be",
+      "after": "cceebdca3d39c1162e33ea8ac3c407a427a4a8ee9ab95c84e95ebc606bc1f8ba"
+    }
+  },
+  "files": {
+    "matches.html": {
+      "before": "23e9969974df42af440b8615a02a4b78d3f9d22be9dd97c317634e9c012b6c2e",
+      "after": "9d717101e48ad12dff8dbe7aa243ab3ad235526a3dfe5466442f278473ceddaa"
+    },
+    "standings.html": {
+      "before": "26eeddccce3be06906f6b14651350674f6ead86b42ee7800a4b8efb15eb42d53",
+      "after": "a5d088ad3c6c1c2bfc88282ed6c2637ea1cbab39e12a8f9c2e852627592312b7"
+    },
+    "watch-live.html": {
+      "before": "63cd7a5599b4a9da4289a82a8bdbfe468b4b7e4573002fc75a81aac35115c8a6",
+      "after": "3873e59bee76d0274f9bb8968ff9988cb8aafa995ee67aa2619ebe97bf8e6ed3"
+    },
+    "privacy.html": {
+      "before": "e1666b6f873f3ac59428023c32326b915caeb0de4b6bdda4586a792c81c6865f",
+      "after": "6f1fc0cbb467c60c6101a338395cbe874b92e0ebd59884ab5ec1703f6fe4725b"
+    }
+  }
+}

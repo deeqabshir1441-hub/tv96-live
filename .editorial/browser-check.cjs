@@ -11,15 +11,25 @@ const root = path.resolve(__dirname, '..');
 const context = vm.createContext({});
 vm.runInContext(fs.readFileSync(path.join(root, 'news-data.js'), 'utf8') + '\nglobalThis.records = articles;', context);
 const published = context.records.filter(article => article.isPublished === true);
-const draftRecords = require('./content-model.cjs').articles.filter(article => !article.isPublished);
+const retirements = require('./article-retirements.cjs');
+const draftRecords = require('./content-model.cjs').articles.filter(article => !article.isPublished && !retirements.merged[article.id]);
 const temp = fs.mkdtempSync(path.join(os.tmpdir(), 'tv96-editorial-'));
 const pause = ms => new Promise(resolve => setTimeout(resolve, ms));
 const requests = [];
+let apiMode = 'success';
 const date = new Intl.DateTimeFormat('en-CA', { timeZone: 'Africa/Nairobi' }).format(new Date());
 const fixture = { id: 'editorial-test-1', home: 'Arsenal', away: 'Liverpool', homeScore: 2, awayScore: 1, league: 'Premier League', status: 'Finished', statusClass: 'status-finished', displayTime: '15:00', matchDate: date, shouldDisplay: true, isApiMatch: true, homeLogo: '/icon-192.png', awayLogo: '/icon-192.png' };
 const server = http.createServer((req, res) => {
     const url = new URL(req.url, 'http://localhost');
     requests.push(url.pathname + url.search);
+    if (url.pathname.startsWith('/api/') && apiMode === 'failure') {
+        res.writeHead(503, { 'Content-Type': 'application/json' });
+        return res.end(JSON.stringify({ error: 'Provider temporarily unavailable.' }));
+    }
+    if (url.pathname.startsWith('/api/') && apiMode === 'empty') {
+        res.setHeader('Content-Type', 'application/json');
+        return res.end(JSON.stringify(url.pathname === '/api/matches' ? { matchesData: { shalay: [], maanta: [], berri: [] } } : { standings: [] }));
+    }
     if (url.pathname === '/api/matches') {
         res.setHeader('Content-Type', 'application/json');
         return res.end(JSON.stringify({ dates: { maanta: date }, matchesData: { shalay: [], maanta: [fixture], berri: [] } }));
@@ -77,6 +87,7 @@ let chrome, socket;
     };
     await send('Page.enable'); await send('Runtime.enable');
     await send('Network.enable'); await send('Network.setBypassServiceWorker', { bypass: true });
+    await send('Network.setCacheDisabled', { cacheDisabled: true });
     await send('Fetch.enable', { patterns: [{ urlPattern: '*' }] });
     const evaluate = async expression => {
         const result = await send('Runtime.evaluate', { expression, returnByValue: true, awaitPromise: true });
@@ -122,6 +133,10 @@ let chrome, socket;
     assert.equal(await evaluate(`document.querySelectorAll('#news-container > a').length`), published.length);
     assert(!await overflow(), 'No-JavaScript News overflow');
     await screenshot('news-no-js-mobile');
+    await navigate('/');
+    assert.equal(await evaluate(`document.querySelectorAll('#news-container article').length`), 4);
+    await navigate('/watch-live');
+    assert(await evaluate(`document.body.innerText.includes('Live viewing is currently unavailable') && !document.querySelector('video') && !document.getElementById('historyContainer')`));
     await send('Emulation.setScriptExecutionDisabled', { value: false });
     console.log(`PASS: article body and all ${published.length} News cards visible with JavaScript disabled at 360px.`);
 
@@ -130,6 +145,7 @@ let chrome, socket;
         assert.equal(await evaluate(`document.getElementById('article-robots').content`), 'noindex, follow');
         assert(await evaluate(`document.getElementById('articleContent').innerText.includes('Page not found')`));
     }
+    for (const [id, destination] of Object.entries(retirements.merged)) await navigate('/articles/' + id, '/articles/' + destination);
     await navigate('/articles/99999'); assert.equal(await evaluate(`document.getElementById('article-robots').content`), 'noindex, follow');
     await navigate('/article-template.html?id=12', '/articles/12'); assert.equal(await evaluate('document.title'), published.find(article => article.id === 12).title + ' | TV96 Live');
     await navigate('/news');
@@ -142,7 +158,7 @@ let chrome, socket;
         assert.equal(await evaluate(`document.querySelectorAll('.filter-btn[aria-pressed="true"]').length`), 1);
     }
     await navigate('/news?category=Football%20Guides');
-    assert(await evaluate(`document.getElementById('articleCount').textContent.startsWith('8 articles')`));
+    assert(await evaluate(`document.getElementById('articleCount').textContent.startsWith('10 articles')`));
     for (const width of [320, 360, 768, 1440]) { await viewport(width); assert(!await overflow(), `News overflow at ${width}`); }
     await viewport(1440); await screenshot('news-desktop'); await viewport(360); await screenshot('news-mobile');
     await navigate('/articles/15'); await screenshot('article-mobile');
@@ -203,7 +219,35 @@ let chrome, socket;
     for (let i = 0; i < 100 && !await evaluate(`document.getElementById('standingsBody').innerText.includes('Arsenal')`); i++) await pause(50);
     assert.equal(await evaluate(`document.querySelectorAll('#standingsBody tr').length`), 2);
     assert(await evaluate(`document.getElementById('standingsBody').innerText.includes('Arsenal')`));
-    await navigate('/watch-live'); assert(await evaluate(`document.body.innerText.includes('Live viewing is currently unavailable')`));
+    const watchRequestStart = requests.length;
+    await navigate('/watch-live');
+    assert(await evaluate(`document.body.innerText.includes('Live viewing is currently unavailable') && !document.querySelector('video') && !document.getElementById('historyContainer') && document.querySelector('meta[name=robots]').content === 'noindex, follow'`));
+    assert(!requests.slice(watchRequestStart).some(url => /streams\.js|history-data\.js/.test(url)));
+    for (const theme of ['dark', 'light']) {
+        for (const route of ['/matches', '/standings', '/watch-live']) {
+            await navigate(route);
+            if (route === '/standings') await pause(1400);
+            await evaluate(`document.body.classList.toggle('light-mode', ${theme === 'light'})`);
+            await pause(350); // Let the existing theme transition finish before screenshots.
+            for (const width of [390, 360, 320]) { await viewport(width); assert(!await overflow(), `${route}: ${theme} ${width}`); }
+            await screenshot(route.slice(1) + '-' + theme + '-320');
+        }
+    }
+    for (const mode of ['empty', 'failure']) {
+        apiMode = mode;
+        await navigate('/matches');
+        await pause(300);
+        assert(await evaluate(`document.body.innerText.includes(${JSON.stringify(mode === 'empty' ? 'No fixtures returned' : 'Match data could not be loaded')})`), `Matches ${mode} state`);
+        if (mode === 'failure') {
+            await evaluate(`document.querySelector('.tab-btn[data-day="berri"]').click()`);
+            assert(await evaluate(`document.body.innerText.includes('Match data could not be loaded')`), 'Failure lost when changing day');
+        }
+        await navigate('/standings');
+        await pause(300);
+        assert(await evaluate(`document.getElementById('standingsBody').innerText.includes('No positions can be confirmed')`), `Standings ${mode} state`);
+    }
+    apiMode = 'success';
+    console.log('PASS: empty/error responses distinguished from results; match failure persists across date tabs.');
     await navigate('/news');
     await evaluate(`document.getElementById('menuToggle').click()`);
     assert.equal(await evaluate(`document.getElementById('menuToggle').getAttribute('aria-expanded')`), 'true');
@@ -212,7 +256,7 @@ let chrome, socket;
     await evaluate(`document.getElementById('themeToggle').click()`);
     assert(await evaluate(`document.body.classList.contains('light-mode')`));
     assert(requests.some(url => url === '/api/matches')); assert(requests.some(url => url.startsWith('/api/standings')));
-    console.log('PASS: eight draft exclusions, unknown/legacy routes, all News cards/filters, homepage cards, mobile navigation, theme toggle, mocked match/standings rendering and existing disabled Watch Live state.');
+    console.log('PASS: draft/retired exclusions and merge redirects, unknown/legacy routes, all News cards/filters, homepage cards, mobile navigation, theme toggle, mocked match/standings rendering and existing disabled Watch Live state.');
     await evaluate(`localStorage.setItem('theme', 'dark')`);
     const chromeRoutes = ['/', '/news', '/matches', '/standings', '/privacy', '/terms', '/contact', '/articles/12', '/articles/14', '/articles/32', '/about', '/watch-live'];
     const chromeMetrics = {};
@@ -220,6 +264,9 @@ let chrome, socket;
         await viewport(width);
         for (const route of chromeRoutes) {
             await navigate(route);
+            // Compare shared chrome with the same content viewport width.
+            // Short unavailable pages naturally omit the desktop scrollbar.
+            await evaluate(`document.documentElement.style.overflowY = 'scroll'`);
             if (route === '/' || route === '/standings') await pause(1400);
             await evaluate(`document.getElementById('installBtn').style.setProperty('display', 'none', 'important')`);
             if (await overflow()) {
@@ -235,8 +282,10 @@ let chrome, socket;
                 return {
                     headerWidth: Math.round(box(h)?.width || 0), headerHeight: Math.round(box(h)?.height || 0),
                     headerBackground: style(h)?.backgroundColor, logoHeight: Math.round(box(logo)?.height || 0),
-                    navLeft: Math.round(box(h.querySelector('.nav-menu'))?.left || 0),
-                    controlsLeft: Math.round(box(h.querySelector('.header-right'))?.left || 0),
+                    // A short unavailable page may have no vertical scrollbar.
+                    // Compare placement inside the header, not viewport centering.
+                    navLeft: Math.round((box(h.querySelector('.nav-menu'))?.left || 0) - box(h).left),
+                    controlsLeft: Math.round((box(h.querySelector('.header-right'))?.left || 0) - box(h).left),
                     controlsWidth: Math.round(box(h.querySelector('.header-right'))?.width || 0),
                     installDisplay: style(h.querySelector('.header-install-btn'))?.display,
                     socialWidth: Math.round(box(h.querySelector('.social-icons'))?.width || 0),
@@ -288,7 +337,7 @@ let chrome, socket;
     }
     console.log('PASS: homepage-equivalent header/footer on 12 routes at 1440px, 390px, 360px and 320px; logos, menu, links and overflow checked.');
     console.log('Screenshots: ' + temp);
-    fs.writeFileSync(path.join(root, '.editorial', 'browser-results.json'), JSON.stringify({ checkedAt: new Date().toISOString(), mode: 'Local Chromium; mocked football responses and external scripts; no production requests', articles: results, draftsExcluded: 8, newsFilters: filters, viewportWidths: [320,360,768,1440], screenshots: temp }, null, 2) + '\n');
+    fs.writeFileSync(path.join(root, '.editorial', 'browser-results.json'), JSON.stringify({ checkedAt: new Date().toISOString(), mode: 'Local Chromium; mocked football responses and external scripts; no production requests', articles: results, draftsAndRetiredExcluded: draftRecords.length, mergeRedirects: retirements.merged, newsFilters: filters, viewportWidths: [320,360,390,768,1440], screenshots: temp }, null, 2) + '\n');
 })().catch(error => { console.error(error); process.exitCode = 1; }).finally(async () => {
     if (socket) socket.close();
     if (chrome) chrome.kill();

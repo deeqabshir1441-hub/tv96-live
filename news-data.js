@@ -1,56 +1,6 @@
 // Generated published-only metadata. Edit .editorial/news-data.js and regenerate.
 const articles = [
     {
-        "id": 1,
-        "title": "Atalanta confirm Éderson contract extension through 2031",
-        "description": "Atalanta have confirmed that midfielder Éderson signed a contract extension running through June 2031.",
-        "image": "",
-        "category": "Serie A",
-        "articleType": "Sourced news summary and analysis",
-        "author": "TV96 Live Editorial Team",
-        "publishedAt": "2026-07-14T12:02:02+03:00",
-        "updatedAt": "2026-09-06",
-        "sourceName": "Atalanta BC",
-        "sourceUrl": "https://en.atalanta.it/news/atalanta-ederson-the-story-continues",
-        "sources": [
-            {
-                "name": "Atalanta BC",
-                "url": "https://en.atalanta.it/news/atalanta-ederson-the-story-continues"
-            },
-            {
-                "name": "Sky Sport Italia",
-                "url": "https://sport.sky.it/calciomercato/2026/07/17/atalanta-ederson-rinnovo-calciomercato-news"
-            }
-        ],
-        "imageCredit": "Original TV96 Live text and geometric artwork",
-        "isPublished": true,
-        "wordCount": 524,
-        "imageAlt": "TV96 Live - Football News & Guides"
-    },
-    {
-        "id": 2,
-        "title": "Trossard leaves Arsenal as club considers left-wing options",
-        "description": "Leandro Trossard joined Beşiktaş while Arsenal considered changes on the left, including reported interest in Christos Tzolis and Morgan Rogers.",
-        "image": "",
-        "category": "Premier League",
-        "articleType": "Sourced news summary and analysis",
-        "author": "TV96 Live Editorial Team",
-        "publishedAt": "2026-07-14T12:02:02+03:00",
-        "updatedAt": "2026-09-06",
-        "sourceName": "Sky Sports",
-        "sourceUrl": "https://www.skysports.com/transfer/news/11670/13563271/leandro-trossard-arsenal-confirm-winger-joining-besiktas-in-17m-deal",
-        "sources": [
-            {
-                "name": "Sky Sports",
-                "url": "https://www.skysports.com/transfer/news/11670/13563271/leandro-trossard-arsenal-confirm-winger-joining-besiktas-in-17m-deal"
-            }
-        ],
-        "imageCredit": "Original TV96 Live text and geometric artwork",
-        "isPublished": true,
-        "wordCount": 524,
-        "imageAlt": "TV96 Live - Football News & Guides"
-    },
-    {
         "id": 3,
         "title": "How to Read World Cup Knockout Assist Statistics",
         "description": "A careful way to compare knockout assists: define the competition stage, check the counting method and look beyond the final pass.",
@@ -68,79 +18,14 @@ const articles = [
         ],
         "imageCredit": "Original TV96 Live text and geometric artwork",
         "isPublished": true,
-        "wordCount": 481,
-        "imageAlt": "TV96 Live - Football News & Guides"
-    },
-    {
-        "id": 4,
-        "title": "Johan Manzambi completes move to Aston Villa",
-        "description": "Johan Manzambi completed a move from Freiburg to Aston Villa after Newcastle had also pursued the Switzerland midfielder.",
-        "image": "/images/articles/johan-manzambi-aston-villa.webp",
-        "category": "Transfers",
-        "articleType": "Sourced news summary and analysis",
-        "author": "TV96 Live Editorial Team",
-        "publishedAt": "2026-07-14T12:02:02+03:00",
-        "updatedAt": "2026-09-06",
-        "sourceName": "Premier League",
-        "sourceUrl": "https://www.premierleague.com/en/news/4680006/manzambi-checks-in-at-bodymoor-heath",
-        "sources": [
-            {
-                "name": "Sky Sports",
-                "url": "https://www.skysports.com/football/news/11677/13564492/johan-manzambi-aston-villa-sign-newcastle-target-from-freiburg-in-club-record-lb59-5m-deal"
-            }
-        ],
-        "imageCredit": "AI-generated editorial illustration for TV96 Live",
-        "isPublished": true,
-        "wordCount": 528,
-        "imageAlt": "Editorial illustration of a claret and sky-blue shirt for the Johan Manzambi Aston Villa article - TV96 Live"
-    },
-    {
-        "id": 7,
-        "title": "Mbappé reaches 11 goal contributions at 2026 World Cup",
-        "description": "Kylian Mbappé reached eight goals and three assists by the 2026 World Cup quarter-final stage, according to Le Monde.",
-        "image": "/images/articles/mbappe-world-cup-contributions.webp",
-        "category": "FIFA World Cup",
-        "articleType": "Sourced news summary and analysis",
-        "author": "TV96 Live Editorial Team",
-        "publishedAt": "2026-07-14T12:02:02+03:00",
-        "updatedAt": "2026-09-06",
-        "sourceName": "Le Monde",
-        "sourceUrl": "https://www.lemonde.fr/en/sports/article/2026/07/10/mbappe-8-messi-8-france-and-argentina-stars-top-scorers-chart-at-world-cup_6755334_9.html",
-        "sources": [
-            {
-                "name": "Le Monde",
-                "url": "https://www.lemonde.fr/en/sports/article/2026/07/10/mbappe-8-messi-8-france-and-argentina-stars-top-scorers-chart-at-world-cup_6755334_9.html"
-            }
-        ],
-        "imageCredit": "AI-generated editorial illustration for TV96 Live",
-        "isPublished": true,
-        "wordCount": 536,
-        "imageAlt": "Editorial illustration for the Mbappe 11 goal contributions article - TV96 Live"
-    },
-    {
-        "id": 8,
-        "title": "Arsenal and Álvarez: What Atlético’s Barcelona Statement Establishes",
-        "description": "Separate Atlético’s stated Barcelona position from Arsenal transfer speculation, and understand why one does not confirm the other.",
-        "category": "Premier League",
-        "articleType": "Editorial analysis",
-        "author": "TV96 Live Editorial Team",
-        "publishedAt": "2026-08-28T14:40:00+03:00",
-        "updatedAt": "2026-09-06",
-        "image": "/images/articles/arsenal-alvarez-statement.webp",
-        "imageAlt": "Illustration of an empty press lectern for the Arsenal and Alvarez statement analysis - TV96 Live",
-        "isPublished": true,
-        "sources": [
-            {
-                "name": "Atlético de Madrid",
-                "url": "https://en.atleticodemadrid.com/noticias/unanimous-support-from-the-board-of-directors-for-the-club-s-strategy"
-            },
-            {
-                "name": "Sky Sports",
-                "url": "https://www.skysports.com/football/news/11095/13577751/julian-alvarez-transfer-news-atletico-madrid-wont-sell-striker-to-barcelona-with-arsenal-the-only-option"
-            }
-        ],
-        "wordCount": 455,
-        "imageCredit": "AI-generated editorial illustration for TV96 Live"
+        "wordCount": 466,
+        "imageAlt": "TV96 Live - Football News & Guides",
+        "section": "Football Guides",
+        "relatedIds": [
+            16,
+            15,
+            14
+        ]
     },
     {
         "id": 9,
@@ -158,24 +43,38 @@ const articles = [
             {
                 "name": "Comparison reading: TV96 Live Champions League format explainer",
                 "url": "https://www.tv96live.org/articles/14"
+            },
+            {
+                "name": "UEFA: 2026/27 draw announcement and separate fixture-list confirmation",
+                "url": "https://www.uefa.com/uefachampionsleague/news/02a8-215821715a96-9a3b43fad585-1000--uefa-champions-league-league-phase-draw/"
             }
         ],
         "wordCount": 477,
-        "imageCredit": "AI-generated editorial illustration for TV96 Live"
+        "imageCredit": "AI-generated editorial illustration for TV96 Live",
+        "section": "Football Guides",
+        "relatedIds": [
+            14,
+            13,
+            23
+        ]
     },
     {
         "id": 10,
-        "title": "Álvarez Meeting Report: What the Recorded Sources Establish",
-        "description": "Julián Álvarez and his representatives reportedly held a late-night meeting lasting more than five hours as the Atlético Madrid striker weighs up whether to stay in Spain or consider a move to Arsenal.",
+        "title": "Álvarez in August 2026: Atlético's Statement and the Reported Meeting",
+        "description": "A dated account of Atlético's Barcelona statement and the August 27 reports about Álvarez, separating confirmed positions from reported discussions.",
         "category": "Premier League",
         "articleType": "Sourced news summary and analysis",
         "author": "TV96 Live Editorial Team",
         "publishedAt": "2026-08-28T15:30:00+03:00",
-        "updatedAt": "2026-09-06",
+        "updatedAt": "2026-09-22",
         "image": "/images/articles/alvarez-meeting-report.webp",
         "imageAlt": "Illustration of an empty meeting room for the Alvarez meeting report - TV96 Live",
         "isPublished": true,
         "sources": [
+            {
+                "name": "Atlético de Madrid",
+                "url": "https://en.atleticodemadrid.com/noticias/unanimous-support-from-the-board-of-directors-for-the-club-s-strategy"
+            },
             {
                 "name": "Cadena SER",
                 "url": "https://cadenaser.com/nacional/2026/08/27/julian-alvarez-con-su-futuro-en-el-aire-ha-tenido-una-reunion-de-mas-de-cinco-horas-para-decidir-que-hacer-cadena-ser/"
@@ -185,33 +84,14 @@ const articles = [
                 "url": "https://www.skysports.com/football/news/11095/13577751/julian-alvarez-transfer-news-atletico-madrid-wont-sell-striker-to-barcelona-with-arsenal-the-only-option"
             }
         ],
-        "wordCount": 718,
-        "imageCredit": "AI-generated editorial illustration for TV96 Live"
-    },
-    {
-        "id": 11,
-        "title": "Fernández Omission: Alonso’s Explanation and Reported City Interest",
-        "description": "Xabi Alonso has explained why Enzo Fernández was left out of Chelsea's squad against Luton as Manchester City continue to consider a move for the Argentine midfielder.",
-        "category": "Premier League",
-        "articleType": "Sourced news summary and analysis",
-        "author": "TV96 Live Editorial Team",
-        "publishedAt": "2026-08-28T16:00:00+03:00",
-        "updatedAt": "2026-09-06",
-        "image": "/images/articles/fernandez-omission.webp",
-        "imageAlt": "Illustration of an empty substitutes bench and blue shirt for the Fernandez omission report - TV96 Live",
-        "isPublished": true,
-        "sources": [
-            {
-                "name": "Sky Sports",
-                "url": "https://www.skysports.com/football/news/11095/13570597/enzo-fernandez-transfer-news-man-city-considering-bid-for-chelsea-midfielder"
-            },
-            {
-                "name": "ESPN",
-                "url": "https://www.espn.com/soccer/story/_/id/49746843/xabi-alonso-chelsea-dropping-enzo-fernandez-man-city-links"
-            }
-        ],
-        "wordCount": 540,
-        "imageCredit": "AI-generated editorial illustration for TV96 Live"
+        "wordCount": 324,
+        "imageCredit": "AI-generated editorial illustration for TV96 Live",
+        "section": "Archived Reports",
+        "relatedIds": [
+            32,
+            21,
+            12
+        ]
     },
     {
         "id": 12,
@@ -220,9 +100,9 @@ const articles = [
         "category": "Premier League",
         "section": "Football Guides",
         "relatedIds": [
-            20,
             15,
-            18
+            18,
+            19
         ],
         "articleType": "Evergreen guide",
         "author": "TV96 Live Editorial Team",
@@ -243,9 +123,10 @@ const articles = [
             }
         ],
         "isPublished": true,
-        "wordCount": 792,
+        "wordCount": 881,
         "imageAlt": "How the Premier League works: complete guide - TV96 Live",
-        "imageCredit": "AI-generated editorial artwork for TV96 Live"
+        "imageCredit": "AI-generated editorial artwork for TV96 Live",
+        "updatedAt": "2026-09-22"
     },
     {
         "id": 13,
@@ -255,7 +136,6 @@ const articles = [
         "section": "Football Guides",
         "relatedIds": [
             14,
-            25,
             19
         ],
         "articleType": "Evergreen guide",
@@ -268,18 +148,23 @@ const articles = [
                 "url": "https://www.uefa.com/news-media/news/0268-12157d69ce2d-9f011c70f6fa-1000--how-clubs-qualify-for-europe/"
             },
             {
-                "name": "UEFA: 2026/27 Champions League regulations",
-                "url": "https://documents.uefa.com/r/Regulations-of-the-UEFA-Champions-League-2026/27/G.1-Introduction-Online"
-            },
-            {
                 "name": "UEFA: European Performance Spots",
                 "url": "https://www.uefa.com/uefachampionsleague/news/02a2-1fdbe9a25733-8d37ff5f9226-1000--202627-uefa-champions-league-which-teams-are-in-the-european-performance-spots-as-it-stands/"
+            },
+            {
+                "name": "UEFA 2026/27: Article 3 - entries, title holders and performance spots",
+                "url": "https://documents.uefa.com/r/Regulations-of-the-UEFA-Champions-League-2026/27/Article-3-Entries-for-the-competition-Online?contentId=EgXhqnzQsuW60mwbyCqWtw"
+            },
+            {
+                "name": "UEFA 2026/27: Annex A - access list",
+                "url": "https://documents.uefa.com/r/Regulations-of-the-UEFA-Champions-League-2026/27/Annex-A-Access-List-for-the-2026/27-UEFA-Club-Competitions-Online?contentId=aLaDNKItLtBltlOvVMG_jw"
             }
         ],
         "isPublished": true,
-        "wordCount": 804,
+        "wordCount": 823,
         "imageAlt": "How Champions League qualification works - TV96 Live",
-        "imageCredit": "AI-generated editorial artwork for TV96 Live"
+        "imageCredit": "AI-generated editorial artwork for TV96 Live",
+        "updatedAt": "2026-09-22"
     },
     {
         "id": 14,
@@ -289,8 +174,8 @@ const articles = [
         "section": "Football Guides",
         "relatedIds": [
             13,
-            25,
-            19
+            9,
+            17
         ],
         "articleType": "Evergreen guide",
         "author": "TV96 Live Editorial Team",
@@ -302,14 +187,31 @@ const articles = [
                 "url": "https://www.uefa.com/news-media/news/0268-12157d69ce2d-9f011c70f6fa-1000--how-clubs-qualify-for-europe/"
             },
             {
-                "name": "UEFA: 2026/27 Champions League regulations",
-                "url": "https://documents.uefa.com/r/Regulations-of-the-UEFA-Champions-League-2026/27/G.1-Introduction-Online"
+                "name": "UEFA 2026/27: Article 17 - league phase and progression",
+                "url": "https://documents.uefa.com/r/Regulations-of-the-UEFA-Champions-League-2026/27/Article-17-Match-system-league-phase-Online?contentId=z80npkZwtB5MkmwVqnk6XA"
+            },
+            {
+                "name": "UEFA 2026/27: Article 18 - league-phase tiebreakers",
+                "url": "https://documents.uefa.com/r/Regulations-of-the-UEFA-Champions-League-2026/27/Article-18-Equality-of-points-league-phase-Online?contentId=d~m2tmtG82UhZujMH0i~aQ"
+            },
+            {
+                "name": "UEFA 2026/27: Article 20 - two legs and aggregate score",
+                "url": "https://documents.uefa.com/r/Regulations-of-the-UEFA-Champions-League-2026/27/Article-20-Match-system-knockout-phase-Online?contentId=5j1kwD2WHBsLErtGHWuxOA"
+            },
+            {
+                "name": "UEFA 2026/27: Article 21 - extra time and penalties",
+                "url": "https://documents.uefa.com/r/Regulations-of-the-UEFA-Champions-League-2026/27/Article-21-Knockout-system-extra-time-and-penalty-shoot-outs-Online?contentId=aBOyMYjtgYYIYwn~YRHF5Q"
+            },
+            {
+                "name": "UEFA 2026/27: Article 22 - the final",
+                "url": "https://documents.uefa.com/r/Regulations-of-the-UEFA-Champions-League-2026/27/Article-22-Match-system-final-Online?contentId=p6pndZ3IAsUzrTVR64sVPw"
             }
         ],
         "isPublished": true,
-        "wordCount": 810,
+        "wordCount": 951,
         "imageAlt": "Champions League format explained - TV96 Live",
-        "imageCredit": "Original TV96 Live text and geometric artwork"
+        "imageCredit": "Original TV96 Live text and geometric artwork",
+        "updatedAt": "2026-09-22"
     },
     {
         "id": 15,
@@ -318,9 +220,8 @@ const articles = [
         "category": "Football Guides",
         "section": "Football Guides",
         "relatedIds": [
-            20,
-            18,
-            12
+            12,
+            18
         ],
         "articleType": "Evergreen guide",
         "author": "TV96 Live Editorial Team",
@@ -336,8 +237,8 @@ const articles = [
                 "url": "https://www.premierleague.com/en/news/4657245/202526-premier-league-relegation-faq"
             },
             {
-                "name": "LALIGA: regulations directory",
-                "url": "https://www.laliga.com/es-NL/transparencia/normativa"
+                "name": "Lega Serie A: relegation play-off context",
+                "url": "https://en.legaseriea.it/serie-a/news/the-final-reckoning-lecce-and-cremonese-face-a-decisive-final-day"
             }
         ],
         "isPublished": true,
@@ -352,9 +253,9 @@ const articles = [
         "category": "Football Guides",
         "section": "Football Guides",
         "relatedIds": [
+            3,
             15,
-            20,
-            25
+            17
         ],
         "articleType": "Evergreen guide",
         "author": "TV96 Live Editorial Team",
@@ -380,7 +281,7 @@ const articles = [
         "relatedIds": [
             16,
             12,
-            25
+            14
         ],
         "articleType": "Evergreen guide",
         "author": "TV96 Live Editorial Team",
@@ -409,8 +310,7 @@ const articles = [
         "section": "Football Guides",
         "relatedIds": [
             12,
-            15,
-            20
+            15
         ],
         "articleType": "Evergreen guide",
         "author": "TV96 Live Editorial Team",
@@ -431,9 +331,10 @@ const articles = [
             }
         ],
         "isPublished": true,
-        "wordCount": 854,
+        "wordCount": 841,
         "imageAlt": "Premier League relegation explained - TV96 Live",
-        "imageCredit": "AI-generated editorial artwork for TV96 Live"
+        "imageCredit": "AI-generated editorial artwork for TV96 Live",
+        "updatedAt": "2026-09-22"
     },
     {
         "id": 19,
@@ -444,7 +345,7 @@ const articles = [
         "relatedIds": [
             13,
             14,
-            20
+            12
         ],
         "articleType": "Evergreen guide",
         "author": "TV96 Live Editorial Team",
@@ -460,44 +361,19 @@ const articles = [
                 "url": "https://www.uefa.com/uefachampionsleague/news/02a2-1fdbe9a25733-8d37ff5f9226-1000--202627-uefa-champions-league-which-teams-are-in-the-european-performance-spots-as-it-stands/"
             },
             {
-                "name": "UEFA: 2026/27 Champions League regulations",
-                "url": "https://documents.uefa.com/r/Regulations-of-the-UEFA-Champions-League-2026/27/G.1-Introduction-Online"
-            }
-        ],
-        "isPublished": true,
-        "wordCount": 885,
-        "imageAlt": "How European qualification works in the Premier League - TV96 Live",
-        "imageCredit": "AI-generated editorial artwork for TV96 Live"
-    },
-    {
-        "id": 20,
-        "title": "Premier League Guide",
-        "description": "Follow the Premier League week by week: read form, assess the schedule and connect title, European and survival races with match performances.",
-        "category": "Premier League",
-        "section": "League & Competition Guides",
-        "relatedIds": [
-            12,
-            18,
-            19
-        ],
-        "articleType": "Evergreen guide",
-        "author": "TV96 Live Editorial Team",
-        "publishedAt": "2026-09-05T12:00:00+03:00",
-        "image": "",
-        "sources": [
-            {
-                "name": "Premier League: competition explained",
-                "url": "https://www.premierleague.com/en/premier-league-explained"
+                "name": "UEFA 2026/27: Article 3 - entries, title holders and performance spots",
+                "url": "https://documents.uefa.com/r/Regulations-of-the-UEFA-Champions-League-2026/27/Article-3-Entries-for-the-competition-Online?contentId=EgXhqnzQsuW60mwbyCqWtw"
             },
             {
-                "name": "Premier League: European qualification routes",
-                "url": "https://www.premierleague.com/en/news/373663"
+                "name": "UEFA 2026/27: Annex A - access list",
+                "url": "https://documents.uefa.com/r/Regulations-of-the-UEFA-Champions-League-2026/27/Annex-A-Access-List-for-the-2026/27-UEFA-Club-Competitions-Online?contentId=aLaDNKItLtBltlOvVMG_jw"
             }
         ],
         "isPublished": true,
-        "wordCount": 802,
-        "imageAlt": "TV96 Live - Football News & Guides",
-        "imageCredit": "Original TV96 Live text and geometric artwork"
+        "wordCount": 904,
+        "imageAlt": "How European qualification works in the Premier League - TV96 Live",
+        "imageCredit": "AI-generated editorial artwork for TV96 Live",
+        "updatedAt": "2026-09-22"
     },
     {
         "id": 21,
@@ -506,9 +382,9 @@ const articles = [
         "category": "La Liga",
         "section": "League & Competition Guides",
         "relatedIds": [
-            15,
-            13,
-            23
+            22,
+            23,
+            13
         ],
         "articleType": "Evergreen guide",
         "author": "TV96 Live Editorial Team",
@@ -518,16 +394,13 @@ const articles = [
             {
                 "name": "LALIGA: official standings and competition information",
                 "url": "https://www.laliga.com/en-GB/laliga-easports/standing"
-            },
-            {
-                "name": "LALIGA: regulations directory",
-                "url": "https://www.laliga.com/es-NL/transparencia/normativa"
             }
         ],
         "isPublished": true,
-        "wordCount": 834,
+        "wordCount": 777,
         "imageAlt": "La Liga guide - TV96 Live",
-        "imageCredit": "AI-generated editorial artwork for TV96 Live"
+        "imageCredit": "AI-generated editorial artwork for TV96 Live",
+        "updatedAt": "2026-09-22"
     },
     {
         "id": 22,
@@ -536,8 +409,8 @@ const articles = [
         "category": "Serie A",
         "section": "League & Competition Guides",
         "relatedIds": [
+            21,
             15,
-            13,
             16
         ],
         "articleType": "Evergreen guide",
@@ -555,9 +428,10 @@ const articles = [
             }
         ],
         "isPublished": true,
-        "wordCount": 839,
+        "wordCount": 849,
         "imageAlt": "Serie A guide - TV96 Live",
-        "imageCredit": "AI-generated editorial artwork for TV96 Live"
+        "imageCredit": "AI-generated editorial artwork for TV96 Live",
+        "updatedAt": "2026-09-22"
     },
     {
         "id": 23,
@@ -620,45 +494,15 @@ const articles = [
         "imageCredit": "AI-generated editorial artwork for TV96 Live"
     },
     {
-        "id": 25,
-        "title": "UEFA Champions League Guide",
-        "description": "Follow European matchups, league-phase objectives and two-leg tactics while keeping match scores, aggregate situations and analysis distinct.",
-        "category": "Champions League",
-        "section": "League & Competition Guides",
-        "relatedIds": [
-            14,
-            13,
-            19
-        ],
-        "articleType": "Evergreen guide",
-        "author": "TV96 Live Editorial Team",
-        "publishedAt": "2026-09-05T12:00:00+03:00",
-        "image": "/images/articles/uefa-champions-league-guide.webp",
-        "sources": [
-            {
-                "name": "UEFA: Champions League format and access",
-                "url": "https://www.uefa.com/news-media/news/0268-12157d69ce2d-9f011c70f6fa-1000--how-clubs-qualify-for-europe/"
-            },
-            {
-                "name": "UEFA: 2026/27 Champions League regulations",
-                "url": "https://documents.uefa.com/r/Regulations-of-the-UEFA-Champions-League-2026/27/G.1-Introduction-Online"
-            }
-        ],
-        "isPublished": true,
-        "wordCount": 840,
-        "imageAlt": "UEFA Champions League guide - TV96 Live",
-        "imageCredit": "AI-generated editorial artwork for TV96 Live"
-    },
-    {
         "id": 32,
         "title": "JJ Gabriel, 15, Asks to Leave Manchester United as Club Fight to Keep Highly Rated Prospect",
         "description": "BBC Sport reports JJ Gabriel has asked for his Manchester United registration to be cancelled. United are seeking a resolution as the 15-year-old forward's future remains unsettled.",
         "category": "Manchester United / Latest News",
         "section": "Latest News",
         "relatedIds": [
-            20,
+            10,
             12,
-            18
+            16
         ],
         "articleType": "Breaking news",
         "author": "TV96 Live Editorial Team",
@@ -695,7 +539,7 @@ function getRelatedArticles(article, limit = 3) {
 
 function getFeaturedArticles(limit = 4) {
     const published = getPublishedArticles();
-    return [32, 12, 14, 16, 20].map(id => published.find(article => article.id === id)).filter(Boolean).slice(0, limit);
+    return [32, 12, 14, 16, 23].map(id => published.find(article => article.id === id)).filter(Boolean).slice(0, limit);
 }
 
 function escapeArticleText(value) {
@@ -735,4 +579,30 @@ function renderNewsCard(a) {
             <div class="news-card-footer"><time class="news-time" datetime="${escapeArticleText(a.publishedAt)}"><i class="fa-regular fa-clock"></i> ${formatArticleDate(a.publishedAt)} &middot; ${getArticleReadingTime(a)}</time><span class="read-more">Read More <i class="fa-solid fa-arrow-right"></i></span></div>
         </div>
     </a>`;
+}
+
+function getHomeArticles(limit = 4) {
+    return getPublishedArticles().filter(article => new Date(article.publishedAt).getTime() <= Date.now()).sort((a,b) => new Date(b.publishedAt) - new Date(a.publishedAt) || b.id - a.id).slice(0, limit);
+}
+
+function renderHomeStory(article, featured = false) {
+    return `
+            <article class="home-story ${featured ? 'home-news-featured' : 'home-news-compact'}">
+                <a class="home-story-link" href="/articles/${article.id}">
+                    <div class="home-story-image">
+                        ${article.image ? `<img src="${escapeArticleText(article.image)}" alt="${escapeArticleText(article.imageAlt || article.title)}" loading="${featured ? 'eager' : 'lazy'}" decoding="async">` : ''}
+                    </div>
+                    <div class="home-story-info">
+                        <span class="home-story-category">${escapeArticleText(article.category)}</span>
+                        <h3>${escapeArticleText(article.title)}</h3>
+                        <div class="home-story-meta"><time datetime="${escapeArticleText(article.publishedAt)}">${formatArticleDate(article.publishedAt)}</time><span>${getArticleReadingTime(article)}</span></div>
+                        ${featured ? `<p>${escapeArticleText(article.description)}</p><span class="home-story-read">Read full story <span aria-hidden="true">&rarr;</span></span>` : ''}
+                    </div>
+                </a>
+            </article>`;
+}
+
+function renderHomeFeatured(list = getHomeArticles()) {
+    const [featured, ...others] = list;
+    return featured ? renderHomeStory(featured, true) + '<div class="home-news-list">' + others.map(article => renderHomeStory(article)).join('') + '</div>' : '<p>No news is available right now.</p>';
 }

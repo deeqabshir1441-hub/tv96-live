@@ -4,16 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:site_name" content="TV96 Live">
-    <title>TV96 Live - Sports News, Live Scores and Fixtures</title>
+    <title>TV96 Live - Football News, Fixtures and Guides</title>
     <meta name="google-adsense-account" content="ca-pub-9924964891667864">
-    <meta property="og:title" content="TV96 Live - Live HD Sports">
-    <meta property="og:description" content="Football fixtures, scores, standings, news, and match information.">
+    <meta property="og:title" content="TV96 Live - Football News, Fixtures and Guides">
+    <meta property="og:description" content="Football news and practical guides alongside fixtures, scores and league standings.">
     <meta property="og:image" content="https://www.tv96live.org/editorial-fallback.png">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.tv96live.org/">
     <link rel="canonical" href="https://www.tv96live.org/">
-    <meta name="description" content="TV96 Live provides sports news, live scores, fixtures and football updates.">
-    <meta name="keywords" content="live sports, football streaming, soccer scores, tv96live, champions league live, premier league live">
+    <meta name="description" content="Football news and practical guides alongside fixtures, scores and league standings.">
     <meta name="google-site-verification" content="googleae8e7d185b7c98c3">
     <meta name="robots" content="index, follow">
     <meta name="mobile-web-app-capable" content="yes">
@@ -81,7 +80,59 @@
         <div><h2>Featured</h2><p>Understand the rules, follow the leagues and explore the stories</p></div>
         <a href="/news">View News &amp; Guides <i data-lucide="arrow-right"></i></a>
        </div>
-       <div class="home-news-layout" id="news-container"></div>
+       <div class="home-news-layout" id="news-container"><!-- BEGIN STATIC HOME -->
+            <article class="home-story home-news-featured">
+                <a class="home-story-link" href="/articles/32">
+                    <div class="home-story-image">
+                        <img src="/editorial-fallback.png" alt="Original TV96 Live football news and guides fallback artwork" loading="eager" decoding="async">
+                    </div>
+                    <div class="home-story-info">
+                        <span class="home-story-category">Manchester United / Latest News</span>
+                        <h3>JJ Gabriel, 15, Asks to Leave Manchester United as Club Fight to Keep Highly Rated Prospect</h3>
+                        <div class="home-story-meta"><time datetime="2026-09-15T20:00:00+03:00">15 Sept 2026</time><span>5 min read</span></div>
+                        <p>BBC Sport reports JJ Gabriel has asked for his Manchester United registration to be cancelled. United are seeking a resolution as the 15-year-old forward&#39;s future remains unsettled.</p><span class="home-story-read">Read full story <span aria-hidden="true">&rarr;</span></span>
+                    </div>
+                </a>
+            </article><div class="home-news-list">
+            <article class="home-story home-news-compact">
+                <a class="home-story-link" href="/articles/24">
+                    <div class="home-story-image">
+                        <img src="/images/articles/ligue-1-guide.webp" alt="Ligue 1 guide - TV96 Live" loading="lazy" decoding="async">
+                    </div>
+                    <div class="home-story-info">
+                        <span class="home-story-category">Ligue 1</span>
+                        <h3>Ligue 1 Guide</h3>
+                        <div class="home-story-meta"><time datetime="2026-09-05T12:00:00+03:00">5 Sept 2026</time><span>4 min read</span></div>
+
+                    </div>
+                </a>
+            </article>
+            <article class="home-story home-news-compact">
+                <a class="home-story-link" href="/articles/23">
+                    <div class="home-story-image">
+                        <img src="/images/articles/bundesliga-guide.webp" alt="Bundesliga guide - TV96 Live" loading="lazy" decoding="async">
+                    </div>
+                    <div class="home-story-info">
+                        <span class="home-story-category">Bundesliga</span>
+                        <h3>Bundesliga Guide</h3>
+                        <div class="home-story-meta"><time datetime="2026-09-05T12:00:00+03:00">5 Sept 2026</time><span>4 min read</span></div>
+
+                    </div>
+                </a>
+            </article>
+            <article class="home-story home-news-compact">
+                <a class="home-story-link" href="/articles/22">
+                    <div class="home-story-image">
+                        <img src="/images/articles/serie-a-guide.webp" alt="Serie A guide - TV96 Live" loading="lazy" decoding="async">
+                    </div>
+                    <div class="home-story-info">
+                        <span class="home-story-category">Serie A</span>
+                        <h3>Serie A Guide</h3>
+                        <div class="home-story-meta"><time datetime="2026-09-05T12:00:00+03:00">5 Sept 2026</time><span>4 min read</span></div>
+
+                    </div>
+                </a>
+            </article></div><!-- END STATIC HOME --></div>
       </div>
      </section>
     </div>
@@ -793,31 +844,7 @@ if (totalMinutes < 0) {
 
         if (!container) return;
 
-        // Use the existing published-only metadata; never surface future-dated stories.
-        const latestArticles = getPublishedArticles()
-            .filter(article => new Date(article.publishedAt).getTime() <= Date.now())
-            .sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt) || b.id - a.id)
-            .slice(0, 4);
-
-        const articleCard = (article, featured = false) => `
-            <article class="home-story ${featured ? 'home-news-featured' : 'home-news-compact'}">
-                <a class="home-story-link" href="/articles/${article.id}">
-                    <div class="home-story-image">
-                        ${article.image ? `<img src="${escapeArticleText(article.image)}" alt="${escapeArticleText(article.imageAlt || article.title)}" loading="${featured ? 'eager' : 'lazy'}" decoding="async">` : ''}
-                    </div>
-                    <div class="home-story-info">
-                        <span class="home-story-category">${escapeArticleText(article.category)}</span>
-                        <h3>${escapeArticleText(article.title)}</h3>
-                        <div class="home-story-meta"><time datetime="${escapeArticleText(article.publishedAt)}">${formatArticleDate(article.publishedAt)}</time><span>${getArticleReadingTime(article)}</span></div>
-                        ${featured ? `<p>${escapeArticleText(article.description)}</p><span class="home-story-read">Read full story <span aria-hidden="true">&rarr;</span></span>` : ''}
-                    </div>
-                </a>
-            </article>`;
-
-        const [featuredArticle, ...otherArticles] = latestArticles;
-        container.innerHTML = featuredArticle
-            ? `${articleCard(featuredArticle, true)}<div class="home-news-list">${otherArticles.map(article => articleCard(article)).join('')}</div>`
-            : '<p>No news is available right now.</p>';
+        container.innerHTML = renderHomeFeatured();
 
         if (typeof lucide !== 'undefined') {
             lucide.createIcons();

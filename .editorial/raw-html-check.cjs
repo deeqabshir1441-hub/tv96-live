@@ -5,6 +5,7 @@ const vm = require('node:vm');
 const model = require('./content-model.cjs');
 const server = http.createServer(require('./static-server.cjs'));
 const published = model.getPublishedArticles();
+const retirements = require('./article-retirements.cjs');
 const escape = model.escapeArticleText;
 const strip = text => text.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, '').replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim();
 (async () => {
@@ -60,8 +61,24 @@ const strip = text => text.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, '').re
     const newsIds = [...new Set([...rawNews.matchAll(/href="\/articles\/(\d+)"/g)].map(m => Number(m[1])))].sort((a,b) => a-b);
     assert.deepEqual(newsIds, Array.from(published, a => a.id).sort((a,b) => a-b));
     await links(rawNews, '/news');
-    const excluded = [...model.articles.filter(a => !a.isPublished).map(a => `/articles/${a.id}`), '/articles/99999', '/article-template?id=5', '/article-template?id=99999', '/article-content.js', '/.editorial/REPORT.md', '/.editorial/season-drafts.md', '/.editorial/article-content.js', '/.editorial/news-data.js', '/.editorial/browser-results.json'];
+    const rawHome = (await get('/')).match(/<!-- BEGIN STATIC HOME -->([\s\S]*?)<!-- END STATIC HOME -->/)[1];
+    assert.equal((rawHome.match(/class="home-story-link"/g) || []).length, 4);
+    for (const a of model.getHomeArticles()) assert(rawHome.includes(`href="/articles/${a.id}"`));
+    const rawWatch = await get('/watch-live');
+    assert(rawWatch.includes('content="noindex, follow"'));
+    const visibleWatch = strip(rawWatch.replace(/<template\b[^>]*>[\s\S]*?<\/template>/g, ''));
+    assert(visibleWatch.includes('Live viewing is currently unavailable'));
+    assert(!/1080p|Loading match|Football Competitions History|Server 1/.test(visibleWatch));
+    const excluded = [...model.articles.filter(a => !a.isPublished && !retirements.merged[a.id]).map(a => `/articles/${a.id}`), ...retirements.removed.map(id => `/article-template?id=${id}`), '/articles/99999', '/article-template?id=5', '/article-template?id=99999', '/article-content.js', '/.editorial/REPORT.md', '/.editorial/season-drafts.md', '/.editorial/article-content.js', '/.editorial/news-data.js', '/.editorial/browser-results.json'];
     for (const route of excluded) await get(route, 404);
+    for (const [id, destination] of Object.entries(retirements.merged)) {
+        for (const route of [`/articles/${id}`, `/articles/${id}.html`, `/article-template?id=${id}`, `/article-template.html?id=${id}`]) {
+            const response = await fetch(origin + route, { redirect: 'manual' });
+            assert.equal(response.status, 308, route);
+            assert.equal(response.headers.get('location'), `/articles/${destination}`, route);
+        }
+    }
+    for (const id of retirements.removed) await get(`/articles/${id}.html`, 404);
     for (const article of published) {
         const response = await fetch(`${origin}/article-template.html?id=${article.id}`, { redirect: 'manual' });
         assert.equal(response.status, 308); assert.equal(response.headers.get('location'), `/articles/${article.id}`);
