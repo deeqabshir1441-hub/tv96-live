@@ -31,7 +31,7 @@ const strip = text => text.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, '').re
         const html = await get(route);
         assert.equal((html.match(/<h1\b/g) || []).length, 1);
         assert(html.includes(`id="articleTitle">${escape(article.title)}</h1>`));
-        assert(html.includes(model.articleContent[article.id]), `Body preservation ${route}`);
+        assert(html.replace(/\r\n/g, '\n').includes(model.articleContent[article.id].replace(/\r\n/g, '\n')), `Body preservation ${route}`);
         assert(!/src="\/(article-content|news-data)\.js"/.test(html));
         const title = html.match(/<title[^>]*>(.*?)<\/title>/s)[1];
         const description = html.match(/name="description" content="([^"]+)"/)[1];

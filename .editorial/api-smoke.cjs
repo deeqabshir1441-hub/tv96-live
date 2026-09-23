@@ -17,11 +17,12 @@ const response = () => ({ code: null, body: null, headers: {}, setHeader(key, va
     const oldFetch = global.fetch;
     process.env.FOOTBALL_DATA_TOKEN = 'local-test-value';
     try {
-        const match = { id: 12345, utcDate: new Date().toISOString(), status: 'FINISHED', homeTeam: { id: 1, name: 'Arsenal', crest: 'https://example.invalid/home.png' }, awayTeam: { id: 2, name: 'Liverpool', crest: 'https://example.invalid/away.png' }, score: { fullTime: { home: 2, away: 1 } } };
+        const match = { id: 12345, competition: { code: 'PL' }, utcDate: new Date().toISOString(), status: 'FINISHED', homeTeam: { id: 1, name: 'Arsenal', crest: 'https://example.invalid/home.png' }, awayTeam: { id: 2, name: 'Liverpool', crest: 'https://example.invalid/away.png' }, score: { fullTime: { home: 2, away: 1 } } };
         global.fetch = async (input, options) => {
             assert.equal(options.headers['X-Auth-Token'], 'local-test-value');
             const url = new URL(input);
-            return { ok: true, status: 200, json: async () => ({ matches: url.pathname.includes('/PL/') ? [match] : [] }) };
+            assert.equal(url.pathname, '/v4/matches');
+            return { ok: true, status: 200, json: async () => ({ matches: [match] }) };
         };
         const matchResponse = response(); await matches({ method: 'GET', query: {} }, matchResponse);
         assert.equal(matchResponse.code, 200);

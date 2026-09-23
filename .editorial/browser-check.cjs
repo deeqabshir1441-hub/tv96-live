@@ -19,6 +19,14 @@ const requests = [];
 let apiMode = 'success';
 const date = new Intl.DateTimeFormat('en-CA', { timeZone: 'Africa/Nairobi' }).format(new Date());
 const fixture = { id: 'editorial-test-1', home: 'Arsenal', away: 'Liverpool', homeScore: 2, awayScore: 1, league: 'Premier League', status: 'Finished', statusClass: 'status-finished', displayTime: '15:00', matchDate: date, shouldDisplay: true, isApiMatch: true, homeLogo: '/icon-192.png', awayLogo: '/icon-192.png' };
+const coverageFixtures = [fixture, ...[
+    ['La Liga', 'Getafe', 'Mallorca'], ['Serie A', 'Udinese', 'Lecce'],
+    ['Bundesliga', 'Mainz', 'Augsburg'], ['Ligue 1', 'Nantes', 'Toulouse'],
+    ['UEFA Champions League', 'Home CL', 'Away CL'], ['Eredivisie', 'Home DED', 'Away DED'],
+    ['Campeonato Brasileiro Série A', 'Home BSA', 'Away BSA'], ['Championship', 'Home ELC', 'Away ELC'],
+    ['Primeira Liga', 'Home PPL', 'Away PPL'], ['FIFA World Cup', 'Home WC', 'Away WC'],
+    ['European Championship', 'Home EC', 'Away EC']
+].map(([league, home, away], index) => ({ ...fixture, id: `coverage-${index}`, league, home, away, displayTime: `${String(index + 1).padStart(2, '0')}:00` }))];
 const server = http.createServer((req, res) => {
     const url = new URL(req.url, 'http://localhost');
     requests.push(url.pathname + url.search);
@@ -32,7 +40,7 @@ const server = http.createServer((req, res) => {
     }
     if (url.pathname === '/api/matches') {
         res.setHeader('Content-Type', 'application/json');
-        return res.end(JSON.stringify({ dates: { maanta: date }, matchesData: { shalay: [], maanta: [fixture], berri: [] } }));
+        return res.end(JSON.stringify({ dates: { maanta: date }, matchesData: { shalay: [], maanta: coverageFixtures, berri: [] } }));
     }
     if (url.pathname === '/api/standings') {
         res.setHeader('Content-Type', 'application/json');
@@ -215,6 +223,9 @@ let chrome, socket;
     assert(await evaluate(`window.installTestPrompted && document.getElementById('installBtn').hidden`));
     console.log('PASS: Featured desktop/mobile composition, newest published selection, registered images, both themes and simulated Install App prompt.');
     await navigate('/matches'); assert(await evaluate(`document.querySelectorAll('.match-card').length > 0`));
+    assert.equal(await evaluate(`document.querySelectorAll('#matches-container .match-card').length`), 12);
+    for (const match of coverageFixtures) assert(await evaluate(`document.getElementById('matches-container').innerText.includes(${JSON.stringify(match.home)}) && document.getElementById('matches-container').innerText.includes(${JSON.stringify(match.away)})`));
+    assert.deepEqual(await evaluate(`[...document.querySelectorAll('#matches-container .match-card .time')].map(node => node.textContent)`), ['15:00','11:00','10:00','09:00','08:00','07:00','06:00','05:00','04:00','03:00','02:00','01:00'], 'Existing finished-match kickoff ordering');
     await navigate('/standings');
     for (let i = 0; i < 100 && !await evaluate(`document.getElementById('standingsBody').innerText.includes('Arsenal')`); i++) await pause(50);
     assert.equal(await evaluate(`document.querySelectorAll('#standingsBody tr').length`), 2);

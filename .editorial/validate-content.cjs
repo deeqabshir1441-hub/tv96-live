@@ -95,7 +95,7 @@ const stripSiteChrome = (file, html) => {
 execFileSync(process.execPath, [path.join(__dirname, 'sync-site-chrome.cjs'), '--check'], { cwd: root, stdio: 'inherit' });
 assert(!read('watch-live.html').includes('// PWA Install Button'), 'Legacy install handler conflicts with shared header');
 assert(read('site-header.js').includes("window.addEventListener('beforeinstallprompt'"), 'Shared install handler missing');
-for (const file of protectedFiles) assert.equal(stripSiteChrome(file, p0.review.files[file] ? p0.baseline(file) : read(file)), stripSiteChrome(file, file === 'watch-live.html' ? removeAds(baseline(file)) : baseline(file)), `Protected file changed outside site chrome: ${file}`);
+for (const file of protectedFiles) assert.equal(stripSiteChrome(file, p0.review.files[file] ? p0.baseline(file) : p0.coverageBefore(file)), stripSiteChrome(file, file === 'watch-live.html' ? removeAds(baseline(file)) : baseline(file)), `Protected file changed outside site chrome: ${file}`);
 // Featured rendering is authorized; all other homepage JavaScript remains protected.
 const inlineScripts = html => Array.from(html.matchAll(/<script\b([^>]*)>([\s\S]*?)<\/script>/gi)).filter(m => !/src=/.test(m[1])).map(m => m[2].replace(/\r\n/g, '\n'));
 const approvedHomepage = baseline('index.html')

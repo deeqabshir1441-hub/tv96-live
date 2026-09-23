@@ -78,7 +78,10 @@ function loadMatches() {
             .filter(match => !automaticIds.has(String(match.id)))
             .map(match => applyKickoffStatus(match));
 
+        const seen = new Set();
         [...automaticMatches, ...manualMatches].forEach(match => {
+            if (seen.has(String(match.id))) return;
+            seen.add(String(match.id));
             // A match that crosses midnight remains in Today while live. Once
             // it finishes, it is grouped by its kickoff date (Yesterday).
             const day = match.status === 'Live' ? 'maanta' : dateToDay[match.matchDate];
@@ -86,6 +89,7 @@ function loadMatches() {
         });
 
         ['shalay', 'maanta', 'berri'].forEach(day => {
+            nextMatchesData[day].sort((a, b) => a.displayTime.localeCompare(b.displayTime));
             matchesData[day].splice(0, matchesData[day].length, ...nextMatchesData[day]);
         });
 

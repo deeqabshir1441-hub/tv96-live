@@ -1,51 +1,18 @@
-const competitionCodes = ["PL", "PD", "SA", "BL1", "FL1", "CL"];
-
-const competitionNames = {
-    PL: "Premier League",
-    PD: "La Liga",
-    SA: "Serie A",
+const competitionNames = Object.freeze({
+    WC: "FIFA World Cup",
+    CL: "UEFA Champions League",
     BL1: "Bundesliga",
+    DED: "Eredivisie",
+    BSA: "Campeonato Brasileiro S\u00e9rie A",
+    PD: "La Liga",
     FL1: "Ligue 1",
-    CL: "UEFA Champions League"
-};
-
-const matchFilterConfig = {
-    PL: { showAll: true },
-    PD: { teams: ["real madrid", "barcelona", "atletico madrid"] },
-    SA: { teams: ["ac milan", "inter", "juventus", "napoli", "roma"] },
-    BL1: { teams: ["bayern munich", "borussia dortmund"] },
-    FL1: { teams: ["paris saint germain"] },
-    CL: { showAll: true }
-};
-
-// Exact aliases for football-data.org naming variants. Matching is normalized
-// then compared by key, never by broad substring.
-const teamAliases = {
-    "real madrid": "real madrid",
-    "fc barcelona": "barcelona",
-    "barcelona": "barcelona",
-    "atletico madrid": "atletico madrid",
-    "atletico de madrid": "atletico madrid",
-    "club atletico de madrid": "atletico madrid",
-    "ac milan": "ac milan",
-    "milan": "ac milan",
-    "inter": "inter",
-    "inter milan": "inter",
-    "fc internazionale milano": "inter",
-    "internazionale milano": "inter",
-    "juventus": "juventus",
-    "napoli": "napoli",
-    "ssc napoli": "napoli",
-    "roma": "roma",
-    "as roma": "roma",
-    "bayern munich": "bayern munich",
-    "bayern munchen": "bayern munich",
-    "fc bayern munchen": "bayern munich",
-    "borussia dortmund": "borussia dortmund",
-    "psg": "paris saint germain",
-    "paris saint germain": "paris saint germain",
-    "paris saint germain fc": "paris saint germain"
-};
+    ELC: "Championship",
+    PPL: "Primeira Liga",
+    EC: "European Championship",
+    SA: "Serie A",
+    PL: "Premier League"
+});
+const SUPPORTED_COMPETITIONS = new Set(Object.keys(competitionNames));
 
 // Mark a football-data.org match ID as featured to show it even when it does
 // not meet the automatic competition filter. Public stream sources belong in
@@ -56,23 +23,14 @@ const matchOverrides = {
 
 const NAIROBI_TIMEZONE = "Africa/Nairobi";
 const CACHE_CONTROL = "public, max-age=0, s-maxage=60, stale-while-revalidate=120";
-const upstreamMatchCache = new Map();
+const FRESH_MS = 60000;
+const STALE_MS = 180000;
+let upstreamMatchCache = null;
+let upstreamRequest = null;
 
 function sendJson(res, status, body) {
     res.setHeader("Content-Type", "application/json; charset=utf-8");
     return res.status(status).json(body);
-}
-
-function competitionCacheKey(code, dates) {
-    return `${code}:${dates.yesterday}:${dates.tomorrow}`;
-}
-
-function getCachedCompetition(code, dates) {
-    return upstreamMatchCache.get(competitionCacheKey(code, dates)) || null;
-}
-
-function cacheCompetition(code, dates, matches) {
-    upstreamMatchCache.set(competitionCacheKey(code, dates), { matches });
 }
 
 function getNairobiParts(date) {
@@ -155,40 +113,7 @@ function statusDetails(apiStatus, utcDate, now = new Date()) {
     return { status: "Upcoming", statusClass: "status-upcoming" };
 }
 
-function normalizeTeamName(name) {
-    return String(name || "")
-        .normalize("NFD")
-        .replace(/[\u0300-\u036f]/g, "")
-        .toLowerCase()
-        .replace(/[^a-z0-9]+/g, " ")
-        .trim();
-}
-
-function getTeamKeys(team) {
-    return [team?.name, team?.shortName]
-        .filter(Boolean)
-        .map(normalizeTeamName)
-        .map((name) => teamAliases[name] || name);
-}
-
-function matchesCompetitionFilter(match, competitionCode) {
-    const filter = matchFilterConfig[competitionCode];
-
-    if (!filter) {
-        return false;
-    }
-
-    if (filter.showAll) {
-        return true;
-    }
-
-    const allowedTeams = new Set(filter.teams);
-    return [...getTeamKeys(match.homeTeam), ...getTeamKeys(match.awayTeam)]
-        .some((team) => allowedTeams.has(team));
-}
-
 function normalizeMatch(match, competitionCode) {
-    const override = matchOverrides[String(match.id)] || {};
     const homeTeam = match.homeTeam || {};
     const awayTeam = match.awayTeam || {};
     const homeScore = match.score?.fullTime?.home ?? match.score?.halfTime?.home ?? 0;
@@ -201,7 +126,8 @@ function normalizeMatch(match, competitionCode) {
         away: awayTeam.shortName || awayTeam.name || "Away team",
         homeScore,
         awayScore,
-        league: competitionNames[competitionCode],
+        league: competitionNames[competitionCode] || match.competition?.name || competitionCode,
+        competitionCode,
         status: apiStatus.status,
         statusClass: apiStatus.statusClass,
         overlayText: "Watch Live",
@@ -212,10 +138,57 @@ function normalizeMatch(match, competitionCode) {
         homeLogo: homeTeam.crest || null,
         awayLogo: awayTeam.crest || null,
         leagueLogo: match.competition?.emblem || null,
-        isApiMatch: true,
-        featured: Boolean(override.featured),
-        shouldDisplay: Boolean(override.featured) || matchesCompetitionFilter(match, competitionCode)
+        isApiMatch: true
     };
+}
+
+// One all-competitions request uses the account's accessible coverage. Do not
+// request leagues individually: an inaccessible league must not block others.
+// v4 dateTo is exclusive and dates are UTC; fetch a superset of the EAT window.
+async function loadUpstreamMatches(dates) {
+    const key = dates.today;
+    const token = process.env.FOOTBALL_DATA_TOKEN;
+    const cached = upstreamMatchCache?.key === key && upstreamMatchCache.token === token
+        ? upstreamMatchCache : null;
+    if (cached && Date.now() < cached.retryAt) return cached;
+    if (upstreamRequest?.key === key && upstreamRequest.token === token) return upstreamRequest.promise;
+
+    const request = { key, token };
+    request.promise = (async () => {
+        const endpoint = new URL("https://api.football-data.org/v4/matches");
+        const shiftDate = (date, days) => new Date(Date.parse(date + "T00:00:00Z") + days * 86400000).toISOString().slice(0, 10);
+        endpoint.searchParams.set("dateFrom", shiftDate(dates.yesterday, -1));
+        endpoint.searchParams.set("dateTo", shiftDate(dates.tomorrow, 1));
+        let failure = { status: 0, reason: "network_error" };
+        try {
+            const response = await fetch(endpoint, {
+                headers: { "X-Auth-Token": token },
+                signal: AbortSignal.timeout(10000)
+            });
+            const data = await response.json().catch(() => null);
+            if (response.ok && Array.isArray(data?.matches)) {
+                const result = { key, token, matches: data.matches, fetchedAt: Date.now(), retryAt: Date.now() + FRESH_MS };
+                upstreamMatchCache = result;
+                return result;
+            }
+            failure = { status: response.status, reason: response.status === 429 ? "rate_limit" : "upstream_error" };
+        } catch {
+            // Do not expose upstream response bodies, request headers or tokens.
+        }
+        const result = {
+            key, token, matches: cached?.matches || null,
+            fetchedAt: cached?.fetchedAt || 0,
+            retryAt: Date.now() + FRESH_MS, failure
+        };
+        upstreamMatchCache = result;
+        return result;
+    })();
+    upstreamRequest = request;
+    try {
+        return await request.promise;
+    } finally {
+        if (upstreamRequest === request) upstreamRequest = null;
+    }
 }
 
 export default async function handler(req, res) {
@@ -223,142 +196,41 @@ export default async function handler(req, res) {
         res.setHeader("Allow", "GET");
         return sendJson(res, 405, { error: "Method not allowed" });
     }
-
     if (!process.env.FOOTBALL_DATA_TOKEN) {
-        console.error("[api/matches] FOOTBALL_DATA_TOKEN is not configured");
-        return sendJson(res, 500, { error: "FOOTBALL_DATA_TOKEN is not configured" });
+        res.setHeader("Cache-Control", "no-store");
+        return sendJson(res, 500, { error: "Match data is not configured" });
     }
-
     const dates = getNairobiDateRange();
-
-    try {
-        const results = await Promise.all(competitionCodes.map(async (code) => {
-            const endpoint = new URL(`https://api.football-data.org/v4/competitions/${code}/matches`);
-            endpoint.searchParams.set("dateFrom", dates.yesterday);
-            endpoint.searchParams.set("dateTo", dates.tomorrow);
-
-            try {
-                const response = await fetch(endpoint, {
-                    headers: { "X-Auth-Token": process.env.FOOTBALL_DATA_TOKEN }
-                });
-                const data = await response.json().catch(() => null);
-
-                if (!response.ok) {
-                    console.error("[api/matches] Competition request failed", {
-                        code,
-                        status: response.status,
-                        message: data?.message
-                    });
-
-                    if (response.status === 429) {
-                        const cachedCompetition = getCachedCompetition(code, dates);
-
-                        if (cachedCompetition) {
-                            return {
-                                code,
-                                matches: cachedCompetition.matches,
-                                unavailable: true,
-                                cached: true,
-                                status: 429,
-                                reason: "rate_limit"
-                            };
-                        }
-
-                        return {
-                            code,
-                            matches: [],
-                            unavailable: true,
-                            status: 429,
-                            reason: "rate_limit"
-                        };
-                    }
-
-                    return {
-                        code,
-                        matches: [],
-                        unavailable: true,
-                        status: response.status,
-                        reason: "upstream_error"
-                    };
-                }
-
-                const matches = Array.isArray(data?.matches) ? data.matches : [];
-                cacheCompetition(code, dates, matches);
-                return { code, matches, unavailable: false };
-            } catch (error) {
-                console.error("[api/matches] Competition network error", { code, message: error.message });
-                return {
-                    code,
-                    matches: [],
-                    unavailable: true,
-                    status: 0,
-                    reason: "network_error"
-                };
-            }
-        }));
-
-        const matchesData = { shalay: [], maanta: [], berri: [] };
-        const dateKeys = {
-            [dates.yesterday]: "shalay",
-            [dates.today]: "maanta",
-            [dates.tomorrow]: "berri"
-        };
-
-        if (results.every((result) => result.unavailable && !result.cached)) {
-            console.error("[api/matches] All competition requests were unavailable");
-            return sendJson(res, 502, {
-                error: "Unable to load matches right now"
-            });
-        }
-
-        results.forEach(({ code, matches }) => {
-            matches
-                .map((match) => normalizeMatch(match, code))
-                .filter((match) => match.shouldDisplay)
-                .forEach((match) => {
-                    // Keep an overnight match under Today while it is still
-                    // live. As soon as the provider marks it Finished, its
-                    // kickoff date puts it back under Yesterday automatically.
-                    const day = match.status === "Live"
-                        ? "maanta"
-                        : dateKeys[match.matchDate];
-                    if (day) {
-                        delete match.shouldDisplay;
-                        delete match.featured;
-                        matchesData[day].push(match);
-                    }
-                });
-        });
-
-        Object.values(matchesData).forEach((matches) => {
-            matches.sort((a, b) => a.displayTime.localeCompare(b.displayTime));
-        });
-
-        const availableCompetitions = results
-            .filter((result) => !result.unavailable)
-            .map((result) => result.code);
-        const unavailableCompetitions = results
-            .filter((result) => result.unavailable)
-            .map((result) => ({
-                code: result.code,
-                status: result.status,
-                reason: result.reason || "upstream_error",
-                cached: Boolean(result.cached)
-            }));
-
-        res.setHeader("Cache-Control", CACHE_CONTROL);
-        return sendJson(res, 200, {
-            matchesData,
-            availableCompetitions,
-            unavailableCompetitions,
-            dates: {
-                shalay: dates.yesterday,
-                maanta: dates.today,
-                berri: dates.tomorrow
-            }
-        });
-    } catch (error) {
-        console.error("[api/matches] Server error", { message: error.message });
+    const result = await loadUpstreamMatches(dates);
+    const stale = Boolean(result.failure);
+    if (!result.matches || (stale && Date.now() - result.fetchedAt > STALE_MS)) {
+        res.setHeader("Cache-Control", "no-store");
+        res.setHeader("Retry-After", "60");
         return sendJson(res, 502, { error: "Unable to load matches right now" });
     }
+    const matchesData = { shalay: [], maanta: [], berri: [] };
+    const dateKeys = { [dates.yesterday]: "shalay", [dates.today]: "maanta", [dates.tomorrow]: "berri" };
+    const seen = new Set();
+    const available = new Set();
+    for (const raw of result.matches) {
+        if (raw?.id == null || !Number.isFinite(Date.parse(raw.utcDate))) continue;
+        const code = raw.competition?.code;
+        if (!SUPPORTED_COMPETITIONS.has(code) && !matchOverrides[String(raw.id)]?.featured) continue;
+        const match = normalizeMatch(raw, code);
+        if (!dateKeys[match.matchDate] || seen.has(match.id)) continue;
+        seen.add(match.id);
+        available.add(code);
+        const day = match.status === "Live" ? "maanta" : dateKeys[match.matchDate];
+        matchesData[day].push(match);
+    }
+    Object.values(matchesData).forEach(matches => matches.sort((a, b) => a.displayTime.localeCompare(b.displayTime)));
+    res.setHeader("Cache-Control", stale ? "no-store" : CACHE_CONTROL);
+    return sendJson(res, 200, {
+        matchesData,
+        // Presence in the feed is not a promise of access to absent competitions.
+        availableCompetitions: stale ? [] : [...available],
+        unavailableCompetitions: stale ? [...SUPPORTED_COMPETITIONS].map(code => ({ code, ...result.failure, cached: true })) : [],
+        stale,
+        dates: { shalay: dates.yesterday, maanta: dates.today, berri: dates.tomorrow }
+    });
 }

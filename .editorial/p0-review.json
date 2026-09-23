@@ -80,5 +80,23 @@
       "before": "e1666b6f873f3ac59428023c32326b915caeb0de4b6bdda4586a792c81c6865f",
       "after": "6f1fc0cbb467c60c6101a338395cbe874b92e0ebd59884ab5ec1703f6fe4725b"
     }
+  },
+  "coverageRevision": {
+    "baseCommit": "14fb3b3781ba2801f6ee88f7969f891c826c4a59",
+    "reason": "User requested all matches from 12 supported competitions, aggregate fetching/cache, frontend deduplication and accurate coverage text",
+    "files": {
+      "api/matches.js": {
+        "before": "4bce5141caeb2000c842cfe4e9b8590b26028e8e905e55b8584d8d551c384ecd",
+        "after": "16dea5bea9de414635acdf047cab3c9d6dd65ef9692945e18614f0d648477edb"
+      },
+      "matches-data.js": {
+        "before": "a262b89b6571ad1993950e0416d8066aa63777cdc69324a8321226ebf1d6ee72",
+        "after": "1301d7685156a580eab9661753b48242adb836ab2e3e4c396c03b7d4753804a8"
+      },
+      "matches.html": {
+        "before": "9d717101e48ad12dff8dbe7aa243ab3ad235526a3dfe5466442f278473ceddaa",
+        "after": "3b13a1d9539925cf1ef3ba2d1cab573814f3263334168b7679a1af5f6899e4ed"
+      }
+    }
   }
 }
