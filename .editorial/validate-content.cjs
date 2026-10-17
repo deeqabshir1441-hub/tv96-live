@@ -127,7 +127,10 @@ assert(read('.vercelignore').split(/\r?\n/).includes('.editorial/'));
 execFileSync(process.execPath, [path.join(__dirname, 'generate-static.cjs'), '--check'], { cwd: root, stdio: 'inherit' });
 
 const cleanupBaseline = JSON.parse(read('.editorial/image-cleanup-baseline.json'));
-assert.equal(hash(read('.vercelignore')), hash(cleanupBaseline['.vercelignore'].text), 'Cleanup changed deployment exclusion');
+// The owner subsequently approved exactly 19 unused legacy exclusions.
+const legacyCandidates = require('./article-32-image-replacement-evidence.json').unusedDeploymentCandidates.map(a => a.path);
+assert.equal(legacyCandidates.length, 19);
+assert.deepEqual(read('.vercelignore').split(/\r?\n/).map(s => s.trim()).filter(s => s && !s.startsWith('#')), ['.editorial/', ...legacyCandidates], 'Unapproved deployment exclusion');
 const stripGeneratedRedirects = text => {
     const value = JSON.parse(text);
     value.redirects = value.redirects.filter(notGeneratedRedirect);

@@ -66,8 +66,11 @@ const articles = [
         "articleType": "Editorial analysis",
         "author": "TV96 Live Editorial Team",
         "publishedAt": "2026-07-14T12:02:02+03:00",
-        "updatedAt": "2026-09-06",
+        "updatedAt": "2026-10-12",
         "sources": [
+            {"name":"FIFA: Netherlands–Argentina 2022 full-time match report (pages 2 and 5)","url":"https://fdp.fifa.org/assetspublic/ce44/r2859/pdf/FullTimeMatchReport-English.pdf"},
+            {"name":"Opta Analyst: contemporary analysis of Messi’s pass to Molina","url":"https://theanalyst.com/articles/lionel-messi-world-cup-stats-argentina-2022-final"},
+            {"name":"Stats Perform: Opta event definitions — Goal Assist and Fantasy Goal Assist","url":"https://www.statsperform.com/opta-event-definitions/"},
             {
                 "name": "Further reading: TV96 Live expected goals explainer",
                 "url": "https://www.tv96live.org/articles/16"
@@ -209,18 +212,23 @@ const articles = [
         "articleType": "Editorial analysis",
         "author": "TV96 Live Editorial Team",
         "publishedAt": "2026-08-28T15:00:00+03:00",
-        "updatedAt": "2026-09-06",
+        "updatedAt": "2026-10-12",
         "image": "/images/articles/reading-european-draw.png",
         "imageAlt": "Reading a European draw: opponents, travel and fixture context - TV96 Live",
         "imageReviewRequired": true,
         "isPublished": true,
         "sources": [
+            {"name":"UEFA: historical 2024/25 Europa League draw results (30 August 2024)","url":"https://www.uefa.com/uefaeuropaleague/news/0290-1bbc3ce94923-e3a70688bbdd-1000--europa-league-league-phase-draw-contenders-set-for-competitions-new-era/"},
+            {"name":"UEFA: 2024/25 Europa League draw procedure and announced calendar-release date","url":"https://www.uefa.com/uefaeuropaleague/news/028e-1b11797faef1-56c7d70b74aa-1000--uefa-europa-league-league-phase-draw/"},
+            {"name":"UEFA: published 2024/25 Europa League match calendar (PDF; no independently verified publication timestamp)","url":"https://editorial.uefa.com/resources/0290-1bbea0181c18-c9285f327c80-1000/draw_results_-_uefa_-_uel_-_league_phase_draw_fixtures_by_matchday.pdf"},
+            {"name":"Manchester United: Tottenham coverage (29 September 2024)","url":"https://www.manutd.com/en/news/erik-ten-hag-names-team-to-face-tottenham-on-29-september"},
+            {"name":"Manchester United: Aston Villa coverage (6 October 2024)","url":"https://www.manutd.com/en/news/every-word-from-erik-ten-hag-press-conference-after-aston-villa-0-man-utd-0-on-6-october-2024"},
             {
                 "name": "Comparison reading: TV96 Live Champions League format explainer",
                 "url": "https://www.tv96live.org/articles/14"
             },
             {
-                "name": "UEFA: 2026/27 draw announcement and separate fixture-list confirmation",
+                "name": "Comparison reading only: UEFA 2026/27 Champions League draw announcement; not evidence for the Europa League example",
                 "url": "https://www.uefa.com/uefachampionsleague/news/02a8-215821715a96-9a3b43fad585-1000--uefa-champions-league-league-phase-draw/"
             }
         ],
@@ -626,6 +634,7 @@ const articles = [
         "publishedAt": "2026-09-05T12:00:00+03:00",
         "image": "/images/articles/la-liga-guide.png",
         "sources": [
+            {"name":"RFEF: 2026/27 Primera and Segunda Division competition regulations - Article 10, pages 6-7","url":"https://rfef.es/sites/default/files/pdf/circulares/1._Circular_84_-_CNL_Primera_y_Segunda_Division___Anexo.pdf?cb=6df81e55"},
             {
                 "name": "LALIGA: official standings and competition information",
                 "url": "https://www.laliga.com/en-GB/laliga-easports/standing"
@@ -635,7 +644,7 @@ const articles = [
         "wordCount": 834,
         "imageAlt": "La Liga guide - TV96 Live",
         "imageCredit": "AI-generated editorial artwork for TV96 Live",
-        "updatedAt": "2026-09-22"
+        "updatedAt": "2026-10-13"
     },
     {
         "id": 22,
@@ -653,8 +662,9 @@ const articles = [
         "publishedAt": "2026-09-05T12:00:00+03:00",
         "image": "/images/articles/serie-a-guide.png",
         "sources": [
+            {"name":"FIGC: 2026/27 regulation 244/A — championship and survival ties, mini-table criteria and UEFA-finalist exception, clauses i–iv","url":"https://files.figc.it/version/c%3AZmUzYzk0MzUtMzU0Zi00%3AYTk3YzZiZGEtYmExYi00/244%20-%20Deroga%20art.%2051%20NOIF%20-%20Determinazione%20classifica%20Campionato%20Serie%20A%20ss%202026%20-%202027.pdf"},
             {
-                "name": "Lega Serie A: relegation play-off context",
+                "name": "Historical context: Lega Serie A — 2025/26 Lecce–Cremonese survival scenario; not authority for the 2026/27 procedure",
                 "url": "https://en.legaseriea.it/serie-a/news/the-final-reckoning-lecce-and-cremonese-face-a-decisive-final-day"
             },
             {
@@ -666,7 +676,7 @@ const articles = [
         "wordCount": 839,
         "imageAlt": "Serie A guide - TV96 Live",
         "imageCredit": "AI-generated editorial artwork for TV96 Live",
-        "updatedAt": "2026-09-22"
+        "updatedAt": "2026-10-13"
     },
     {
         "id": 23,
@@ -683,7 +693,12 @@ const articles = [
         "author": "TV96 Live Editorial Team",
         "publishedAt": "2026-09-05T12:00:00+03:00",
         "image": "/images/articles/bundesliga-guide.png",
+        "updatedAt": "2026-10-17",
         "sources": [
+            {"name":"Bundesliga: official 2023/24 relegation play-off fixtures","url":"https://www.bundesliga.com/en/2bundesliga/matchday/2023-2024/relegation"},
+            {"name":"Bundesliga: Bochum–Fortuna Düsseldorf first-leg match centre, 23 May 2024","url":"https://www.bundesliga.com/en/bundesliga/matchday/2023-2024/relegation/vfl-bochum-1848-vs-fortuna-duesseldorf/liveticker"},
+            {"name":"Bundesliga: Fortuna Düsseldorf–Bochum return match centre, 27 May 2024","url":"https://www.bundesliga.com/en/bundesliga/matchday/2023-2024/relegation/fortuna-duesseldorf-vs-vfl-bochum-1848/liveticker"},
+            {"name":"Bundesliga: historical Bochum–Fortuna Düsseldorf play-off report, May 2024","url":"https://www.bundesliga.com/en/bundesliga/news/bochum-fortuna-dusseldorf-relegation-play-off-free-highlights-live-blog-27447/"},
             {
                 "name": "Bundesliga: promotion and relegation",
                 "url": "https://www.bundesliga.com/en/bundesliga/news/how-does-promotion-and-relegation-work-in-the-bundesliga-10645"
@@ -713,15 +728,25 @@ const articles = [
         "author": "TV96 Live Editorial Team",
         "publishedAt": "2026-09-05T12:00:00+03:00",
         "image": "/images/articles/ligue-1-guide.png",
+        "updatedAt": "2026-10-13",
         "sources": [
             {
-                "name": "Ligue 1: survival and relegation positions",
+                "name": "LFP: 2026/27 regulations — Article 519 (promotion/relegation), Article 519 ter (playoff format)",
+                "url": "https://www.lfp.fr/assets/26_27_LFP_STATUTS_REGLEMENTS_08_09_2026_f2aaaaa325.pdf"
+            },
+            {
+                "name": "LFP: official 2026/27 Ligue 2 calendar and playoff pathway",
+                "url": "https://www.lfp.fr/article/ligue-2-bkt-le-calendrier-de-la-saison-2026-2027"
+            },
+            {
+                "name": "Historical context (2024): Ligue 1 survival and relegation positions",
                 "url": "https://ligue1.com/en/articles/l1_article_93-"
             },
             {
-                "name": "Ligue 1: the Ligue 2 play-off route",
+                "name": "Historical context (11 May 2026, 2025/26 season): Ligue 2 play-off route",
                 "url": "https://ligue1.com/en/articles/l1_article_5074-"
-            }
+            },
+            {"name":"LFP: 2026/27 regulations — Article 518 ter, printed page 121: tiebreaking order and head-to-head applicability.","url":"https://www.lfp.fr/assets/26_27_LFP_STATUTS_REGLEMENTS_08_09_2026_f2aaaaa325.pdf"}
         ],
         "isPublished": true,
         "wordCount": 843,
@@ -815,21 +840,26 @@ const articles = [
     {
         "id": 32,
         "title": "JJ Gabriel, 15, Asks to Leave Manchester United as Club Fight to Keep Highly Rated Prospect",
-        "description": "BBC Sport reports JJ Gabriel has asked for his Manchester United registration to be cancelled. United are seeking a resolution as the 15-year-old forward's future remains unsettled.",
-        "category": "Manchester United / Latest News",
-        "section": "Latest News",
+        "description": "Archived report first published 15 September 2026: BBC Sport reported that JJ Gabriel had requested cancellation of his Manchester United registration. This account describes the situation reported at that time.",
+        "category": "Manchester United / Archived Reports",
+        "section": "Archived Reports",
         "relatedIds": [
             10,
             12,
             16
         ],
-        "articleType": "Breaking news",
+        "articleType": "Archived report",
         "author": "TV96 Live Editorial Team",
         "publishedAt": "2026-09-15T20:00:00+03:00",
+        "updatedAt": "2026-10-11",
         "image": "/images/articles/jj-gabriel.png",
         "imageAlt": "JJ Gabriel in a Manchester United shirt with the club crest and stadium background",
         "imageType": "user-provided",
         "rightsStatus": "user-provided",
+        // Owner confirmation, 11 October 2026: ChatGPT-edited derivative of a
+        // real photograph obtained through Google Images; original licence
+        // not established. "user-provided" describes delivery, not clearance.
+        "imageReviewRequired": true,
         "brandingReview": "required",
         "imageCredit": "Image supplied by the TV96 Live publisher",
         "sources": [
