@@ -12,7 +12,7 @@ The site remains plain HTML/CSS/JavaScript. Published `/articles/{id}` URLs reso
 
 `.vercelignore` excludes the entire `.editorial/` directory, including sources, drafts, tests and reports. The public root no longer contains `article-content.js` or `article-template.html`. Published legacy query URLs redirect to clean article URLs; absent/unpublished IDs have no file and receive HTTP 404. Do not restore the old catch-all rewrite.
 
-News initially contains all 23 published cards and three featured links. JavaScript adds category filtering and pagination; the shared card renderer avoids divergent card markup. Article content and metadata do not require JavaScript.
+News initially contains all 16 published cards and three featured links. JavaScript adds category filtering and pagination; the shared card renderer avoids divergent card markup. Article content and metadata do not require JavaScript.
 
 The raw HTTP test server models this project's clean URLs, redirects and deployment exclusions. It is not Vercel itself. Browser tests use isolated Chromium, mocked external services and football data, and include JavaScript-disabled article/News checks. API tests use deterministic mocks without production credentials. These checks do not verify deployed routing, real advertising/analytics delivery or live upstream availability. Recheck HTTP responses on an authorized preview before a production release.
 

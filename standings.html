@@ -137,6 +137,10 @@
            TABLE
         ========================================== */
 
+        .standings-source { margin: 0 0 16px; padding: 16px; border: 1px solid #777; border-radius: 12px; background: #1e1e1e; color: #eee; line-height: 1.6; overflow-wrap: anywhere; }
+        .standings-source p { margin: 8px 0 0; }
+        body.light-mode .standings-source { background: #fff; color: #222; }
+
         .standings-card {
             background: var(--card-bg, #08232d);
 
@@ -539,6 +543,14 @@
         </div>
 
 
+        <!-- Source notice stays outside the horizontally scrolling table. -->
+        <div role="status" aria-live="polite" aria-atomic="true">
+            <div id="standingsSourceNotice" class="standings-source" hidden>
+                <strong id="standingsSourceLabel"></strong>
+                <p id="standingsSourceExplanation"></p>
+            </div>
+        </div>
+
         <!-- TABLE -->
 
         <div class="standings-card">
@@ -678,6 +690,7 @@ function escapeHtml(value) {
 }
 
 function showTableMessage(tbody, message) {
+    clearStandingsSource();
     tbody.innerHTML = `
         <tr>
             <td colspan="11" style="padding:40px;text-align:center;">
@@ -685,6 +698,27 @@ function showTableMessage(tbody, message) {
             </td>
         </tr>
     `;
+}
+
+function clearStandingsSource() {
+    document.getElementById("standingsSourceNotice").hidden = true;
+    document.getElementById("standingsSourceLabel").textContent = "";
+    document.getElementById("standingsSourceExplanation").textContent = "";
+}
+
+function displayStandingsSource(source) {
+    let label = "Data source unavailable";
+    let explanation = "This response does not identify whether the standings were supplied by the provider or calculated. Check the competition’s official table before relying on a position.";
+    if (source === "official") {
+        label = "Provider data";
+        explanation = "Supplied by football-data.org. Updates may be delayed.";
+    } else if (source === "calculated-from-finished-matches") {
+        label = "Calculated from available results";
+        explanation = "Positions are provisional. Available results may be incomplete, and calculations may not reflect points deductions or competition-specific ranking rules. Check the competition’s official table before relying on a position.";
+    }
+    document.getElementById("standingsSourceLabel").textContent = label;
+    document.getElementById("standingsSourceExplanation").textContent = explanation;
+    document.getElementById("standingsSourceNotice").hidden = false;
 }
 
 function formatSeason(season) {
@@ -864,6 +898,7 @@ async function loadStandings(showLoading = true) {
                 </tr>
             `;
         }).join("");
+        displayStandingsSource(payload.standingsSource);
     } catch (error) {
         console.error("[standings] Failed to load standings", {
             league: selectedLeague,
