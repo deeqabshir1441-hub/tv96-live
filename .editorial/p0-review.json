@@ -7,6 +7,13 @@
       "before": "96424c15767ac8a9c932a9095ef0d1197c046192d6ae227da29723d21317d15e",
       "after": "5bded1d323053f657e3089fdfe2a7d510ec3ea1ecd6d777010e869b9ea5d0b36"
     },
+    "9": {
+      "authorizedAt": "2026-10-12",
+      "authorization": "Owner approved the exact Article 9 historical example, five source links, comparison citation label and dated revision in this session.",
+      "reason": "Owner-approved historical worked example and dated revision; all prior Article 9 paragraphs/correction retained.",
+      "before": "153303e0e6b145de8cf67dc9aa09e25f9a19b8ef02417c04351bfe0e409e0698",
+      "after": "a9f188a74d7fc006841a91c096d345f6c6690edfec9cc8574d98efbb6f09a06f"
+    },
     "10": {
       "reason": "Merge official statement; correct executives; dated chronology and revision history",
       "before": "656d6c81fc83df54f76cbf6ae4a43f98e8dc10b409bd4add180129e18f886404",
@@ -96,6 +103,70 @@
       "matches.html": {
         "before": "9d717101e48ad12dff8dbe7aa243ab3ad235526a3dfe5466442f278473ceddaa",
         "after": "3b13a1d9539925cf1ef3ba2d1cab573814f3263334168b7679a1af5f6899e4ed"
+      }
+    }
+  },
+  "followupRevision": {
+    "authorizedAt": "2026-10-11",
+    "authorization": "Owner explicitly approved ARTICLE_32_ARCHIVE_PROPOSAL.md in this session.",
+    "bodies": {
+      "3": {
+        "authorizedAt": "2026-10-12",
+        "authorization": "Owner explicitly approved the exact Article 3 worked example, citations and dated revision in this session.",
+        "reason": "Add exact owner-approved reproducible single-match assist example and revision note; preserve all earlier paragraphs/correction and original metadata.",
+        "before": "5bded1d323053f657e3089fdfe2a7d510ec3ea1ecd6d777010e869b9ea5d0b36",
+        "after": "817744452e74505c8acfddfd5319f0d173e16654f3ee8fdce3799479776b3199"
+      },
+      "21": {
+        "authorizedAt": "2026-10-13",
+        "authorization": "Owner approved Article 21 insertion subject to official RFEF PDF verification; gate passed before editing.",
+        "reason": "Exact owner-approved 2026/27 rules and hypothetical calculation after RFEF source gate; preserve all existing paragraphs and metadata.",
+        "before": "85d2ddfc243a599b23e84cccef46b4a761b9c5bddfeaa981bdd032fcab22bad8",
+        "after": "e597a30d8f1421c28d6d95c18408ac7a5fe9652b3de4c931c1700b9ac5a8e224"
+      },
+      "22": {
+        "authorizedAt": "2026-10-13",
+        "authorization": "Owner approved exact Article 22 addition and only generated Article 22 related-card reading-time change in Article 21.",
+        "reason": "Exact approved FIGC rules, hypothetical table and exception; preserve every earlier paragraph.",
+        "before": "fd23a5d2be8d2193ed5880095d54cffc036c90866bb3c9917fcd211eb0aa5534",
+        "after": "0749bfa444af294995904273609ded4bcd2c61a8328fcc54a795778dd00db82c"
+      },
+      "23": {
+        "authorizedAt": "2026-10-17",
+        "authorization": "Owner attached conditional approval: exact Article 23, Home H1–H3, About A1–A3; no H4; local generation/evidence/guards/tests only.",
+        "reason": "Exact approved historical example and revision; all original text retained.",
+        "before": "a4286ac81baed1665636782029f764e87d935a91b01f45d81936aee2902dc231",
+        "after": "0e99b3c8868acb555713485cd17c387c26a9c6a26e06af5c5ede3d2988d270a6"
+      },
+      "24": {
+        "authorizedAt": "2026-10-12",
+        "authorization": "Owner approved the exact two-paragraph Article 24 correction and revision note in this session.",
+        "reason": "Verify current-season promotion/relegation under LFP 2026/27 Articles 519 and 519 ter; retain unrelated text and original publication metadata.",
+        "before": "02e8db6b47eb20fdc9d0ddf5d33e73699aafd396625e28779caec66874e2358b",
+        "after": "53f4196646c6ddb73bfca2a46fbdbdfe110b0897dc3d762cf69b115cd00443fe",
+        "revisions": [
+          {
+            "authorizedAt": "2026-10-13",
+            "authorization": "Owner approved exact Article 24 tiebreak insertion and only Article 24 related-card reading-time change in Article 23.",
+            "reason": "Approved hypothetical Article 518 ter calculation; preserve all prior correction text and citations.",
+            "before": "53f4196646c6ddb73bfca2a46fbdbdfe110b0897dc3d762cf69b115cd00443fe",
+            "after": "e9b628f1aea6d0075f9b35668439385ae9311ee3b3798cf067ccacb1d1b62714"
+          }
+        ]
+      },
+      "32": {
+        "reason": "Add owner-approved dated archive notice and revision note; preserve historical body, headline and publication date.",
+        "before": "cceebdca3d39c1162e33ea8ac3c407a427a4a8ee9ab95c84e95ebc606bc1f8ba",
+        "after": "db92850513fd658a51de378ed008dfca53a1f2bed18aa22270f1d344dd67c082"
+      }
+    },
+    "files": {
+      "standings.html": {
+        "authorizedAt": "2026-10-12",
+        "authorization": "Owner approved the Standings source-notice proposal in this session.",
+        "reason": "Owner-approved source transparency notice using existing response metadata; no API or ranking changes.",
+        "before": "a5d088ad3c6c1c2bfc88282ed6c2637ea1cbab39e12a8f9c2e852627592312b7",
+        "after": "36ae7c8cca14410d252b3987d25dadfbcf53d27f1482895992304c9183d032ce"
       }
     }
   }

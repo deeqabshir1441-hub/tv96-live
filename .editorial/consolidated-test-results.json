@@ -1,0 +1,102 @@
+[
+  {
+    "check": "generate-static.cjs --check",
+    "status": 0,
+    "output": "PASS: 16 static articles verified, published-only metadata, raw News discovery, sitemap and legacy redirects."
+  },
+  {
+    "check": "validate-content.cjs",
+    "status": 0,
+    "output": "PASS: explicit P0 body/page approvals, original publication dates, no orphans, protected APIs/player/ads/analytics/logo/home styles.\nPASS: homepage header/footer verified on 9 static sources.\nPASS: 16 published bodies, 16 excluded drafts, unique metadata, contextual/related links, sitemap parity, inline JavaScript syntax, preserved existing bodies, 16 protected files, advertising and analytics loaders.\nPASS: 16 static articles verified, published-only metadata, raw News discovery, sitemap and legacy redirects."
+  },
+  {
+    "check": "p0-check.cjs",
+    "status": 0,
+    "output": "PASS: explicit P0 body/page approvals, original publication dates, no orphans, protected APIs/player/ads/analytics/logo/home styles."
+  },
+  {
+    "check": "image-rights-check.cjs",
+    "status": 0,
+    "output": "PASS: 15 registered local WebP images, fallback, suppressed photographs and private review flags."
+  },
+  {
+    "check": "article-24-tiebreak-check.cjs",
+    "status": 0,
+    "output": "PASS: exact Article 24 tiebreak insertion, original correction/revision/metadata/citations retained, arithmetic/unfinished-season rule and historical chain; Article 23 only 5-to-6-minute card; protected pages/APIs/images unchanged."
+  },
+  {
+    "check": "article-24-revision-check.cjs",
+    "status": 0,
+    "output": "PASS: exact approved Article 24 paragraphs, dated revision, original metadata and all unrelated bodies preserved; Article 32 metadata/page/images unchanged."
+  },
+  {
+    "check": "article-22-revision-check.cjs",
+    "status": 0,
+    "output": "PASS: exact six paragraphs/table, original text/metadata, citations/season/exception, arithmetic and authorization chain; Article 21 only 4-to-6-minute card; protected articles/APIs/Standings/images unchanged."
+  },
+  {
+    "check": "article-21-revision-check.cjs",
+    "status": 0,
+    "output": "PASS: exact Article 21 addition, table arithmetic, citation/dates and historical hash chain; every original paragraph and unrelated body/metadata/API/image/Article 32/Standings/Articles 3 and 9 preserved."
+  },
+  {
+    "check": "article-3-revision-check.cjs",
+    "status": 0,
+    "output": "PASS: exact Article 3 insertion/revision, all earlier paragraphs/correction and original metadata preserved; every unrelated body/API/image/Article 32 unchanged; related cards only update reading time."
+  },
+  {
+    "check": "article-9-revision-check.cjs",
+    "status": 0,
+    "output": "PASS: exact Article 9 example/revision, all prior paragraphs/correction and metadata preserved; five consistent external citations plus retained comparisons; other bodies, Article 32, Standings, APIs and images unchanged."
+  },
+  {
+    "check": "article-32-archive-check.cjs",
+    "status": 0,
+    "output": "PASS: explicit P0 body/page approvals, original publication dates, no orphans, protected APIs/player/ads/analytics/logo/home styles.\nPASS: approved Article 32 archive labels/notice, unchanged historical reporting/headline/publication date, generated Home/News/article presentation."
+  },
+  {
+    "check": "standings-source-check.cjs",
+    "status": 0,
+    "output": "PASS: approved Standings page hash; API, ranking implementation, other pages, article sources, Article 32 and image bytes preserved."
+  },
+  {
+    "check": "match-coverage-check.cjs",
+    "status": 0,
+    "output": "PASS: all 12 codes/names, non-featured clubs, scores/logos/Watch URLs, one request, no duplicates, token isolation and fresh cache.\nPASS: EAT boundaries/rollover, overnight live grouping, kickoff ordering, invalid rows and explicit unsupported override.\nPASS: 403/429/5xx, stale fallback/expiry, error backoff/recovery, partial/empty responses, network/invalid JSON shape, coalescing and method/config guards.\nPASS: frontend preserves all 12 competitions and deduplicates without streams or featured flags."
+  },
+  {
+    "check": "api-smoke.cjs",
+    "status": 0,
+    "output": "PASS: existing API method/league guards, match IDs/scores/logos, official standings and calculated fallback using mocked upstream responses."
+  },
+  {
+    "check": "raw-html-check.cjs",
+    "status": 0,
+    "output": "RAW /articles/12: HTTP 200\n<title id=\"page-title\">How the Premier League Works: Complete Guide | TV96 Live</title>\n<meta id=\"meta-description\" name=\"description\" content=\"Understand the Premier League&#39;s 20-team season, points, table, tiebreakers, title, relegation and European routes with worked examples.\">\n<link id=\"canonical-url\" rel=\"canonical\" href=\"https://www.tv96live.org/articles/12\">\n<h1 class=\"hero-title\" id=\"articleTitle\">How the Premier League Works: Complete Guide</h1>\nThe Premier League is a season-long contest in which every club faces the same set of opponents. A dramatic victory can change the mood around a team, but the title belongs to the side that finishes the full programme at the top of the table. Understanding that difference between a match result and a season result makes the competition much easier to follow.\n\nThis guide explains the basic machinery: who plays whom, how results become points, and what the final positions mean.\n\nThe league has 20 clubs. Each plays the other 19 twice, once at home and once away, producing 38 league matches per team. Across the division that means 380 fixtures: adding all clubs' 38 matches counts each game twice, so 20 multiplied by 38 must be divided by two.\nArticle JSON-LD: {\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"How the Premier League Works: Complete Guide\",\"description\":\"Understand the Premier League's 20-team season, points, table, tiebreakers, title, relegation and European routes with worked examples.\",\"mainEntityOfPage\":\"https://www.tv96live.org/articles/12\",\"url\":\"https://www.tv96live.org/articles/12\",\"datePublished\":\"2026-09-05T12:00:00+03:00\",\"articleSection\":\"Premier League\",\"author\":{\"@type\":\"Organization\",\"name\":\"TV96 Live Editorial Team\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"TV96 Live\"},\"wordCount\":881,\"inLanguage\":\"en\",\"dateModified\":\"2026-09-22\",\"image\":\"https://www.tv96live.org/images/articles/premier-league-guide.webp\"}\nPASS: 16 raw article responses, News links, unique metadata, schema, preserved bodies, related/internal links, local assets, 24 sitemap URLs, draft/unknown/internal HTTP 404 and legacy redirects."
+  },
+  {
+    "check": "legacy-exclusion-check.cjs",
+    "status": 0,
+    "output": "PASS: 19 exclusions return local 404; 22 active local resource URLs return 200; all public files, Article 32 metadata/body/images and 19 original files unchanged."
+  },
+  {
+    "check": "consolidated-implementation-check.cjs",
+    "status": 0,
+    "output": "PASS: exact approved Article 23/Home/About; 1050 words, 4-to-5 minutes; historical records and all unrelated public files preserved."
+  },
+  {
+    "check": "browser-check.cjs",
+    "status": 0,
+    "output": "Passed; see consolidated implementation report and browser evidence."
+  },
+  {
+    "check": "browser-check.cjs --home-copy-only",
+    "status": 0,
+    "output": "Passed; see consolidated implementation report and browser evidence."
+  },
+  {
+    "check": "git diff --check",
+    "status": 0,
+    "output": "Passed; see consolidated implementation report and browser evidence."
+  }
+]

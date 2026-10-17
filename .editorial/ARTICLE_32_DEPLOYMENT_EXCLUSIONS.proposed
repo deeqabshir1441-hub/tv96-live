@@ -1,0 +1,10 @@
+.editorial/
+# Proposed unused legacy image exclusions; retain local originals.
+news image/
+banner/banner.jpg
+banner/banner1.jpg
+banner/hero.jpg
+banner/omar.jpg
+# Apply these two only atomically with the approved Article 32 replacement.
+images/articles/jj-gabriel.png
+images/articles/jj-gabriel.webp

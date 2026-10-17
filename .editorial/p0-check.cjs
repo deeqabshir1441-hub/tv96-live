@@ -25,15 +25,34 @@ vm.runInContext(baseline('.editorial/article-content.js') + '\n' + baseline('.ed
 const previous = context.previous;
 for (const [id, body] of Object.entries(model.articleContent)) {
     const approval = review.bodies[id];
+    const followup = review.followupRevision?.bodies?.[id];
     if (approval) {
         assert(approval.reason, `Missing revision reason: ${id}`);
         assert.equal(hash(previous.articleContent[id]), approval.before, `P0 body baseline: ${id}`);
-        assert.equal(hash(body), approval.after, `Unreviewed P0 body change: ${id}`);
+        if (followup) {
+            assert(followup.reason && review.followupRevision.authorizedAt, `Missing follow-up authorization: ${id}`);
+            assert.equal(followup.before, approval.after, `Follow-up must preserve prior approved hash: ${id}`);
+            let approvedHash=followup.after;
+            for(const revision of followup.revisions||[]){
+                assert(revision.reason&&revision.authorizedAt&&revision.authorization,`Missing subsequent authorization: ${id}`);
+                assert.equal(revision.before,approvedHash,`Subsequent body approval chain: ${id}`);
+                approvedHash=revision.after;
+            }
+            assert.equal(hash(body), approvedHash, `Unreviewed follow-up body change: ${id}`);
+        } else assert.equal(hash(body), approval.after, `Unreviewed P0 body change: ${id}`);
     } else assert.equal(body, previous.articleContent[id], `Unapproved body change: ${id}`);
 }
 for (const [file, approval] of Object.entries(review.files)) {
     assert.equal(hash(baseline(file)), approval.before, `P0 file baseline: ${file}`);
-    assert.equal(hash(coverageBefore(file)), approval.after, `Unreviewed P0 page change: ${file}`);
+    const followup = review.followupRevision?.files?.[file];
+    if (followup) {
+        const evidence = require('./standings-source-revision.json');
+        assert.equal(file, 'standings.html', 'Only approved Standings UI follow-up');
+        assert(followup.reason && followup.authorizedAt && followup.authorization);
+        assert.equal(hash(evidence.beforeText), approval.after, `Original approved P0 page: ${file}`);
+        assert.equal(followup.before, approval.after, `P0 page approval chain: ${file}`);
+        assert.equal(hash(coverageBefore(file)), followup.after, `Unreviewed page follow-up: ${file}`);
+    } else assert.equal(hash(coverageBefore(file)), approval.after, `Unreviewed P0 page change: ${file}`);
 }
 const protectedFiles = ['api/matches.js', 'api/standings.js', 'matches-data.js', 'streams.js', 'site-config.js', 'history-data.js', 'ads.txt', 'robots.txt', 'sw.js', 'site-header.js', 'site-chrome.css', 'style.css', '.editorial/article-template.html'];
 for (const file of protectedFiles) assert.equal(hash(coverageBefore(file)), hash(baseline(file)), `Protected system: ${file}`);
@@ -47,9 +66,12 @@ const styles = html => [...html.replace(/\r\n/g, "\n").matchAll(/<style\b[^>]*>(
 assert.deepEqual(styles(read('index.html')), styles(baseline('index.html')), 'Homepage design CSS changed');
 assert.deepEqual(Array.from(model.getPublishedArticles(), a => a.id), [3,9,10,12,13,14,15,16,17,18,19,21,22,23,24,32]);
 for (const a of model.articles) assert.equal(a.publishedAt, previous.articles.find(old => old.id === a.id).publishedAt, `Historical publication date changed: ${a.id}`);
+// Date-only editorial revisions use the site's Nairobi calendar date. Publication
+// timestamps remain absolute instants; future calendar dates are still rejected.
+const editorialToday = new Intl.DateTimeFormat('en-CA', { timeZone: 'Africa/Nairobi', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date());
 for (const a of model.getPublishedArticles()) {
     assert(Date.parse(a.publishedAt) <= Date.now(), `Future publication: ${a.id}`);
-    assert(!a.updatedAt || Date.parse(a.updatedAt) <= Date.now(), `Future update: ${a.id}`);
+    assert(!a.updatedAt || (/^\d{4}-\d{2}-\d{2}$/.test(a.updatedAt) ? a.updatedAt <= editorialToday : Date.parse(a.updatedAt) <= Date.now()), `Future update: ${a.id}`);
     assert(model.getPublishedArticles().some(other => other.id !== a.id && model.getRelatedArticles(other).some(related => related.id === a.id)), `No incoming related links: ${a.id}`);
 }
 console.log('PASS: explicit P0 body/page approvals, original publication dates, no orphans, protected APIs/player/ads/analytics/logo/home styles.');

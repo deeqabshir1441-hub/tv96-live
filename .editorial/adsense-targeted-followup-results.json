@@ -1,0 +1,4750 @@
+{
+  "checkedAt": "2026-10-13T00:14:25.932Z",
+  "scope": "Targeted follow-up: assets, publisher consistency and specified editorial source availability; no account access or geo consent certification.",
+  "assetCount": 111,
+  "activeArticleIds": [
+    3,
+    9,
+    10,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    21,
+    22,
+    23,
+    24,
+    32
+  ],
+  "publisherReferences": [
+    {
+      "file": "about.html",
+      "line": 11,
+      "id": "ca-pub-9924964891667864"
+    },
+    {
+      "file": "about.html",
+      "line": 35,
+      "id": "ca-pub-9924964891667864"
+    },
+    {
+      "file": "ads.txt",
+      "line": 1,
+      "id": "pub-9924964891667864"
+    },
+    {
+      "file": "articles/10.html",
+      "line": 20,
+      "id": "ca-pub-9924964891667864"
+    },
+    {
+      "file": "articles/10.html",
+      "line": 49,
+      "id": "ca-pub-9924964891667864"
+    },
+    {
+      "file": "articles/12.html",
+      "line": 20,
+      "id": "ca-pub-9924964891667864"
+    },
+    {
+      "file": "articles/12.html",
+      "line": 49,
+      "id": "ca-pub-9924964891667864"
+    },
+    {
+      "file": "articles/13.html",
+      "line": 20,
+      "id": "ca-pub-9924964891667864"
+    },
+    {
+      "file": "articles/13.html",
+      "line": 49,
+      "id": "ca-pub-9924964891667864"
+    },
+    {
+      "file": "articles/14.html",
+      "line": 20,
+      "id": "ca-pub-9924964891667864"
+    },
+    {
+      "file": "articles/14.html",
+      "line": 49,
+      "id": "ca-pub-9924964891667864"
+    },
+    {
+      "file": "articles/15.html",
+      "line": 20,
+      "id": "ca-pub-9924964891667864"
+    },
+    {
+      "file": "articles/15.html",
+      "line": 49,
+      "id": "ca-pub-9924964891667864"
+    },
+    {
+      "file": "articles/16.html",
+      "line": 20,
+      "id": "ca-pub-9924964891667864"
+    },
+    {
+      "file": "articles/16.html",
+      "line": 49,
+      "id": "ca-pub-9924964891667864"
+    },
+    {
+      "file": "articles/17.html",
+      "line": 20,
+      "id": "ca-pub-9924964891667864"
+    },
+    {
+      "file": "articles/17.html",
+      "line": 49,
+      "id": "ca-pub-9924964891667864"
+    },
+    {
+      "file": "articles/18.html",
+      "line": 20,
+      "id": "ca-pub-9924964891667864"
+    },
+    {
+      "file": "articles/18.html",
+      "line": 49,
+      "id": "ca-pub-9924964891667864"
+    },
+    {
+      "file": "articles/19.html",
+      "line": 20,
+      "id": "ca-pub-9924964891667864"
+    },
+    {
+      "file": "articles/19.html",
+      "line": 49,
+      "id": "ca-pub-9924964891667864"
+    },
+    {
+      "file": "articles/21.html",
+      "line": 20,
+      "id": "ca-pub-9924964891667864"
+    },
+    {
+      "file": "articles/21.html",
+      "line": 49,
+      "id": "ca-pub-9924964891667864"
+    },
+    {
+      "file": "articles/22.html",
+      "line": 20,
+      "id": "ca-pub-9924964891667864"
+    },
+    {
+      "file": "articles/22.html",
+      "line": 49,
+      "id": "ca-pub-9924964891667864"
+    },
+    {
+      "file": "articles/23.html",
+      "line": 20,
+      "id": "ca-pub-9924964891667864"
+    },
+    {
+      "file": "articles/23.html",
+      "line": 49,
+      "id": "ca-pub-9924964891667864"
+    },
+    {
+      "file": "articles/24.html",
+      "line": 20,
+      "id": "ca-pub-9924964891667864"
+    },
+    {
+      "file": "articles/24.html",
+      "line": 49,
+      "id": "ca-pub-9924964891667864"
+    },
+    {
+      "file": "articles/3.html",
+      "line": 20,
+      "id": "ca-pub-9924964891667864"
+    },
+    {
+      "file": "articles/3.html",
+      "line": 49,
+      "id": "ca-pub-9924964891667864"
+    },
+    {
+      "file": "articles/32.html",
+      "line": 20,
+      "id": "ca-pub-9924964891667864"
+    },
+    {
+      "file": "articles/32.html",
+      "line": 49,
+      "id": "ca-pub-9924964891667864"
+    },
+    {
+      "file": "articles/9.html",
+      "line": 20,
+      "id": "ca-pub-9924964891667864"
+    },
+    {
+      "file": "articles/9.html",
+      "line": 49,
+      "id": "ca-pub-9924964891667864"
+    },
+    {
+      "file": "index.html",
+      "line": 8,
+      "id": "ca-pub-9924964891667864"
+    },
+    {
+      "file": "index.html",
+      "line": 30,
+      "id": "ca-pub-9924964891667864"
+    },
+    {
+      "file": "matches.html",
+      "line": 7,
+      "id": "ca-pub-9924964891667864"
+    },
+    {
+      "file": "matches.html",
+      "line": 17,
+      "id": "ca-pub-9924964891667864"
+    },
+    {
+      "file": "news.html",
+      "line": 7,
+      "id": "ca-pub-9924964891667864"
+    },
+    {
+      "file": "news.html",
+      "line": 27,
+      "id": "ca-pub-9924964891667864"
+    },
+    {
+      "file": "privacy.html",
+      "line": 8,
+      "id": "ca-pub-9924964891667864"
+    },
+    {
+      "file": "privacy.html",
+      "line": 24,
+      "id": "ca-pub-9924964891667864"
+    },
+    {
+      "file": "standings.html",
+      "line": 10,
+      "id": "ca-pub-9924964891667864"
+    },
+    {
+      "file": "standings.html",
+      "line": 24,
+      "id": "ca-pub-9924964891667864"
+    },
+    {
+      "file": "watch-live.html",
+      "line": 9,
+      "id": "ca-pub-9924964891667864"
+    }
+  ],
+  "adsTxt": "google.com, pub-9924964891667864, DIRECT, f08c47fec0942fa0",
+  "externalImageReferences": [
+    {
+      "file": "index.html",
+      "line": 67,
+      "url": "https://media.api-sports.io/football/leagues/39.png"
+    },
+    {
+      "file": "index.html",
+      "line": 68,
+      "url": "https://media.api-sports.io/football/leagues/140.png"
+    },
+    {
+      "file": "index.html",
+      "line": 69,
+      "url": "https://media.api-sports.io/football/leagues/135.png"
+    },
+    {
+      "file": "index.html",
+      "line": 70,
+      "url": "https://media.api-sports.io/football/leagues/61.png"
+    },
+    {
+      "file": "index.html",
+      "line": 71,
+      "url": "https://media.api-sports.io/football/leagues/78.png"
+    },
+    {
+      "file": "index.html",
+      "line": 72,
+      "url": "https://media.api-sports.io/football/leagues/2.png"
+    },
+    {
+      "file": "index.html",
+      "line": 73,
+      "url": "https://media.api-sports.io/football/leagues/3.png"
+    },
+    {
+      "file": "index.html",
+      "line": 163,
+      "url": "https://media.api-sports.io/football/leagues/2.png"
+    },
+    {
+      "file": "index.html",
+      "line": 164,
+      "url": "https://media.api-sports.io/football/leagues/39.png"
+    },
+    {
+      "file": "index.html",
+      "line": 165,
+      "url": "https://media.api-sports.io/football/leagues/140.png"
+    },
+    {
+      "file": "index.html",
+      "line": 166,
+      "url": "https://media.api-sports.io/football/leagues/135.png"
+    },
+    {
+      "file": "index.html",
+      "line": 167,
+      "url": "https://media.api-sports.io/football/leagues/61.png"
+    },
+    {
+      "file": "index.html",
+      "line": 168,
+      "url": "https://media.api-sports.io/football/leagues/78.png"
+    },
+    {
+      "file": "index.html",
+      "line": 325,
+      "url": "https://media.api-sports.io/football/leagues/39.png"
+    },
+    {
+      "file": "index.html",
+      "line": 326,
+      "url": "https://media.api-sports.io/football/leagues/140.png"
+    },
+    {
+      "file": "index.html",
+      "line": 327,
+      "url": "https://media.api-sports.io/football/leagues/135.png"
+    },
+    {
+      "file": "index.html",
+      "line": 328,
+      "url": "https://media.api-sports.io/football/leagues/78.png"
+    },
+    {
+      "file": "index.html",
+      "line": 329,
+      "url": "https://media.api-sports.io/football/leagues/61.png"
+    },
+    {
+      "file": "index.html",
+      "line": 330,
+      "url": "https://media.api-sports.io/football/leagues/2.png"
+    },
+    {
+      "file": "index.html",
+      "line": 331,
+      "url": "https://media.api-sports.io/football/leagues/2.png"
+    },
+    {
+      "file": "index.html",
+      "line": 332,
+      "url": "https://media.api-sports.io/football/leagues/3.png"
+    },
+    {
+      "file": "index.html",
+      "line": 333,
+      "url": "https://media.api-sports.io/football/leagues/848.png"
+    },
+    {
+      "file": "index.html",
+      "line": 334,
+      "url": "https://media.api-sports.io/football/leagues/12.png"
+    },
+    {
+      "file": "index.html",
+      "line": 335,
+      "url": "https://media.api-sports.io/football/leagues/1.png"
+    },
+    {
+      "file": "index.html",
+      "line": 337,
+      "url": "https://media.api-sports.io/football/leagues/307.png"
+    },
+    {
+      "file": "index.html",
+      "line": 338,
+      "url": "https://media.api-sports.io/football/leagues/253.png"
+    },
+    {
+      "file": "index.html",
+      "line": 339,
+      "url": "https://media.api-sports.io/football/leagues/40.png"
+    },
+    {
+      "file": "index.html",
+      "line": 340,
+      "url": "https://media.api-sports.io/football/leagues/45.png"
+    },
+    {
+      "file": "index.html",
+      "line": 341,
+      "url": "https://media.api-sports.io/football/leagues/10.png"
+    },
+    {
+      "file": "index.html",
+      "line": 342,
+      "url": "https://media.api-sports.io/football/leagues/10.png"
+    },
+    {
+      "file": "index.html",
+      "line": 343,
+      "url": "https://media.api-sports.io/football/leagues/531.png"
+    },
+    {
+      "file": "index.html",
+      "line": 344,
+      "url": "https://media.api-sports.io/football/leagues/10.png"
+    },
+    {
+      "file": "index.html",
+      "line": 353,
+      "url": "https://media.api-sports.io/football/teams/42.png"
+    },
+    {
+      "file": "index.html",
+      "line": 354,
+      "url": "https://media.api-sports.io/football/teams/66.png"
+    },
+    {
+      "file": "index.html",
+      "line": 355,
+      "url": "https://media.api-sports.io/football/teams/35.png"
+    },
+    {
+      "file": "index.html",
+      "line": 356,
+      "url": "https://media.api-sports.io/football/teams/55.png"
+    },
+    {
+      "file": "index.html",
+      "line": 357,
+      "url": "https://media.api-sports.io/football/teams/51.png"
+    },
+    {
+      "file": "index.html",
+      "line": 358,
+      "url": "https://media.api-sports.io/football/teams/49.png"
+    },
+    {
+      "file": "index.html",
+      "line": 359,
+      "url": "https://media.api-sports.io/football/teams/1346.png"
+    },
+    {
+      "file": "index.html",
+      "line": 360,
+      "url": "https://media.api-sports.io/football/teams/52.png"
+    },
+    {
+      "file": "index.html",
+      "line": 361,
+      "url": "https://media.api-sports.io/football/teams/45.png"
+    },
+    {
+      "file": "index.html",
+      "line": 362,
+      "url": "https://media.api-sports.io/football/teams/36.png"
+    },
+    {
+      "file": "index.html",
+      "line": 363,
+      "url": "https://media.api-sports.io/football/teams/71.png"
+    },
+    {
+      "file": "index.html",
+      "line": 364,
+      "url": "https://media.api-sports.io/football/teams/57.png"
+    },
+    {
+      "file": "index.html",
+      "line": 365,
+      "url": "https://media.api-sports.io/football/teams/63.png"
+    },
+    {
+      "file": "index.html",
+      "line": 366,
+      "url": "https://media.api-sports.io/football/teams/40.png"
+    },
+    {
+      "file": "index.html",
+      "line": 367,
+      "url": "https://media.api-sports.io/football/teams/50.png"
+    },
+    {
+      "file": "index.html",
+      "line": 368,
+      "url": "https://media.api-sports.io/football/teams/33.png"
+    },
+    {
+      "file": "index.html",
+      "line": 369,
+      "url": "https://media.api-sports.io/football/teams/34.png"
+    },
+    {
+      "file": "index.html",
+      "line": 370,
+      "url": "https://media.api-sports.io/football/teams/65.png"
+    },
+    {
+      "file": "index.html",
+      "line": 371,
+      "url": "https://media.api-sports.io/football/teams/746.png"
+    },
+    {
+      "file": "index.html",
+      "line": 372,
+      "url": "https://media.api-sports.io/football/teams/47.png"
+    },
+    {
+      "file": "index.html",
+      "line": 378,
+      "url": "https://media.api-sports.io/football/teams/542.png"
+    },
+    {
+      "file": "index.html",
+      "line": 379,
+      "url": "https://media.api-sports.io/football/teams/531.png"
+    },
+    {
+      "file": "index.html",
+      "line": 380,
+      "url": "https://media.api-sports.io/football/teams/530.png"
+    },
+    {
+      "file": "index.html",
+      "line": 381,
+      "url": "https://media.api-sports.io/football/teams/529.png"
+    },
+    {
+      "file": "index.html",
+      "line": 382,
+      "url": "https://media.api-sports.io/football/teams/538.png"
+    },
+    {
+      "file": "index.html",
+      "line": 383,
+      "url": "https://media.api-sports.io/football/teams/724.png"
+    },
+    {
+      "file": "index.html",
+      "line": 384,
+      "url": "https://media.api-sports.io/football/teams/797.png"
+    },
+    {
+      "file": "index.html",
+      "line": 385,
+      "url": "https://media.api-sports.io/football/teams/540.png"
+    },
+    {
+      "file": "index.html",
+      "line": 386,
+      "url": "https://media.api-sports.io/football/teams/546.png"
+    },
+    {
+      "file": "index.html",
+      "line": 387,
+      "url": "https://media.api-sports.io/football/teams/5463.png"
+    },
+    {
+      "file": "index.html",
+      "line": 388,
+      "url": "https://media.api-sports.io/football/teams/723.png"
+    },
+    {
+      "file": "index.html",
+      "line": 389,
+      "url": "https://media.api-sports.io/football/teams/727.png"
+    },
+    {
+      "file": "index.html",
+      "line": 390,
+      "url": "https://media.api-sports.io/football/teams/7285.png"
+    },
+    {
+      "file": "index.html",
+      "line": 391,
+      "url": "https://media.api-sports.io/football/teams/728.png"
+    },
+    {
+      "file": "index.html",
+      "line": 392,
+      "url": "https://media.api-sports.io/football/teams/543.png"
+    },
+    {
+      "file": "index.html",
+      "line": 393,
+      "url": "https://media.api-sports.io/football/teams/541.png"
+    },
+    {
+      "file": "index.html",
+      "line": 394,
+      "url": "https://media.api-sports.io/football/teams/548.png"
+    },
+    {
+      "file": "index.html",
+      "line": 395,
+      "url": "https://media.api-sports.io/football/teams/536.png"
+    },
+    {
+      "file": "index.html",
+      "line": 396,
+      "url": "https://media.api-sports.io/football/teams/532.png"
+    },
+    {
+      "file": "index.html",
+      "line": 397,
+      "url": "https://media.api-sports.io/football/teams/533.png"
+    },
+    {
+      "file": "index.html",
+      "line": 398,
+      "url": "https://media.api-sports.io/football/teams/547.png"
+    },
+    {
+      "file": "index.html",
+      "line": 404,
+      "url": "https://media.api-sports.io/football/teams/499.png"
+    },
+    {
+      "file": "index.html",
+      "line": 405,
+      "url": "https://media.api-sports.io/football/teams/500.png"
+    },
+    {
+      "file": "index.html",
+      "line": 406,
+      "url": "https://media.api-sports.io/football/teams/490.png"
+    },
+    {
+      "file": "index.html",
+      "line": 407,
+      "url": "https://media.api-sports.io/football/teams/895.png"
+    },
+    {
+      "file": "index.html",
+      "line": 408,
+      "url": "https://media.api-sports.io/football/teams/502.png"
+    },
+    {
+      "file": "index.html",
+      "line": 409,
+      "url": "https://media.api-sports.io/football/teams/512.png"
+    },
+    {
+      "file": "index.html",
+      "line": 410,
+      "url": "https://media.api-sports.io/football/teams/495.png"
+    },
+    {
+      "file": "index.html",
+      "line": 411,
+      "url": "https://media.api-sports.io/football/teams/505.png"
+    },
+    {
+      "file": "index.html",
+      "line": 412,
+      "url": "https://media.api-sports.io/football/teams/496.png"
+    },
+    {
+      "file": "index.html",
+      "line": 413,
+      "url": "https://media.api-sports.io/football/teams/487.png"
+    },
+    {
+      "file": "index.html",
+      "line": 414,
+      "url": "https://media.api-sports.io/football/teams/867.png"
+    },
+    {
+      "file": "index.html",
+      "line": 415,
+      "url": "https://media.api-sports.io/football/teams/489.png"
+    },
+    {
+      "file": "index.html",
+      "line": 416,
+      "url": "https://media.api-sports.io/football/teams/1579.png"
+    },
+    {
+      "file": "index.html",
+      "line": 417,
+      "url": "https://media.api-sports.io/football/teams/492.png"
+    },
+    {
+      "file": "index.html",
+      "line": 418,
+      "url": "https://media.api-sports.io/football/teams/511.png"
+    },
+    {
+      "file": "index.html",
+      "line": 419,
+      "url": "https://media.api-sports.io/football/teams/497.png"
+    },
+    {
+      "file": "index.html",
+      "line": 420,
+      "url": "https://media.api-sports.io/football/teams/488.png"
+    },
+    {
+      "file": "index.html",
+      "line": 421,
+      "url": "https://media.api-sports.io/football/teams/503.png"
+    },
+    {
+      "file": "index.html",
+      "line": 422,
+      "url": "https://media.api-sports.io/football/teams/494.png"
+    },
+    {
+      "file": "index.html",
+      "line": 423,
+      "url": "https://media.api-sports.io/football/teams/517.png"
+    },
+    {
+      "file": "index.html",
+      "line": 429,
+      "url": "https://media.api-sports.io/football/teams/77.png"
+    },
+    {
+      "file": "index.html",
+      "line": 430,
+      "url": "https://media.api-sports.io/football/teams/108.png"
+    },
+    {
+      "file": "index.html",
+      "line": 431,
+      "url": "https://media.api-sports.io/football/teams/106.png"
+    },
+    {
+      "file": "index.html",
+      "line": 432,
+      "url": "https://media.api-sports.io/football/teams/111.png"
+    },
+    {
+      "file": "index.html",
+      "line": 433,
+      "url": "https://media.api-sports.io/football/teams/115.png"
+    },
+    {
+      "file": "index.html",
+      "line": 434,
+      "url": "https://media.api-sports.io/football/teams/116.png"
+    },
+    {
+      "file": "index.html",
+      "line": 435,
+      "url": "https://media.api-sports.io/football/teams/79.png"
+    },
+    {
+      "file": "index.html",
+      "line": 436,
+      "url": "https://media.api-sports.io/football/teams/97.png"
+    },
+    {
+      "file": "index.html",
+      "line": 437,
+      "url": "https://media.api-sports.io/football/teams/80.png"
+    },
+    {
+      "file": "index.html",
+      "line": 438,
+      "url": "https://media.api-sports.io/football/teams/81.png"
+    },
+    {
+      "file": "index.html",
+      "line": 439,
+      "url": "https://media.api-sports.io/football/teams/91.png"
+    },
+    {
+      "file": "index.html",
+      "line": 440,
+      "url": "https://media.api-sports.io/football/teams/84.png"
+    },
+    {
+      "file": "index.html",
+      "line": 441,
+      "url": "https://media.api-sports.io/football/teams/95.png"
+    },
+    {
+      "file": "index.html",
+      "line": 442,
+      "url": "https://media.api-sports.io/football/teams/85.png"
+    },
+    {
+      "file": "index.html",
+      "line": 443,
+      "url": "https://media.api-sports.io/football/teams/94.png"
+    },
+    {
+      "file": "index.html",
+      "line": 444,
+      "url": "https://media.api-sports.io/football/teams/576.png"
+    },
+    {
+      "file": "index.html",
+      "line": 445,
+      "url": "https://media.api-sports.io/football/teams/96.png"
+    },
+    {
+      "file": "index.html",
+      "line": 446,
+      "url": "https://media.api-sports.io/football/teams/110.png"
+    },
+    {
+      "file": "index.html",
+      "line": 453,
+      "url": "https://media.api-sports.io/football/teams/170.png"
+    },
+    {
+      "file": "index.html",
+      "line": 454,
+      "url": "https://media.api-sports.io/football/teams/157.png"
+    },
+    {
+      "file": "index.html",
+      "line": 455,
+      "url": "https://media.api-sports.io/football/teams/176.png"
+    },
+    {
+      "file": "index.html",
+      "line": 456,
+      "url": "https://media.api-sports.io/football/teams/165.png"
+    },
+    {
+      "file": "index.html",
+      "line": 457,
+      "url": "https://media.api-sports.io/football/teams/163.png"
+    },
+    {
+      "file": "index.html",
+      "line": 458,
+      "url": "https://media.api-sports.io/football/teams/169.png"
+    },
+    {
+      "file": "index.html",
+      "line": 459,
+      "url": "https://media.api-sports.io/football/teams/191.png"
+    },
+    {
+      "file": "index.html",
+      "line": 460,
+      "url": "https://media.api-sports.io/football/teams/160.png"
+    },
+    {
+      "file": "index.html",
+      "line": 461,
+      "url": "https://media.api-sports.io/football/teams/164.png"
+    },
+    {
+      "file": "index.html",
+      "line": 462,
+      "url": "https://media.api-sports.io/football/teams/167.png"
+    },
+    {
+      "file": "index.html",
+      "line": 463,
+      "url": "https://media.api-sports.io/football/teams/192.png"
+    },
+    {
+      "file": "index.html",
+      "line": 464,
+      "url": "https://media.api-sports.io/football/teams/173.png"
+    },
+    {
+      "file": "index.html",
+      "line": 465,
+      "url": "https://media.api-sports.io/football/teams/168.png"
+    },
+    {
+      "file": "index.html",
+      "line": 466,
+      "url": "https://media.api-sports.io/football/teams/161.png"
+    },
+    {
+      "file": "index.html",
+      "line": 467,
+      "url": "https://media.api-sports.io/football/teams/174.png"
+    },
+    {
+      "file": "index.html",
+      "line": 468,
+      "url": "https://media.api-sports.io/football/teams/172.png"
+    },
+    {
+      "file": "index.html",
+      "line": 469,
+      "url": "https://media.api-sports.io/football/teams/3667.png"
+    },
+    {
+      "file": "index.html",
+      "line": 470,
+      "url": "https://media.api-sports.io/football/teams/182.png"
+    },
+    {
+      "file": "index.html",
+      "line": 478,
+      "url": "https://media.api-sports.io/football/teams/2933.png"
+    },
+    {
+      "file": "index.html",
+      "line": 479,
+      "url": "https://media.api-sports.io/football/teams/2934.png"
+    },
+    {
+      "file": "index.html",
+      "line": 480,
+      "url": "https://media.api-sports.io/football/teams/2935.png"
+    },
+    {
+      "file": "index.html",
+      "line": 481,
+      "url": "https://media.api-sports.io/football/teams/2940.png"
+    },
+    {
+      "file": "index.html",
+      "line": 482,
+      "url": "https://media.api-sports.io/football/teams/2937.png"
+    },
+    {
+      "file": "index.html",
+      "line": 483,
+      "url": "https://media.api-sports.io/football/teams/2932.png"
+    },
+    {
+      "file": "index.html",
+      "line": 484,
+      "url": "https://media.api-sports.io/football/teams/2938.png"
+    },
+    {
+      "file": "index.html",
+      "line": 485,
+      "url": "https://media.api-sports.io/football/teams/2941.png"
+    },
+    {
+      "file": "index.html",
+      "line": 486,
+      "url": "https://media.api-sports.io/football/teams/3027.png"
+    },
+    {
+      "file": "index.html",
+      "line": 487,
+      "url": "https://media.api-sports.io/football/teams/2946.png"
+    },
+    {
+      "file": "index.html",
+      "line": 488,
+      "url": "https://media.api-sports.io/football/teams/2939.png"
+    },
+    {
+      "file": "index.html",
+      "line": 489,
+      "url": "https://media.api-sports.io/football/teams/2942.png"
+    },
+    {
+      "file": "index.html",
+      "line": 490,
+      "url": "https://media.api-sports.io/football/teams/2929.png"
+    },
+    {
+      "file": "index.html",
+      "line": 491,
+      "url": "https://media.api-sports.io/football/teams/2943.png"
+    },
+    {
+      "file": "index.html",
+      "line": 492,
+      "url": "https://media.api-sports.io/football/teams/2936.png"
+    },
+    {
+      "file": "index.html",
+      "line": 493,
+      "url": "https://media.api-sports.io/football/teams/2931.png"
+    },
+    {
+      "file": "index.html",
+      "line": 494,
+      "url": "https://media.api-sports.io/football/teams/2930.png"
+    },
+    {
+      "file": "index.html",
+      "line": 495,
+      "url": "https://media.api-sports.io/football/teams/3030.png"
+    },
+    {
+      "file": "matches-data.js",
+      "line": 25,
+      "url": "https://media.api-sports.io/football/teams/165.png"
+    },
+    {
+      "file": "matches-data.js",
+      "line": 26,
+      "url": "https://media.api-sports.io/football/teams/157.png"
+    },
+    {
+      "file": "matches-data.js",
+      "line": 27,
+      "url": "https://media.api-sports.io/football/leagues/531.png"
+    },
+    {
+      "file": "matches.html",
+      "line": 95,
+      "url": "https://media.api-sports.io/football/leagues/39.png"
+    },
+    {
+      "file": "matches.html",
+      "line": 96,
+      "url": "https://media.api-sports.io/football/leagues/140.png"
+    },
+    {
+      "file": "matches.html",
+      "line": 97,
+      "url": "https://media.api-sports.io/football/leagues/135.png"
+    },
+    {
+      "file": "matches.html",
+      "line": 98,
+      "url": "https://media.api-sports.io/football/leagues/61.png"
+    },
+    {
+      "file": "matches.html",
+      "line": 99,
+      "url": "https://media.api-sports.io/football/leagues/78.png"
+    },
+    {
+      "file": "matches.html",
+      "line": 100,
+      "url": "https://media.api-sports.io/football/leagues/2.png"
+    }
+  ],
+  "assets": [
+    {
+      "path": "banner/banner.jpg",
+      "bytes": 20159,
+      "sha256": "e6a1004e57ea06f02ce612b6f17df9c74d478cddcca8e8dd6b8a2f68c29adec6",
+      "dimensions": null,
+      "optimizationMetadata": null,
+      "usage": "No public-source literal reference found; deployable unused asset",
+      "publicReferences": [],
+      "classification": "Unverified legacy asset; filename/reference alone cannot establish authorship or licensing.",
+      "articleMetadata": [],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "banner/banner.jpg",
+        "url": "https://www.tv96live.org/banner/banner.jpg",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "banner/banner1.jpg",
+      "bytes": 154849,
+      "sha256": "86bb1811a7ae2f91585dc524e6d00bbabba9de13e98ad0d6a1b80689bc2e4613",
+      "dimensions": null,
+      "optimizationMetadata": null,
+      "usage": "No public-source literal reference found; deployable unused asset",
+      "publicReferences": [],
+      "classification": "Unverified legacy asset; filename/reference alone cannot establish authorship or licensing.",
+      "articleMetadata": [],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "banner/banner1.jpg",
+        "url": "https://www.tv96live.org/banner/banner1.jpg",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "banner/banner2026.png",
+      "bytes": 2561024,
+      "sha256": "6172fd23b53766d28af05b8bd52cb8e9da381244a7b70c04d2703f2d18f8f85a",
+      "dimensions": "1672 x 941",
+      "optimizationMetadata": null,
+      "usage": "No public-source literal reference found; deployable unused asset",
+      "publicReferences": [],
+      "classification": "Unverified legacy asset; filename/reference alone cannot establish authorship or licensing.",
+      "articleMetadata": [],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "banner/banner2026.png",
+        "url": "https://www.tv96live.org/banner/banner2026.png",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "banner/hero.jpg",
+      "bytes": 197066,
+      "sha256": "7b36692f8cc1850f138e79822a4d6cf00f5563b9212a48a92640eed60406c38f",
+      "dimensions": null,
+      "optimizationMetadata": null,
+      "usage": "No public-source literal reference found; deployable unused asset",
+      "publicReferences": [],
+      "classification": "Unverified legacy asset; filename/reference alone cannot establish authorship or licensing.",
+      "articleMetadata": [],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "banner/hero.jpg",
+        "url": "https://www.tv96live.org/banner/hero.jpg",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "banner/hero1.png",
+      "bytes": 3094940,
+      "sha256": "e6e963f7af5a405e75d54f24667dcb9ee56f7cb7d118f8ae8441fe5453241cf5",
+      "dimensions": "1414 x 2000",
+      "optimizationMetadata": null,
+      "usage": "No public-source literal reference found; deployable unused asset",
+      "publicReferences": [],
+      "classification": "Unverified legacy asset; filename/reference alone cannot establish authorship or licensing.",
+      "articleMetadata": [],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "banner/hero1.png",
+        "url": "https://www.tv96live.org/banner/hero1.png",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "banner/omar.jpg",
+      "bytes": 13744,
+      "sha256": "76bdf16ee1cb6a6b19a459c0b5ad2d6a76cb05c0680dcdd5d8a9089295e9412d",
+      "dimensions": null,
+      "optimizationMetadata": null,
+      "usage": "No public-source literal reference found; deployable unused asset",
+      "publicReferences": [],
+      "classification": "Unverified legacy asset; filename/reference alone cannot establish authorship or licensing.",
+      "articleMetadata": [],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "banner/omar.jpg",
+        "url": "https://www.tv96live.org/banner/omar.jpg",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "banner/poster .png",
+      "bytes": 749248,
+      "sha256": "57f719c28225a369b895948dd499802c389787f34432c71030e8ba03bb0c14de",
+      "dimensions": "740 x 583",
+      "optimizationMetadata": null,
+      "usage": "Public-source reference (may be dormant; inspect references)",
+      "publicReferences": [
+        "watch-live.html:76"
+      ],
+      "classification": "Unverified legacy asset; filename/reference alone cannot establish authorship or licensing.",
+      "articleMetadata": [],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "banner/poster .png",
+        "url": "https://www.tv96live.org/banner/poster%20.png",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "editorial-fallback.png",
+      "bytes": 22391,
+      "sha256": "c30c531a78f34336f2c90d5dd137aa34633650026fbb3a89a11807ae85461978",
+      "dimensions": "1200 x 630",
+      "optimizationMetadata": null,
+      "usage": "Public-source reference (may be dormant; inspect references)",
+      "publicReferences": [
+        "articles/3.html:15",
+        "index.html:11",
+        "news.html:11"
+      ],
+      "classification": "Code-authored generic fallback; inspect creation source and font provenance; no obvious third-party competition mark.",
+      "articleMetadata": [],
+      "priorInventory": {
+        "path": "editorial-fallback.png",
+        "bytes": 22391,
+        "dimensions": "1200 x 630",
+        "classification": "A - original code-created text/geometry",
+        "usage": "Retained: editorial cards 8-11 and all article/home/News OG"
+      },
+      "live": {
+        "kind": "asset",
+        "asset": "editorial-fallback.png",
+        "url": "https://www.tv96live.org/editorial-fallback.png",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "favicon.png",
+      "bytes": 704956,
+      "sha256": "b49af96b93185355d0779b013319fafd122da188ea57dadf5bd1976155f29469",
+      "dimensions": "653 x 649",
+      "optimizationMetadata": null,
+      "usage": "Public-source reference (may be dormant; inspect references)",
+      "publicReferences": [
+        "about.html:24",
+        "contact.html:17",
+        "index.html:15",
+        "match-ids.html:8",
+        "matches.html:11",
+        "privacy.html:17",
+        "standings.html:15",
+        "terms.html:17",
+        "watch-live.html:27"
+      ],
+      "classification": "Unverified legacy asset; filename/reference alone cannot establish authorship or licensing.",
+      "articleMetadata": [],
+      "priorInventory": {
+        "path": "favicon.png",
+        "bytes": 704956,
+        "dimensions": "653 x 649",
+        "classification": "C - site branding, but creation/licence evidence absent",
+        "usage": "Removed direct usage from audited article/home/News headers, icons and OG; files and unrelated application/other-page usage unchanged"
+      },
+      "live": {
+        "kind": "asset",
+        "asset": "favicon.png",
+        "url": "https://www.tv96live.org/favicon.png",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "football-fallback.svg",
+      "bytes": 329,
+      "sha256": "85c4dbca08384c6b44f7396d5f9e9d56adf8c77cac3f364de4d3d38f9e6ab512",
+      "dimensions": "vector",
+      "optimizationMetadata": null,
+      "usage": "Public-source reference (may be dormant; inspect references)",
+      "publicReferences": [
+        "articles/10.html:240",
+        "articles/12.html:240",
+        "articles/13.html:240",
+        "articles/14.html:240",
+        "articles/15.html:240",
+        "articles/16.html:240",
+        "articles/17.html:240",
+        "articles/18.html:240",
+        "articles/19.html:240",
+        "articles/21.html:240",
+        "articles/22.html:240",
+        "articles/23.html:240",
+        "articles/24.html:240",
+        "articles/3.html:240",
+        "articles/32.html:240",
+        "articles/9.html:240",
+        "index.html:34",
+        "index.html:639",
+        "index.html:640",
+        "index.html:643",
+        "news.html:142"
+      ],
+      "classification": "Code-authored generic fallback; inspect creation source and font provenance; no obvious third-party competition mark.",
+      "articleMetadata": [],
+      "priorInventory": {
+        "path": "football-fallback.svg",
+        "bytes": 329,
+        "dimensions": "vector",
+        "classification": "A - original code-created text/geometry",
+        "usage": "Retained: original SVG favicon on audited pages; existing match fallback"
+      },
+      "live": {
+        "kind": "asset",
+        "asset": "football-fallback.svg",
+        "url": "https://www.tv96live.org/football-fallback.svg",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "icon football/bundisliga.png",
+      "bytes": 294807,
+      "sha256": "0ab251ee0f304ae87843f5ab2c4840f25f59826c26930f660176ca74bf8541f7",
+      "dimensions": "3000 x 2518",
+      "optimizationMetadata": null,
+      "usage": "No public-source literal reference found; deployable unused asset",
+      "publicReferences": [],
+      "classification": "Team/competition branding candidate; no documented permission found; filename is not visual/legal verification.",
+      "articleMetadata": [],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "icon football/bundisliga.png",
+        "url": "https://www.tv96live.org/icon%20football/bundisliga.png",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "icon football/CAF.jpg",
+      "bytes": 11993,
+      "sha256": "f1c06377413cfe369eb0c818bd5fba84bb0c97bcec520195361362582c3d1a23",
+      "dimensions": null,
+      "optimizationMetadata": null,
+      "usage": "No public-source literal reference found; deployable unused asset",
+      "publicReferences": [],
+      "classification": "Team/competition branding candidate; no documented permission found; filename is not visual/legal verification.",
+      "articleMetadata": [],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "icon football/CAF.jpg",
+        "url": "https://www.tv96live.org/icon%20football/CAF.jpg",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "icon football/champion.png",
+      "bytes": 180330,
+      "sha256": "a2ae025bac4ebfb0bbd1396e9fdc5389c148b158289fff79cb98cbd286f27ff9",
+      "dimensions": "3000 x 3000",
+      "optimizationMetadata": null,
+      "usage": "No public-source literal reference found; deployable unused asset",
+      "publicReferences": [],
+      "classification": "Team/competition branding candidate; no documented permission found; filename is not visual/legal verification.",
+      "articleMetadata": [],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "icon football/champion.png",
+        "url": "https://www.tv96live.org/icon%20football/champion.png",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "icon football/europa league.png",
+      "bytes": 22170,
+      "sha256": "fa0a2965a6580428c073df323f15b9a328c252caca9d0c5decdfd9ad62ccc19b",
+      "dimensions": "350 x 299",
+      "optimizationMetadata": null,
+      "usage": "No public-source literal reference found; deployable unused asset",
+      "publicReferences": [],
+      "classification": "Team/competition branding candidate; no documented permission found; filename is not visual/legal verification.",
+      "articleMetadata": [],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "icon football/europa league.png",
+        "url": "https://www.tv96live.org/icon%20football/europa%20league.png",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "icon football/europa_league.jpg",
+      "bytes": 11716,
+      "sha256": "afc93e50a60c4f8dddbd5ebf0e212d751a89b2524e8d0d16261d145cf9b6ac89",
+      "dimensions": null,
+      "optimizationMetadata": null,
+      "usage": "No public-source literal reference found; deployable unused asset",
+      "publicReferences": [],
+      "classification": "Team/competition branding candidate; no documented permission found; filename is not visual/legal verification.",
+      "articleMetadata": [],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "icon football/europa_league.jpg",
+        "url": "https://www.tv96live.org/icon%20football/europa_league.jpg",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "icon football/FA_Cup.png",
+      "bytes": 29608,
+      "sha256": "997e251b9f3f042ba645e48c5e930a2ecd26faf9ad2228ea861b34a72650250d",
+      "dimensions": "250 x 337",
+      "optimizationMetadata": null,
+      "usage": "No public-source literal reference found; deployable unused asset",
+      "publicReferences": [],
+      "classification": "Team/competition branding candidate; no documented permission found; filename is not visual/legal verification.",
+      "articleMetadata": [],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "icon football/FA_Cup.png",
+        "url": "https://www.tv96live.org/icon%20football/FA_Cup.png",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "icon football/laliga.png",
+      "bytes": 12267,
+      "sha256": "49663c7e3b69bf418efb45846d0f861653d05bfd3c613b74d34e723d78fb72de",
+      "dimensions": "512 x 512",
+      "optimizationMetadata": null,
+      "usage": "No public-source literal reference found; deployable unused asset",
+      "publicReferences": [],
+      "classification": "Team/competition branding candidate; no documented permission found; filename is not visual/legal verification.",
+      "articleMetadata": [],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "icon football/laliga.png",
+        "url": "https://www.tv96live.org/icon%20football/laliga.png",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "icon football/league 1.png",
+      "bytes": 2135,
+      "sha256": "d8e9e69d9644c05931056a8a08f8795baf78823b287c2c32aa1a6ef7087d384a",
+      "dimensions": "64 x 64",
+      "optimizationMetadata": null,
+      "usage": "No public-source literal reference found; deployable unused asset",
+      "publicReferences": [],
+      "classification": "Team/competition branding candidate; no documented permission found; filename is not visual/legal verification.",
+      "articleMetadata": [],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "icon football/league 1.png",
+        "url": "https://www.tv96live.org/icon%20football/league%201.png",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "icon football/MLS-logo.png",
+      "bytes": 231369,
+      "sha256": "0e452876cd81afca6c7d210e5e68a64db4f25ca4e5bb1c171c1702e32d6267c4",
+      "dimensions": "2800 x 2200",
+      "optimizationMetadata": null,
+      "usage": "No public-source literal reference found; deployable unused asset",
+      "publicReferences": [],
+      "classification": "Team/competition branding candidate; no documented permission found; filename is not visual/legal verification.",
+      "articleMetadata": [],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "icon football/MLS-logo.png",
+        "url": "https://www.tv96live.org/icon%20football/MLS-logo.png",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "icon football/premier league.png",
+      "bytes": 87629,
+      "sha256": "9ec24bb2dd0a3a2e6cef8fedcc95ba476b934dac36bb755608c7541e11475636",
+      "dimensions": "1500 x 1500",
+      "optimizationMetadata": null,
+      "usage": "No public-source literal reference found; deployable unused asset",
+      "publicReferences": [],
+      "classification": "Team/competition branding candidate; no documented permission found; filename is not visual/legal verification.",
+      "articleMetadata": [],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "icon football/premier league.png",
+        "url": "https://www.tv96live.org/icon%20football/premier%20league.png",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "icon football/PSG-logo.jpg",
+      "bytes": 388879,
+      "sha256": "f4e64074292f9d1ff06db1d9400f9dc943dd34d34af57752fd89b3f4e7a20d2f",
+      "dimensions": null,
+      "optimizationMetadata": null,
+      "usage": "No public-source literal reference found; deployable unused asset",
+      "publicReferences": [],
+      "classification": "Team/competition branding candidate; no documented permission found; filename is not visual/legal verification.",
+      "articleMetadata": [],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "icon football/PSG-logo.jpg",
+        "url": "https://www.tv96live.org/icon%20football/PSG-logo.jpg",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "icon football/serie a.png",
+      "bytes": 2375,
+      "sha256": "eee85b0b5193efd54eef52918334beb0ed4a907843c3d9c3ec696cb1a5b52779",
+      "dimensions": "64 x 64",
+      "optimizationMetadata": null,
+      "usage": "No public-source literal reference found; deployable unused asset",
+      "publicReferences": [],
+      "classification": "Team/competition branding candidate; no documented permission found; filename is not visual/legal verification.",
+      "articleMetadata": [],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "icon football/serie a.png",
+        "url": "https://www.tv96live.org/icon%20football/serie%20a.png",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "icon football/Suadi-Pro-League.jpg",
+      "bytes": 44018,
+      "sha256": "145793e87b8096f3f21ba07ba036bd2881f6846156a6889837f29435c92937de",
+      "dimensions": null,
+      "optimizationMetadata": null,
+      "usage": "No public-source literal reference found; deployable unused asset",
+      "publicReferences": [],
+      "classification": "Team/competition branding candidate; no documented permission found; filename is not visual/legal verification.",
+      "articleMetadata": [],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "icon football/Suadi-Pro-League.jpg",
+        "url": "https://www.tv96live.org/icon%20football/Suadi-Pro-League.jpg",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "icon football/world cup.jpg",
+      "bytes": 8995,
+      "sha256": "fdcb532c268af6a2aaa53820a3f2ccd17080fbf7e977387ed4dca6295f23a5e2",
+      "dimensions": null,
+      "optimizationMetadata": null,
+      "usage": "No public-source literal reference found; deployable unused asset",
+      "publicReferences": [],
+      "classification": "Team/competition branding candidate; no documented permission found; filename is not visual/legal verification.",
+      "articleMetadata": [],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "icon football/world cup.jpg",
+        "url": "https://www.tv96live.org/icon%20football/world%20cup.jpg",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "icon football/world cup1.png",
+      "bytes": 731131,
+      "sha256": "d4965ffbf8fee5166701050c92d08af8d54e4106984bb576b04b252666752805",
+      "dimensions": "860 x 990",
+      "optimizationMetadata": null,
+      "usage": "No public-source literal reference found; deployable unused asset",
+      "publicReferences": [],
+      "classification": "Team/competition branding candidate; no documented permission found; filename is not visual/legal verification.",
+      "articleMetadata": [],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "icon football/world cup1.png",
+        "url": "https://www.tv96live.org/icon%20football/world%20cup1.png",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "icon-192.png",
+      "bytes": 1540419,
+      "sha256": "8ad98a51f40f7fd059367760748a7f0288b2ffa7d742ad4c95d05e79006027f8",
+      "dimensions": "1024 x 1024",
+      "optimizationMetadata": null,
+      "usage": "Public-source reference (may be dormant; inspect references)",
+      "publicReferences": [
+        "about.html:23",
+        "contact.html:16",
+        "manifest.json:7",
+        "privacy.html:16",
+        "sw.js:7",
+        "terms.html:16",
+        "watch-live.html:26"
+      ],
+      "classification": "Unverified legacy asset; filename/reference alone cannot establish authorship or licensing.",
+      "articleMetadata": [],
+      "priorInventory": {
+        "path": "icon-192.png",
+        "bytes": 1540419,
+        "dimensions": "1024 x 1024",
+        "classification": "C - site branding, but creation/licence evidence absent",
+        "usage": "Removed direct usage from audited article/home/News headers, icons and OG; files and unrelated application/other-page usage unchanged"
+      },
+      "live": {
+        "kind": "asset",
+        "asset": "icon-192.png",
+        "url": "https://www.tv96live.org/icon-192.png",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "icon-512.png",
+      "bytes": 1541724,
+      "sha256": "fefac0891f2dc9aa62c8454d4ab32d5e5cacd7161ad5d82ea5021116bcb65062",
+      "dimensions": "1024 x 1024",
+      "optimizationMetadata": null,
+      "usage": "Public-source reference (may be dormant; inspect references)",
+      "publicReferences": [
+        "about.html:17",
+        "contact.html:11",
+        "manifest.json:13",
+        "privacy.html:11",
+        "terms.html:11",
+        "watch-live.html:12",
+        "watch-live.html:28"
+      ],
+      "classification": "Unverified legacy asset; filename/reference alone cannot establish authorship or licensing.",
+      "articleMetadata": [],
+      "priorInventory": {
+        "path": "icon-512.png",
+        "bytes": 1541724,
+        "dimensions": "1024 x 1024",
+        "classification": "C - site branding, but creation/licence evidence absent",
+        "usage": "Removed direct usage from audited article/home/News headers, icons and OG; files and unrelated application/other-page usage unchanged"
+      },
+      "live": {
+        "kind": "asset",
+        "asset": "icon-512.png",
+        "url": "https://www.tv96live.org/icon-512.png",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "images/articles/alvarez-meeting-report.png",
+      "bytes": 1875623,
+      "sha256": "6b18ff76cf9210bdf2c3398d4a863cdf42b5836b0626c0d456f1f47106333239",
+      "dimensions": "1536 x 1024",
+      "optimizationMetadata": {
+        "sourceSha256": "6b18ff76cf9210bdf2c3398d4a863cdf42b5836b0626c0d456f1f47106333239",
+        "deliverySha256": "e6e86202c7f3efa9a7ed2b1855b2e9040d67f38725274053a5d331f096c28dae",
+        "width": 1200,
+        "height": 800,
+        "sourceBytes": 1875623,
+        "deliveryBytes": 122206
+      },
+      "usage": "Active article(s) 10; retained source, social/structured-data references where listed",
+      "publicReferences": [],
+      "classification": "Generic empty meeting room, but competition-associated star-pattern ball needs review.",
+      "articleMetadata": [
+        {
+          "id": 10,
+          "active": true,
+          "imageType": "original-editorial",
+          "rightsStatus": "reviewed",
+          "brandingReview": "required",
+          "imageCredit": "AI-generated editorial illustration for TV96 Live"
+        }
+      ],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "images/articles/alvarez-meeting-report.png",
+        "url": "https://www.tv96live.org/images/articles/alvarez-meeting-report.png",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "images/articles/alvarez-meeting-report.webp",
+      "bytes": 122206,
+      "sha256": "e6e86202c7f3efa9a7ed2b1855b2e9040d67f38725274053a5d331f096c28dae",
+      "dimensions": "1200 x 800",
+      "optimizationMetadata": {
+        "sourceSha256": "6b18ff76cf9210bdf2c3398d4a863cdf42b5836b0626c0d456f1f47106333239",
+        "deliverySha256": "e6e86202c7f3efa9a7ed2b1855b2e9040d67f38725274053a5d331f096c28dae",
+        "width": 1200,
+        "height": 800,
+        "sourceBytes": 1875623,
+        "deliveryBytes": 122206
+      },
+      "usage": "Active article(s) 10; hero/card delivery",
+      "publicReferences": [
+        "articles/10.html:15",
+        "articles/10.html:19",
+        "articles/10.html:332",
+        "news-data.js:102",
+        "news.html:313"
+      ],
+      "classification": "Generic empty meeting room, but competition-associated star-pattern ball needs review.",
+      "articleMetadata": [
+        {
+          "id": 10,
+          "active": true,
+          "imageType": "original-editorial",
+          "rightsStatus": "reviewed",
+          "brandingReview": "required",
+          "imageCredit": "AI-generated editorial illustration for TV96 Live"
+        }
+      ],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "images/articles/alvarez-meeting-report.webp",
+        "url": "https://www.tv96live.org/images/articles/alvarez-meeting-report.webp",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "images/articles/arsenal-alvarez-statement.png",
+      "bytes": 1975267,
+      "sha256": "9bbbd9ac8c625ba6ed587309cd3615e1bc90a49a795f5792b7395f52d2bd46fa",
+      "dimensions": "1536 x 1024",
+      "optimizationMetadata": {
+        "sourceSha256": "9bbbd9ac8c625ba6ed587309cd3615e1bc90a49a795f5792b7395f52d2bd46fa",
+        "deliverySha256": "3b0da999dd601cbb4a74d0747e7914d9efdf7097f3cb510558168f8d9530a6d4",
+        "width": 1200,
+        "height": 800,
+        "sourceBytes": 1975267,
+        "deliveryBytes": 120524
+      },
+      "usage": "No public-source literal reference found; deployable unused asset",
+      "publicReferences": [],
+      "classification": "Retired editorial source/delivery asset; not an active article image; rights evidence still required while publicly reachable.",
+      "articleMetadata": [
+        {
+          "id": 8,
+          "active": false,
+          "imageType": "original-editorial",
+          "rightsStatus": "reviewed",
+          "brandingReview": "required",
+          "imageCredit": "AI-generated editorial illustration for TV96 Live"
+        }
+      ],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "images/articles/arsenal-alvarez-statement.png",
+        "url": "https://www.tv96live.org/images/articles/arsenal-alvarez-statement.png",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "images/articles/arsenal-alvarez-statement.webp",
+      "bytes": 120524,
+      "sha256": "3b0da999dd601cbb4a74d0747e7914d9efdf7097f3cb510558168f8d9530a6d4",
+      "dimensions": "1200 x 800",
+      "optimizationMetadata": {
+        "sourceSha256": "9bbbd9ac8c625ba6ed587309cd3615e1bc90a49a795f5792b7395f52d2bd46fa",
+        "deliverySha256": "3b0da999dd601cbb4a74d0747e7914d9efdf7097f3cb510558168f8d9530a6d4",
+        "width": 1200,
+        "height": 800,
+        "sourceBytes": 1975267,
+        "deliveryBytes": 120524
+      },
+      "usage": "No public-source literal reference found; deployable unused asset",
+      "publicReferences": [],
+      "classification": "Retired editorial source/delivery asset; not an active article image; rights evidence still required while publicly reachable.",
+      "articleMetadata": [
+        {
+          "id": 8,
+          "active": false,
+          "imageType": "original-editorial",
+          "rightsStatus": "reviewed",
+          "brandingReview": "required",
+          "imageCredit": "AI-generated editorial illustration for TV96 Live"
+        }
+      ],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "images/articles/arsenal-alvarez-statement.webp",
+        "url": "https://www.tv96live.org/images/articles/arsenal-alvarez-statement.webp",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "images/articles/bundesliga-guide.png",
+      "bytes": 2466434,
+      "sha256": "224fb3b2e40d2088f06c0b36e725716d46b1823d8a522815ba72b42484257276",
+      "dimensions": "1536 x 1024",
+      "optimizationMetadata": {
+        "sourceSha256": "224fb3b2e40d2088f06c0b36e725716d46b1823d8a522815ba72b42484257276",
+        "deliverySha256": "bcc17dfdd09ce171c6271d49787035d54e40743a03ea072bdfdfb468c1ecfd6d",
+        "width": 1200,
+        "height": 800,
+        "sourceBytes": 2466434,
+        "deliveryBytes": 220900
+      },
+      "usage": "Active article(s) 23; retained source, social/structured-data references where listed",
+      "publicReferences": [],
+      "classification": "Recognizable Bundesliga championship shield design; competition branding review required.",
+      "articleMetadata": [
+        {
+          "id": 23,
+          "active": true,
+          "imageType": "original-editorial",
+          "rightsStatus": "reviewed",
+          "brandingReview": "required",
+          "imageCredit": "AI-generated editorial artwork for TV96 Live"
+        }
+      ],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "images/articles/bundesliga-guide.png",
+        "url": "https://www.tv96live.org/images/articles/bundesliga-guide.png",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "images/articles/bundesliga-guide.webp",
+      "bytes": 220900,
+      "sha256": "bcc17dfdd09ce171c6271d49787035d54e40743a03ea072bdfdfb468c1ecfd6d",
+      "dimensions": "1200 x 800",
+      "optimizationMetadata": {
+        "sourceSha256": "224fb3b2e40d2088f06c0b36e725716d46b1823d8a522815ba72b42484257276",
+        "deliverySha256": "bcc17dfdd09ce171c6271d49787035d54e40743a03ea072bdfdfb468c1ecfd6d",
+        "width": 1200,
+        "height": 800,
+        "sourceBytes": 2466434,
+        "deliveryBytes": 220900
+      },
+      "usage": "Active article(s) 23; hero/card delivery",
+      "publicReferences": [
+        "articles/23.html:15",
+        "articles/23.html:19",
+        "articles/23.html:332",
+        "index.html:114",
+        "news-data.js:490",
+        "news.html:225"
+      ],
+      "classification": "Recognizable Bundesliga championship shield design; competition branding review required.",
+      "articleMetadata": [
+        {
+          "id": 23,
+          "active": true,
+          "imageType": "original-editorial",
+          "rightsStatus": "reviewed",
+          "brandingReview": "required",
+          "imageCredit": "AI-generated editorial artwork for TV96 Live"
+        }
+      ],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "images/articles/bundesliga-guide.webp",
+        "url": "https://www.tv96live.org/images/articles/bundesliga-guide.webp",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "images/articles/champions-league-format.png",
+      "bytes": 2125176,
+      "sha256": "ce913735c22b1bda59a288c955176febd21e89bd65c3df76e63fa7d30a022282",
+      "dimensions": "1536 x 1024",
+      "optimizationMetadata": {
+        "sourceSha256": "ce913735c22b1bda59a288c955176febd21e89bd65c3df76e63fa7d30a022282",
+        "deliverySha256": "8d6fa23f9adf5dbc694e2c9dc30fa904c1c5c5118d3741ced526c697ba84151a",
+        "width": 1200,
+        "height": 800,
+        "sourceBytes": 2125176,
+        "deliveryBytes": 166542
+      },
+      "usage": "Active article(s) 14; retained source, social/structured-data references where listed",
+      "publicReferences": [],
+      "classification": "Recognizable Champions League trophy/star-ball/competition branding; review required.",
+      "articleMetadata": [
+        {
+          "id": 14,
+          "active": true,
+          "imageType": "original-editorial",
+          "rightsStatus": "reviewed",
+          "brandingReview": "required",
+          "imageCredit": "Original TV96 Live text and geometric artwork"
+        }
+      ],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "images/articles/champions-league-format.png",
+        "url": "https://www.tv96live.org/images/articles/champions-league-format.png",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "images/articles/champions-league-format.webp",
+      "bytes": 166542,
+      "sha256": "8d6fa23f9adf5dbc694e2c9dc30fa904c1c5c5118d3741ced526c697ba84151a",
+      "dimensions": "1200 x 800",
+      "optimizationMetadata": {
+        "sourceSha256": "ce913735c22b1bda59a288c955176febd21e89bd65c3df76e63fa7d30a022282",
+        "deliverySha256": "8d6fa23f9adf5dbc694e2c9dc30fa904c1c5c5118d3741ced526c697ba84151a",
+        "width": 1200,
+        "height": 800,
+        "sourceBytes": 2125176,
+        "deliveryBytes": 166542
+      },
+      "usage": "Active article(s) 14; hero/card delivery",
+      "publicReferences": [
+        "articles/14.html:15",
+        "articles/14.html:19",
+        "articles/14.html:332",
+        "news-data.js:215",
+        "news.html:289"
+      ],
+      "classification": "Recognizable Champions League trophy/star-ball/competition branding; review required.",
+      "articleMetadata": [
+        {
+          "id": 14,
+          "active": true,
+          "imageType": "original-editorial",
+          "rightsStatus": "reviewed",
+          "brandingReview": "required",
+          "imageCredit": "Original TV96 Live text and geometric artwork"
+        }
+      ],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "images/articles/champions-league-format.webp",
+        "url": "https://www.tv96live.org/images/articles/champions-league-format.webp",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "images/articles/champions-league-qualification.png",
+      "bytes": 2604647,
+      "sha256": "eb79b105dadc6d03188250cb901539740138e93c23e221eaf17d4afeec38c536",
+      "dimensions": "1536 x 1024",
+      "optimizationMetadata": {
+        "sourceSha256": "eb79b105dadc6d03188250cb901539740138e93c23e221eaf17d4afeec38c536",
+        "deliverySha256": "999f600e0d8944354b1fbef2ef0e97c70fa0421102a8daab25b654789ab8036c",
+        "width": 1200,
+        "height": 800,
+        "sourceBytes": 2604647,
+        "deliveryBytes": 271000
+      },
+      "usage": "Active article(s) 13; retained source, social/structured-data references where listed",
+      "publicReferences": [],
+      "classification": "Recognizable Champions League trophy and star-ball motifs; branding review required.",
+      "articleMetadata": [
+        {
+          "id": 13,
+          "active": true,
+          "imageType": "original-editorial",
+          "rightsStatus": "reviewed",
+          "brandingReview": "required",
+          "imageCredit": "AI-generated editorial artwork for TV96 Live"
+        }
+      ],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "images/articles/champions-league-qualification.png",
+        "url": "https://www.tv96live.org/images/articles/champions-league-qualification.png",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "images/articles/champions-league-qualification.webp",
+      "bytes": 271000,
+      "sha256": "999f600e0d8944354b1fbef2ef0e97c70fa0421102a8daab25b654789ab8036c",
+      "dimensions": "1200 x 800",
+      "optimizationMetadata": {
+        "sourceSha256": "eb79b105dadc6d03188250cb901539740138e93c23e221eaf17d4afeec38c536",
+        "deliverySha256": "999f600e0d8944354b1fbef2ef0e97c70fa0421102a8daab25b654789ab8036c",
+        "width": 1200,
+        "height": 800,
+        "sourceBytes": 2604647,
+        "deliveryBytes": 271000
+      },
+      "usage": "Active article(s) 13; hero/card delivery",
+      "publicReferences": [
+        "articles/13.html:15",
+        "articles/13.html:19",
+        "articles/13.html:332",
+        "news-data.js:176",
+        "news.html:297"
+      ],
+      "classification": "Recognizable Champions League trophy and star-ball motifs; branding review required.",
+      "articleMetadata": [
+        {
+          "id": 13,
+          "active": true,
+          "imageType": "original-editorial",
+          "rightsStatus": "reviewed",
+          "brandingReview": "required",
+          "imageCredit": "AI-generated editorial artwork for TV96 Live"
+        }
+      ],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "images/articles/champions-league-qualification.webp",
+        "url": "https://www.tv96live.org/images/articles/champions-league-qualification.webp",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "images/articles/expected-goals-xg.png",
+      "bytes": 2203305,
+      "sha256": "52c12823fb2c5e4e4d4619c4aae1783a68a851a53462a4855064dd375fa31216",
+      "dimensions": "1536 x 1024",
+      "optimizationMetadata": {
+        "sourceSha256": "52c12823fb2c5e4e4d4619c4aae1783a68a851a53462a4855064dd375fa31216",
+        "deliverySha256": "8a23065c225860059bd21fc6711fcb39d8814a35b2b1b5bcfd4577462e2f436f",
+        "width": 1200,
+        "height": 800,
+        "sourceBytes": 2203305,
+        "deliveryBytes": 182018
+      },
+      "usage": "Active article(s) 16; retained source, social/structured-data references where listed",
+      "publicReferences": [],
+      "classification": "Generic xG diagram, but competition-associated star-pattern ball needs review.",
+      "articleMetadata": [
+        {
+          "id": 16,
+          "active": true,
+          "imageType": "original-editorial",
+          "rightsStatus": "reviewed",
+          "brandingReview": "required",
+          "imageCredit": "AI-generated editorial artwork for TV96 Live"
+        }
+      ],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "images/articles/expected-goals-xg.png",
+        "url": "https://www.tv96live.org/images/articles/expected-goals-xg.png",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "images/articles/expected-goals-xg.webp",
+      "bytes": 182018,
+      "sha256": "8a23065c225860059bd21fc6711fcb39d8814a35b2b1b5bcfd4577462e2f436f",
+      "dimensions": "1200 x 800",
+      "optimizationMetadata": {
+        "sourceSha256": "52c12823fb2c5e4e4d4619c4aae1783a68a851a53462a4855064dd375fa31216",
+        "deliverySha256": "8a23065c225860059bd21fc6711fcb39d8814a35b2b1b5bcfd4577462e2f436f",
+        "width": 1200,
+        "height": 800,
+        "sourceBytes": 2203305,
+        "deliveryBytes": 182018
+      },
+      "usage": "Active article(s) 16; hero/card delivery",
+      "publicReferences": [
+        "articles/16.html:15",
+        "articles/16.html:19",
+        "articles/16.html:332",
+        "news-data.js:295",
+        "news.html:273"
+      ],
+      "classification": "Generic xG diagram, but competition-associated star-pattern ball needs review.",
+      "articleMetadata": [
+        {
+          "id": 16,
+          "active": true,
+          "imageType": "original-editorial",
+          "rightsStatus": "reviewed",
+          "brandingReview": "required",
+          "imageCredit": "AI-generated editorial artwork for TV96 Live"
+        }
+      ],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "images/articles/expected-goals-xg.webp",
+        "url": "https://www.tv96live.org/images/articles/expected-goals-xg.webp",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "images/articles/fernandez-omission.png",
+      "bytes": 2350092,
+      "sha256": "082e9d1d18699211381040e8e13a2af24d14233c8c89ca9cfb9ed566d7d51313",
+      "dimensions": "1536 x 1024",
+      "optimizationMetadata": {
+        "sourceSha256": "082e9d1d18699211381040e8e13a2af24d14233c8c89ca9cfb9ed566d7d51313",
+        "deliverySha256": "10ebcaea49e6b8c5e14487012b561c91a029244c9e0c02c711c382a3f4c31210",
+        "width": 1200,
+        "height": 800,
+        "sourceBytes": 2350092,
+        "deliveryBytes": 195384
+      },
+      "usage": "No public-source literal reference found; deployable unused asset",
+      "publicReferences": [],
+      "classification": "Retired editorial source/delivery asset; not an active article image; rights evidence still required while publicly reachable.",
+      "articleMetadata": [
+        {
+          "id": 11,
+          "active": false,
+          "imageType": "original-editorial",
+          "rightsStatus": "reviewed",
+          "brandingReview": "required",
+          "imageCredit": "AI-generated editorial illustration for TV96 Live"
+        }
+      ],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "images/articles/fernandez-omission.png",
+        "url": "https://www.tv96live.org/images/articles/fernandez-omission.png",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "images/articles/fernandez-omission.webp",
+      "bytes": 195384,
+      "sha256": "10ebcaea49e6b8c5e14487012b561c91a029244c9e0c02c711c382a3f4c31210",
+      "dimensions": "1200 x 800",
+      "optimizationMetadata": {
+        "sourceSha256": "082e9d1d18699211381040e8e13a2af24d14233c8c89ca9cfb9ed566d7d51313",
+        "deliverySha256": "10ebcaea49e6b8c5e14487012b561c91a029244c9e0c02c711c382a3f4c31210",
+        "width": 1200,
+        "height": 800,
+        "sourceBytes": 2350092,
+        "deliveryBytes": 195384
+      },
+      "usage": "No public-source literal reference found; deployable unused asset",
+      "publicReferences": [],
+      "classification": "Retired editorial source/delivery asset; not an active article image; rights evidence still required while publicly reachable.",
+      "articleMetadata": [
+        {
+          "id": 11,
+          "active": false,
+          "imageType": "original-editorial",
+          "rightsStatus": "reviewed",
+          "brandingReview": "required",
+          "imageCredit": "AI-generated editorial illustration for TV96 Live"
+        }
+      ],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "images/articles/fernandez-omission.webp",
+        "url": "https://www.tv96live.org/images/articles/fernandez-omission.webp",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "images/articles/goal-difference-football.png",
+      "bytes": 2206193,
+      "sha256": "0451fe974a0ec7fcbf5237295c2b3ecf6a1cdbb73ac8d84c0b05d73874656e38",
+      "dimensions": "1536 x 1024",
+      "optimizationMetadata": {
+        "sourceSha256": "0451fe974a0ec7fcbf5237295c2b3ecf6a1cdbb73ac8d84c0b05d73874656e38",
+        "deliverySha256": "f97370e782bd0ed045ce629c2cece05fa5b29d81e86167bcef61cb3feb86a6ce",
+        "width": 1200,
+        "height": 800,
+        "sourceBytes": 2206193,
+        "deliveryBytes": 191232
+      },
+      "usage": "Active article(s) 15; retained source, social/structured-data references where listed",
+      "publicReferences": [],
+      "classification": "Generic goal-difference illustration; no obvious external mark observed.",
+      "articleMetadata": [
+        {
+          "id": 15,
+          "active": true,
+          "imageType": "original-editorial",
+          "rightsStatus": "reviewed",
+          "brandingReview": "required",
+          "imageCredit": "AI-generated editorial artwork for TV96 Live"
+        }
+      ],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "images/articles/goal-difference-football.png",
+        "url": "https://www.tv96live.org/images/articles/goal-difference-football.png",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "images/articles/goal-difference-football.webp",
+      "bytes": 191232,
+      "sha256": "f97370e782bd0ed045ce629c2cece05fa5b29d81e86167bcef61cb3feb86a6ce",
+      "dimensions": "1200 x 800",
+      "optimizationMetadata": {
+        "sourceSha256": "0451fe974a0ec7fcbf5237295c2b3ecf6a1cdbb73ac8d84c0b05d73874656e38",
+        "deliverySha256": "f97370e782bd0ed045ce629c2cece05fa5b29d81e86167bcef61cb3feb86a6ce",
+        "width": 1200,
+        "height": 800,
+        "sourceBytes": 2206193,
+        "deliveryBytes": 191232
+      },
+      "usage": "Active article(s) 15; hero/card delivery",
+      "publicReferences": [
+        "articles/15.html:15",
+        "articles/15.html:19",
+        "articles/15.html:332",
+        "news-data.js:261",
+        "news.html:281"
+      ],
+      "classification": "Generic goal-difference illustration; no obvious external mark observed.",
+      "articleMetadata": [
+        {
+          "id": 15,
+          "active": true,
+          "imageType": "original-editorial",
+          "rightsStatus": "reviewed",
+          "brandingReview": "required",
+          "imageCredit": "AI-generated editorial artwork for TV96 Live"
+        }
+      ],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "images/articles/goal-difference-football.webp",
+        "url": "https://www.tv96live.org/images/articles/goal-difference-football.webp",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "images/articles/how-var-works.png",
+      "bytes": 2258782,
+      "sha256": "1864bc65ec1f8783efa7f921b598960f966eb7f083e780c6ebe0ad8460180ce5",
+      "dimensions": "1536 x 1024",
+      "optimizationMetadata": {
+        "sourceSha256": "1864bc65ec1f8783efa7f921b598960f966eb7f083e780c6ebe0ad8460180ce5",
+        "deliverySha256": "b97013553d95e4639e9b8d16863ebbcb05f9d952d19348860a87344b4589f657",
+        "width": 1200,
+        "height": 800,
+        "sourceBytes": 2258782,
+        "deliveryBytes": 154918
+      },
+      "usage": "Active article(s) 17; retained source, social/structured-data references where listed",
+      "publicReferences": [],
+      "classification": "Generic VAR/referee scene; TV screen football imagery needs creation/source provenance.",
+      "articleMetadata": [
+        {
+          "id": 17,
+          "active": true,
+          "imageType": "original-editorial",
+          "rightsStatus": "reviewed",
+          "brandingReview": "required",
+          "imageCredit": "AI-generated editorial artwork for TV96 Live"
+        }
+      ],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "images/articles/how-var-works.png",
+        "url": "https://www.tv96live.org/images/articles/how-var-works.png",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "images/articles/how-var-works.webp",
+      "bytes": 154918,
+      "sha256": "b97013553d95e4639e9b8d16863ebbcb05f9d952d19348860a87344b4589f657",
+      "dimensions": "1200 x 800",
+      "optimizationMetadata": {
+        "sourceSha256": "1864bc65ec1f8783efa7f921b598960f966eb7f083e780c6ebe0ad8460180ce5",
+        "deliverySha256": "b97013553d95e4639e9b8d16863ebbcb05f9d952d19348860a87344b4589f657",
+        "width": 1200,
+        "height": 800,
+        "sourceBytes": 2258782,
+        "deliveryBytes": 154918
+      },
+      "usage": "Active article(s) 17; hero/card delivery",
+      "publicReferences": [
+        "articles/17.html:15",
+        "articles/17.html:19",
+        "articles/17.html:332",
+        "news-data.js:321",
+        "news.html:265"
+      ],
+      "classification": "Generic VAR/referee scene; TV screen football imagery needs creation/source provenance.",
+      "articleMetadata": [
+        {
+          "id": 17,
+          "active": true,
+          "imageType": "original-editorial",
+          "rightsStatus": "reviewed",
+          "brandingReview": "required",
+          "imageCredit": "AI-generated editorial artwork for TV96 Live"
+        }
+      ],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "images/articles/how-var-works.webp",
+        "url": "https://www.tv96live.org/images/articles/how-var-works.webp",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "images/articles/jj-gabriel.png",
+      "bytes": 2690796,
+      "sha256": "1403d94c1586fd3164b9533e7f5fbabbbd8c6e69f5137b0ef480c12ce78f5ff0",
+      "dimensions": "1536 x 1024",
+      "optimizationMetadata": {
+        "sourceSha256": "1403d94c1586fd3164b9533e7f5fbabbbd8c6e69f5137b0ef480c12ce78f5ff0",
+        "deliverySha256": "95b1ec83dbd334d4e73adc50c75392953e035ad17a5a7fd61f169397eabbe9d9",
+        "width": 1200,
+        "height": 800,
+        "sourceBytes": 2690796,
+        "deliveryBytes": 247896
+      },
+      "usage": "Active article(s) 32; retained source, social/structured-data references where listed",
+      "publicReferences": [],
+      "classification": "Owner confirms ChatGPT-edited derivative of a real photograph downloaded through Google Images; original photograph licence not established. Not originally AI-generated or rights-cleared. Person, Manchester United crest and apparel marks require source/licence and publication/branding review.",
+      "articleMetadata": [
+        {
+          "id": 32,
+          "active": true,
+          "imageType": "user-provided",
+          "rightsStatus": "user-provided",
+          "brandingReview": "required",
+          "imageCredit": "Image supplied by the TV96 Live publisher"
+        }
+      ],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "images/articles/jj-gabriel.png",
+        "url": "https://www.tv96live.org/images/articles/jj-gabriel.png",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "images/articles/jj-gabriel.webp",
+      "bytes": 247896,
+      "sha256": "95b1ec83dbd334d4e73adc50c75392953e035ad17a5a7fd61f169397eabbe9d9",
+      "dimensions": "1200 x 800",
+      "optimizationMetadata": {
+        "sourceSha256": "1403d94c1586fd3164b9533e7f5fbabbbd8c6e69f5137b0ef480c12ce78f5ff0",
+        "deliverySha256": "95b1ec83dbd334d4e73adc50c75392953e035ad17a5a7fd61f169397eabbe9d9",
+        "width": 1200,
+        "height": 800,
+        "sourceBytes": 2690796,
+        "deliveryBytes": 247896
+      },
+      "usage": "Active article(s) 32; hero/card delivery",
+      "publicReferences": [
+        "articles/32.html:15",
+        "articles/32.html:19",
+        "articles/32.html:332",
+        "index.html:88",
+        "news-data.js:564",
+        "news.html:209"
+      ],
+      "classification": "Owner confirms ChatGPT-edited derivative of a real photograph downloaded through Google Images; original photograph licence not established. Not originally AI-generated or rights-cleared. Person, Manchester United crest and apparel marks require source/licence and publication/branding review.",
+      "articleMetadata": [
+        {
+          "id": 32,
+          "active": true,
+          "imageType": "user-provided",
+          "rightsStatus": "user-provided",
+          "brandingReview": "required",
+          "imageCredit": "Image supplied by the TV96 Live publisher"
+        }
+      ],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "images/articles/jj-gabriel.webp",
+        "url": "https://www.tv96live.org/images/articles/jj-gabriel.webp",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "images/articles/johan-manzambi-aston-villa.png",
+      "bytes": 2036536,
+      "sha256": "5042dbf82b3e94e20a9d477f7288e6674316b864e117dcd05934933142dfd9cf",
+      "dimensions": "1536 x 1024",
+      "optimizationMetadata": {
+        "sourceSha256": "5042dbf82b3e94e20a9d477f7288e6674316b864e117dcd05934933142dfd9cf",
+        "deliverySha256": "777481674336e129516cfdc2ed44cddfdfb983cacd2687b3c48f0d5793bb0c14",
+        "width": 1200,
+        "height": 800,
+        "sourceBytes": 2036536,
+        "deliveryBytes": 133718
+      },
+      "usage": "No public-source literal reference found; deployable unused asset",
+      "publicReferences": [],
+      "classification": "Retired editorial source/delivery asset; not an active article image; rights evidence still required while publicly reachable.",
+      "articleMetadata": [
+        {
+          "id": 4,
+          "active": false,
+          "imageType": "original-editorial",
+          "rightsStatus": "reviewed",
+          "brandingReview": "required",
+          "imageCredit": "AI-generated editorial illustration for TV96 Live"
+        }
+      ],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "images/articles/johan-manzambi-aston-villa.png",
+        "url": "https://www.tv96live.org/images/articles/johan-manzambi-aston-villa.png",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "images/articles/johan-manzambi-aston-villa.webp",
+      "bytes": 133718,
+      "sha256": "777481674336e129516cfdc2ed44cddfdfb983cacd2687b3c48f0d5793bb0c14",
+      "dimensions": "1200 x 800",
+      "optimizationMetadata": {
+        "sourceSha256": "5042dbf82b3e94e20a9d477f7288e6674316b864e117dcd05934933142dfd9cf",
+        "deliverySha256": "777481674336e129516cfdc2ed44cddfdfb983cacd2687b3c48f0d5793bb0c14",
+        "width": 1200,
+        "height": 800,
+        "sourceBytes": 2036536,
+        "deliveryBytes": 133718
+      },
+      "usage": "No public-source literal reference found; deployable unused asset",
+      "publicReferences": [],
+      "classification": "Retired editorial source/delivery asset; not an active article image; rights evidence still required while publicly reachable.",
+      "articleMetadata": [
+        {
+          "id": 4,
+          "active": false,
+          "imageType": "original-editorial",
+          "rightsStatus": "reviewed",
+          "brandingReview": "required",
+          "imageCredit": "AI-generated editorial illustration for TV96 Live"
+        }
+      ],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "images/articles/johan-manzambi-aston-villa.webp",
+        "url": "https://www.tv96live.org/images/articles/johan-manzambi-aston-villa.webp",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "images/articles/la-liga-guide.png",
+      "bytes": 2323274,
+      "sha256": "1966e97148fe217fbb320358a9a757894fbc94b12b0dfe7623676342d51e8c50",
+      "dimensions": "1536 x 1024",
+      "optimizationMetadata": {
+        "sourceSha256": "1966e97148fe217fbb320358a9a757894fbc94b12b0dfe7623676342d51e8c50",
+        "deliverySha256": "39919398499a6f48f7a04466a068c2f128dde2637ba77882d500c03afcd9fa57",
+        "width": 1200,
+        "height": 800,
+        "sourceBytes": 2323274,
+        "deliveryBytes": 200656
+      },
+      "usage": "Active article(s) 21; retained source, social/structured-data references where listed",
+      "publicReferences": [],
+      "classification": "Generic stadium/ball composition; designed ball and architectural depiction need provenance review.",
+      "articleMetadata": [
+        {
+          "id": 21,
+          "active": true,
+          "imageType": "original-editorial",
+          "rightsStatus": "reviewed",
+          "brandingReview": "required",
+          "imageCredit": "AI-generated editorial artwork for TV96 Live"
+        }
+      ],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "images/articles/la-liga-guide.png",
+        "url": "https://www.tv96live.org/images/articles/la-liga-guide.png",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "images/articles/la-liga-guide.webp",
+      "bytes": 200656,
+      "sha256": "39919398499a6f48f7a04466a068c2f128dde2637ba77882d500c03afcd9fa57",
+      "dimensions": "1200 x 800",
+      "optimizationMetadata": {
+        "sourceSha256": "1966e97148fe217fbb320358a9a757894fbc94b12b0dfe7623676342d51e8c50",
+        "deliverySha256": "39919398499a6f48f7a04466a068c2f128dde2637ba77882d500c03afcd9fa57",
+        "width": 1200,
+        "height": 800,
+        "sourceBytes": 2323274,
+        "deliveryBytes": 200656
+      },
+      "usage": "Active article(s) 21; hero/card delivery",
+      "publicReferences": [
+        "articles/21.html:15",
+        "articles/21.html:19",
+        "articles/21.html:332",
+        "news-data.js:424",
+        "news.html:241"
+      ],
+      "classification": "Generic stadium/ball composition; designed ball and architectural depiction need provenance review.",
+      "articleMetadata": [
+        {
+          "id": 21,
+          "active": true,
+          "imageType": "original-editorial",
+          "rightsStatus": "reviewed",
+          "brandingReview": "required",
+          "imageCredit": "AI-generated editorial artwork for TV96 Live"
+        }
+      ],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "images/articles/la-liga-guide.webp",
+        "url": "https://www.tv96live.org/images/articles/la-liga-guide.webp",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "images/articles/ligue-1-guide.png",
+      "bytes": 2363681,
+      "sha256": "1c8f7f23ceb8f965433baf5c522fcbed2d22682531b41261ad00443d96bc1cdb",
+      "dimensions": "1536 x 1024",
+      "optimizationMetadata": {
+        "sourceSha256": "1c8f7f23ceb8f965433baf5c522fcbed2d22682531b41261ad00443d96bc1cdb",
+        "deliverySha256": "b60807465395291c26aea9c52f6fb760b760c34eb661b09f1e968358341ca15c",
+        "width": 1200,
+        "height": 800,
+        "sourceBytes": 2363681,
+        "deliveryBytes": 188076
+      },
+      "usage": "Active article(s) 24; retained source, social/structured-data references where listed",
+      "publicReferences": [],
+      "classification": "Generic stadium/ball/city composition; designed ball and architectural depiction need provenance review.",
+      "articleMetadata": [
+        {
+          "id": 24,
+          "active": true,
+          "imageType": "original-editorial",
+          "rightsStatus": "reviewed",
+          "brandingReview": "required",
+          "imageCredit": "AI-generated editorial artwork for TV96 Live"
+        }
+      ],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "images/articles/ligue-1-guide.png",
+        "url": "https://www.tv96live.org/images/articles/ligue-1-guide.png",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "images/articles/ligue-1-guide.webp",
+      "bytes": 188076,
+      "sha256": "b60807465395291c26aea9c52f6fb760b760c34eb661b09f1e968358341ca15c",
+      "dimensions": "1200 x 800",
+      "optimizationMetadata": {
+        "sourceSha256": "1c8f7f23ceb8f965433baf5c522fcbed2d22682531b41261ad00443d96bc1cdb",
+        "deliverySha256": "b60807465395291c26aea9c52f6fb760b760c34eb661b09f1e968358341ca15c",
+        "width": 1200,
+        "height": 800,
+        "sourceBytes": 2363681,
+        "deliveryBytes": 188076
+      },
+      "usage": "Active article(s) 24; hero/card delivery",
+      "publicReferences": [
+        "articles/24.html:15",
+        "articles/24.html:19",
+        "articles/24.html:332",
+        "index.html:101",
+        "news-data.js:520",
+        "news.html:217"
+      ],
+      "classification": "Generic stadium/ball/city composition; designed ball and architectural depiction need provenance review.",
+      "articleMetadata": [
+        {
+          "id": 24,
+          "active": true,
+          "imageType": "original-editorial",
+          "rightsStatus": "reviewed",
+          "brandingReview": "required",
+          "imageCredit": "AI-generated editorial artwork for TV96 Live"
+        }
+      ],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "images/articles/ligue-1-guide.webp",
+        "url": "https://www.tv96live.org/images/articles/ligue-1-guide.webp",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "images/articles/mbappe-world-cup-contributions.png",
+      "bytes": 2395515,
+      "sha256": "9781d8c8da474bfc058ee7ef969a9edb95647f061121f3aeb5d94e840d21d2ca",
+      "dimensions": "1536 x 1024",
+      "optimizationMetadata": {
+        "sourceSha256": "9781d8c8da474bfc058ee7ef969a9edb95647f061121f3aeb5d94e840d21d2ca",
+        "deliverySha256": "c5456f907bc059d3cf84237e162037a6b6540fb36b9024838b9934a6253e7fb8",
+        "width": 1200,
+        "height": 800,
+        "sourceBytes": 2395515,
+        "deliveryBytes": 197626
+      },
+      "usage": "No public-source literal reference found; deployable unused asset",
+      "publicReferences": [],
+      "classification": "Retired editorial source/delivery asset; not an active article image; rights evidence still required while publicly reachable.",
+      "articleMetadata": [
+        {
+          "id": 7,
+          "active": false,
+          "imageType": "original-editorial",
+          "rightsStatus": "reviewed",
+          "brandingReview": "required",
+          "imageCredit": "AI-generated editorial illustration for TV96 Live"
+        }
+      ],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "images/articles/mbappe-world-cup-contributions.png",
+        "url": "https://www.tv96live.org/images/articles/mbappe-world-cup-contributions.png",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "images/articles/mbappe-world-cup-contributions.webp",
+      "bytes": 197626,
+      "sha256": "c5456f907bc059d3cf84237e162037a6b6540fb36b9024838b9934a6253e7fb8",
+      "dimensions": "1200 x 800",
+      "optimizationMetadata": {
+        "sourceSha256": "9781d8c8da474bfc058ee7ef969a9edb95647f061121f3aeb5d94e840d21d2ca",
+        "deliverySha256": "c5456f907bc059d3cf84237e162037a6b6540fb36b9024838b9934a6253e7fb8",
+        "width": 1200,
+        "height": 800,
+        "sourceBytes": 2395515,
+        "deliveryBytes": 197626
+      },
+      "usage": "No public-source literal reference found; deployable unused asset",
+      "publicReferences": [],
+      "classification": "Retired editorial source/delivery asset; not an active article image; rights evidence still required while publicly reachable.",
+      "articleMetadata": [
+        {
+          "id": 7,
+          "active": false,
+          "imageType": "original-editorial",
+          "rightsStatus": "reviewed",
+          "brandingReview": "required",
+          "imageCredit": "AI-generated editorial illustration for TV96 Live"
+        }
+      ],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "images/articles/mbappe-world-cup-contributions.webp",
+        "url": "https://www.tv96live.org/images/articles/mbappe-world-cup-contributions.webp",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "images/articles/premier-league-european-qualification.png",
+      "bytes": 2536013,
+      "sha256": "2edbbc2d8e605811849491b2adf03a83fe99226d55dff249ac64af117d80bc4d",
+      "dimensions": "1536 x 1024",
+      "optimizationMetadata": {
+        "sourceSha256": "2edbbc2d8e605811849491b2adf03a83fe99226d55dff249ac64af117d80bc4d",
+        "deliverySha256": "0c6cdafc508e77b376358016253955f5923741c33fff8a4e2b03f7e4411417c4",
+        "width": 1200,
+        "height": 800,
+        "sourceBytes": 2536013,
+        "deliveryBytes": 222938
+      },
+      "usage": "Active article(s) 19; retained source, social/structured-data references where listed",
+      "publicReferences": [],
+      "classification": "Recognizable UEFA competition trophy designs and Premier League flag motif; review required.",
+      "articleMetadata": [
+        {
+          "id": 19,
+          "active": true,
+          "imageType": "original-editorial",
+          "rightsStatus": "reviewed",
+          "brandingReview": "required",
+          "imageCredit": "AI-generated editorial artwork for TV96 Live"
+        }
+      ],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "images/articles/premier-league-european-qualification.png",
+        "url": "https://www.tv96live.org/images/articles/premier-league-european-qualification.png",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "images/articles/premier-league-european-qualification.webp",
+      "bytes": 222938,
+      "sha256": "0c6cdafc508e77b376358016253955f5923741c33fff8a4e2b03f7e4411417c4",
+      "dimensions": "1200 x 800",
+      "optimizationMetadata": {
+        "sourceSha256": "2edbbc2d8e605811849491b2adf03a83fe99226d55dff249ac64af117d80bc4d",
+        "deliverySha256": "0c6cdafc508e77b376358016253955f5923741c33fff8a4e2b03f7e4411417c4",
+        "width": 1200,
+        "height": 800,
+        "sourceBytes": 2536013,
+        "deliveryBytes": 222938
+      },
+      "usage": "Active article(s) 19; hero/card delivery",
+      "publicReferences": [
+        "articles/19.html:15",
+        "articles/19.html:19",
+        "articles/19.html:332",
+        "news-data.js:385",
+        "news.html:249"
+      ],
+      "classification": "Recognizable UEFA competition trophy designs and Premier League flag motif; review required.",
+      "articleMetadata": [
+        {
+          "id": 19,
+          "active": true,
+          "imageType": "original-editorial",
+          "rightsStatus": "reviewed",
+          "brandingReview": "required",
+          "imageCredit": "AI-generated editorial artwork for TV96 Live"
+        }
+      ],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "images/articles/premier-league-european-qualification.webp",
+        "url": "https://www.tv96live.org/images/articles/premier-league-european-qualification.webp",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "images/articles/premier-league-guide.png",
+      "bytes": 2498703,
+      "sha256": "abb5ff8f87fd977cac98306e239d28cd05c889ca90631a7b41270e5b9262acaf",
+      "dimensions": "1536 x 1024",
+      "optimizationMetadata": {
+        "sourceSha256": "abb5ff8f87fd977cac98306e239d28cd05c889ca90631a7b41270e5b9262acaf",
+        "deliverySha256": "0075366bca94c810ac1c92b7316f09be9296ffd3bfeb1039dd6a9e5174b569ce",
+        "width": 1200,
+        "height": 800,
+        "sourceBytes": 2498703,
+        "deliveryBytes": 243376
+      },
+      "usage": "Active article(s) 12; retained source, social/structured-data references where listed",
+      "publicReferences": [],
+      "classification": "Recognizable Premier League trophy/lion motifs; branding review required.",
+      "articleMetadata": [
+        {
+          "id": 12,
+          "active": true,
+          "imageType": "original-editorial",
+          "rightsStatus": "reviewed",
+          "brandingReview": "required",
+          "imageCredit": "AI-generated editorial artwork for TV96 Live"
+        }
+      ],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "images/articles/premier-league-guide.png",
+        "url": "https://www.tv96live.org/images/articles/premier-league-guide.png",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "images/articles/premier-league-guide.webp",
+      "bytes": 243376,
+      "sha256": "0075366bca94c810ac1c92b7316f09be9296ffd3bfeb1039dd6a9e5174b569ce",
+      "dimensions": "1200 x 800",
+      "optimizationMetadata": {
+        "sourceSha256": "abb5ff8f87fd977cac98306e239d28cd05c889ca90631a7b41270e5b9262acaf",
+        "deliverySha256": "0075366bca94c810ac1c92b7316f09be9296ffd3bfeb1039dd6a9e5174b569ce",
+        "width": 1200,
+        "height": 800,
+        "sourceBytes": 2498703,
+        "deliveryBytes": 243376
+      },
+      "usage": "Active article(s) 12; hero/card delivery",
+      "publicReferences": [
+        "articles/12.html:15",
+        "articles/12.html:19",
+        "articles/12.html:332",
+        "news-data.js:142",
+        "news.html:305"
+      ],
+      "classification": "Recognizable Premier League trophy/lion motifs; branding review required.",
+      "articleMetadata": [
+        {
+          "id": 12,
+          "active": true,
+          "imageType": "original-editorial",
+          "rightsStatus": "reviewed",
+          "brandingReview": "required",
+          "imageCredit": "AI-generated editorial artwork for TV96 Live"
+        }
+      ],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "images/articles/premier-league-guide.webp",
+        "url": "https://www.tv96live.org/images/articles/premier-league-guide.webp",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "images/articles/premier-league-relegation.png",
+      "bytes": 2504743,
+      "sha256": "fde4b3abb25f64c67ded7fb61d8abb621941a317b5aff9d5c023701e89950763",
+      "dimensions": "1536 x 1024",
+      "optimizationMetadata": {
+        "sourceSha256": "fde4b3abb25f64c67ded7fb61d8abb621941a317b5aff9d5c023701e89950763",
+        "deliverySha256": "36744bba5f0c1504ff97ee157ade6e56d0bb640daadd0061924e6fc0d310a195",
+        "width": 1200,
+        "height": 800,
+        "sourceBytes": 2504743,
+        "deliveryBytes": 229164
+      },
+      "usage": "Active article(s) 18; retained source, social/structured-data references where listed",
+      "publicReferences": [],
+      "classification": "Generic relegation diagram; stadium/ad-board depiction needs provenance review.",
+      "articleMetadata": [
+        {
+          "id": 18,
+          "active": true,
+          "imageType": "original-editorial",
+          "rightsStatus": "reviewed",
+          "brandingReview": "required",
+          "imageCredit": "AI-generated editorial artwork for TV96 Live"
+        }
+      ],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "images/articles/premier-league-relegation.png",
+        "url": "https://www.tv96live.org/images/articles/premier-league-relegation.png",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "images/articles/premier-league-relegation.webp",
+      "bytes": 229164,
+      "sha256": "36744bba5f0c1504ff97ee157ade6e56d0bb640daadd0061924e6fc0d310a195",
+      "dimensions": "1200 x 800",
+      "optimizationMetadata": {
+        "sourceSha256": "fde4b3abb25f64c67ded7fb61d8abb621941a317b5aff9d5c023701e89950763",
+        "deliverySha256": "36744bba5f0c1504ff97ee157ade6e56d0bb640daadd0061924e6fc0d310a195",
+        "width": 1200,
+        "height": 800,
+        "sourceBytes": 2504743,
+        "deliveryBytes": 229164
+      },
+      "usage": "Active article(s) 18; hero/card delivery",
+      "publicReferences": [
+        "articles/18.html:15",
+        "articles/18.html:19",
+        "articles/18.html:332",
+        "news-data.js:350",
+        "news.html:257"
+      ],
+      "classification": "Generic relegation diagram; stadium/ad-board depiction needs provenance review.",
+      "articleMetadata": [
+        {
+          "id": 18,
+          "active": true,
+          "imageType": "original-editorial",
+          "rightsStatus": "reviewed",
+          "brandingReview": "required",
+          "imageCredit": "AI-generated editorial artwork for TV96 Live"
+        }
+      ],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "images/articles/premier-league-relegation.webp",
+        "url": "https://www.tv96live.org/images/articles/premier-league-relegation.webp",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "images/articles/reading-european-draw.png",
+      "bytes": 2150134,
+      "sha256": "641b22d2f162c1a99535d968ea554b4a5e254059aeeb5f4a918c4db4007ae4c6",
+      "dimensions": "1536 x 1024",
+      "optimizationMetadata": {
+        "sourceSha256": "641b22d2f162c1a99535d968ea554b4a5e254059aeeb5f4a918c4db4007ae4c6",
+        "deliverySha256": "dbd1ac6d0a0402064f9da5744dfe1c299faf47b201e348245c67fa78b61bf3e7",
+        "width": 1200,
+        "height": 800,
+        "sourceBytes": 2150134,
+        "deliveryBytes": 183898
+      },
+      "usage": "Active article(s) 9; retained source, social/structured-data references where listed",
+      "publicReferences": [],
+      "classification": "Generic draw/travel illustration; no obvious external mark observed.",
+      "articleMetadata": [
+        {
+          "id": 9,
+          "active": true,
+          "imageType": "original-editorial",
+          "rightsStatus": "reviewed",
+          "brandingReview": "required",
+          "imageCredit": "AI-generated editorial illustration for TV96 Live"
+        }
+      ],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "images/articles/reading-european-draw.png",
+        "url": "https://www.tv96live.org/images/articles/reading-european-draw.png",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "images/articles/reading-european-draw.webp",
+      "bytes": 183898,
+      "sha256": "dbd1ac6d0a0402064f9da5744dfe1c299faf47b201e348245c67fa78b61bf3e7",
+      "dimensions": "1200 x 800",
+      "optimizationMetadata": {
+        "sourceSha256": "641b22d2f162c1a99535d968ea554b4a5e254059aeeb5f4a918c4db4007ae4c6",
+        "deliverySha256": "dbd1ac6d0a0402064f9da5744dfe1c299faf47b201e348245c67fa78b61bf3e7",
+        "width": 1200,
+        "height": 800,
+        "sourceBytes": 2150134,
+        "deliveryBytes": 183898
+      },
+      "usage": "Active article(s) 9; hero/card delivery",
+      "publicReferences": [
+        "articles/9.html:15",
+        "articles/9.html:19",
+        "articles/9.html:332",
+        "news-data.js:51",
+        "news.html:321"
+      ],
+      "classification": "Generic draw/travel illustration; no obvious external mark observed.",
+      "articleMetadata": [
+        {
+          "id": 9,
+          "active": true,
+          "imageType": "original-editorial",
+          "rightsStatus": "reviewed",
+          "brandingReview": "required",
+          "imageCredit": "AI-generated editorial illustration for TV96 Live"
+        }
+      ],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "images/articles/reading-european-draw.webp",
+        "url": "https://www.tv96live.org/images/articles/reading-european-draw.webp",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "images/articles/serie-a-guide.png",
+      "bytes": 2491943,
+      "sha256": "1f90586ca8cc417582d4bee9c39c1f8f043bd304066c73061cf457a0b4e002fe",
+      "dimensions": "1536 x 1024",
+      "optimizationMetadata": {
+        "sourceSha256": "1f90586ca8cc417582d4bee9c39c1f8f043bd304066c73061cf457a0b4e002fe",
+        "deliverySha256": "db0b93bae8f1fab5a3a02939f6c66e78f30ab4fa38eaafa497a39e96039b2310",
+        "width": 1200,
+        "height": 800,
+        "sourceBytes": 2491943,
+        "deliveryBytes": 241282
+      },
+      "usage": "Active article(s) 22; retained source, social/structured-data references where listed",
+      "publicReferences": [],
+      "classification": "Recognizable Serie A-style trophy design; competition branding review required.",
+      "articleMetadata": [
+        {
+          "id": 22,
+          "active": true,
+          "imageType": "original-editorial",
+          "rightsStatus": "reviewed",
+          "brandingReview": "required",
+          "imageCredit": "AI-generated editorial artwork for TV96 Live"
+        }
+      ],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "images/articles/serie-a-guide.png",
+        "url": "https://www.tv96live.org/images/articles/serie-a-guide.png",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "images/articles/serie-a-guide.webp",
+      "bytes": 241282,
+      "sha256": "db0b93bae8f1fab5a3a02939f6c66e78f30ab4fa38eaafa497a39e96039b2310",
+      "dimensions": "1200 x 800",
+      "optimizationMetadata": {
+        "sourceSha256": "1f90586ca8cc417582d4bee9c39c1f8f043bd304066c73061cf457a0b4e002fe",
+        "deliverySha256": "db0b93bae8f1fab5a3a02939f6c66e78f30ab4fa38eaafa497a39e96039b2310",
+        "width": 1200,
+        "height": 800,
+        "sourceBytes": 2491943,
+        "deliveryBytes": 241282
+      },
+      "usage": "Active article(s) 22; hero/card delivery",
+      "publicReferences": [
+        "articles/22.html:15",
+        "articles/22.html:19",
+        "articles/22.html:332",
+        "index.html:127",
+        "news-data.js:455",
+        "news.html:233"
+      ],
+      "classification": "Recognizable Serie A-style trophy design; competition branding review required.",
+      "articleMetadata": [
+        {
+          "id": 22,
+          "active": true,
+          "imageType": "original-editorial",
+          "rightsStatus": "reviewed",
+          "brandingReview": "required",
+          "imageCredit": "AI-generated editorial artwork for TV96 Live"
+        }
+      ],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "images/articles/serie-a-guide.webp",
+        "url": "https://www.tv96live.org/images/articles/serie-a-guide.webp",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "images/articles/uefa-champions-league-guide.png",
+      "bytes": 2464945,
+      "sha256": "b6ff9654379cf5cff5a4d59e3b432ada609d715b2e16e052712060184bb8a086",
+      "dimensions": "1536 x 1024",
+      "optimizationMetadata": {
+        "sourceSha256": "b6ff9654379cf5cff5a4d59e3b432ada609d715b2e16e052712060184bb8a086",
+        "deliverySha256": "f3a3e7af7fc05bae8d95e76633588cc0d2f6e6d05265c6d675a91180b5f75fcf",
+        "width": 1200,
+        "height": 800,
+        "sourceBytes": 2464945,
+        "deliveryBytes": 235104
+      },
+      "usage": "No public-source literal reference found; deployable unused asset",
+      "publicReferences": [],
+      "classification": "Retired editorial source/delivery asset; not an active article image; rights evidence still required while publicly reachable.",
+      "articleMetadata": [
+        {
+          "id": 25,
+          "active": false,
+          "imageType": "original-editorial",
+          "rightsStatus": "reviewed",
+          "brandingReview": "required",
+          "imageCredit": "AI-generated editorial artwork for TV96 Live"
+        }
+      ],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "images/articles/uefa-champions-league-guide.png",
+        "url": "https://www.tv96live.org/images/articles/uefa-champions-league-guide.png",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "images/articles/uefa-champions-league-guide.webp",
+      "bytes": 235104,
+      "sha256": "f3a3e7af7fc05bae8d95e76633588cc0d2f6e6d05265c6d675a91180b5f75fcf",
+      "dimensions": "1200 x 800",
+      "optimizationMetadata": {
+        "sourceSha256": "b6ff9654379cf5cff5a4d59e3b432ada609d715b2e16e052712060184bb8a086",
+        "deliverySha256": "f3a3e7af7fc05bae8d95e76633588cc0d2f6e6d05265c6d675a91180b5f75fcf",
+        "width": 1200,
+        "height": 800,
+        "sourceBytes": 2464945,
+        "deliveryBytes": 235104
+      },
+      "usage": "No public-source literal reference found; deployable unused asset",
+      "publicReferences": [],
+      "classification": "Retired editorial source/delivery asset; not an active article image; rights evidence still required while publicly reachable.",
+      "articleMetadata": [
+        {
+          "id": 25,
+          "active": false,
+          "imageType": "original-editorial",
+          "rightsStatus": "reviewed",
+          "brandingReview": "required",
+          "imageCredit": "AI-generated editorial artwork for TV96 Live"
+        }
+      ],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "images/articles/uefa-champions-league-guide.webp",
+        "url": "https://www.tv96live.org/images/articles/uefa-champions-league-guide.webp",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "logo/bann.png",
+      "bytes": 37063,
+      "sha256": "de0e69dcb6ce8c3c7c119184b21d12573e26eca4a8c337ee8dff05f73bf7d9b7",
+      "dimensions": "1170 x 602",
+      "optimizationMetadata": null,
+      "usage": "No public-source literal reference found; deployable unused asset",
+      "publicReferences": [],
+      "classification": "Unverified legacy asset; filename/reference alone cannot establish authorship or licensing.",
+      "articleMetadata": [],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "logo/bann.png",
+        "url": "https://www.tv96live.org/logo/bann.png",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "logo/banner middle .png",
+      "bytes": 70570,
+      "sha256": "f6e356cb607a49a5a6e542e71c520611c63fc994743c6bdbc7d5031d9f5f7d94",
+      "dimensions": "1235 x 617",
+      "optimizationMetadata": null,
+      "usage": "No public-source literal reference found; deployable unused asset",
+      "publicReferences": [],
+      "classification": "Unverified legacy asset; filename/reference alone cannot establish authorship or licensing.",
+      "articleMetadata": [],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "logo/banner middle .png",
+        "url": "https://www.tv96live.org/logo/banner%20middle%20.png",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "logo/click.png",
+      "bytes": 655725,
+      "sha256": "04a5c56b76bc59798480dac61748335ae4fa24a20f5db5c4478bad6965a249b4",
+      "dimensions": "1468 x 672",
+      "optimizationMetadata": null,
+      "usage": "No public-source literal reference found; deployable unused asset",
+      "publicReferences": [],
+      "classification": "Unverified legacy asset; filename/reference alone cannot establish authorship or licensing.",
+      "articleMetadata": [],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "logo/click.png",
+        "url": "https://www.tv96live.org/logo/click.png",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "logo/content .png",
+      "bytes": 5566,
+      "sha256": "615c1426fd126bcd72bf3e498b847ee5df928e8111772490b5cb8c414a311a20",
+      "dimensions": "513 x 27",
+      "optimizationMetadata": null,
+      "usage": "No public-source literal reference found; deployable unused asset",
+      "publicReferences": [],
+      "classification": "Unverified legacy asset; filename/reference alone cannot establish authorship or licensing.",
+      "articleMetadata": [],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "logo/content .png",
+        "url": "https://www.tv96live.org/logo/content%20.png",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "logo/header .png",
+      "bytes": 110136,
+      "sha256": "5555a282a98cd111838dee1f23247dea6a876bfd2e04a1974230e92833e9214d",
+      "dimensions": "1258 x 258",
+      "optimizationMetadata": null,
+      "usage": "No public-source literal reference found; deployable unused asset",
+      "publicReferences": [],
+      "classification": "Unverified legacy asset; filename/reference alone cannot establish authorship or licensing.",
+      "articleMetadata": [],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "logo/header .png",
+        "url": "https://www.tv96live.org/logo/header%20.png",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "logo/icons .png",
+      "bytes": 15461,
+      "sha256": "eb9b947685673ece67aef841067c28815f6a197c99313af6488ea5a27c4fb44c",
+      "dimensions": "1092 x 58",
+      "optimizationMetadata": null,
+      "usage": "No public-source literal reference found; deployable unused asset",
+      "publicReferences": [],
+      "classification": "Unverified legacy asset; filename/reference alone cannot establish authorship or licensing.",
+      "articleMetadata": [],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "logo/icons .png",
+        "url": "https://www.tv96live.org/logo/icons%20.png",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "logo/Logo.png",
+      "bytes": 746006,
+      "sha256": "8781c0205ba320247de1cfe6cc4d2a8d7a92cc64db8d9480f25caf6342712a39",
+      "dimensions": "940 x 705",
+      "optimizationMetadata": null,
+      "usage": "Public-source reference (may be dormant; inspect references)",
+      "publicReferences": [
+        "about.html:46",
+        "about.html:185",
+        "articles/10.html:254",
+        "articles/10.html:383",
+        "articles/12.html:254",
+        "articles/12.html:398",
+        "articles/13.html:254",
+        "articles/13.html:396",
+        "articles/14.html:254",
+        "articles/14.html:400",
+        "articles/15.html:254",
+        "articles/15.html:396",
+        "articles/16.html:254",
+        "articles/16.html:397",
+        "articles/17.html:254",
+        "articles/17.html:398",
+        "articles/18.html:254",
+        "articles/18.html:399",
+        "articles/19.html:254",
+        "articles/19.html:400",
+        "articles/21.html:254",
+        "articles/21.html:415",
+        "articles/22.html:254",
+        "articles/22.html:416",
+        "articles/23.html:254",
+        "articles/23.html:400",
+        "articles/24.html:254",
+        "articles/24.html:418",
+        "articles/3.html:254",
+        "articles/3.html:390",
+        "articles/32.html:254",
+        "articles/32.html:393",
+        "articles/9.html:254",
+        "articles/9.html:392",
+        "contact.html:30",
+        "contact.html:115",
+        "index.html:41",
+        "index.html:209",
+        "matches.html:69",
+        "matches.html:141",
+        "news.html:149",
+        "news.html:372",
+        "privacy.html:33",
+        "privacy.html:148",
+        "standings.html:476",
+        "standings.html:631",
+        "terms.html:30",
+        "terms.html:193",
+        "watch-live.html:38",
+        "watch-live.html:139"
+      ],
+      "classification": "Unverified legacy asset; filename/reference alone cannot establish authorship or licensing.",
+      "articleMetadata": [],
+      "priorInventory": {
+        "path": "logo/Logo.png",
+        "bytes": 746006,
+        "dimensions": "940 x 705",
+        "classification": "C - site branding, but creation/licence evidence absent",
+        "usage": "Removed direct usage from audited article/home/News headers, icons and OG; files and unrelated application/other-page usage unchanged"
+      },
+      "live": {
+        "kind": "asset",
+        "asset": "logo/Logo.png",
+        "url": "https://www.tv96live.org/logo/Logo.png",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "logo/sameey .png",
+      "bytes": 44948,
+      "sha256": "a8d4531561e19f833d5819b4ba5b75fb60b3a1fdb3e4f50d6d9445a391e4a3d3",
+      "dimensions": "756 x 522",
+      "optimizationMetadata": null,
+      "usage": "No public-source literal reference found; deployable unused asset",
+      "publicReferences": [],
+      "classification": "Unverified legacy asset; filename/reference alone cannot establish authorship or licensing.",
+      "articleMetadata": [],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "logo/sameey .png",
+        "url": "https://www.tv96live.org/logo/sameey%20.png",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "logo.png",
+      "bytes": 151675,
+      "sha256": "780c6af988f8791dbaf5e6542e348de576be7943dd442984582956d38ea099f5",
+      "dimensions": "322 x 300",
+      "optimizationMetadata": null,
+      "usage": "Public-source reference (may be dormant; inspect references)",
+      "publicReferences": [
+        "about.html:46",
+        "about.html:185",
+        "articles/10.html:254",
+        "articles/10.html:383",
+        "articles/12.html:254",
+        "articles/12.html:398",
+        "articles/13.html:254",
+        "articles/13.html:396",
+        "articles/14.html:254",
+        "articles/14.html:400",
+        "articles/15.html:254",
+        "articles/15.html:396",
+        "articles/16.html:254",
+        "articles/16.html:397",
+        "articles/17.html:254",
+        "articles/17.html:398",
+        "articles/18.html:254",
+        "articles/18.html:399",
+        "articles/19.html:254",
+        "articles/19.html:400",
+        "articles/21.html:254",
+        "articles/21.html:415",
+        "articles/22.html:254",
+        "articles/22.html:416",
+        "articles/23.html:254",
+        "articles/23.html:400",
+        "articles/24.html:254",
+        "articles/24.html:418",
+        "articles/3.html:254",
+        "articles/3.html:390",
+        "articles/32.html:254",
+        "articles/32.html:393",
+        "articles/9.html:254",
+        "articles/9.html:392",
+        "contact.html:30",
+        "contact.html:115",
+        "index.html:41",
+        "index.html:209",
+        "matches.html:69",
+        "matches.html:141",
+        "news.html:149",
+        "news.html:372",
+        "privacy.html:33",
+        "privacy.html:148",
+        "standings.html:476",
+        "standings.html:631",
+        "terms.html:30",
+        "terms.html:193",
+        "watch-live.html:38",
+        "watch-live.html:139"
+      ],
+      "classification": "Unverified legacy asset; filename/reference alone cannot establish authorship or licensing.",
+      "articleMetadata": [],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "logo.png",
+        "url": "https://www.tv96live.org/logo.png",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "news image/1.jpg",
+      "bytes": 20221,
+      "sha256": "ee6edd9388ec690dc358bff5551aea4b1ef6357276eb3cc787dad3fa211f836a",
+      "dimensions": "596 x 335",
+      "optimizationMetadata": null,
+      "usage": "No public-source literal reference found; deployable unused asset",
+      "publicReferences": [],
+      "classification": "Unverified legacy asset; filename/reference alone cannot establish authorship or licensing.",
+      "articleMetadata": [],
+      "priorInventory": {
+        "path": "news image/1.jpg",
+        "bytes": 20221,
+        "dimensions": "596 x 335",
+        "classification": "C - uncertain; no permission evidence",
+        "usage": "Article 1: already suppressed candidate; remains suppressed"
+      },
+      "live": {
+        "kind": "asset",
+        "asset": "news image/1.jpg",
+        "url": "https://www.tv96live.org/news%20image/1.jpg",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "news image/10.png",
+      "bytes": 2483603,
+      "sha256": "1cb9d8c9097bb6b2cd0e61026d28c68b81bc38af8d2224e553e8bbe460dddee9",
+      "dimensions": "1536 x 1024",
+      "optimizationMetadata": null,
+      "usage": "No public-source literal reference found; deployable unused asset",
+      "publicReferences": [],
+      "classification": "Unverified legacy asset; filename/reference alone cannot establish authorship or licensing.",
+      "articleMetadata": [],
+      "priorInventory": {
+        "path": "news image/10.png",
+        "bytes": 2483603,
+        "dimensions": "1536 x 1024",
+        "classification": "C - uncertain; no permission evidence",
+        "usage": "Article 10: News cards, OG and Article JSON-LD; replaced everywhere"
+      },
+      "live": {
+        "kind": "asset",
+        "asset": "news image/10.png",
+        "url": "https://www.tv96live.org/news%20image/10.png",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "news image/11.png",
+      "bytes": 2169404,
+      "sha256": "eed587b775dfd41690f458afc525cf61711da4d7b52171bb445c232e09d45310",
+      "dimensions": "1536 x 1024",
+      "optimizationMetadata": null,
+      "usage": "No public-source literal reference found; deployable unused asset",
+      "publicReferences": [],
+      "classification": "Unverified legacy asset; filename/reference alone cannot establish authorship or licensing.",
+      "articleMetadata": [],
+      "priorInventory": {
+        "path": "news image/11.png",
+        "bytes": 2169404,
+        "dimensions": "1536 x 1024",
+        "classification": "C - uncertain; no permission evidence",
+        "usage": "Article 11: News cards, OG and Article JSON-LD; replaced everywhere"
+      },
+      "live": {
+        "kind": "asset",
+        "asset": "news image/11.png",
+        "url": "https://www.tv96live.org/news%20image/11.png",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "news image/2.jpeg",
+      "bytes": 31081,
+      "sha256": "381f93cfe364871fd595747ec55fc368b5e999a7ebbcb7347eee5219e94368a0",
+      "dimensions": "900 x 600",
+      "optimizationMetadata": null,
+      "usage": "No public-source literal reference found; deployable unused asset",
+      "publicReferences": [],
+      "classification": "Unverified legacy asset; filename/reference alone cannot establish authorship or licensing.",
+      "articleMetadata": [],
+      "priorInventory": {
+        "path": "news image/2.jpeg",
+        "bytes": 31081,
+        "dimensions": "900 x 600",
+        "classification": "C - uncertain; no permission evidence",
+        "usage": "Article 2: already suppressed candidate; remains suppressed"
+      },
+      "live": {
+        "kind": "asset",
+        "asset": "news image/2.jpeg",
+        "url": "https://www.tv96live.org/news%20image/2.jpeg",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "news image/3.jpg",
+      "bytes": 281136,
+      "sha256": "6c09f6bb092570c55573c8dc645c1d6c8ad476a2f869f2be885cc23853259053",
+      "dimensions": "2048 x 1365",
+      "optimizationMetadata": null,
+      "usage": "No public-source literal reference found; deployable unused asset",
+      "publicReferences": [],
+      "classification": "Unverified legacy asset; filename/reference alone cannot establish authorship or licensing.",
+      "articleMetadata": [],
+      "priorInventory": {
+        "path": "news image/3.jpg",
+        "bytes": 281136,
+        "dimensions": "2048 x 1365",
+        "classification": "C - uncertain; no permission evidence",
+        "usage": "Article 3: already suppressed candidate; remains suppressed"
+      },
+      "live": {
+        "kind": "asset",
+        "asset": "news image/3.jpg",
+        "url": "https://www.tv96live.org/news%20image/3.jpg",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "news image/4.jpg",
+      "bytes": 59648,
+      "sha256": "6d606e1bd0c435ba9bd11e8b0af6dfe9c4f97ed7950be82afcaf20b2549c89e7",
+      "dimensions": "1024 x 576",
+      "optimizationMetadata": null,
+      "usage": "No public-source literal reference found; deployable unused asset",
+      "publicReferences": [],
+      "classification": "Unverified legacy asset; filename/reference alone cannot establish authorship or licensing.",
+      "articleMetadata": [],
+      "priorInventory": {
+        "path": "news image/4.jpg",
+        "bytes": 59648,
+        "dimensions": "1024 x 576",
+        "classification": "C - uncertain; no permission evidence",
+        "usage": "Article 4: already suppressed candidate; remains suppressed"
+      },
+      "live": {
+        "kind": "asset",
+        "asset": "news image/4.jpg",
+        "url": "https://www.tv96live.org/news%20image/4.jpg",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "news image/5.jpg",
+      "bytes": 34940,
+      "sha256": "b986baba15ecab46b6a6ce95b26d898e8850b70189660ee6b2826a38eb27b348",
+      "dimensions": "547 x 365",
+      "optimizationMetadata": null,
+      "usage": "No public-source literal reference found; deployable unused asset",
+      "publicReferences": [],
+      "classification": "Unverified legacy asset; filename/reference alone cannot establish authorship or licensing.",
+      "articleMetadata": [],
+      "priorInventory": {
+        "path": "news image/5.jpg",
+        "bytes": 34940,
+        "dimensions": "547 x 365",
+        "classification": "C - uncertain; no permission evidence",
+        "usage": "Not referenced by any of the 23 published editorial records; retained unused"
+      },
+      "live": {
+        "kind": "asset",
+        "asset": "news image/5.jpg",
+        "url": "https://www.tv96live.org/news%20image/5.jpg",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "news image/6.webp",
+      "bytes": 57516,
+      "sha256": "0e7da907b769d2708c5ef1f473798022261cc06225ab8d94e69ba3a375e0a6b2",
+      "dimensions": "1380 x 690",
+      "optimizationMetadata": null,
+      "usage": "No public-source literal reference found; deployable unused asset",
+      "publicReferences": [],
+      "classification": "Unverified legacy asset; filename/reference alone cannot establish authorship or licensing.",
+      "articleMetadata": [],
+      "priorInventory": {
+        "path": "news image/6.webp",
+        "bytes": 57516,
+        "dimensions": "1380 x 690",
+        "classification": "C - uncertain; no permission evidence",
+        "usage": "Not referenced by any of the 23 published editorial records; retained unused"
+      },
+      "live": {
+        "kind": "asset",
+        "asset": "news image/6.webp",
+        "url": "https://www.tv96live.org/news%20image/6.webp",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "news image/7.webp",
+      "bytes": 12100,
+      "sha256": "c0f95d3834f41f4b35faebb49ae4d7a44357e35f1da839fcf48b0b8255cf366c",
+      "dimensions": "416 x 416",
+      "optimizationMetadata": null,
+      "usage": "No public-source literal reference found; deployable unused asset",
+      "publicReferences": [],
+      "classification": "Unverified legacy asset; filename/reference alone cannot establish authorship or licensing.",
+      "articleMetadata": [],
+      "priorInventory": {
+        "path": "news image/7.webp",
+        "bytes": 12100,
+        "dimensions": "416 x 416",
+        "classification": "C - uncertain; no permission evidence",
+        "usage": "Article 7: already suppressed candidate; remains suppressed"
+      },
+      "live": {
+        "kind": "asset",
+        "asset": "news image/7.webp",
+        "url": "https://www.tv96live.org/news%20image/7.webp",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "news image/8.png",
+      "bytes": 2703983,
+      "sha256": "19c298d656880c912cd3b8516f912e9ab26adc75203d88a4140ca1dcff527d8b",
+      "dimensions": "1536 x 1024",
+      "optimizationMetadata": null,
+      "usage": "No public-source literal reference found; deployable unused asset",
+      "publicReferences": [],
+      "classification": "Unverified legacy asset; filename/reference alone cannot establish authorship or licensing.",
+      "articleMetadata": [],
+      "priorInventory": {
+        "path": "news image/8.png",
+        "bytes": 2703983,
+        "dimensions": "1536 x 1024",
+        "classification": "C - uncertain; no permission evidence",
+        "usage": "Article 8: News cards, OG and Article JSON-LD; replaced everywhere"
+      },
+      "live": {
+        "kind": "asset",
+        "asset": "news image/8.png",
+        "url": "https://www.tv96live.org/news%20image/8.png",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "news image/9.png",
+      "bytes": 2212701,
+      "sha256": "f570d48e289290ddfebe2b5233bc5ca714a1416c8272408cd63136f0d5ac9085",
+      "dimensions": "1536 x 1024",
+      "optimizationMetadata": null,
+      "usage": "No public-source literal reference found; deployable unused asset",
+      "publicReferences": [],
+      "classification": "Unverified legacy asset; filename/reference alone cannot establish authorship or licensing.",
+      "articleMetadata": [],
+      "priorInventory": {
+        "path": "news image/9.png",
+        "bytes": 2212701,
+        "dimensions": "1536 x 1024",
+        "classification": "C - uncertain; no permission evidence",
+        "usage": "Article 9: News cards, OG and Article JSON-LD; replaced everywhere"
+      },
+      "live": {
+        "kind": "asset",
+        "asset": "news image/9.png",
+        "url": "https://www.tv96live.org/news%20image/9.png",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "news image/fergusan.jpg",
+      "bytes": 432777,
+      "sha256": "fd6366e34add105fb3bc893c8d256f8230c94f6ba919d079da677af2f777080c",
+      "dimensions": "1974 x 1316",
+      "optimizationMetadata": null,
+      "usage": "No public-source literal reference found; deployable unused asset",
+      "publicReferences": [],
+      "classification": "Unverified legacy asset; filename/reference alone cannot establish authorship or licensing.",
+      "articleMetadata": [],
+      "priorInventory": {
+        "path": "news image/fergusan.jpg",
+        "bytes": 432777,
+        "dimensions": "1974 x 1316",
+        "classification": "C - uncertain; no permission evidence",
+        "usage": "Not referenced by any of the 23 published editorial records; retained unused"
+      },
+      "live": {
+        "kind": "asset",
+        "asset": "news image/fergusan.jpg",
+        "url": "https://www.tv96live.org/news%20image/fergusan.jpg",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "news image/GettyImages-2166876546-2-scaled.jpg",
+      "bytes": 212787,
+      "sha256": "f550f48d83755b07b83c1b2dfd8e69a7e7eb8985b65b3a102f1b27ce71db0391",
+      "dimensions": "1200 x 800",
+      "optimizationMetadata": null,
+      "usage": "No public-source literal reference found; deployable unused asset",
+      "publicReferences": [],
+      "classification": "Unverified legacy asset; filename/reference alone cannot establish authorship or licensing.",
+      "articleMetadata": [],
+      "priorInventory": {
+        "path": "news image/GettyImages-2166876546-2-scaled.jpg",
+        "bytes": 212787,
+        "dimensions": "1200 x 800",
+        "classification": "D - agency-marked, no licence evidence; unsafe to publish",
+        "usage": "Not referenced by any of the 23 published editorial records; retained unused"
+      },
+      "live": {
+        "kind": "asset",
+        "asset": "news image/GettyImages-2166876546-2-scaled.jpg",
+        "url": "https://www.tv96live.org/news%20image/GettyImages-2166876546-2-scaled.jpg",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "news image/GettyImages-2262861156.jpg.webp",
+      "bytes": 115096,
+      "sha256": "30cd2365008aee4eae39243a16975d31e76ab3ae96a04293f160d07ecfb92c87",
+      "dimensions": "2419 x 1361",
+      "optimizationMetadata": null,
+      "usage": "No public-source literal reference found; deployable unused asset",
+      "publicReferences": [],
+      "classification": "Unverified legacy asset; filename/reference alone cannot establish authorship or licensing.",
+      "articleMetadata": [],
+      "priorInventory": {
+        "path": "news image/GettyImages-2262861156.jpg.webp",
+        "bytes": 115096,
+        "dimensions": "2419 x 1361",
+        "classification": "D - agency-marked, no licence evidence; unsafe to publish",
+        "usage": "Not referenced by any of the 23 published editorial records; retained unused"
+      },
+      "live": {
+        "kind": "asset",
+        "asset": "news image/GettyImages-2262861156.jpg.webp",
+        "url": "https://www.tv96live.org/news%20image/GettyImages-2262861156.jpg.webp",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "news image/images.jpg",
+      "bytes": 7892,
+      "sha256": "0eedea050de5e308d7abb155a65865e2fb6b9a0354eca289861479cfff870b27",
+      "dimensions": "300 x 168",
+      "optimizationMetadata": null,
+      "usage": "No public-source literal reference found; deployable unused asset",
+      "publicReferences": [],
+      "classification": "Unverified legacy asset; filename/reference alone cannot establish authorship or licensing.",
+      "articleMetadata": [],
+      "priorInventory": {
+        "path": "news image/images.jpg",
+        "bytes": 7892,
+        "dimensions": "300 x 168",
+        "classification": "C - uncertain; no permission evidence",
+        "usage": "Not referenced by any of the 23 published editorial records; retained unused"
+      },
+      "live": {
+        "kind": "asset",
+        "asset": "news image/images.jpg",
+        "url": "https://www.tv96live.org/news%20image/images.jpg",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "teams/AC_Milan.png",
+      "bytes": 73375,
+      "sha256": "a54524fbbb8407921c8340425d66812fdf69c9facdf9e15d0b669ba5dffc7fd1",
+      "dimensions": "720 x 1140",
+      "optimizationMetadata": null,
+      "usage": "No public-source literal reference found; deployable unused asset",
+      "publicReferences": [],
+      "classification": "Team/competition branding candidate; no documented permission found; filename is not visual/legal verification.",
+      "articleMetadata": [],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "teams/AC_Milan.png",
+        "url": "https://www.tv96live.org/teams/AC_Milan.png",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "teams/Arsenal_FC.png",
+      "bytes": 56550,
+      "sha256": "95ff5e1e3f161d1e732ff6371930139c7f1fef468a2602f64f45af94f5740d22",
+      "dimensions": "323 x 380",
+      "optimizationMetadata": null,
+      "usage": "No public-source literal reference found; deployable unused asset",
+      "publicReferences": [],
+      "classification": "Team/competition branding candidate; no documented permission found; filename is not visual/legal verification.",
+      "articleMetadata": [],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "teams/Arsenal_FC.png",
+        "url": "https://www.tv96live.org/teams/Arsenal_FC.png",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "teams/Aston_Villa.png",
+      "bytes": 37476,
+      "sha256": "8799c2e73edbacd462b7ec01f951f5304abed6d0f8c0fdaa8da91b95b86dec72",
+      "dimensions": "250 x 340",
+      "optimizationMetadata": null,
+      "usage": "No public-source literal reference found; deployable unused asset",
+      "publicReferences": [],
+      "classification": "Team/competition branding candidate; no documented permission found; filename is not visual/legal verification.",
+      "articleMetadata": [],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "teams/Aston_Villa.png",
+        "url": "https://www.tv96live.org/teams/Aston_Villa.png",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "teams/Atletico_Madrid.png",
+      "bytes": 16999,
+      "sha256": "fe41670d1a1ce4da6373ecfa6f1e148cf426cc14f04436611f916c52a685e32c",
+      "dimensions": "250 x 321",
+      "optimizationMetadata": null,
+      "usage": "No public-source literal reference found; deployable unused asset",
+      "publicReferences": [],
+      "classification": "Team/competition branding candidate; no documented permission found; filename is not visual/legal verification.",
+      "articleMetadata": [],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "teams/Atletico_Madrid.png",
+        "url": "https://www.tv96live.org/teams/Atletico_Madrid.png",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "teams/Bayern_München.png",
+      "bytes": 164570,
+      "sha256": "7e674a3fbdc5dc7dfc0dbbab01cce5d681d1f17f9400631ef9e3771549f9de7e",
+      "dimensions": "960 x 960",
+      "optimizationMetadata": null,
+      "usage": "No public-source literal reference found; deployable unused asset",
+      "publicReferences": [],
+      "classification": "Team/competition branding candidate; no documented permission found; filename is not visual/legal verification.",
+      "articleMetadata": [],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "teams/Bayern_München.png",
+        "url": "https://www.tv96live.org/teams/Bayern_M%C3%BCnchen.png",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "teams/betis.png",
+      "bytes": 19823,
+      "sha256": "984372d961963394401d735fe77eb78c34f7ba69649edc1e21fecd523b470fbd",
+      "dimensions": "247 x 204",
+      "optimizationMetadata": null,
+      "usage": "No public-source literal reference found; deployable unused asset",
+      "publicReferences": [],
+      "classification": "Team/competition branding candidate; no documented permission found; filename is not visual/legal verification.",
+      "articleMetadata": [],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "teams/betis.png",
+        "url": "https://www.tv96live.org/teams/betis.png",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "teams/Brentford.png",
+      "bytes": 42576,
+      "sha256": "b1540475282278f3f85db70002f3a56f6e3b0ce9180c0111b380c4cdb6fdd2ba",
+      "dimensions": "250 x 250",
+      "optimizationMetadata": null,
+      "usage": "No public-source literal reference found; deployable unused asset",
+      "publicReferences": [],
+      "classification": "Team/competition branding candidate; no documented permission found; filename is not visual/legal verification.",
+      "articleMetadata": [],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "teams/Brentford.png",
+        "url": "https://www.tv96live.org/teams/Brentford.png",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "teams/Burnley_FC.png",
+      "bytes": 169628,
+      "sha256": "469a5907b7bdb46fb86e952922ba977e0333878f7997cd8d8b0c997cd3f90075",
+      "dimensions": "400 x 400",
+      "optimizationMetadata": null,
+      "usage": "No public-source literal reference found; deployable unused asset",
+      "publicReferences": [],
+      "classification": "Team/competition branding candidate; no documented permission found; filename is not visual/legal verification.",
+      "articleMetadata": [],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "teams/Burnley_FC.png",
+        "url": "https://www.tv96live.org/teams/Burnley_FC.png",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "teams/Chelsea_FC.png",
+      "bytes": 1054169,
+      "sha256": "987c3e3e8eb2e05357edb36ff4aa7ac47311726da675b574fb558007d2e0b3c3",
+      "dimensions": "3840 x 3840",
+      "optimizationMetadata": null,
+      "usage": "No public-source literal reference found; deployable unused asset",
+      "publicReferences": [],
+      "classification": "Team/competition branding candidate; no documented permission found; filename is not visual/legal verification.",
+      "articleMetadata": [],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "teams/Chelsea_FC.png",
+        "url": "https://www.tv96live.org/teams/Chelsea_FC.png",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "teams/FC_Barcelona_(crest).svg.png",
+      "bytes": 19677,
+      "sha256": "c61079179d2d94cc48077b67674914923c031a497b89de1ae6ec0ccfaa549e41",
+      "dimensions": "250 x 254",
+      "optimizationMetadata": null,
+      "usage": "No public-source literal reference found; deployable unused asset",
+      "publicReferences": [],
+      "classification": "Team/competition branding candidate; no documented permission found; filename is not visual/legal verification.",
+      "articleMetadata": [],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "teams/FC_Barcelona_(crest).svg.png",
+        "url": "https://www.tv96live.org/teams/FC_Barcelona_(crest).svg.png",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "teams/Juventus_FC.png",
+      "bytes": 25221,
+      "sha256": "106e02b67df1d1e66a9c5e05f3d3ec788915b25fc706e3a3567e94289951279a",
+      "dimensions": "200 x 400",
+      "optimizationMetadata": null,
+      "usage": "No public-source literal reference found; deployable unused asset",
+      "publicReferences": [],
+      "classification": "Team/competition branding candidate; no documented permission found; filename is not visual/legal verification.",
+      "articleMetadata": [],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "teams/Juventus_FC.png",
+        "url": "https://www.tv96live.org/teams/Juventus_FC.png",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "teams/Leeds_United.png",
+      "bytes": 27914,
+      "sha256": "8aaa0edbd63b950e86d275c874059c491358359cf53cddae1e7f380e5ac28266",
+      "dimensions": "250 x 312",
+      "optimizationMetadata": null,
+      "usage": "No public-source literal reference found; deployable unused asset",
+      "publicReferences": [],
+      "classification": "Team/competition branding candidate; no documented permission found; filename is not visual/legal verification.",
+      "articleMetadata": [],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "teams/Leeds_United.png",
+        "url": "https://www.tv96live.org/teams/Leeds_United.png",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "teams/Leeds_United_F.C",
+      "bytes": 27914,
+      "sha256": "8aaa0edbd63b950e86d275c874059c491358359cf53cddae1e7f380e5ac28266",
+      "dimensions": "250 x 312",
+      "optimizationMetadata": null,
+      "usage": "No public-source literal reference found; deployable unused asset",
+      "publicReferences": [],
+      "classification": "Team/competition branding candidate; no documented permission found; filename is not visual/legal verification.",
+      "articleMetadata": [],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "teams/Leeds_United_F.C",
+        "url": "https://www.tv96live.org/teams/Leeds_United_F.C",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "teams/liverpool.png",
+      "bytes": 138063,
+      "sha256": "99577454ec631b5789927f20c71714020255dc453f9ec9b539a824966449b847",
+      "dimensions": "512 x 512",
+      "optimizationMetadata": null,
+      "usage": "No public-source literal reference found; deployable unused asset",
+      "publicReferences": [],
+      "classification": "Team/competition branding candidate; no documented permission found; filename is not visual/legal verification.",
+      "articleMetadata": [],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "teams/liverpool.png",
+        "url": "https://www.tv96live.org/teams/liverpool.png",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "teams/manchester united.png",
+      "bytes": 2444626,
+      "sha256": "5d51b8f8e4e4315605a7383e9d73aa5951ec23ec13d7b84afb961aeb186580e9",
+      "dimensions": "2138 x 2144",
+      "optimizationMetadata": null,
+      "usage": "No public-source literal reference found; deployable unused asset",
+      "publicReferences": [],
+      "classification": "Team/competition branding candidate; no documented permission found; filename is not visual/legal verification.",
+      "articleMetadata": [],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "teams/manchester united.png",
+        "url": "https://www.tv96live.org/teams/manchester%20united.png",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "teams/Nottingham Forest.png",
+      "bytes": 137385,
+      "sha256": "ca8d16763dda9a64eeaca93162cfbc088f9cdd99c3b2dfe7cf2ddd019682b859",
+      "dimensions": "1280 x 2251",
+      "optimizationMetadata": null,
+      "usage": "No public-source literal reference found; deployable unused asset",
+      "publicReferences": [],
+      "classification": "Team/competition branding candidate; no documented permission found; filename is not visual/legal verification.",
+      "articleMetadata": [],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "teams/Nottingham Forest.png",
+        "url": "https://www.tv96live.org/teams/Nottingham%20Forest.png",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "teams/Paris_Saint-Germain.png",
+      "bytes": 107255,
+      "sha256": "c53ea4912ebe341b7951de6ac27feaa24ca406729ebc6dcc0a4afce1994cfc7d",
+      "dimensions": "330 x 330",
+      "optimizationMetadata": null,
+      "usage": "No public-source literal reference found; deployable unused asset",
+      "publicReferences": [],
+      "classification": "Team/competition branding candidate; no documented permission found; filename is not visual/legal verification.",
+      "articleMetadata": [],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "teams/Paris_Saint-Germain.png",
+        "url": "https://www.tv96live.org/teams/Paris_Saint-Germain.png",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "teams/Rmadrid.png",
+      "bytes": 50064,
+      "sha256": "436f841e3a09fdfd1733192bcb3023400a4536ac2560fe966dd52db4eb0a7513",
+      "dimensions": "194 x 260",
+      "optimizationMetadata": null,
+      "usage": "No public-source literal reference found; deployable unused asset",
+      "publicReferences": [],
+      "classification": "Team/competition branding candidate; no documented permission found; filename is not visual/legal verification.",
+      "articleMetadata": [],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "teams/Rmadrid.png",
+        "url": "https://www.tv96live.org/teams/Rmadrid.png",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "teams/Sunderland.png",
+      "bytes": 51046,
+      "sha256": "bb359e3ecbe8bd3c8aec144967632fa9341010bbd051b9821dea75c4b6b93873",
+      "dimensions": "300 x 250",
+      "optimizationMetadata": null,
+      "usage": "No public-source literal reference found; deployable unused asset",
+      "publicReferences": [],
+      "classification": "Team/competition branding candidate; no documented permission found; filename is not visual/legal verification.",
+      "articleMetadata": [],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "teams/Sunderland.png",
+        "url": "https://www.tv96live.org/teams/Sunderland.png",
+        "error": "fetch failed"
+      }
+    },
+    {
+      "path": "tv96-banner.png",
+      "bytes": 2330655,
+      "sha256": "3f4fd7bb9d1ebf105c6aa0f39aa8c13a595ff6b711c1059b69defb5377884d40",
+      "dimensions": "1536 x 1024",
+      "optimizationMetadata": null,
+      "usage": "Public-source reference (may be dormant; inspect references)",
+      "publicReferences": [
+        "index.html:149",
+        "matches.html:118"
+      ],
+      "classification": "Unverified legacy asset; filename/reference alone cannot establish authorship or licensing.",
+      "articleMetadata": [],
+      "priorInventory": null,
+      "live": {
+        "kind": "asset",
+        "asset": "tv96-banner.png",
+        "url": "https://www.tv96live.org/tv96-banner.png",
+        "error": "fetch failed"
+      }
+    }
+  ],
+  "network": [
+    {
+      "kind": "asset",
+      "asset": "banner/banner1.jpg",
+      "url": "https://www.tv96live.org/banner/banner1.jpg",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "banner/banner.jpg",
+      "url": "https://www.tv96live.org/banner/banner.jpg",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "banner/hero.jpg",
+      "url": "https://www.tv96live.org/banner/hero.jpg",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "banner/banner2026.png",
+      "url": "https://www.tv96live.org/banner/banner2026.png",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "banner/hero1.png",
+      "url": "https://www.tv96live.org/banner/hero1.png",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "banner/omar.jpg",
+      "url": "https://www.tv96live.org/banner/omar.jpg",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "banner/poster .png",
+      "url": "https://www.tv96live.org/banner/poster%20.png",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "editorial-fallback.png",
+      "url": "https://www.tv96live.org/editorial-fallback.png",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "football-fallback.svg",
+      "url": "https://www.tv96live.org/football-fallback.svg",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "favicon.png",
+      "url": "https://www.tv96live.org/favicon.png",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "icon football/bundisliga.png",
+      "url": "https://www.tv96live.org/icon%20football/bundisliga.png",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "icon football/CAF.jpg",
+      "url": "https://www.tv96live.org/icon%20football/CAF.jpg",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "icon football/champion.png",
+      "url": "https://www.tv96live.org/icon%20football/champion.png",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "icon football/europa league.png",
+      "url": "https://www.tv96live.org/icon%20football/europa%20league.png",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "icon football/europa_league.jpg",
+      "url": "https://www.tv96live.org/icon%20football/europa_league.jpg",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "icon football/FA_Cup.png",
+      "url": "https://www.tv96live.org/icon%20football/FA_Cup.png",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "icon football/laliga.png",
+      "url": "https://www.tv96live.org/icon%20football/laliga.png",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "icon football/league 1.png",
+      "url": "https://www.tv96live.org/icon%20football/league%201.png",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "icon football/MLS-logo.png",
+      "url": "https://www.tv96live.org/icon%20football/MLS-logo.png",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "icon football/premier league.png",
+      "url": "https://www.tv96live.org/icon%20football/premier%20league.png",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "icon football/PSG-logo.jpg",
+      "url": "https://www.tv96live.org/icon%20football/PSG-logo.jpg",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "icon football/serie a.png",
+      "url": "https://www.tv96live.org/icon%20football/serie%20a.png",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "icon football/world cup.jpg",
+      "url": "https://www.tv96live.org/icon%20football/world%20cup.jpg",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "icon football/Suadi-Pro-League.jpg",
+      "url": "https://www.tv96live.org/icon%20football/Suadi-Pro-League.jpg",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "icon-192.png",
+      "url": "https://www.tv96live.org/icon-192.png",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "icon football/world cup1.png",
+      "url": "https://www.tv96live.org/icon%20football/world%20cup1.png",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "icon-512.png",
+      "url": "https://www.tv96live.org/icon-512.png",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "images/articles/alvarez-meeting-report.png",
+      "url": "https://www.tv96live.org/images/articles/alvarez-meeting-report.png",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "images/articles/arsenal-alvarez-statement.png",
+      "url": "https://www.tv96live.org/images/articles/arsenal-alvarez-statement.png",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "images/articles/alvarez-meeting-report.webp",
+      "url": "https://www.tv96live.org/images/articles/alvarez-meeting-report.webp",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "images/articles/arsenal-alvarez-statement.webp",
+      "url": "https://www.tv96live.org/images/articles/arsenal-alvarez-statement.webp",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "images/articles/bundesliga-guide.png",
+      "url": "https://www.tv96live.org/images/articles/bundesliga-guide.png",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "images/articles/bundesliga-guide.webp",
+      "url": "https://www.tv96live.org/images/articles/bundesliga-guide.webp",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "images/articles/champions-league-format.png",
+      "url": "https://www.tv96live.org/images/articles/champions-league-format.png",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "images/articles/champions-league-format.webp",
+      "url": "https://www.tv96live.org/images/articles/champions-league-format.webp",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "images/articles/champions-league-qualification.png",
+      "url": "https://www.tv96live.org/images/articles/champions-league-qualification.png",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "images/articles/champions-league-qualification.webp",
+      "url": "https://www.tv96live.org/images/articles/champions-league-qualification.webp",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "images/articles/expected-goals-xg.png",
+      "url": "https://www.tv96live.org/images/articles/expected-goals-xg.png",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "images/articles/expected-goals-xg.webp",
+      "url": "https://www.tv96live.org/images/articles/expected-goals-xg.webp",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "images/articles/fernandez-omission.png",
+      "url": "https://www.tv96live.org/images/articles/fernandez-omission.png",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "images/articles/fernandez-omission.webp",
+      "url": "https://www.tv96live.org/images/articles/fernandez-omission.webp",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "images/articles/goal-difference-football.png",
+      "url": "https://www.tv96live.org/images/articles/goal-difference-football.png",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "images/articles/goal-difference-football.webp",
+      "url": "https://www.tv96live.org/images/articles/goal-difference-football.webp",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "images/articles/how-var-works.png",
+      "url": "https://www.tv96live.org/images/articles/how-var-works.png",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "images/articles/how-var-works.webp",
+      "url": "https://www.tv96live.org/images/articles/how-var-works.webp",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "images/articles/jj-gabriel.png",
+      "url": "https://www.tv96live.org/images/articles/jj-gabriel.png",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "images/articles/jj-gabriel.webp",
+      "url": "https://www.tv96live.org/images/articles/jj-gabriel.webp",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "images/articles/johan-manzambi-aston-villa.png",
+      "url": "https://www.tv96live.org/images/articles/johan-manzambi-aston-villa.png",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "images/articles/johan-manzambi-aston-villa.webp",
+      "url": "https://www.tv96live.org/images/articles/johan-manzambi-aston-villa.webp",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "images/articles/la-liga-guide.png",
+      "url": "https://www.tv96live.org/images/articles/la-liga-guide.png",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "images/articles/la-liga-guide.webp",
+      "url": "https://www.tv96live.org/images/articles/la-liga-guide.webp",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "images/articles/ligue-1-guide.png",
+      "url": "https://www.tv96live.org/images/articles/ligue-1-guide.png",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "images/articles/mbappe-world-cup-contributions.png",
+      "url": "https://www.tv96live.org/images/articles/mbappe-world-cup-contributions.png",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "images/articles/ligue-1-guide.webp",
+      "url": "https://www.tv96live.org/images/articles/ligue-1-guide.webp",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "images/articles/mbappe-world-cup-contributions.webp",
+      "url": "https://www.tv96live.org/images/articles/mbappe-world-cup-contributions.webp",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "images/articles/premier-league-european-qualification.png",
+      "url": "https://www.tv96live.org/images/articles/premier-league-european-qualification.png",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "images/articles/premier-league-european-qualification.webp",
+      "url": "https://www.tv96live.org/images/articles/premier-league-european-qualification.webp",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "images/articles/premier-league-guide.png",
+      "url": "https://www.tv96live.org/images/articles/premier-league-guide.png",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "images/articles/premier-league-guide.webp",
+      "url": "https://www.tv96live.org/images/articles/premier-league-guide.webp",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "images/articles/premier-league-relegation.png",
+      "url": "https://www.tv96live.org/images/articles/premier-league-relegation.png",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "images/articles/premier-league-relegation.webp",
+      "url": "https://www.tv96live.org/images/articles/premier-league-relegation.webp",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "images/articles/reading-european-draw.png",
+      "url": "https://www.tv96live.org/images/articles/reading-european-draw.png",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "images/articles/reading-european-draw.webp",
+      "url": "https://www.tv96live.org/images/articles/reading-european-draw.webp",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "images/articles/serie-a-guide.png",
+      "url": "https://www.tv96live.org/images/articles/serie-a-guide.png",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "images/articles/serie-a-guide.webp",
+      "url": "https://www.tv96live.org/images/articles/serie-a-guide.webp",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "images/articles/uefa-champions-league-guide.png",
+      "url": "https://www.tv96live.org/images/articles/uefa-champions-league-guide.png",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "images/articles/uefa-champions-league-guide.webp",
+      "url": "https://www.tv96live.org/images/articles/uefa-champions-league-guide.webp",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "logo/bann.png",
+      "url": "https://www.tv96live.org/logo/bann.png",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "logo/banner middle .png",
+      "url": "https://www.tv96live.org/logo/banner%20middle%20.png",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "logo/click.png",
+      "url": "https://www.tv96live.org/logo/click.png",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "logo/content .png",
+      "url": "https://www.tv96live.org/logo/content%20.png",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "logo/header .png",
+      "url": "https://www.tv96live.org/logo/header%20.png",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "logo/icons .png",
+      "url": "https://www.tv96live.org/logo/icons%20.png",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "logo/Logo.png",
+      "url": "https://www.tv96live.org/logo/Logo.png",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "logo/sameey .png",
+      "url": "https://www.tv96live.org/logo/sameey%20.png",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "news image/1.jpg",
+      "url": "https://www.tv96live.org/news%20image/1.jpg",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "logo.png",
+      "url": "https://www.tv96live.org/logo.png",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "news image/10.png",
+      "url": "https://www.tv96live.org/news%20image/10.png",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "news image/11.png",
+      "url": "https://www.tv96live.org/news%20image/11.png",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "news image/2.jpeg",
+      "url": "https://www.tv96live.org/news%20image/2.jpeg",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "news image/3.jpg",
+      "url": "https://www.tv96live.org/news%20image/3.jpg",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "news image/4.jpg",
+      "url": "https://www.tv96live.org/news%20image/4.jpg",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "news image/5.jpg",
+      "url": "https://www.tv96live.org/news%20image/5.jpg",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "news image/7.webp",
+      "url": "https://www.tv96live.org/news%20image/7.webp",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "news image/6.webp",
+      "url": "https://www.tv96live.org/news%20image/6.webp",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "news image/8.png",
+      "url": "https://www.tv96live.org/news%20image/8.png",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "news image/9.png",
+      "url": "https://www.tv96live.org/news%20image/9.png",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "news image/fergusan.jpg",
+      "url": "https://www.tv96live.org/news%20image/fergusan.jpg",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "news image/GettyImages-2166876546-2-scaled.jpg",
+      "url": "https://www.tv96live.org/news%20image/GettyImages-2166876546-2-scaled.jpg",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "news image/images.jpg",
+      "url": "https://www.tv96live.org/news%20image/images.jpg",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "news image/GettyImages-2262861156.jpg.webp",
+      "url": "https://www.tv96live.org/news%20image/GettyImages-2262861156.jpg.webp",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "teams/Arsenal_FC.png",
+      "url": "https://www.tv96live.org/teams/Arsenal_FC.png",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "teams/AC_Milan.png",
+      "url": "https://www.tv96live.org/teams/AC_Milan.png",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "teams/Atletico_Madrid.png",
+      "url": "https://www.tv96live.org/teams/Atletico_Madrid.png",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "teams/Aston_Villa.png",
+      "url": "https://www.tv96live.org/teams/Aston_Villa.png",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "teams/betis.png",
+      "url": "https://www.tv96live.org/teams/betis.png",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "teams/Bayern_München.png",
+      "url": "https://www.tv96live.org/teams/Bayern_M%C3%BCnchen.png",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "teams/Brentford.png",
+      "url": "https://www.tv96live.org/teams/Brentford.png",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "teams/Burnley_FC.png",
+      "url": "https://www.tv96live.org/teams/Burnley_FC.png",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "teams/Chelsea_FC.png",
+      "url": "https://www.tv96live.org/teams/Chelsea_FC.png",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "teams/FC_Barcelona_(crest).svg.png",
+      "url": "https://www.tv96live.org/teams/FC_Barcelona_(crest).svg.png",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "teams/Juventus_FC.png",
+      "url": "https://www.tv96live.org/teams/Juventus_FC.png",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "teams/Leeds_United.png",
+      "url": "https://www.tv96live.org/teams/Leeds_United.png",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "teams/Leeds_United_F.C",
+      "url": "https://www.tv96live.org/teams/Leeds_United_F.C",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "teams/liverpool.png",
+      "url": "https://www.tv96live.org/teams/liverpool.png",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "teams/manchester united.png",
+      "url": "https://www.tv96live.org/teams/manchester%20united.png",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "teams/Nottingham Forest.png",
+      "url": "https://www.tv96live.org/teams/Nottingham%20Forest.png",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "teams/Paris_Saint-Germain.png",
+      "url": "https://www.tv96live.org/teams/Paris_Saint-Germain.png",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "teams/Rmadrid.png",
+      "url": "https://www.tv96live.org/teams/Rmadrid.png",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "tv96-banner.png",
+      "url": "https://www.tv96live.org/tv96-banner.png",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "asset",
+      "asset": "teams/Sunderland.png",
+      "url": "https://www.tv96live.org/teams/Sunderland.png",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "editorial-source",
+      "url": "https://ligue1.com/en/articles/l1_article_93-",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "ads.txt",
+      "url": "https://www.tv96live.org/ads.txt",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "editorial-source",
+      "url": "https://ligue1.com/en/articles/l1_article_5074-",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "editorial-source",
+      "url": "https://ligue1.com/en/articles/l1_article_5074-everything-you-need-to-know-about-the-ligue-2-bkt-play-offs",
+      "error": "fetch failed"
+    },
+    {
+      "kind": "editorial-source",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmde8n8j0dn4o",
+      "error": "fetch failed"
+    }
+  ]
+}

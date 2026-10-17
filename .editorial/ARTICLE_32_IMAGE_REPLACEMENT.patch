@@ -1,0 +1,65 @@
+diff --git a/.editorial/news-data.js b/.editorial/news-data.js
+--- a/.editorial/news-data.js
++++ b/.editorial/news-data.js
+@@ -827,35 +827,32 @@
+         "author": "TV96 Live Editorial Team",
+         "publishedAt": "2026-09-15T20:00:00+03:00",
+         "updatedAt": "2026-10-11",
+-        "image": "/images/articles/jj-gabriel.png",
+-        "imageAlt": "JJ Gabriel in a Manchester United shirt with the club crest and stadium background",
+-        "imageType": "user-provided",
+-        "rightsStatus": "user-provided",
+-        // Owner confirmation, 11 October 2026: ChatGPT-edited derivative of a
+-        // real photograph obtained through Google Images; original licence
+-        // not established. "user-provided" describes delivery, not clearance.
+-        "imageReviewRequired": true,
+-        "brandingReview": "required",
+-        "imageCredit": "Image supplied by the TV96 Live publisher",
+-        "sources": [
+-            {
+-                "name": "BBC Sport: JJ Gabriel asks to leave Manchester United",
+-                "url": "https://www.bbc.co.uk/sport/football/articles/c95y4dxr0v6do"
+-            },
+-            {
+-                "name": "Manchester Evening News: JJ Gabriel and Ryan Giggs context",
+-                "url": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-utd-jj-gabriel-carrick-34607865"
+-            }
+-        ],
+-        "isPublished": true
+-    }
+-];
+-
+-// Explicit internal registry. Adding a file or article image path alone does
+-// not approve it. Future marks-free graphics may use brandingReview: 'clear'.
+-// Rights review is an editorial record, not permission to use competition marks.
+-const editorialImageRegistry = {
+-    32: '/images/articles/jj-gabriel.png',
++        "image": "/images/articles/football-academy-generic.png",
++        "imageAlt": "Generic editorial illustration of a football, training cones and an empty pitch; no player depicted",
++        "imageType": "original-editorial",
++        "rightsStatus": "reviewed",
++        "imageReviewRequired": false,
++        "brandingReview": "clear",
++        "imageCredit": "New generic editorial illustration created for TV96 Live; illustrative, not a photograph of JJ Gabriel",
++        "sources": [
++            {
++                "name": "BBC Sport: JJ Gabriel asks to leave Manchester United",
++                "url": "https://www.bbc.co.uk/sport/football/articles/c95y4dxr0v6do"
++            },
++            {
++                "name": "Manchester Evening News: JJ Gabriel and Ryan Giggs context",
++                "url": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-utd-jj-gabriel-carrick-34607865"
++            }
++        ],
++        "isPublished": true
++    }
++];
++
++// Explicit internal registry. Adding a file or article image path alone does
++// not approve it. Future marks-free graphics may use brandingReview: 'clear'.
++// Rights review is an editorial record, not permission to use competition marks.
++const editorialImageRegistry = {
++    32: '/images/articles/football-academy-generic.png',
+     4: '/images/articles/johan-manzambi-aston-villa.png',
+     7: '/images/articles/mbappe-world-cup-contributions.png',
+     8: '/images/articles/arsenal-alvarez-statement.png',

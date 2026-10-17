@@ -36,11 +36,45 @@ const response = () => ({ code: null, body: null, headers: {}, setHeader(key, va
         global.fetch = async () => ({ ok: true, status: 200, json: async () => ({ competition: { name: 'Premier League' }, standings: [{ type: 'TOTAL', table }] }) });
         const tableResponse = response(); await standings({ method: 'GET', query: { league: 'PL' } }, tableResponse);
         assert.equal(tableResponse.code, 200); assert.equal(tableResponse.body.standings[0].points, 3); assert.equal(tableResponse.body.standings[0].goalDifference, 1); assert.equal(tableResponse.body.standingsSource, 'official');
+        let europaRequests = 0;
+        global.fetch = async input => {
+            assert.equal(new URL(input).pathname, '/v4/competitions/EL/standings');
+            europaRequests++;
+            return { ok: true, status: 200, json: async () => ({ competition: { name: 'UEFA Europa League' }, standings: [{ type: 'TOTAL', table }] }) };
+        };
+        const europaResponse = response(); await standings({ method: 'GET', query: { league: 'EL' } }, europaResponse);
+        assert.equal(europaRequests, 1); assert.equal(europaResponse.code, 200);
+        assert.equal(europaResponse.body.competition.name, 'UEFA Europa League');
+        assert.equal(europaResponse.body.standingsSource, 'official');
+        global.fetch = async () => ({ ok: false, status: 403, json: async () => ({ message: 'Subscription does not cover this competition' }) });
+        const deniedEuropa = response(); await standings({ method: 'GET', query: { league: 'EL' } }, deniedEuropa);
+        assert.equal(deniedEuropa.code, 403); assert(!deniedEuropa.body.standings);
         global.fetch = async input => ({ ok: true, status: 200, json: async () => String(input).includes('/standings')
             ? { standings: [{ type: 'TOTAL', table: table.map(row => ({ ...row, playedGames: 0 })) }] }
             : { matches: [match] } });
         const fallback = response(); await standings({ method: 'GET', query: { league: 'PL' } }, fallback);
         assert.equal(fallback.code, 200); assert.equal(fallback.body.standingsSource, 'calculated-from-finished-matches'); assert.equal(fallback.body.standings[0].points, 3); assert.equal(fallback.body.standings[1].goalsAgainst, 2);
+        assert.equal(typeof tableResponse.body.standingsSource, 'string');
+        assert.equal(typeof fallback.body.standingsSource, 'string');
+        assert.equal(fallback.headers['Cache-Control'], tableResponse.headers['Cache-Control']);
+        for (const matchPayload of [{matches:[]}, {}, {matches:null}]) {
+            global.fetch = async input => ({ok:true,status:200,json:async()=>String(input).includes('/standings')
+                ? {standings:[{type:'TOTAL',table:table.map(row=>({...row,playedGames:0}))}]}
+                : matchPayload});
+            const noFallback = response(); await standings({method:'GET',query:{league:'PL'}},noFallback);
+            assert.equal(noFallback.code,200);
+            assert.equal(noFallback.body.standingsSource,'official','Unapplied fallback retains provider provenance');
+        }
+        let providerRequests = 0;
+        global.fetch = async () => {
+            providerRequests++;
+            return {ok:true,status:200,json:async()=>({standings:[{type:'TOTAL',table:table.map(row=>({...row,points:row.points-2}))}]})};
+        };
+        const adjusted = response(); await standings({method:'GET',query:{league:'PL'}},adjusted);
+        assert.equal(providerRequests,1);
+        assert.equal(adjusted.body.standingsSource,'official');
+        assert.equal(adjusted.body.standings[0].points,1,'Provider points must not be recalculated');
+        assert.deepEqual(adjusted.body.standings.map(row=>row.name),tableResponse.body.standings.map(row=>row.name),'Provider ordering preserved');
         console.log('PASS: existing API method/league guards, match IDs/scores/logos, official standings and calculated fallback using mocked upstream responses.');
     } finally {
         global.fetch = oldFetch;

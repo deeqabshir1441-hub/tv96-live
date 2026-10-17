@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-23T17:51:04.749Z",
+  "checkedAt": "2026-10-17T17:23:39.571Z",
   "mode": "Local Chromium; mocked football responses and external scripts; no production requests",
   "articles": [
     {
@@ -99,6 +99,22 @@
       "related": 3
     }
   ],
+  "article9HistoricalExample": {
+    "status": "pass",
+    "javascriptDisabled": true,
+    "exactParagraphs": true,
+    "sourceLinks": 5,
+    "viewportWidths": [
+      320,
+      360,
+      390,
+      1440
+    ],
+    "themes": [
+      "dark",
+      "light"
+    ]
+  },
   "draftsAndRetiredExcluded": 13,
   "mergeRedirects": {
     "8": 10,
@@ -107,9 +123,9 @@
   },
   "newsFilters": [
     "All",
-    "Latest News",
     "Football Guides",
     "League & Competition Guides",
+    "Archived Reports",
     "FIFA World Cup",
     "Europa League",
     "Premier League",
@@ -118,7 +134,7 @@
     "Serie A",
     "Bundesliga",
     "Ligue 1",
-    "Manchester United / Latest News"
+    "Manchester United / Archived Reports"
   ],
   "viewportWidths": [
     320,
@@ -127,5 +143,5 @@
     768,
     1440
   ],
-  "screenshots": "C:\\Users\\user\\AppData\\Local\\Temp\\tv96-editorial-aqXevS"
+  "screenshots": "C:\\Users\\user\\AppData\\Local\\Temp\\tv96-editorial-fXTZB5"
 }

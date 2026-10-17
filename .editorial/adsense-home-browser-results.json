@@ -1,0 +1,91 @@
+{
+  "checkedAt": "2026-10-11T18:39:38.443Z",
+  "mode": "Unmocked live Chromium; fresh profile, no geographic emulation; timed observation, third-party/ad delivery not guaranteed",
+  "results": [
+    {
+      "route": "/",
+      "width": 1440,
+      "url": "https://www.tv96live.org/",
+      "title": "TV96 Live - Football News, Fixtures and Guides",
+      "canonical": "https://www.tv96live.org/",
+      "robots": "index, follow",
+      "bodyText": "Home\nMatches\nLatest News\nAbout Us\nPrivacy\nPremier League\nLa Liga\nSerie A\nLigue 1\nBundesliga\nUEFA Champions League\nEuropa League\nFeatured\n\nUnderstand the rules, follow the leagues and explore the stories\n\nView News & Guides\nManchester United / Latest News\nJJ Gabriel, 15, Asks to Leave Manchester United as Club Fight to Keep Highly Rated Prospect\n15 Sept 2026\n5 min read\n\nBBC Sport reports JJ Gabriel has asked for his Manchester United registration to be cancelled. United are seeking a resolution as the 15-year-old forward's future remains unsettled.\n\nRead full story →\nLigue 1\nLigue 1 Guide\n5 Sept 2026\n4 min read\nBundesliga\nBundesliga Guide\n5 Sept 2026\n4 min read\nSerie A\nSerie A Guide\n5 Sept 2026\n4 min read\nToday's Matches\n\nLive scores and upcoming fixtures\n\n2 Live\nUpdated 21:39\nYesterday\nToday\nTomorrow\nLa Liga\nReal Betis\n5\nOsasuna\n2\n19:30\nLive\nIn progress\nPrimeira Liga\nSL Benfica\n1\nVitória SC\n0\n20:00\nLive\nIn progress\nLigue 1\nTroyes\n0\nMarseille\n0\n21:45\nUpcoming\nStarts in 6 min\nSerie A\nCagliari\n0\nJuventus\n0\n21:45\nUpcoming\nStarts in 6 min\nLa Liga\nSantander\n0\nValencia\n0\n22:00\nUpcoming\nStarts in 21 min\nCampeonato Brasileiro Série A\nMineiro\n0\nSantos\n0\n22:00\nUpcoming\nStarts in 21 min\nPrimeira Liga\nArouca\n0\nAmadora\n0\n22:30\nUpcoming\nStarts in 51 min\nCampeonato Brasileiro Série A\nFlamengo\n0\nFluminense\n0\n23:30\nUpcoming\nStarts in 2 hr\nCampeonato Brasileiro Série A\nPalmeiras\n0\nCorinthians\n0\n23:30\nUpcoming\nStarts in 2 hr\nCampeonato Brasileiro Série A\nGrêmio\n0\nInternacional\n0\n23:30\nUpcoming\nStarts in 2 hr\nSerie A\nSassuolo\n1\nMilan\n1\n19:00\nFinished\nFull time\nBundesliga\nFreiburg\n2\nSchalke\n1\n18:30\nFinished\nFull time\nPremier League\nLiverpool\n0\nMan City\n3\n18:30\nFinished\nFull time\nLigue 1\nStade Rennais\n4\nAuxerre\n1\n18:15\nFinished\nFull time\nEredivisie\nExcelsior\n1\nGroningen\n5\n17:45\nFinished\nFull time\nPrimeira Liga\nRio Ave\n3\nCD Nacional\n2\n17:30\nFinished\nFull time\nLa Liga\nReal Sociedad\n3\nDeportivo\n2\n17:15\nFinished\nFull time\nBundesliga\n1. FC Köln\n2\nM'gladbach\n1\n16:30\nFinished\nFull time\nSerie A\nLecce\n1\nBologna\n2\n16:00\nFinished\nFull time\nPremier League\nCrystal Palace\n3\nNottingham\n1\n16:00\nFinished\nFull time\nLigue 1\nNice\n2\nStrasbourg\n1\n16:00\nFinished\nFull time\nSerie A\nLazio\n3\nMonza\n1\n16:00\nFinished\nFull time\nPremier League\nHull City\n2\nEverton\n2\n16:00\nFinished\nFull time\nEredivisie\nTelstar\n2\nDen Haag\n2\n15:30\nFinished\nFull time\nEredivisie\nZwolle\n0\nCambuur\n1\n15:30\nFinished\nFull time\nLa Liga\nElche\n0\nCelta\n0\n15:00\nFinished\nFull time\nChampionship\nSouthampton\n1\nPortsmouth\n0\n14:00\nFinished\nFull time\nSerie A\nComo 1907\n0\nRoma\n0\n13:30\nFinished\nFull time\nEredivisie\nUtrecht\n3\nWillem II\n1\n13:15\nFinished\nFull time\nCampeonato Brasileiro Série A\nSão Paulo\n2\nVitória\n1\n03:00\nFinished\nFull time\nCampeonato Brasileiro Série A\nVasco da Gama\n0\nClube do Remo\n0\n00:00\nFinished\nFull time\nPopular Leagues\nChampions League\nPremier League\nLa Liga\nSerie A\nLigue 1\nBundesliga\nJoin Us\n\nJoin us on TikTok for the latest highlights and videos!\n\nFOLLOW US\nAbout Us - TV96 Live\n\nTV96 Live is a large platform built for football fans wherever they are. We provide live match results (Live Scores), fact-based analysis, and the latest transfer market news. Our goal is to connect fans with their teams.\n\nFootball news, fixtures, standings and match updates for fans worldwide.\n\nQUICK LINKS\nHome\nMatches\nNews\nAbout\nContact\nPrivacy Policy\nTerms of Use\nCONTACT US\n\n© 2026 www.tv96live.org - All rights reserved.",
+      "overflow": false,
+      "brokenImages": [
+        {
+          "url": "https://www.tv96live.org/",
+          "id": "matchModalHomeLogo",
+          "src": "",
+          "visible": false
+        }
+      ],
+      "links": [
+        "https://www.tv96live.org/",
+        "https://www.tv96live.org/matches",
+        "https://www.tv96live.org/news",
+        "https://www.tv96live.org/about",
+        "https://www.tv96live.org/privacy"
+      ],
+      "videoCount": 0,
+      "cmpPresent": false,
+      "fundingChoices": false,
+      "scriptSources": [
+        "https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202610060101/show_ads_impl.js?bust=122881491",
+        "https://cdn.jsdelivr.net/npm/lucide@0.263.0/dist/umd/lucide.min.js",
+        "https://cdn.tailwindcss.com/3.4.17",
+        "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9924964891667864",
+        "https://cloud.umami.is/script.js",
+        "https://www.tv96live.org/_vercel/insights/script.js",
+        "https://www.tv96live.org/news-data.js",
+        "https://www.tv96live.org/site-config.js",
+        "https://www.tv96live.org/matches-data.js"
+      ],
+      "events": []
+    },
+    {
+      "route": "/",
+      "width": 360,
+      "url": "https://www.tv96live.org/",
+      "title": "TV96 Live - Football News, Fixtures and Guides",
+      "canonical": "https://www.tv96live.org/",
+      "robots": "index, follow",
+      "bodyText": "Premier League\nLa Liga\nSerie A\nLigue 1\nBundesliga\nUEFA Champions League\nEuropa League\nFeatured\n\nUnderstand the rules, follow the leagues and explore the stories\n\nView News & Guides\nManchester United / Latest News\nJJ Gabriel, 15, Asks to Leave Manchester United as Club Fight to Keep Highly Rated Prospect\n15 Sept 2026\n5 min read\n\nBBC Sport reports JJ Gabriel has asked for his Manchester United registration to be cancelled. United are seeking a resolution as the 15-year-old forward's future remains unsettled.\n\nRead full story →\nLigue 1\nLigue 1 Guide\n5 Sept 2026\n4 min read\nBundesliga\nBundesliga Guide\n5 Sept 2026\n4 min read\nSerie A\nSerie A Guide\n5 Sept 2026\n4 min read\nToday's Matches\n\nLive scores and upcoming fixtures\n\n2 Live\nUpdated 21:39\nYesterday\nToday\nTomorrow\nLa Liga\nReal Betis\n5\nOsasuna\n2\n19:30\nLive\nIn progress\nPrimeira Liga\nSL Benfica\n1\nVitória SC\n0\n20:00\nLive\nIn progress\nLigue 1\nTroyes\n0\nMarseille\n0\n21:45\nUpcoming\nStarts in 6 min\nSerie A\nCagliari\n0\nJuventus\n0\n21:45\nUpcoming\nStarts in 6 min\nLa Liga\nSantander\n0\nValencia\n0\n22:00\nUpcoming\nStarts in 21 min\nCampeonato Brasileiro Série A\nMineiro\n0\nSantos\n0\n22:00\nUpcoming\nStarts in 21 min\nPrimeira Liga\nArouca\n0\nAmadora\n0\n22:30\nUpcoming\nStarts in 51 min\nCampeonato Brasileiro Série A\nFlamengo\n0\nFluminense\n0\n23:30\nUpcoming\nStarts in 2 hr\nCampeonato Brasileiro Série A\nPalmeiras\n0\nCorinthians\n0\n23:30\nUpcoming\nStarts in 2 hr\nCampeonato Brasileiro Série A\nGrêmio\n0\nInternacional\n0\n23:30\nUpcoming\nStarts in 2 hr\nSerie A\nSassuolo\n1\nMilan\n1\n19:00\nFinished\nFull time\nBundesliga\nFreiburg\n2\nSchalke\n1\n18:30\nFinished\nFull time\nPremier League\nLiverpool\n0\nMan City\n3\n18:30\nFinished\nFull time\nLigue 1\nStade Rennais\n4\nAuxerre\n1\n18:15\nFinished\nFull time\nEredivisie\nExcelsior\n1\nGroningen\n5\n17:45\nFinished\nFull time\nPrimeira Liga\nRio Ave\n3\nCD Nacional\n2\n17:30\nFinished\nFull time\nLa Liga\nReal Sociedad\n3\nDeportivo\n2\n17:15\nFinished\nFull time\nBundesliga\n1. FC Köln\n2\nM'gladbach\n1\n16:30\nFinished\nFull time\nSerie A\nLecce\n1\nBologna\n2\n16:00\nFinished\nFull time\nPremier League\nCrystal Palace\n3\nNottingham\n1\n16:00\nFinished\nFull time\nLigue 1\nNice\n2\nStrasbourg\n1\n16:00\nFinished\nFull time\nSerie A\nLazio\n3\nMonza\n1\n16:00\nFinished\nFull time\nPremier League\nHull City\n2\nEverton\n2\n16:00\nFinished\nFull time\nEredivisie\nTelstar\n2\nDen Haag\n2\n15:30\nFinished\nFull time\nEredivisie\nZwolle\n0\nCambuur\n1\n15:30\nFinished\nFull time\nLa Liga\nElche\n0\nCelta\n0\n15:00\nFinished\nFull time\nChampionship\nSouthampton\n1\nPortsmouth\n0\n14:00\nFinished\nFull time\nSerie A\nComo 1907\n0\nRoma\n0\n13:30\nFinished\nFull time\nEredivisie\nUtrecht\n3\nWillem II\n1\n13:15\nFinished\nFull time\nCampeonato Brasileiro Série A\nSão Paulo\n2\nVitória\n1\n03:00\nFinished\nFull time\nCampeonato Brasileiro Série A\nVasco da Gama\n0\nClube do Remo\n0\n00:00\nFinished\nFull time\nPopular Leagues\nChampions League\nPremier League\nLa Liga\nSerie A\nLigue 1\nBundesliga\nJoin Us\n\nJoin us on TikTok for the latest highlights and videos!\n\nFOLLOW US\nAbout Us - TV96 Live\n\nTV96 Live is a large platform built for football fans wherever they are. We provide live match results (Live Scores), fact-based analysis, and the latest transfer market news. Our goal is to connect fans with their teams.\n\nFootball news, fixtures, standings and match updates for fans worldwide.\n\nQUICK LINKS\nHome\nMatches\nNews\nAbout\nContact\nPrivacy Policy\nTerms of Use\nCONTACT US\n\n© 2026 www.tv96live.org - All rights reserved.",
+      "overflow": false,
+      "brokenImages": [
+        {
+          "url": "https://www.tv96live.org/",
+          "id": "matchModalHomeLogo",
+          "src": "",
+          "visible": false
+        }
+      ],
+      "links": [
+        "https://www.tv96live.org/",
+        "https://www.tv96live.org/matches",
+        "https://www.tv96live.org/news",
+        "https://www.tv96live.org/about",
+        "https://www.tv96live.org/privacy"
+      ],
+      "videoCount": 0,
+      "cmpPresent": false,
+      "fundingChoices": false,
+      "scriptSources": [
+        "https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202610060101/show_ads_impl.js?bust=122881491",
+        "https://cdn.jsdelivr.net/npm/lucide@0.263.0/dist/umd/lucide.min.js",
+        "https://cdn.tailwindcss.com/3.4.17",
+        "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9924964891667864",
+        "https://cloud.umami.is/script.js",
+        "https://www.tv96live.org/_vercel/insights/script.js",
+        "https://www.tv96live.org/news-data.js",
+        "https://www.tv96live.org/site-config.js",
+        "https://www.tv96live.org/matches-data.js"
+      ],
+      "navigation": {
+        "opened": "true",
+        "visible": 5,
+        "closed": "false"
+      },
+      "events": []
+    }
+  ]
+}

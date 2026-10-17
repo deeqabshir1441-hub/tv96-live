@@ -1,4 +1,4 @@
-const ALLOWED_LEAGUES = new Set(["PL", "PD", "SA", "BL1", "FL1", "CL"]);
+const ALLOWED_LEAGUES = new Set(["PL", "PD", "SA", "BL1", "FL1", "CL", "EL"]);
 const CACHE_CONTROL = "public, max-age=0, s-maxage=60, stale-while-revalidate=120";
 
 function sendJson(res, status, body) {

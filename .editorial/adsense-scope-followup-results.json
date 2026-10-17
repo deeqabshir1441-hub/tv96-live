@@ -1,0 +1,292 @@
+{
+  "checkedAt": "2026-10-13T00:14:23.455Z",
+  "pages": [
+    {
+      "file": "index.html",
+      "publisherIds": [
+        "ca-pub-9924964891667864"
+      ],
+      "canonical": "https://www.tv96live.org/",
+      "robots": "index, follow",
+      "localCmpMarkers": false
+    },
+    {
+      "file": "news.html",
+      "publisherIds": [
+        "ca-pub-9924964891667864"
+      ],
+      "canonical": "https://www.tv96live.org/news",
+      "robots": null,
+      "localCmpMarkers": false
+    },
+    {
+      "file": "matches.html",
+      "publisherIds": [
+        "ca-pub-9924964891667864"
+      ],
+      "canonical": "https://www.tv96live.org/matches",
+      "robots": null,
+      "localCmpMarkers": false
+    },
+    {
+      "file": "standings.html",
+      "publisherIds": [
+        "ca-pub-9924964891667864"
+      ],
+      "canonical": "https://www.tv96live.org/standings",
+      "robots": null,
+      "localCmpMarkers": false
+    },
+    {
+      "file": "about.html",
+      "publisherIds": [
+        "ca-pub-9924964891667864"
+      ],
+      "canonical": "https://www.tv96live.org/about",
+      "robots": null,
+      "localCmpMarkers": false
+    },
+    {
+      "file": "privacy.html",
+      "publisherIds": [
+        "ca-pub-9924964891667864"
+      ],
+      "canonical": "https://www.tv96live.org/privacy",
+      "robots": null,
+      "localCmpMarkers": false
+    },
+    {
+      "file": "terms.html",
+      "publisherIds": [],
+      "canonical": "https://www.tv96live.org/terms",
+      "robots": null,
+      "localCmpMarkers": false
+    },
+    {
+      "file": "contact.html",
+      "publisherIds": [],
+      "canonical": "https://www.tv96live.org/contact",
+      "robots": null,
+      "localCmpMarkers": false
+    },
+    {
+      "file": "watch-live.html",
+      "publisherIds": [
+        "ca-pub-9924964891667864"
+      ],
+      "canonical": "https://www.tv96live.org/watch-live",
+      "robots": "noindex, follow",
+      "localCmpMarkers": false
+    },
+    {
+      "file": "offline.html",
+      "publisherIds": [],
+      "canonical": null,
+      "robots": "noindex, follow",
+      "localCmpMarkers": false
+    },
+    {
+      "file": "articles/3.html",
+      "publisherIds": [
+        "ca-pub-9924964891667864"
+      ],
+      "canonical": "https://www.tv96live.org/articles/3",
+      "robots": "index, follow",
+      "localCmpMarkers": false
+    },
+    {
+      "file": "articles/9.html",
+      "publisherIds": [
+        "ca-pub-9924964891667864"
+      ],
+      "canonical": "https://www.tv96live.org/articles/9",
+      "robots": "index, follow",
+      "localCmpMarkers": false
+    },
+    {
+      "file": "articles/10.html",
+      "publisherIds": [
+        "ca-pub-9924964891667864"
+      ],
+      "canonical": "https://www.tv96live.org/articles/10",
+      "robots": "index, follow",
+      "localCmpMarkers": false
+    },
+    {
+      "file": "articles/12.html",
+      "publisherIds": [
+        "ca-pub-9924964891667864"
+      ],
+      "canonical": "https://www.tv96live.org/articles/12",
+      "robots": "index, follow",
+      "localCmpMarkers": false
+    },
+    {
+      "file": "articles/13.html",
+      "publisherIds": [
+        "ca-pub-9924964891667864"
+      ],
+      "canonical": "https://www.tv96live.org/articles/13",
+      "robots": "index, follow",
+      "localCmpMarkers": false
+    },
+    {
+      "file": "articles/14.html",
+      "publisherIds": [
+        "ca-pub-9924964891667864"
+      ],
+      "canonical": "https://www.tv96live.org/articles/14",
+      "robots": "index, follow",
+      "localCmpMarkers": false
+    },
+    {
+      "file": "articles/15.html",
+      "publisherIds": [
+        "ca-pub-9924964891667864"
+      ],
+      "canonical": "https://www.tv96live.org/articles/15",
+      "robots": "index, follow",
+      "localCmpMarkers": false
+    },
+    {
+      "file": "articles/16.html",
+      "publisherIds": [
+        "ca-pub-9924964891667864"
+      ],
+      "canonical": "https://www.tv96live.org/articles/16",
+      "robots": "index, follow",
+      "localCmpMarkers": false
+    },
+    {
+      "file": "articles/17.html",
+      "publisherIds": [
+        "ca-pub-9924964891667864"
+      ],
+      "canonical": "https://www.tv96live.org/articles/17",
+      "robots": "index, follow",
+      "localCmpMarkers": false
+    },
+    {
+      "file": "articles/18.html",
+      "publisherIds": [
+        "ca-pub-9924964891667864"
+      ],
+      "canonical": "https://www.tv96live.org/articles/18",
+      "robots": "index, follow",
+      "localCmpMarkers": false
+    },
+    {
+      "file": "articles/19.html",
+      "publisherIds": [
+        "ca-pub-9924964891667864"
+      ],
+      "canonical": "https://www.tv96live.org/articles/19",
+      "robots": "index, follow",
+      "localCmpMarkers": false
+    },
+    {
+      "file": "articles/21.html",
+      "publisherIds": [
+        "ca-pub-9924964891667864"
+      ],
+      "canonical": "https://www.tv96live.org/articles/21",
+      "robots": "index, follow",
+      "localCmpMarkers": false
+    },
+    {
+      "file": "articles/22.html",
+      "publisherIds": [
+        "ca-pub-9924964891667864"
+      ],
+      "canonical": "https://www.tv96live.org/articles/22",
+      "robots": "index, follow",
+      "localCmpMarkers": false
+    },
+    {
+      "file": "articles/23.html",
+      "publisherIds": [
+        "ca-pub-9924964891667864"
+      ],
+      "canonical": "https://www.tv96live.org/articles/23",
+      "robots": "index, follow",
+      "localCmpMarkers": false
+    },
+    {
+      "file": "articles/24.html",
+      "publisherIds": [
+        "ca-pub-9924964891667864"
+      ],
+      "canonical": "https://www.tv96live.org/articles/24",
+      "robots": "index, follow",
+      "localCmpMarkers": false
+    },
+    {
+      "file": "articles/32.html",
+      "publisherIds": [
+        "ca-pub-9924964891667864"
+      ],
+      "canonical": "https://www.tv96live.org/articles/32",
+      "robots": "index, follow",
+      "localCmpMarkers": false
+    }
+  ],
+  "publisherConsistency": "pass",
+  "adsTxt": "google.com, pub-9924964891667864, DIRECT, f08c47fec0942fa0",
+  "robots": "User-agent: *\r\nAllow: /\r\n\r\nSitemap: https://www.tv96live.org/sitemap.xml",
+  "sitemap": {
+    "count": 24,
+    "urls": [
+      "https://www.tv96live.org/",
+      "https://www.tv96live.org/matches",
+      "https://www.tv96live.org/standings",
+      "https://www.tv96live.org/news",
+      "https://www.tv96live.org/about",
+      "https://www.tv96live.org/contact",
+      "https://www.tv96live.org/privacy",
+      "https://www.tv96live.org/terms",
+      "https://www.tv96live.org/articles/3",
+      "https://www.tv96live.org/articles/9",
+      "https://www.tv96live.org/articles/10",
+      "https://www.tv96live.org/articles/12",
+      "https://www.tv96live.org/articles/13",
+      "https://www.tv96live.org/articles/14",
+      "https://www.tv96live.org/articles/15",
+      "https://www.tv96live.org/articles/16",
+      "https://www.tv96live.org/articles/17",
+      "https://www.tv96live.org/articles/18",
+      "https://www.tv96live.org/articles/19",
+      "https://www.tv96live.org/articles/21",
+      "https://www.tv96live.org/articles/22",
+      "https://www.tv96live.org/articles/23",
+      "https://www.tv96live.org/articles/24",
+      "https://www.tv96live.org/articles/32"
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://ligue1.com/en/articles/l1_article_93-",
+      "observedAt": "2026-10-11T19:27:37.086Z",
+      "status": 500,
+      "finalUrl": "https://ligue1.com/en/articles/l1_article_93-"
+    },
+    {
+      "url": "https://ligue1.com/en/articles/l1_article_5074-",
+      "observedAt": "2026-10-11T19:27:37.180Z",
+      "status": 500,
+      "finalUrl": "https://ligue1.com/en/articles/l1_article_5074-"
+    },
+    {
+      "url": "https://www.lfp.fr/article/publication-du-calendrier-general-de-la-ligue-1-mcdonald-s-pour-la-saison-2026-2027",
+      "observedAt": "2026-10-11T19:27:37.209Z",
+      "status": 200,
+      "finalUrl": "https://www.lfp.fr/article/publication-du-calendrier-general-de-la-ligue-1-mcdonald-s-pour-la-saison-2026-2027"
+    },
+    {
+      "url": "https://ligue1.com/en/articles/l1_article_5328-when-does-the-season-start-for-ligue-1-mc-donald-s-clubs",
+      "observedAt": "2026-10-11T19:27:37.209Z",
+      "status": 500,
+      "finalUrl": "https://ligue1.com/en/articles/l1_article_5328-when-does-the-season-start-for-ligue-1-mc-donald-s-clubs"
+    }
+  ],
+  "limits": "No AdSense account access or remote CMP configuration verification. Canonical and publisher checks local; public source availability is a point-in-time result."
+}

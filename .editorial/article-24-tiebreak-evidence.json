@@ -1,0 +1,1226 @@
+{
+  "authorizedAt": "2026-10-13",
+  "authorization": "Owner approved exact Article 24 tiebreak insertion and only Article 24 related-card reading-time change in Article 23.",
+  "beforeBody": "\n<p>Ligue 1 is the top division of men's club football in France's professional league system. Its current 18-club format produces a 34-match season, while European places and a promotion-relegation play-off give the table several meaningful boundaries.</p>\n<p>A useful way to follow the league is to connect those boundaries with the performances behind them. A club can be developing young players, managing European fixtures and competing for a league objective at the same time. None of those stories should be reduced to a single weekend's score.</p>\n<h2>The league structure</h2>\n<p>Each of the 18 clubs plays every other club twice, at home and away. Wins earn three points, draws one and defeats none. With 34 matches per team, the maximum available return is 102 points. The final table determines the championship and the relevant league-based European and relegation positions.</p>\n<p>The present league size is important when reading older articles, because Ligue 1 previously had a 20-team format. A historical total from a 38-match season should not be compared uncritically with one from 34 matches.</p>\n<p>For an invented example, 51 points in 34 matches is 1.5 points per game. The same total from 38 is a lower rate. This simple adjustment helps describe the difference, although it does not establish that one team faced stronger opponents.</p>\n<h2>Championship and European qualification</h2>\n<p>The top side in the final table wins the league. Clubs below it can qualify for UEFA competitions through the season's allocation. The Coupe de France is a separate competition whose outcome can also affect the European picture.</p>\n<p>Do not assume every European place means direct entry into the main phase of a tournament. Some allocations involve qualifying rounds. The distinction affects when a club begins its European season and how many ties it must win before the main draw.</p>\n<p>Association rankings, additional European Performance Spots and European title holders can alter the arrangements. Our <a href=\"/articles/13\">Champions League qualification explainer</a> provides the wider framework; official UEFA and league information supplies the season-specific allocation.</p>\n<p><em>Revision, 12 October 2026: verified the promotion, relegation and playoff pathway against Articles 519 and 519 ter of the official LFP 2026/27 regulations and the official 2026/27 Ligue 2 calendar. The original publication date is retained.</em></p>\n<h2>Relegation and the play-off route</h2>\n<p>Under the LFP’s 2026/27 regulations, the clubs finishing 17th and 18th in Ligue 1 are relegated automatically. Ligue 2’s top two clubs gain automatic promotion, subject to meeting Ligue 1 participation requirements. Ligue 1’s 16th-placed club faces the Ligue 2 playoff winner over two legs.</p>\n<p>The Ligue 2 playoffs involve the clubs finishing third, fourth and fifth. Fifth plays away at fourth in a single match; the winner then plays away at third in another single match. The winner advances to the promotion-relegation playoff, with the Ligue 2 club hosting the first leg and the Ligue 1 club the return. Exceptional interruption and reinstatement provisions can affect final outcomes.</p>\n<p>This means a team finishing 16th has neither completed survival nor definitely been relegated. Its season continues with a decisive contest. A table summary should preserve that distinction, especially when comparing the outcomes for clubs immediately above and below it.</p>\n<h2>Reading the table carefully</h2>\n<p>Start with points and games played, then examine goals scored and conceded. Goal difference helps describe the balance of a team's results, but final tied positions must follow the league's full tiebreaking procedure. A live table can be provisional while matches are still being completed.</p>\n<p>A positive GD can coexist with inconsistent points collection. A team may win a few matches comfortably and lose several others narrowly. The <a href=\"/articles/15\">goal difference guide</a> shows why the total should be read alongside the sequence of results.</p>\n<h2>History and development</h2>\n<p>French professional top-flight football began in the 1930s, long before the current league size and commercial name. Different clubs and regions have shaped its history. A present-day period of dominance should not erase the competition's earlier champions or the importance of its local rivalries.</p>\n<p>Player development is a useful subject to follow, but an academy reputation is not evidence that every young player is ready for a major role. Evaluate minutes, responsibilities and the level of the matches. An impressive substitute appearance and a sustained run as a starter provide different amounts of evidence.</p>\n<h2>Questions to ask during a match</h2>\n<p>Watch how a team protects the centre when it loses possession. If both full-backs are advanced, who covers the space behind them? If a midfielder moves forward to join an attack, does another player remain in position to interrupt a counter?</p>\n<p>Then look at chance creation rather than possession alone. A side may circulate the ball comfortably without finding a pass into the penalty area. Another may attack less often but reach more dangerous positions. A useful report identifies those patterns instead of using territorial pressure as a synonym for clear chances.</p>\n<p>When discussing a young player's performance, describe the task: receiving under pressure, defending a wide channel or making runs beyond the back line. This is more informative than assigning a future transfer value based on one game.</p>\n<h2>Using TV96 Live for Ligue 1</h2>\n<p>Find available fixtures on <a href=\"/matches\">Matches</a> and select Ligue 1 on <a href=\"/standings?league=Ligue%201\">Standings</a>. Check how many matches each club has played before assessing a gap, and allow for data updates after full time.</p>\n<p>For decisive qualification or play-off questions, use the official competition information. As a comparison, our <a href=\"/articles/23\">Bundesliga Guide</a> explains another 18-team league whose relegation play-off opponent is selected differently.</p>\n",
+  "insertion": "<h3>A hypothetical Ligue 1 tiebreak, step by step</h3>\n<p><a href=\"https://www.lfp.fr/assets/26_27_LFP_STATUTS_REGLEMENTS_08_09_2026_f2aaaaa325.pdf#page=121\">Article 518 ter of the LFP’s 2026/27 regulations</a> ranks clubs level on points by: overall goal difference; head-to-head points; head-to-head goal difference; overall goals scored; total wins; away wins; the lower disciplinary-points total; and drawing lots. The disciplinary scale assigns one point per warning and three per red card.</p>\n<p>For this hypothetical example, assume only Club A and Club B are tied on 50 league points, both have +5 overall goal difference, and both meetings have been played. Every club, total and result here is invented. Club A wins the first meeting 2–0, and the return finishes 1–1.</p>\n<table aria-label=\"Hypothetical Ligue 1 two-club tiebreak calculation\" style=\"width:100%;table-layout:fixed;overflow-wrap:anywhere\">\n<thead><tr><th scope=\"col\">Hypothetical calculation</th><th scope=\"col\">Club A</th><th scope=\"col\">Club B</th></tr></thead>\n<tbody>\n<tr><th scope=\"row\">League points</th><td>50</td><td>50</td></tr>\n<tr><th scope=\"row\">Overall goals scored</th><td>45</td><td>50</td></tr>\n<tr><th scope=\"row\">Overall goals conceded</th><td>40</td><td>45</td></tr>\n<tr><th scope=\"row\">Overall goal difference</th><td>45 − 40 = <strong>+5</strong></td><td>50 − 45 = <strong>+5</strong></td></tr>\n<tr><th scope=\"row\">Points from first meeting</th><td>3</td><td>0</td></tr>\n<tr><th scope=\"row\">Points from return meeting</th><td>1</td><td>1</td></tr>\n<tr><th scope=\"row\">Head-to-head points</th><td><strong>4</strong></td><td><strong>1</strong></td></tr>\n</tbody></table>\n<p>Step 1: league points are equal. Step 2: overall goal difference is also equal. Step 3: compare head-to-head points. Club A earns 3 + 1 = 4; Club B earns 0 + 1 = 1. Criterion 2 therefore ranks Club A higher. Club B’s greater overall goals-scored total does not override that decision.</p>\n<p><a href=\"https://www.lfp.fr/assets/26_27_LFP_STATUTS_REGLEMENTS_08_09_2026_f2aaaaa325.pdf#page=121\">The same article</a> limits when head-to-head criteria apply: criteria 2 and 3 require both relevant meetings to have been played. Until then, after overall goal difference, criteria 4–7 take priority in their listed order: overall goals scored, total wins, away wins and disciplinary points. One completed meeting alone does not activate the head-to-head comparison used above.</p>\n",
+  "paragraphs": [
+    "<a href=\"https://www.lfp.fr/assets/26_27_LFP_STATUTS_REGLEMENTS_08_09_2026_f2aaaaa325.pdf#page=121\">Article 518 ter of the LFP’s 2026/27 regulations</a> ranks clubs level on points by: overall goal difference; head-to-head points; head-to-head goal difference; overall goals scored; total wins; away wins; the lower disciplinary-points total; and drawing lots. The disciplinary scale assigns one point per warning and three per red card.",
+    "For this hypothetical example, assume only Club A and Club B are tied on 50 league points, both have +5 overall goal difference, and both meetings have been played. Every club, total and result here is invented. Club A wins the first meeting 2–0, and the return finishes 1–1.",
+    "Step 1: league points are equal. Step 2: overall goal difference is also equal. Step 3: compare head-to-head points. Club A earns 3 + 1 = 4; Club B earns 0 + 1 = 1. Criterion 2 therefore ranks Club A higher. Club B’s greater overall goals-scored total does not override that decision.",
+    "<a href=\"https://www.lfp.fr/assets/26_27_LFP_STATUTS_REGLEMENTS_08_09_2026_f2aaaaa325.pdf#page=121\">The same article</a> limits when head-to-head criteria apply: criteria 2 and 3 require both relevant meetings to have been played. Until then, after overall goal difference, criteria 4–7 take priority in their listed order: overall goals scored, total wins, away wins and disciplinary points. One completed meeting alone does not activate the head-to-head comparison used above."
+  ],
+  "table": "<table aria-label=\"Hypothetical Ligue 1 two-club tiebreak calculation\" style=\"width:100%;table-layout:fixed;overflow-wrap:anywhere\">\n<thead><tr><th scope=\"col\">Hypothetical calculation</th><th scope=\"col\">Club A</th><th scope=\"col\">Club B</th></tr></thead>\n<tbody>\n<tr><th scope=\"row\">League points</th><td>50</td><td>50</td></tr>\n<tr><th scope=\"row\">Overall goals scored</th><td>45</td><td>50</td></tr>\n<tr><th scope=\"row\">Overall goals conceded</th><td>40</td><td>45</td></tr>\n<tr><th scope=\"row\">Overall goal difference</th><td>45 − 40 = <strong>+5</strong></td><td>50 − 45 = <strong>+5</strong></td></tr>\n<tr><th scope=\"row\">Points from first meeting</th><td>3</td><td>0</td></tr>\n<tr><th scope=\"row\">Points from return meeting</th><td>1</td><td>1</td></tr>\n<tr><th scope=\"row\">Head-to-head points</th><td><strong>4</strong></td><td><strong>1</strong></td></tr>\n</tbody></table>\n",
+  "revision": "<p><em>Revision, 13 October 2026: added a clearly labeled hypothetical Ligue 1 tiebreak calculation and the unfinished-season head-to-head condition, citing Article 518 ter of the LFP 2026/27 regulations. The original publication date and previous promotion/relegation correction are retained.</em></p>\n",
+  "source": {
+    "name": "LFP: 2026/27 regulations — Article 518 ter, printed page 121: tiebreaking order and head-to-head applicability.",
+    "url": "https://www.lfp.fr/assets/26_27_LFP_STATUTS_REGLEMENTS_08_09_2026_f2aaaaa325.pdf"
+  },
+  "beforeBodyHash": "53f4196646c6ddb73bfca2a46fbdbdfe110b0897dc3d762cf69b115cd00443fe",
+  "afterBodyHash": "e9b628f1aea6d0075f9b35668439385ae9311ee3b3798cf067ccacb1d1b62714",
+  "articlesBefore": [
+    {
+      "id": 1,
+      "title": "Atalanta confirm Éderson contract extension through 2031",
+      "description": "Atalanta have confirmed that midfielder Éderson signed a contract extension running through June 2031.",
+      "image": "",
+      "imageCandidate": "news image/1.jpg",
+      "category": "Serie A",
+      "articleType": "Sourced news summary and analysis",
+      "author": "TV96 Live Editorial Team",
+      "publishedAt": "2026-07-14T12:02:02+03:00",
+      "updatedAt": "2026-09-06",
+      "sourceName": "Atalanta BC",
+      "sourceUrl": "https://en.atalanta.it/news/atalanta-ederson-the-story-continues",
+      "sources": [
+        {
+          "name": "Atalanta BC",
+          "url": "https://en.atalanta.it/news/atalanta-ederson-the-story-continues"
+        },
+        {
+          "name": "Sky Sport Italia",
+          "url": "https://sport.sky.it/calciomercato/2026/07/17/atalanta-ederson-rinnovo-calciomercato-news"
+        }
+      ],
+      "imageCredit": "Original TV96 Live text and geometric artwork",
+      "sourceReviewRequired": false,
+      "imageReviewRequired": true,
+      "isPublished": false,
+      "wordCount": 524,
+      "imageAlt": "TV96 Live - Football News & Guides"
+    },
+    {
+      "id": 2,
+      "title": "Trossard leaves Arsenal as club considers left-wing options",
+      "description": "Leandro Trossard joined Beşiktaş while Arsenal considered changes on the left, including reported interest in Christos Tzolis and Morgan Rogers.",
+      "image": "",
+      "imageCandidate": "news image/2.jpeg",
+      "category": "Premier League",
+      "articleType": "Sourced news summary and analysis",
+      "author": "TV96 Live Editorial Team",
+      "publishedAt": "2026-07-14T12:02:02+03:00",
+      "updatedAt": "2026-09-06",
+      "sourceName": "Sky Sports",
+      "sourceUrl": "https://www.skysports.com/transfer/news/11670/13563271/leandro-trossard-arsenal-confirm-winger-joining-besiktas-in-17m-deal",
+      "sources": [
+        {
+          "name": "Sky Sports",
+          "url": "https://www.skysports.com/transfer/news/11670/13563271/leandro-trossard-arsenal-confirm-winger-joining-besiktas-in-17m-deal"
+        }
+      ],
+      "imageCredit": "Original TV96 Live text and geometric artwork",
+      "sourceReviewRequired": false,
+      "imageReviewRequired": true,
+      "isPublished": false,
+      "wordCount": 524,
+      "imageAlt": "TV96 Live - Football News & Guides"
+    },
+    {
+      "id": 3,
+      "title": "How to Read World Cup Knockout Assist Statistics",
+      "description": "A careful way to compare knockout assists: define the competition stage, check the counting method and look beyond the final pass.",
+      "image": "",
+      "imageCandidate": "news image/3.jpg",
+      "category": "FIFA World Cup",
+      "articleType": "Editorial analysis",
+      "author": "TV96 Live Editorial Team",
+      "publishedAt": "2026-07-14T12:02:02+03:00",
+      "updatedAt": "2026-10-12",
+      "sources": [
+        {
+          "name": "FIFA: Netherlands–Argentina 2022 full-time match report (pages 2 and 5)",
+          "url": "https://fdp.fifa.org/assetspublic/ce44/r2859/pdf/FullTimeMatchReport-English.pdf"
+        },
+        {
+          "name": "Opta Analyst: contemporary analysis of Messi’s pass to Molina",
+          "url": "https://theanalyst.com/articles/lionel-messi-world-cup-stats-argentina-2022-final"
+        },
+        {
+          "name": "Stats Perform: Opta event definitions — Goal Assist and Fantasy Goal Assist",
+          "url": "https://www.statsperform.com/opta-event-definitions/"
+        },
+        {
+          "name": "Further reading: TV96 Live expected goals explainer",
+          "url": "https://www.tv96live.org/articles/16"
+        }
+      ],
+      "imageCredit": "Original TV96 Live text and geometric artwork",
+      "sourceReviewRequired": false,
+      "imageReviewRequired": true,
+      "isPublished": true,
+      "wordCount": 684,
+      "imageAlt": "TV96 Live - Football News & Guides",
+      "section": "Football Guides",
+      "relatedIds": [
+        16,
+        15,
+        14
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Johan Manzambi completes move to Aston Villa",
+      "description": "Johan Manzambi completed a move from Freiburg to Aston Villa after Newcastle had also pursued the Switzerland midfielder.",
+      "image": "/images/articles/johan-manzambi-aston-villa.png",
+      "imageCandidate": "news image/4.jpg",
+      "category": "Transfers",
+      "articleType": "Sourced news summary and analysis",
+      "author": "TV96 Live Editorial Team",
+      "publishedAt": "2026-07-14T12:02:02+03:00",
+      "updatedAt": "2026-09-06",
+      "sourceName": "Premier League",
+      "sourceUrl": "https://www.premierleague.com/en/news/4680006/manzambi-checks-in-at-bodymoor-heath",
+      "sources": [
+        {
+          "name": "Sky Sports",
+          "url": "https://www.skysports.com/football/news/11677/13564492/johan-manzambi-aston-villa-sign-newcastle-target-from-freiburg-in-club-record-lb59-5m-deal"
+        }
+      ],
+      "imageCredit": "AI-generated editorial illustration for TV96 Live",
+      "sourceReviewRequired": false,
+      "imageReviewRequired": true,
+      "isPublished": false,
+      "wordCount": 528,
+      "imageAlt": "Editorial illustration of a claret and sky-blue shirt for the Johan Manzambi Aston Villa article - TV96 Live",
+      "imageType": "original-editorial",
+      "rightsStatus": "reviewed",
+      "brandingReview": "required"
+    },
+    {
+      "id": 5,
+      "title": "Romelu Lukaku explains reported 2010 Real Madrid decision",
+      "description": "Romelu Lukaku reportedly said his family prioritised his education when the possibility of joining Real Madrid arose in 2010.",
+      "image": "",
+      "imageCandidate": "news image/5.jpg",
+      "category": "Football News",
+      "articleType": "News summary",
+      "author": "TV96 Live Editorial Team",
+      "publishedAt": "2026-07-14T12:02:02+03:00",
+      "updatedAt": "2026-08-28",
+      "sourceName": "",
+      "sourceUrl": "",
+      "imageCredit": "",
+      "sourceReviewRequired": true,
+      "imageReviewRequired": true,
+      "isPublished": false
+    },
+    {
+      "id": 6,
+      "title": "Alexander Sørloth social-media reaction report",
+      "description": "This item requires a fuller verified source and additional reporting before publication.",
+      "image": "",
+      "imageCandidate": "news image/6.webp",
+      "category": "FIFA World Cup",
+      "articleType": "Unpublished draft",
+      "author": "TV96 Live Editorial Team",
+      "publishedAt": "2026-07-14T12:02:02+03:00",
+      "updatedAt": "2026-08-28",
+      "sourceName": "",
+      "sourceUrl": "",
+      "imageCredit": "",
+      "sourceReviewRequired": true,
+      "imageReviewRequired": true,
+      "isPublished": false
+    },
+    {
+      "id": 7,
+      "title": "Mbappé reaches 11 goal contributions at 2026 World Cup",
+      "description": "Kylian Mbappé reached eight goals and three assists by the 2026 World Cup quarter-final stage, according to Le Monde.",
+      "image": "/images/articles/mbappe-world-cup-contributions.png",
+      "imageCandidate": "news image/7.webp",
+      "category": "FIFA World Cup",
+      "articleType": "Sourced news summary and analysis",
+      "author": "TV96 Live Editorial Team",
+      "publishedAt": "2026-07-14T12:02:02+03:00",
+      "updatedAt": "2026-09-06",
+      "sourceName": "Le Monde",
+      "sourceUrl": "https://www.lemonde.fr/en/sports/article/2026/07/10/mbappe-8-messi-8-france-and-argentina-stars-top-scorers-chart-at-world-cup_6755334_9.html",
+      "sources": [
+        {
+          "name": "Le Monde",
+          "url": "https://www.lemonde.fr/en/sports/article/2026/07/10/mbappe-8-messi-8-france-and-argentina-stars-top-scorers-chart-at-world-cup_6755334_9.html"
+        }
+      ],
+      "imageCredit": "AI-generated editorial illustration for TV96 Live",
+      "sourceReviewRequired": false,
+      "imageReviewRequired": true,
+      "isPublished": false,
+      "wordCount": 536,
+      "imageAlt": "Editorial illustration for the Mbappe 11 goal contributions article - TV96 Live",
+      "imageType": "original-editorial",
+      "rightsStatus": "reviewed",
+      "brandingReview": "required"
+    },
+    {
+      "id": 8,
+      "title": "Arsenal and Álvarez: What Atlético’s Barcelona Statement Establishes",
+      "description": "Separate Atlético’s stated Barcelona position from Arsenal transfer speculation, and understand why one does not confirm the other.",
+      "category": "Premier League",
+      "articleType": "Editorial analysis",
+      "author": "TV96 Live Editorial Team",
+      "publishedAt": "2026-08-28T14:40:00+03:00",
+      "updatedAt": "2026-09-06",
+      "image": "/images/articles/arsenal-alvarez-statement.png",
+      "imageAlt": "Illustration of an empty press lectern for the Arsenal and Alvarez statement analysis - TV96 Live",
+      "imageReviewRequired": true,
+      "isPublished": false,
+      "sources": [
+        {
+          "name": "Atlético de Madrid",
+          "url": "https://en.atleticodemadrid.com/noticias/unanimous-support-from-the-board-of-directors-for-the-club-s-strategy"
+        },
+        {
+          "name": "Sky Sports",
+          "url": "https://www.skysports.com/football/news/11095/13577751/julian-alvarez-transfer-news-atletico-madrid-wont-sell-striker-to-barcelona-with-arsenal-the-only-option"
+        }
+      ],
+      "wordCount": 455,
+      "imageCandidate": "news image/8.png",
+      "imageCredit": "AI-generated editorial illustration for TV96 Live",
+      "imageType": "original-editorial",
+      "rightsStatus": "reviewed",
+      "brandingReview": "required"
+    },
+    {
+      "id": 9,
+      "title": "Reading a European Draw: Opponents, Travel and Fixture Context",
+      "description": "A practical framework for assessing a European draw without confusing opponent lists, confirmed schedules and predictions.",
+      "category": "Europa League",
+      "articleType": "Editorial analysis",
+      "author": "TV96 Live Editorial Team",
+      "publishedAt": "2026-08-28T15:00:00+03:00",
+      "updatedAt": "2026-10-12",
+      "image": "/images/articles/reading-european-draw.png",
+      "imageAlt": "Reading a European draw: opponents, travel and fixture context - TV96 Live",
+      "imageReviewRequired": true,
+      "isPublished": true,
+      "sources": [
+        {
+          "name": "UEFA: historical 2024/25 Europa League draw results (30 August 2024)",
+          "url": "https://www.uefa.com/uefaeuropaleague/news/0290-1bbc3ce94923-e3a70688bbdd-1000--europa-league-league-phase-draw-contenders-set-for-competitions-new-era/"
+        },
+        {
+          "name": "UEFA: 2024/25 Europa League draw procedure and announced calendar-release date",
+          "url": "https://www.uefa.com/uefaeuropaleague/news/028e-1b11797faef1-56c7d70b74aa-1000--uefa-europa-league-league-phase-draw/"
+        },
+        {
+          "name": "UEFA: published 2024/25 Europa League match calendar (PDF; no independently verified publication timestamp)",
+          "url": "https://editorial.uefa.com/resources/0290-1bbea0181c18-c9285f327c80-1000/draw_results_-_uefa_-_uel_-_league_phase_draw_fixtures_by_matchday.pdf"
+        },
+        {
+          "name": "Manchester United: Tottenham coverage (29 September 2024)",
+          "url": "https://www.manutd.com/en/news/erik-ten-hag-names-team-to-face-tottenham-on-29-september"
+        },
+        {
+          "name": "Manchester United: Aston Villa coverage (6 October 2024)",
+          "url": "https://www.manutd.com/en/news/every-word-from-erik-ten-hag-press-conference-after-aston-villa-0-man-utd-0-on-6-october-2024"
+        },
+        {
+          "name": "Comparison reading: TV96 Live Champions League format explainer",
+          "url": "https://www.tv96live.org/articles/14"
+        },
+        {
+          "name": "Comparison reading only: UEFA 2026/27 Champions League draw announcement; not evidence for the Europa League example",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-215821715a96-9a3b43fad585-1000--uefa-champions-league-league-phase-draw/"
+        }
+      ],
+      "wordCount": 742,
+      "imageCandidate": "/news image/9.png",
+      "imageCredit": "AI-generated editorial illustration for TV96 Live",
+      "section": "Football Guides",
+      "relatedIds": [
+        14,
+        13,
+        23
+      ],
+      "imageType": "original-editorial",
+      "rightsStatus": "reviewed",
+      "brandingReview": "required"
+    },
+    {
+      "id": 10,
+      "title": "Álvarez in August 2026: Atlético's Statement and the Reported Meeting",
+      "description": "A dated account of Atlético's Barcelona statement and the August 27 reports about Álvarez, separating confirmed positions from reported discussions.",
+      "category": "Premier League",
+      "articleType": "Sourced news summary and analysis",
+      "author": "TV96 Live Editorial Team",
+      "publishedAt": "2026-08-28T15:30:00+03:00",
+      "updatedAt": "2026-09-22",
+      "image": "/images/articles/alvarez-meeting-report.png",
+      "imageAlt": "Illustration of an empty meeting room for the Alvarez meeting report - TV96 Live",
+      "imageReviewRequired": true,
+      "isPublished": true,
+      "sources": [
+        {
+          "name": "Atlético de Madrid",
+          "url": "https://en.atleticodemadrid.com/noticias/unanimous-support-from-the-board-of-directors-for-the-club-s-strategy"
+        },
+        {
+          "name": "Cadena SER",
+          "url": "https://cadenaser.com/nacional/2026/08/27/julian-alvarez-con-su-futuro-en-el-aire-ha-tenido-una-reunion-de-mas-de-cinco-horas-para-decidir-que-hacer-cadena-ser/"
+        },
+        {
+          "name": "Sky Sports",
+          "url": "https://www.skysports.com/football/news/11095/13577751/julian-alvarez-transfer-news-atletico-madrid-wont-sell-striker-to-barcelona-with-arsenal-the-only-option"
+        }
+      ],
+      "wordCount": 324,
+      "imageCandidate": "/news image/10.png",
+      "imageCredit": "AI-generated editorial illustration for TV96 Live",
+      "section": "Archived Reports",
+      "relatedIds": [
+        32,
+        21,
+        12
+      ],
+      "imageType": "original-editorial",
+      "rightsStatus": "reviewed",
+      "brandingReview": "required"
+    },
+    {
+      "id": 11,
+      "title": "Fernández Omission: Alonso’s Explanation and Reported City Interest",
+      "description": "Xabi Alonso has explained why Enzo Fernández was left out of Chelsea's squad against Luton as Manchester City continue to consider a move for the Argentine midfielder.",
+      "category": "Premier League",
+      "articleType": "Sourced news summary and analysis",
+      "author": "TV96 Live Editorial Team",
+      "publishedAt": "2026-08-28T16:00:00+03:00",
+      "updatedAt": "2026-09-06",
+      "image": "/images/articles/fernandez-omission.png",
+      "imageAlt": "Illustration of an empty substitutes bench and blue shirt for the Fernandez omission report - TV96 Live",
+      "imageReviewRequired": true,
+      "isPublished": false,
+      "sources": [
+        {
+          "name": "Sky Sports",
+          "url": "https://www.skysports.com/football/news/11095/13570597/enzo-fernandez-transfer-news-man-city-considering-bid-for-chelsea-midfielder"
+        },
+        {
+          "name": "ESPN",
+          "url": "https://www.espn.com/soccer/story/_/id/49746843/xabi-alonso-chelsea-dropping-enzo-fernandez-man-city-links"
+        }
+      ],
+      "wordCount": 580,
+      "imageCandidate": "/news image/11.png",
+      "imageCredit": "AI-generated editorial illustration for TV96 Live",
+      "imageType": "original-editorial",
+      "rightsStatus": "reviewed",
+      "brandingReview": "required"
+    },
+    {
+      "id": 12,
+      "title": "How the Premier League Works: Complete Guide",
+      "description": "Understand the Premier League's 20-team season, points, table, tiebreakers, title, relegation and European routes with worked examples.",
+      "category": "Premier League",
+      "section": "Football Guides",
+      "relatedIds": [
+        15,
+        18,
+        19
+      ],
+      "articleType": "Evergreen guide",
+      "author": "TV96 Live Editorial Team",
+      "publishedAt": "2026-09-05T12:00:00+03:00",
+      "image": "/images/articles/premier-league-guide.png",
+      "sources": [
+        {
+          "name": "Premier League: competition explained",
+          "url": "https://www.premierleague.com/en/premier-league-explained"
+        },
+        {
+          "name": "Premier League: relegation and tiebreakers",
+          "url": "https://www.premierleague.com/en/news/4657245/202526-premier-league-relegation-faq"
+        },
+        {
+          "name": "Premier League: European qualification routes",
+          "url": "https://www.premierleague.com/en/news/373663"
+        }
+      ],
+      "isPublished": true,
+      "wordCount": 881,
+      "imageAlt": "How the Premier League works: complete guide - TV96 Live",
+      "imageCredit": "AI-generated editorial artwork for TV96 Live",
+      "updatedAt": "2026-09-22",
+      "imageType": "original-editorial",
+      "rightsStatus": "reviewed",
+      "brandingReview": "required"
+    },
+    {
+      "id": 13,
+      "title": "How Champions League Qualification Works",
+      "description": "Separate domestic league places, qualifying rounds, European Performance Spots and title-holder routes into the Champions League.",
+      "category": "Champions League",
+      "section": "Football Guides",
+      "relatedIds": [
+        14,
+        19
+      ],
+      "articleType": "Evergreen guide",
+      "author": "TV96 Live Editorial Team",
+      "publishedAt": "2026-09-05T12:00:00+03:00",
+      "image": "/images/articles/champions-league-qualification.png",
+      "sources": [
+        {
+          "name": "UEFA: Champions League format and access",
+          "url": "https://www.uefa.com/news-media/news/0268-12157d69ce2d-9f011c70f6fa-1000--how-clubs-qualify-for-europe/"
+        },
+        {
+          "name": "UEFA: European Performance Spots",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a2-1fdbe9a25733-8d37ff5f9226-1000--202627-uefa-champions-league-which-teams-are-in-the-european-performance-spots-as-it-stands/"
+        },
+        {
+          "name": "UEFA 2026/27: Article 3 - entries, title holders and performance spots",
+          "url": "https://documents.uefa.com/r/Regulations-of-the-UEFA-Champions-League-2026/27/Article-3-Entries-for-the-competition-Online?contentId=EgXhqnzQsuW60mwbyCqWtw"
+        },
+        {
+          "name": "UEFA 2026/27: Annex A - access list",
+          "url": "https://documents.uefa.com/r/Regulations-of-the-UEFA-Champions-League-2026/27/Annex-A-Access-List-for-the-2026/27-UEFA-Club-Competitions-Online?contentId=aLaDNKItLtBltlOvVMG_jw"
+        }
+      ],
+      "isPublished": true,
+      "wordCount": 823,
+      "imageAlt": "How Champions League qualification works - TV96 Live",
+      "imageCredit": "AI-generated editorial artwork for TV96 Live",
+      "updatedAt": "2026-09-22",
+      "imageType": "original-editorial",
+      "rightsStatus": "reviewed",
+      "brandingReview": "required"
+    },
+    {
+      "id": 14,
+      "title": "Champions League Format Explained",
+      "description": "A practical guide to the 36-team league phase, eight fixtures, top-eight race, knockout play-offs, aggregate scores and final.",
+      "category": "Champions League",
+      "section": "Football Guides",
+      "relatedIds": [
+        13,
+        9,
+        17
+      ],
+      "articleType": "Evergreen guide",
+      "author": "TV96 Live Editorial Team",
+      "publishedAt": "2026-09-05T12:00:00+03:00",
+      "image": "/images/articles/champions-league-format.png",
+      "sources": [
+        {
+          "name": "UEFA: Champions League format and access",
+          "url": "https://www.uefa.com/news-media/news/0268-12157d69ce2d-9f011c70f6fa-1000--how-clubs-qualify-for-europe/"
+        },
+        {
+          "name": "UEFA 2026/27: Article 17 - league phase and progression",
+          "url": "https://documents.uefa.com/r/Regulations-of-the-UEFA-Champions-League-2026/27/Article-17-Match-system-league-phase-Online?contentId=z80npkZwtB5MkmwVqnk6XA"
+        },
+        {
+          "name": "UEFA 2026/27: Article 18 - league-phase tiebreakers",
+          "url": "https://documents.uefa.com/r/Regulations-of-the-UEFA-Champions-League-2026/27/Article-18-Equality-of-points-league-phase-Online?contentId=d~m2tmtG82UhZujMH0i~aQ"
+        },
+        {
+          "name": "UEFA 2026/27: Article 20 - two legs and aggregate score",
+          "url": "https://documents.uefa.com/r/Regulations-of-the-UEFA-Champions-League-2026/27/Article-20-Match-system-knockout-phase-Online?contentId=5j1kwD2WHBsLErtGHWuxOA"
+        },
+        {
+          "name": "UEFA 2026/27: Article 21 - extra time and penalties",
+          "url": "https://documents.uefa.com/r/Regulations-of-the-UEFA-Champions-League-2026/27/Article-21-Knockout-system-extra-time-and-penalty-shoot-outs-Online?contentId=aBOyMYjtgYYIYwn~YRHF5Q"
+        },
+        {
+          "name": "UEFA 2026/27: Article 22 - the final",
+          "url": "https://documents.uefa.com/r/Regulations-of-the-UEFA-Champions-League-2026/27/Article-22-Match-system-final-Online?contentId=p6pndZ3IAsUzrTVR64sVPw"
+        }
+      ],
+      "isPublished": true,
+      "wordCount": 951,
+      "imageAlt": "Champions League format explained - TV96 Live",
+      "imageCredit": "Original TV96 Live text and geometric artwork",
+      "updatedAt": "2026-09-22",
+      "imageType": "original-editorial",
+      "rightsStatus": "reviewed",
+      "brandingReview": "required"
+    },
+    {
+      "id": 15,
+      "title": "What Is Goal Difference in Football?",
+      "description": "Learn GF, GA and GD with positive and negative examples, table comparisons, two-team swings and competition-specific tiebreaking cautions.",
+      "category": "Football Guides",
+      "section": "Football Guides",
+      "relatedIds": [
+        12,
+        18
+      ],
+      "articleType": "Evergreen guide",
+      "author": "TV96 Live Editorial Team",
+      "publishedAt": "2026-09-05T12:00:00+03:00",
+      "image": "/images/articles/goal-difference-football.png",
+      "sources": [
+        {
+          "name": "Premier League: competition explained",
+          "url": "https://www.premierleague.com/en/premier-league-explained"
+        },
+        {
+          "name": "Premier League: relegation and tiebreakers",
+          "url": "https://www.premierleague.com/en/news/4657245/202526-premier-league-relegation-faq"
+        },
+        {
+          "name": "Lega Serie A: relegation play-off context",
+          "url": "https://en.legaseriea.it/serie-a/news/the-final-reckoning-lecce-and-cremonese-face-a-decisive-final-day"
+        }
+      ],
+      "isPublished": true,
+      "wordCount": 782,
+      "imageAlt": "What is goal difference in football? - TV96 Live",
+      "imageCredit": "AI-generated editorial artwork for TV96 Live",
+      "imageType": "original-editorial",
+      "rightsStatus": "reviewed",
+      "brandingReview": "required"
+    },
+    {
+      "id": 16,
+      "title": "What Is Expected Goals (xG)?",
+      "description": "Understand shot quality, match xG totals, differences between providers and the limits of using expected goals to assess a performance.",
+      "category": "Football Guides",
+      "section": "Football Guides",
+      "relatedIds": [
+        3,
+        15,
+        17
+      ],
+      "articleType": "Evergreen guide",
+      "author": "TV96 Live Editorial Team",
+      "publishedAt": "2026-09-05T12:00:00+03:00",
+      "image": "/images/articles/expected-goals-xg.png",
+      "sources": [
+        {
+          "name": "Hudl Statsbomb: expected goals methodology",
+          "url": "https://statsbomb.com/soccer-metrics/expected-goals-xg-explained/"
+        }
+      ],
+      "isPublished": true,
+      "wordCount": 823,
+      "imageAlt": "What is expected goals (xG)? - TV96 Live",
+      "imageCredit": "AI-generated editorial artwork for TV96 Live",
+      "imageType": "original-editorial",
+      "rightsStatus": "reviewed",
+      "brandingReview": "required"
+    },
+    {
+      "id": 17,
+      "title": "How VAR Works in Football",
+      "description": "Understand checks, reviews and referee decisions, including the 2026/27 second-yellow changes and optional immediate corner corrections.",
+      "category": "Football Guides",
+      "section": "Football Guides",
+      "relatedIds": [
+        16,
+        12,
+        14
+      ],
+      "articleType": "Evergreen guide",
+      "author": "TV96 Live Editorial Team",
+      "publishedAt": "2026-09-05T12:00:00+03:00",
+      "image": "/images/articles/how-var-works.png",
+      "sources": [
+        {
+          "name": "IFAB: VAR protocol (2026/27)",
+          "url": "https://www.theifab.com/laws/latest/video-assistant-referee-var-protocol/"
+        },
+        {
+          "name": "IFAB: latest law changes",
+          "url": "https://theifab.com/law-changes/latest/"
+        }
+      ],
+      "isPublished": true,
+      "wordCount": 839,
+      "imageAlt": "How VAR works in football - TV96 Live",
+      "imageCredit": "AI-generated editorial artwork for TV96 Live",
+      "imageType": "original-editorial",
+      "rightsStatus": "reviewed",
+      "brandingReview": "required"
+    },
+    {
+      "id": 18,
+      "title": "Premier League Relegation Explained",
+      "description": "How the bottom three go down, Championship promotion works and survival calculations depend on points, tiebreakers and remaining fixtures.",
+      "category": "Premier League",
+      "section": "Football Guides",
+      "relatedIds": [
+        12,
+        15
+      ],
+      "articleType": "Evergreen guide",
+      "author": "TV96 Live Editorial Team",
+      "publishedAt": "2026-09-05T12:00:00+03:00",
+      "image": "/images/articles/premier-league-relegation.png",
+      "sources": [
+        {
+          "name": "Premier League: relegation and tiebreakers",
+          "url": "https://www.premierleague.com/en/news/4657245/202526-premier-league-relegation-faq"
+        },
+        {
+          "name": "Premier League: competition explained",
+          "url": "https://www.premierleague.com/en/premier-league-explained"
+        },
+        {
+          "name": "EFL: Championship play-off format change",
+          "url": "https://www.efl.com/news/2026/march/05/efl-statement--sky-bet-championship-play-off-format/"
+        }
+      ],
+      "isPublished": true,
+      "wordCount": 841,
+      "imageAlt": "Premier League relegation explained - TV96 Live",
+      "imageCredit": "AI-generated editorial artwork for TV96 Live",
+      "updatedAt": "2026-09-22",
+      "imageType": "original-editorial",
+      "rightsStatus": "reviewed",
+      "brandingReview": "required"
+    },
+    {
+      "id": 19,
+      "title": "How European Qualification Works in the Premier League",
+      "description": "Follow England's European places through league finishes, domestic cups, additional performance spots and overlapping title-holder routes.",
+      "category": "Premier League",
+      "section": "Football Guides",
+      "relatedIds": [
+        13,
+        14,
+        12
+      ],
+      "articleType": "Evergreen guide",
+      "author": "TV96 Live Editorial Team",
+      "publishedAt": "2026-09-05T12:00:00+03:00",
+      "image": "/images/articles/premier-league-european-qualification.png",
+      "sources": [
+        {
+          "name": "Premier League: European qualification routes",
+          "url": "https://www.premierleague.com/en/news/373663"
+        },
+        {
+          "name": "UEFA: European Performance Spots",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a2-1fdbe9a25733-8d37ff5f9226-1000--202627-uefa-champions-league-which-teams-are-in-the-european-performance-spots-as-it-stands/"
+        },
+        {
+          "name": "UEFA 2026/27: Article 3 - entries, title holders and performance spots",
+          "url": "https://documents.uefa.com/r/Regulations-of-the-UEFA-Champions-League-2026/27/Article-3-Entries-for-the-competition-Online?contentId=EgXhqnzQsuW60mwbyCqWtw"
+        },
+        {
+          "name": "UEFA 2026/27: Annex A - access list",
+          "url": "https://documents.uefa.com/r/Regulations-of-the-UEFA-Champions-League-2026/27/Annex-A-Access-List-for-the-2026/27-UEFA-Club-Competitions-Online?contentId=aLaDNKItLtBltlOvVMG_jw"
+        }
+      ],
+      "isPublished": true,
+      "wordCount": 904,
+      "imageAlt": "How European qualification works in the Premier League - TV96 Live",
+      "imageCredit": "AI-generated editorial artwork for TV96 Live",
+      "updatedAt": "2026-09-22",
+      "imageType": "original-editorial",
+      "rightsStatus": "reviewed",
+      "brandingReview": "required"
+    },
+    {
+      "id": 20,
+      "title": "Premier League Guide",
+      "description": "Follow the Premier League week by week: read form, assess the schedule and connect title, European and survival races with match performances.",
+      "category": "Premier League",
+      "section": "League & Competition Guides",
+      "relatedIds": [
+        12,
+        18,
+        19
+      ],
+      "articleType": "Evergreen guide",
+      "author": "TV96 Live Editorial Team",
+      "publishedAt": "2026-09-05T12:00:00+03:00",
+      "image": "",
+      "sources": [
+        {
+          "name": "Premier League: competition explained",
+          "url": "https://www.premierleague.com/en/premier-league-explained"
+        },
+        {
+          "name": "Premier League: European qualification routes",
+          "url": "https://www.premierleague.com/en/news/373663"
+        }
+      ],
+      "isPublished": false,
+      "wordCount": 802,
+      "imageAlt": "TV96 Live - Football News & Guides",
+      "imageCredit": "Original TV96 Live text and geometric artwork"
+    },
+    {
+      "id": 21,
+      "title": "La Liga Guide",
+      "description": "Follow Spain's top flight with its season structure, head-to-head ranking context, European routes and practical tactical viewing questions.",
+      "category": "La Liga",
+      "section": "League & Competition Guides",
+      "relatedIds": [
+        22,
+        23,
+        13
+      ],
+      "articleType": "Evergreen guide",
+      "author": "TV96 Live Editorial Team",
+      "publishedAt": "2026-09-05T12:00:00+03:00",
+      "image": "/images/articles/la-liga-guide.png",
+      "sources": [
+        {
+          "name": "RFEF: 2026/27 Primera and Segunda Division competition regulations - Article 10, pages 6-7",
+          "url": "https://rfef.es/sites/default/files/pdf/circulares/1._Circular_84_-_CNL_Primera_y_Segunda_Division___Anexo.pdf?cb=6df81e55"
+        },
+        {
+          "name": "LALIGA: official standings and competition information",
+          "url": "https://www.laliga.com/en-GB/laliga-easports/standing"
+        }
+      ],
+      "isPublished": true,
+      "wordCount": 1083,
+      "imageAlt": "La Liga guide - TV96 Live",
+      "imageCredit": "AI-generated editorial artwork for TV96 Live",
+      "updatedAt": "2026-10-13",
+      "imageType": "original-editorial",
+      "rightsStatus": "reviewed",
+      "brandingReview": "required"
+    },
+    {
+      "id": 22,
+      "title": "Serie A Guide",
+      "description": "A guide to Italy's league season, decisive tied-position play-offs, European routes and reading the tactical contest beyond formation graphics.",
+      "category": "Serie A",
+      "section": "League & Competition Guides",
+      "relatedIds": [
+        21,
+        15,
+        16
+      ],
+      "articleType": "Evergreen guide",
+      "author": "TV96 Live Editorial Team",
+      "publishedAt": "2026-09-05T12:00:00+03:00",
+      "image": "/images/articles/serie-a-guide.png",
+      "sources": [
+        {
+          "name": "FIGC: 2026/27 regulation 244/A — championship and survival ties, mini-table criteria and UEFA-finalist exception, clauses i–iv",
+          "url": "https://files.figc.it/version/c%3AZmUzYzk0MzUtMzU0Zi00%3AYTk3YzZiZGEtYmExYi00/244%20-%20Deroga%20art.%2051%20NOIF%20-%20Determinazione%20classifica%20Campionato%20Serie%20A%20ss%202026%20-%202027.pdf"
+        },
+        {
+          "name": "Historical context: Lega Serie A — 2025/26 Lecce–Cremonese survival scenario; not authority for the 2026/27 procedure",
+          "url": "https://en.legaseriea.it/serie-a/news/the-final-reckoning-lecce-and-cremonese-face-a-decisive-final-day"
+        },
+        {
+          "name": "Lega Serie A: the first unified championship",
+          "url": "https://www.legaseriea.it/serie-a/news/96-anni-fa-l-inter-vinceva-il-primo-scudetto-a-girone-unico"
+        }
+      ],
+      "isPublished": true,
+      "wordCount": 1168,
+      "imageAlt": "Serie A guide - TV96 Live",
+      "imageCredit": "AI-generated editorial artwork for TV96 Live",
+      "updatedAt": "2026-10-13",
+      "imageType": "original-editorial",
+      "rightsStatus": "reviewed",
+      "brandingReview": "required"
+    },
+    {
+      "id": 23,
+      "title": "Bundesliga Guide",
+      "description": "Understand Germany's 18-team league, 34-match schedule, relegation play-off and the different boundaries at the bottom of the table.",
+      "category": "Bundesliga",
+      "section": "League & Competition Guides",
+      "relatedIds": [
+        24,
+        15,
+        13
+      ],
+      "articleType": "Evergreen guide",
+      "author": "TV96 Live Editorial Team",
+      "publishedAt": "2026-09-05T12:00:00+03:00",
+      "image": "/images/articles/bundesliga-guide.png",
+      "sources": [
+        {
+          "name": "Bundesliga: promotion and relegation",
+          "url": "https://www.bundesliga.com/en/bundesliga/news/how-does-promotion-and-relegation-work-in-the-bundesliga-10645"
+        },
+        {
+          "name": "Bundesliga: competition FAQ",
+          "url": "https://www.bundesliga.com/en/faq/10-things-on-the-bundesliga"
+        }
+      ],
+      "isPublished": true,
+      "wordCount": 814,
+      "imageAlt": "Bundesliga guide - TV96 Live",
+      "imageCredit": "AI-generated editorial artwork for TV96 Live",
+      "imageType": "original-editorial",
+      "rightsStatus": "reviewed",
+      "brandingReview": "required"
+    },
+    {
+      "id": 24,
+      "title": "Ligue 1 Guide",
+      "description": "Explore Ligue 1's 18-club season, European qualification, Ligue 2 play-off route and a practical approach to following French football.",
+      "category": "Ligue 1",
+      "section": "League & Competition Guides",
+      "relatedIds": [
+        23,
+        13,
+        15
+      ],
+      "articleType": "Evergreen guide",
+      "author": "TV96 Live Editorial Team",
+      "publishedAt": "2026-09-05T12:00:00+03:00",
+      "image": "/images/articles/ligue-1-guide.png",
+      "updatedAt": "2026-10-12",
+      "sources": [
+        {
+          "name": "LFP: 2026/27 regulations — Article 519 (promotion/relegation), Article 519 ter (playoff format)",
+          "url": "https://www.lfp.fr/assets/26_27_LFP_STATUTS_REGLEMENTS_08_09_2026_f2aaaaa325.pdf"
+        },
+        {
+          "name": "LFP: official 2026/27 Ligue 2 calendar and playoff pathway",
+          "url": "https://www.lfp.fr/article/ligue-2-bkt-le-calendrier-de-la-saison-2026-2027"
+        },
+        {
+          "name": "Historical context (2024): Ligue 1 survival and relegation positions",
+          "url": "https://ligue1.com/en/articles/l1_article_93-"
+        },
+        {
+          "name": "Historical context (11 May 2026, 2025/26 season): Ligue 2 play-off route",
+          "url": "https://ligue1.com/en/articles/l1_article_5074-"
+        }
+      ],
+      "isPublished": true,
+      "wordCount": 904,
+      "imageAlt": "Ligue 1 guide - TV96 Live",
+      "imageCredit": "AI-generated editorial artwork for TV96 Live",
+      "imageType": "original-editorial",
+      "rightsStatus": "reviewed",
+      "brandingReview": "required"
+    },
+    {
+      "id": 25,
+      "title": "UEFA Champions League Guide",
+      "description": "Follow European matchups, league-phase objectives and two-leg tactics while keeping match scores, aggregate situations and analysis distinct.",
+      "category": "Champions League",
+      "section": "League & Competition Guides",
+      "relatedIds": [
+        14,
+        13,
+        19
+      ],
+      "articleType": "Evergreen guide",
+      "author": "TV96 Live Editorial Team",
+      "publishedAt": "2026-09-05T12:00:00+03:00",
+      "image": "/images/articles/uefa-champions-league-guide.png",
+      "sources": [
+        {
+          "name": "UEFA: Champions League format and access",
+          "url": "https://www.uefa.com/news-media/news/0268-12157d69ce2d-9f011c70f6fa-1000--how-clubs-qualify-for-europe/"
+        },
+        {
+          "name": "UEFA: 2026/27 Champions League regulations",
+          "url": "https://documents.uefa.com/r/Regulations-of-the-UEFA-Champions-League-2026/27/G.1-Introduction-Online"
+        }
+      ],
+      "isPublished": false,
+      "wordCount": 840,
+      "imageAlt": "UEFA Champions League guide - TV96 Live",
+      "imageCredit": "AI-generated editorial artwork for TV96 Live",
+      "imageType": "original-editorial",
+      "rightsStatus": "reviewed",
+      "brandingReview": "required"
+    },
+    {
+      "id": 26,
+      "title": "Manchester United 2026/27 Season Guide",
+      "category": "Team Guides",
+      "section": "Team Guides / Analysis",
+      "articleType": "Unpublished draft",
+      "isPublished": false,
+      "sourceReviewRequired": true,
+      "imageType": "original-editorial",
+      "rightsStatus": "reviewed",
+      "brandingReview": "required"
+    },
+    {
+      "id": 27,
+      "title": "Arsenal 2026/27 Season Guide",
+      "category": "Team Guides",
+      "section": "Team Guides / Analysis",
+      "articleType": "Unpublished draft",
+      "isPublished": false,
+      "sourceReviewRequired": true,
+      "imageType": "original-editorial",
+      "rightsStatus": "reviewed",
+      "brandingReview": "required"
+    },
+    {
+      "id": 28,
+      "title": "Liverpool 2026/27 Season Guide",
+      "category": "Team Guides",
+      "section": "Team Guides / Analysis",
+      "articleType": "Unpublished draft",
+      "isPublished": false,
+      "sourceReviewRequired": true,
+      "imageType": "original-editorial",
+      "rightsStatus": "reviewed",
+      "brandingReview": "required"
+    },
+    {
+      "id": 29,
+      "title": "Manchester City 2026/27 Season Guide",
+      "category": "Team Guides",
+      "section": "Team Guides / Analysis",
+      "articleType": "Unpublished draft",
+      "isPublished": false,
+      "sourceReviewRequired": true,
+      "imageType": "original-editorial",
+      "rightsStatus": "reviewed",
+      "brandingReview": "required"
+    },
+    {
+      "id": 30,
+      "title": "Real Madrid 2026/27 Season Guide",
+      "category": "Team Guides",
+      "section": "Team Guides / Analysis",
+      "articleType": "Unpublished draft",
+      "isPublished": false,
+      "sourceReviewRequired": true,
+      "imageType": "original-editorial",
+      "rightsStatus": "reviewed",
+      "brandingReview": "required"
+    },
+    {
+      "id": 31,
+      "title": "Barcelona 2026/27 Season Guide",
+      "category": "Team Guides",
+      "section": "Team Guides / Analysis",
+      "articleType": "Unpublished draft",
+      "isPublished": false,
+      "sourceReviewRequired": true,
+      "imageType": "original-editorial",
+      "rightsStatus": "reviewed",
+      "brandingReview": "required"
+    },
+    {
+      "id": 32,
+      "title": "JJ Gabriel, 15, Asks to Leave Manchester United as Club Fight to Keep Highly Rated Prospect",
+      "description": "Archived report first published 15 September 2026: BBC Sport reported that JJ Gabriel had requested cancellation of his Manchester United registration. This account describes the situation reported at that time.",
+      "category": "Manchester United / Archived Reports",
+      "section": "Archived Reports",
+      "relatedIds": [
+        10,
+        12,
+        16
+      ],
+      "articleType": "Archived report",
+      "author": "TV96 Live Editorial Team",
+      "publishedAt": "2026-09-15T20:00:00+03:00",
+      "updatedAt": "2026-10-11",
+      "image": "/images/articles/jj-gabriel.png",
+      "imageAlt": "JJ Gabriel in a Manchester United shirt with the club crest and stadium background",
+      "imageType": "user-provided",
+      "rightsStatus": "user-provided",
+      "imageReviewRequired": true,
+      "brandingReview": "required",
+      "imageCredit": "Image supplied by the TV96 Live publisher",
+      "sources": [
+        {
+          "name": "BBC Sport: JJ Gabriel asks to leave Manchester United",
+          "url": "https://www.bbc.co.uk/sport/football/articles/c95y4dxr0v6do"
+        },
+        {
+          "name": "Manchester Evening News: JJ Gabriel and Ryan Giggs context",
+          "url": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-utd-jj-gabriel-carrick-34607865"
+        }
+      ],
+      "isPublished": true,
+      "wordCount": 956
+    }
+  ],
+  "bodyHashesBefore": {
+    "1": "d62da1bf33ea900f5f83f90eb6eeb57f6f34a4245d7803a162b78450258b5147",
+    "2": "d87a6db2bc8ccae9e4cebd6a2c92e4dcc1401e21ffc594629df4c086fd45f874",
+    "3": "817744452e74505c8acfddfd5319f0d173e16654f3ee8fdce3799479776b3199",
+    "4": "816b6ec6ec53b61686d7bf5866ab11a0ae9159d22aa196a3533ccf632a2523e8",
+    "5": "cb946710e494d06cad6d2e104b2c2d02f4a861b99ca143354c6bb2a9a03c05db",
+    "6": "328611222cf78a0741009b1a1ff9f7ee1201e7f23e7b49b0b1be11d16c398817",
+    "7": "c70d085806c06fba5c2fc436de546d3937b7deb3f6753df98c77d45271f366a4",
+    "8": "ea72e0f0dc7154a8816982d89abba4846aaf5ef450afc673f353e624aadc2dcd",
+    "9": "a9f188a74d7fc006841a91c096d345f6c6690edfec9cc8574d98efbb6f09a06f",
+    "10": "afc81f59907d19a824d12f627a9a4d528bb9f4215f1519edbde62c1645dd8611",
+    "11": "1f287d06e85355d2c702fac22b79d5a85bba82f9d008c9591f53f63e313c5892",
+    "12": "a424391ab3934f7f818b64ba3a4d4a706ba93179756085bf95c0f950ffcd38c6",
+    "13": "7687bc47b893934b3ca838bc738ae02ef54be67ded0184a46b7b48428ea8491e",
+    "14": "3bc76559925e95db6af5daf1b0d5d6f53aa4fbebab6a5ce4fdff546ce6eb7dce",
+    "15": "8db0c070f746b803e757e941183237861149f187db2d77f3242389905194a9c9",
+    "16": "24cac0f2501d007e8dff76d7799052bc0df77b456217dd3f824fbf6a6806ac92",
+    "17": "00ee0dbacb6daa823026d8f5c3c0511aea99b8c6a5c7f0e1692b1e66bbcbaece",
+    "18": "5c49b920a5639b6c7977a3004bcbbfed6d2f50356435f5403fe7fd943103e095",
+    "19": "33f0fb161e273ab2f89be3eb74515526e0e76a959bcfcb5edf1e929c2c097236",
+    "20": "9d3d1581e9a6e1134c7d526cce5b171aa774768712c4d37460be8865dd572a7b",
+    "21": "e597a30d8f1421c28d6d95c18408ac7a5fe9652b3de4c931c1700b9ac5a8e224",
+    "22": "0749bfa444af294995904273609ded4bcd2c61a8328fcc54a795778dd00db82c",
+    "23": "a4286ac81baed1665636782029f764e87d935a91b01f45d81936aee2902dc231",
+    "24": "53f4196646c6ddb73bfca2a46fbdbdfe110b0897dc3d762cf69b115cd00443fe",
+    "25": "ae4b2d8d206fc9921e99071851165e59dda177aa3fcf27247b90dacbbe41c09e",
+    "32": "db92850513fd658a51de378ed008dfca53a1f2bed18aa22270f1d344dd67c082"
+  },
+  "publicFilesBefore": {
+    ".vercelignore": "9ab3d3c32a5ce6503b74e59c8ca8316df8d23c285fdbf2ee2b0086ffe74988bb",
+    "404.html": "42970e02024b7f1878c2654adf8a020abc8a9bb0aee2e6dcaf812cfa8d7e86f5",
+    "about.html": "43125679c9eab4eb95669c7ed3f7ac0fa07ae224d179700d4ff537cebc478a02",
+    "ads.txt": "768d59d7ca6971d7e31afa3ff6a4aa6bb3b8e9a9524f3150eaae6e2a46b94e80",
+    "api/matches.js": "16dea5bea9de414635acdf047cab3c9d6dd65ef9692945e18614f0d648477edb",
+    "api/standings.js": "4067f34cb3b7bc9a9946a6d986df4483c6a29cd6b1a588d91c0812f3e50aa3b4",
+    "articles/10.html": "bf33c597869590955008514fb57ca2800ff3eef110d85f01582b452ba46dc5e5",
+    "articles/12.html": "02750563f2766d3a371da50120eb4c2b018f9ca8c5646a4c0371a261ebf26fe9",
+    "articles/13.html": "c2bea7ca5e0babad1533870b7ee03eb037ebe482cd9a5397f26d2fe919a65139",
+    "articles/14.html": "38167bd14368808d25e9a3206e0bc9f3d439344724a6b00a267d074b53861af7",
+    "articles/15.html": "ce1674c63b9549b38b256d3d6693bd4ea926d1406b6a1ab2745b760572e7e330",
+    "articles/16.html": "38e86f162326153e5e00d41da96934f2b08d9dbe64b8b884a93cc2c28e66dcc7",
+    "articles/17.html": "d96704208c52e4e088ecee30ad391a1327485e1c19db6441cade28a6ee60fd91",
+    "articles/18.html": "9747958db1954a0c3f723406eda27e6a2e4a71478744de615335139c1baa6545",
+    "articles/19.html": "26edc583ed91fd7bc4c17a3c98637640c07f220f8e50a4a001eb76f1261e9e5f",
+    "articles/21.html": "43f9958f12d52bbcce5eaa487303da615584f02bbce1252654ce71f6181a0f9d",
+    "articles/22.html": "0bdf15f010b6aa1872e5c61c80ac9220631e651438a932bd664fc4c817903b4b",
+    "articles/23.html": "e9210afb87a2759449ccd52a2a4426578ac584ea01292223f1b4d410795f8bbf",
+    "articles/24.html": "9709f07f026669fa18f8c6bd21b6c5deaaeca88c791c07841edbb3a1be513b58",
+    "articles/3.html": "ddd2e7dfee8aa749898e9a8eb0af1b6f3118aeef392abe1395e3568226174275",
+    "articles/32.html": "aac6dbc831d660ab5b3e9018b9f981c192d041516ef8c8d4c379bcbcc4c70bfb",
+    "articles/9.html": "4c595c2a88a351ce8e7d7fb320bda8bf197abc6654d931ff9f73592f1a2e6a52",
+    "banner/banner.jpg": "e6a1004e57ea06f02ce612b6f17df9c74d478cddcca8e8dd6b8a2f68c29adec6",
+    "banner/banner1.jpg": "86bb1811a7ae2f91585dc524e6d00bbabba9de13e98ad0d6a1b80689bc2e4613",
+    "banner/banner2026.png": "6172fd23b53766d28af05b8bd52cb8e9da381244a7b70c04d2703f2d18f8f85a",
+    "banner/hero.jpg": "7b36692f8cc1850f138e79822a4d6cf00f5563b9212a48a92640eed60406c38f",
+    "banner/hero1.png": "e6e963f7af5a405e75d54f24667dcb9ee56f7cb7d118f8ae8441fe5453241cf5",
+    "banner/omar.jpg": "76bdf16ee1cb6a6b19a459c0b5ad2d6a76cb05c0680dcdd5d8a9089295e9412d",
+    "banner/poster .png": "57f719c28225a369b895948dd499802c389787f34432c71030e8ba03bb0c14de",
+    "bundle.min.css": "3659210339428843ef05b8bcf121031f61591c08261871dd1d123dbf39c732a1",
+    "contact.html": "5300149c7c98957f55eee86cc0d04581f0ce16b5ab90ff0da85f50f503615321",
+    "editorial-fallback.png": "c30c531a78f34336f2c90d5dd137aa34633650026fbb3a89a11807ae85461978",
+    "favicon.png": "b49af96b93185355d0779b013319fafd122da188ea57dadf5bd1976155f29469",
+    "football-fallback.svg": "85c4dbca08384c6b44f7396d5f9e9d56adf8c77cac3f364de4d3d38f9e6ab512",
+    "googleae8e7d185b7c98c3.html": "7ed52b2977744a863b6ad3c279f921a90549326301fb0b652cf82c3b73b219f3",
+    "history-data.js": "633b3e8247df917b866f45b818b60dbf6ccf79f6ae49cbb14caa66b78c3a9ae3",
+    "icon football/bundisliga.png": "0ab251ee0f304ae87843f5ab2c4840f25f59826c26930f660176ca74bf8541f7",
+    "icon football/CAF.jpg": "f1c06377413cfe369eb0c818bd5fba84bb0c97bcec520195361362582c3d1a23",
+    "icon football/champion.png": "a2ae025bac4ebfb0bbd1396e9fdc5389c148b158289fff79cb98cbd286f27ff9",
+    "icon football/europa league.png": "fa0a2965a6580428c073df323f15b9a328c252caca9d0c5decdfd9ad62ccc19b",
+    "icon football/europa_league.jpg": "afc93e50a60c4f8dddbd5ebf0e212d751a89b2524e8d0d16261d145cf9b6ac89",
+    "icon football/FA_Cup.png": "997e251b9f3f042ba645e48c5e930a2ecd26faf9ad2228ea861b34a72650250d",
+    "icon football/laliga.png": "49663c7e3b69bf418efb45846d0f861653d05bfd3c613b74d34e723d78fb72de",
+    "icon football/league 1.png": "d8e9e69d9644c05931056a8a08f8795baf78823b287c2c32aa1a6ef7087d384a",
+    "icon football/MLS-logo.png": "0e452876cd81afca6c7d210e5e68a64db4f25ca4e5bb1c171c1702e32d6267c4",
+    "icon football/premier league.png": "9ec24bb2dd0a3a2e6cef8fedcc95ba476b934dac36bb755608c7541e11475636",
+    "icon football/PSG-logo.jpg": "f4e64074292f9d1ff06db1d9400f9dc943dd34d34af57752fd89b3f4e7a20d2f",
+    "icon football/serie a.png": "eee85b0b5193efd54eef52918334beb0ed4a907843c3d9c3ec696cb1a5b52779",
+    "icon football/Suadi-Pro-League.jpg": "145793e87b8096f3f21ba07ba036bd2881f6846156a6889837f29435c92937de",
+    "icon football/world cup.jpg": "fdcb532c268af6a2aaa53820a3f2ccd17080fbf7e977387ed4dca6295f23a5e2",
+    "icon football/world cup1.png": "d4965ffbf8fee5166701050c92d08af8d54e4106984bb576b04b252666752805",
+    "icon-192.png": "8ad98a51f40f7fd059367760748a7f0288b2ffa7d742ad4c95d05e79006027f8",
+    "icon-512.png": "fefac0891f2dc9aa62c8454d4ab32d5e5cacd7161ad5d82ea5021116bcb65062",
+    "images/articles/alvarez-meeting-report.png": "6b18ff76cf9210bdf2c3398d4a863cdf42b5836b0626c0d456f1f47106333239",
+    "images/articles/alvarez-meeting-report.webp": "e6e86202c7f3efa9a7ed2b1855b2e9040d67f38725274053a5d331f096c28dae",
+    "images/articles/arsenal-alvarez-statement.png": "9bbbd9ac8c625ba6ed587309cd3615e1bc90a49a795f5792b7395f52d2bd46fa",
+    "images/articles/arsenal-alvarez-statement.webp": "3b0da999dd601cbb4a74d0747e7914d9efdf7097f3cb510558168f8d9530a6d4",
+    "images/articles/bundesliga-guide.png": "224fb3b2e40d2088f06c0b36e725716d46b1823d8a522815ba72b42484257276",
+    "images/articles/bundesliga-guide.webp": "bcc17dfdd09ce171c6271d49787035d54e40743a03ea072bdfdfb468c1ecfd6d",
+    "images/articles/champions-league-format.png": "ce913735c22b1bda59a288c955176febd21e89bd65c3df76e63fa7d30a022282",
+    "images/articles/champions-league-format.webp": "8d6fa23f9adf5dbc694e2c9dc30fa904c1c5c5118d3741ced526c697ba84151a",
+    "images/articles/champions-league-qualification.png": "eb79b105dadc6d03188250cb901539740138e93c23e221eaf17d4afeec38c536",
+    "images/articles/champions-league-qualification.webp": "999f600e0d8944354b1fbef2ef0e97c70fa0421102a8daab25b654789ab8036c",
+    "images/articles/expected-goals-xg.png": "52c12823fb2c5e4e4d4619c4aae1783a68a851a53462a4855064dd375fa31216",
+    "images/articles/expected-goals-xg.webp": "8a23065c225860059bd21fc6711fcb39d8814a35b2b1b5bcfd4577462e2f436f",
+    "images/articles/fernandez-omission.png": "082e9d1d18699211381040e8e13a2af24d14233c8c89ca9cfb9ed566d7d51313",
+    "images/articles/fernandez-omission.webp": "10ebcaea49e6b8c5e14487012b561c91a029244c9e0c02c711c382a3f4c31210",
+    "images/articles/goal-difference-football.png": "0451fe974a0ec7fcbf5237295c2b3ecf6a1cdbb73ac8d84c0b05d73874656e38",
+    "images/articles/goal-difference-football.webp": "f97370e782bd0ed045ce629c2cece05fa5b29d81e86167bcef61cb3feb86a6ce",
+    "images/articles/how-var-works.png": "1864bc65ec1f8783efa7f921b598960f966eb7f083e780c6ebe0ad8460180ce5",
+    "images/articles/how-var-works.webp": "b97013553d95e4639e9b8d16863ebbcb05f9d952d19348860a87344b4589f657",
+    "images/articles/jj-gabriel.png": "1403d94c1586fd3164b9533e7f5fbabbbd8c6e69f5137b0ef480c12ce78f5ff0",
+    "images/articles/jj-gabriel.webp": "95b1ec83dbd334d4e73adc50c75392953e035ad17a5a7fd61f169397eabbe9d9",
+    "images/articles/johan-manzambi-aston-villa.png": "5042dbf82b3e94e20a9d477f7288e6674316b864e117dcd05934933142dfd9cf",
+    "images/articles/johan-manzambi-aston-villa.webp": "777481674336e129516cfdc2ed44cddfdfb983cacd2687b3c48f0d5793bb0c14",
+    "images/articles/la-liga-guide.png": "1966e97148fe217fbb320358a9a757894fbc94b12b0dfe7623676342d51e8c50",
+    "images/articles/la-liga-guide.webp": "39919398499a6f48f7a04466a068c2f128dde2637ba77882d500c03afcd9fa57",
+    "images/articles/ligue-1-guide.png": "1c8f7f23ceb8f965433baf5c522fcbed2d22682531b41261ad00443d96bc1cdb",
+    "images/articles/ligue-1-guide.webp": "b60807465395291c26aea9c52f6fb760b760c34eb661b09f1e968358341ca15c",
+    "images/articles/mbappe-world-cup-contributions.png": "9781d8c8da474bfc058ee7ef969a9edb95647f061121f3aeb5d94e840d21d2ca",
+    "images/articles/mbappe-world-cup-contributions.webp": "c5456f907bc059d3cf84237e162037a6b6540fb36b9024838b9934a6253e7fb8",
+    "images/articles/premier-league-european-qualification.png": "2edbbc2d8e605811849491b2adf03a83fe99226d55dff249ac64af117d80bc4d",
+    "images/articles/premier-league-european-qualification.webp": "0c6cdafc508e77b376358016253955f5923741c33fff8a4e2b03f7e4411417c4",
+    "images/articles/premier-league-guide.png": "abb5ff8f87fd977cac98306e239d28cd05c889ca90631a7b41270e5b9262acaf",
+    "images/articles/premier-league-guide.webp": "0075366bca94c810ac1c92b7316f09be9296ffd3bfeb1039dd6a9e5174b569ce",
+    "images/articles/premier-league-relegation.png": "fde4b3abb25f64c67ded7fb61d8abb621941a317b5aff9d5c023701e89950763",
+    "images/articles/premier-league-relegation.webp": "36744bba5f0c1504ff97ee157ade6e56d0bb640daadd0061924e6fc0d310a195",
+    "images/articles/reading-european-draw.png": "641b22d2f162c1a99535d968ea554b4a5e254059aeeb5f4a918c4db4007ae4c6",
+    "images/articles/reading-european-draw.webp": "dbd1ac6d0a0402064f9da5744dfe1c299faf47b201e348245c67fa78b61bf3e7",
+    "images/articles/serie-a-guide.png": "1f90586ca8cc417582d4bee9c39c1f8f043bd304066c73061cf457a0b4e002fe",
+    "images/articles/serie-a-guide.webp": "db0b93bae8f1fab5a3a02939f6c66e78f30ab4fa38eaafa497a39e96039b2310",
+    "images/articles/uefa-champions-league-guide.png": "b6ff9654379cf5cff5a4d59e3b432ada609d715b2e16e052712060184bb8a086",
+    "images/articles/uefa-champions-league-guide.webp": "f3a3e7af7fc05bae8d95e76633588cc0d2f6e6d05265c6d675a91180b5f75fcf",
+    "index.html": "f65f4d798c3f01beae0a9d4d9f56a96a8e6f022278bb71a4910cbd67c74b986c",
+    "logo/bann.png": "de0e69dcb6ce8c3c7c119184b21d12573e26eca4a8c337ee8dff05f73bf7d9b7",
+    "logo/banner middle .png": "f6e356cb607a49a5a6e542e71c520611c63fc994743c6bdbc7d5031d9f5f7d94",
+    "logo/click.png": "04a5c56b76bc59798480dac61748335ae4fa24a20f5db5c4478bad6965a249b4",
+    "logo/content .png": "615c1426fd126bcd72bf3e498b847ee5df928e8111772490b5cb8c414a311a20",
+    "logo/header .png": "5555a282a98cd111838dee1f23247dea6a876bfd2e04a1974230e92833e9214d",
+    "logo/icons .png": "eb9b947685673ece67aef841067c28815f6a197c99313af6488ea5a27c4fb44c",
+    "logo/logo.png": "8781c0205ba320247de1cfe6cc4d2a8d7a92cc64db8d9480f25caf6342712a39",
+    "logo/sameey .png": "a8d4531561e19f833d5819b4ba5b75fb60b3a1fdb3e4f50d6d9445a391e4a3d3",
+    "logo.png": "780c6af988f8791dbaf5e6542e348de576be7943dd442984582956d38ea099f5",
+    "manifest.json": "67945282e1f296793ac914af40de395f22b3acc3c8e60fb485c541ba1bef9b99",
+    "match-ids.html": "6fed716b58ea54506ac3e777561dde41e2d4cb4615c47a1276e505d57c413322",
+    "matches-data.js": "e16c0fafb70ec8e9b9da0d3e2b31240c80ddf613dbdc938f2bb192564cf2bddb",
+    "matches.html": "f5756923f8a9f7b8199f0d21b3ae6028cc3874e55ee940f48fae8e1c70dd3bb0",
+    "news image/1.jpg": "ee6edd9388ec690dc358bff5551aea4b1ef6357276eb3cc787dad3fa211f836a",
+    "news image/10.png": "1cb9d8c9097bb6b2cd0e61026d28c68b81bc38af8d2224e553e8bbe460dddee9",
+    "news image/11.png": "eed587b775dfd41690f458afc525cf61711da4d7b52171bb445c232e09d45310",
+    "news image/2.jpeg": "381f93cfe364871fd595747ec55fc368b5e999a7ebbcb7347eee5219e94368a0",
+    "news image/3.jpg": "6c09f6bb092570c55573c8dc645c1d6c8ad476a2f869f2be885cc23853259053",
+    "news image/4.jpg": "6d606e1bd0c435ba9bd11e8b0af6dfe9c4f97ed7950be82afcaf20b2549c89e7",
+    "news image/5.jpg": "b986baba15ecab46b6a6ce95b26d898e8850b70189660ee6b2826a38eb27b348",
+    "news image/6.webp": "0e7da907b769d2708c5ef1f473798022261cc06225ab8d94e69ba3a375e0a6b2",
+    "news image/7.webp": "c0f95d3834f41f4b35faebb49ae4d7a44357e35f1da839fcf48b0b8255cf366c",
+    "news image/8.png": "19c298d656880c912cd3b8516f912e9ab26adc75203d88a4140ca1dcff527d8b",
+    "news image/9.png": "f570d48e289290ddfebe2b5233bc5ca714a1416c8272408cd63136f0d5ac9085",
+    "news image/fergusan.jpg": "fd6366e34add105fb3bc893c8d256f8230c94f6ba919d079da677af2f777080c",
+    "news image/GettyImages-2166876546-2-scaled.jpg": "f550f48d83755b07b83c1b2dfd8e69a7e7eb8985b65b3a102f1b27ce71db0391",
+    "news image/GettyImages-2262861156.jpg.webp": "30cd2365008aee4eae39243a16975d31e76ab3ae96a04293f160d07ecfb92c87",
+    "news image/images.jpg": "0eedea050de5e308d7abb155a65865e2fb6b9a0354eca289861479cfff870b27",
+    "news-data.js": "4b8d719f6a94699566b6f009122ffb148830a576c19e706e4f400e17f533f011",
+    "news-style.css": "82e9b518d55759075e7e65e50e74e1422d166514d4cb465263513212c5e59d51",
+    "news.html": "a1597fb9a4bd17399d6fd2aeabe0ab86f66d7df139c401de4b4e380fd4b04df6",
+    "offline.html": "474d6cca89ba8382f220caa460410790b0a6813efa3673bb074d5611bd669700",
+    "privacy-style.css": "cd845d543de3c09bee363d9fa8d028d1378e44f6ffd6bb6d815cc350a32740b7",
+    "privacy.html": "68949b0162bc6a70a79bc0febff851ddf5fb6bcd715a5a10217ad3bf74be4ee5",
+    "README.md": "15c8a00f74837ab1342576d3e38e9388023fa740ef6a9503a26861ab6ec5ba71",
+    "robots.txt": "ee9194745e015d319217e4a53b5e6560cc42298b5f9ec3ff2be83dadedead7e5",
+    "site-chrome.css": "6852b619bc1b5a02a8885005a4b2b0f658b25fb5316eca1bb2ea991f07229fcf",
+    "site-config.js": "cba6564e10835762ad91c9d94fae2bd0b50193ecdfc094c320032ebe0ad33a7d",
+    "site-header.js": "d7a18c70111a08b717225e40fb617db6f7c208eb9c7b119a89bf67ab8f8b9367",
+    "sitemap.xml": "ba4337fb8737de1c34aa4449986728ab3f009d3fdfdae279bc8d435139ed2bf7",
+    "standings.html": "7f82e4619fc52b72f00d41b42d661d37c682764fcc0ab65d72cfc6e3a692b9d1",
+    "streams.js": "01553c80b1b71229e8058dc86658f57dddfb8399a5c71cd2e59449a63214a362",
+    "style.css": "8c67c1872741378b004620e31bb9ba6e4843e7e43c4933673a9ec6756073de25",
+    "sw.js": "dbb0271247a1046fdf9e591d94b7ff6f2b9d3a4a5d8bffa36356f55c61291c44",
+    "tatus --short": "29af68b69616e8da9432e64335fca4c2965d27c3690b909913665587edf90282",
+    "teams/AC_Milan.png": "a54524fbbb8407921c8340425d66812fdf69c9facdf9e15d0b669ba5dffc7fd1",
+    "teams/Arsenal_FC.png": "95ff5e1e3f161d1e732ff6371930139c7f1fef468a2602f64f45af94f5740d22",
+    "teams/Aston_Villa.png": "8799c2e73edbacd462b7ec01f951f5304abed6d0f8c0fdaa8da91b95b86dec72",
+    "teams/Atletico_Madrid.png": "fe41670d1a1ce4da6373ecfa6f1e148cf426cc14f04436611f916c52a685e32c",
+    "teams/Bayern_München.png": "7e674a3fbdc5dc7dfc0dbbab01cce5d681d1f17f9400631ef9e3771549f9de7e",
+    "teams/betis.png": "984372d961963394401d735fe77eb78c34f7ba69649edc1e21fecd523b470fbd",
+    "teams/Brentford.png": "b1540475282278f3f85db70002f3a56f6e3b0ce9180c0111b380c4cdb6fdd2ba",
+    "teams/Burnley_FC.png": "469a5907b7bdb46fb86e952922ba977e0333878f7997cd8d8b0c997cd3f90075",
+    "teams/Chelsea_FC.png": "987c3e3e8eb2e05357edb36ff4aa7ac47311726da675b574fb558007d2e0b3c3",
+    "teams/FC_Barcelona_(crest).svg.png": "c61079179d2d94cc48077b67674914923c031a497b89de1ae6ec0ccfaa549e41",
+    "teams/Juventus_FC.png": "106e02b67df1d1e66a9c5e05f3d3ec788915b25fc706e3a3567e94289951279a",
+    "teams/Leeds_United.png": "8aaa0edbd63b950e86d275c874059c491358359cf53cddae1e7f380e5ac28266",
+    "teams/Leeds_United_F.C": "8aaa0edbd63b950e86d275c874059c491358359cf53cddae1e7f380e5ac28266",
+    "teams/liverpool.png": "99577454ec631b5789927f20c71714020255dc453f9ec9b539a824966449b847",
+    "teams/manchester united.png": "5d51b8f8e4e4315605a7383e9d73aa5951ec23ec13d7b84afb961aeb186580e9",
+    "teams/Nottingham Forest.png": "ca8d16763dda9a64eeaca93162cfbc088f9cdd99c3b2dfe7cf2ddd019682b859",
+    "teams/Paris_Saint-Germain.png": "c53ea4912ebe341b7951de6ac27feaa24ca406729ebc6dcc0a4afce1994cfc7d",
+    "teams/Rmadrid.png": "436f841e3a09fdfd1733192bcb3023400a4536ac2560fe966dd52db4eb0a7513",
+    "teams/Sunderland.png": "bb359e3ecbe8bd3c8aec144967632fa9341010bbd051b9821dea75c4b6b93873",
+    "terms.html": "78dc149245bba49bf09984898a039df5dc6f37dc3adf926c45cb147a11c687e3",
+    "tv96-banner.png": "3f4fd7bb9d1ebf105c6aa0f39aa8c13a595ff6b711c1059b69defb5377884d40",
+    "vercel.json": "6b359c180e6cb0974d059212c7897d73058246a850775fd41fd96067fe5776fc",
+    "watch-live.html": "ea1d66f8febdf53f2c666355f48b920e244c632a5158507b5e3df0196e2c333d"
+  },
+  "sourceFilesBefore": {
+    ".editorial/article-content.js": "c30706b0c4e451223e612b922bc38455c9c2bb795c80b4202e853f10ef25c0bc",
+    ".editorial/news-data.js": "f2fae733f6ae7b3e7b53e4fa488d5f2795e123d4b9777cab32617a2a9976fc02"
+  },
+  "article23Before": "<!DOCTYPE html>\n<!-- Generated by .editorial/generate-static.cjs; edit the central sources. -->\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\"> \r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n\r\n    <title id=\"page-title\">Bundesliga Guide | TV96 Live</title>\n    <meta id=\"meta-description\" name=\"description\" content=\"Understand Germany&#39;s 18-team league, 34-match schedule, relegation play-off and the different boundaries at the bottom of the table.\">\n    <link id=\"canonical-url\" rel=\"canonical\" href=\"https://www.tv96live.org/articles/23\">\n    <meta id=\"og-title\" property=\"og:title\" content=\"Bundesliga Guide | TV96 Live\">\n    <meta id=\"og-description\" property=\"og:description\" content=\"Understand Germany&#39;s 18-team league, 34-match schedule, relegation play-off and the different boundaries at the bottom of the table.\">\n    <meta id=\"og-url\" property=\"og:url\" content=\"https://www.tv96live.org/articles/23\">\n    <meta property=\"og:type\" content=\"article\">\n    <meta id=\"og-image\" property=\"og:image\" content=\"https://www.tv96live.org/images/articles/bundesliga-guide.webp\">\n    <meta property=\"article:published_time\" content=\"2026-09-05T12:00:00+03:00\">\n    <meta property=\"article:modified_time\" content=\"2026-09-05T12:00:00+03:00\">\n    <meta property=\"article:author\" content=\"TV96 Live Editorial Team\">\n    <script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"Bundesliga Guide\",\"description\":\"Understand Germany's 18-team league, 34-match schedule, relegation play-off and the different boundaries at the bottom of the table.\",\"mainEntityOfPage\":\"https://www.tv96live.org/articles/23\",\"url\":\"https://www.tv96live.org/articles/23\",\"datePublished\":\"2026-09-05T12:00:00+03:00\",\"articleSection\":\"Bundesliga\",\"author\":{\"@type\":\"Organization\",\"name\":\"TV96 Live Editorial Team\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"TV96 Live\"},\"wordCount\":814,\"inLanguage\":\"en\",\"image\":\"https://www.tv96live.org/images/articles/bundesliga-guide.webp\"}</script>\r\n    <meta name=\"google-adsense-account\" content=\"ca-pub-9924964891667864\">\r\n    <meta id=\"article-robots\" name=\"robots\" content=\"index, follow\">\r\n\r\n    <meta name=\"mobile-web-app-capable\" content=\"yes\">\r\n    <meta name=\"theme-color\" content=\"#000000\">\r\n\r\n    <!-- Font Awesome -->\r\n    <link \r\n        rel=\"stylesheet\" \r\n        href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css\"\r\n    >\r\n\r\n    <!-- Manifest -->\r\n    <link rel=\"manifest\" href=\"/manifest.json\">\r\n\r\n    <!-- Main CSS -->\r\n    <link rel=\"stylesheet\" href=\"/style.css\">\r\n    <link rel=\"stylesheet\" href=\"/news-style.css\">\r\n    <link rel=\"stylesheet\" href=\"/site-chrome.css?v=1\">\r\n    <script defer src=\"/site-header.js\"></script>\r\n\r\n    <!-- Icons -->\r\n\r\n\r\n\r\n\r\n    <!-- Google AdSense -->\r\n    <script \r\n        async \r\n        src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9924964891667864\"\r\n        crossorigin=\"anonymous\">\r\n    </script>\r\n\r\n    <!-- Vercel Analytics -->\r\n    <script defer src=\"/_vercel/insights/script.js\"></script>\r\n\r\n    <style>\r\n\r\n        /* ========================================\r\n           ARTICLE PAGE\r\n        ======================================== */\r\n\r\n        .article-content {\r\n            max-width: 850px;\r\n            margin: 40px auto;\r\n            padding: 0 20px;\r\n            color: var(--text-secondary);\r\n            line-height: 1.8;\r\n        }\r\n\r\n        .article-content h2 {\r\n            font-size: 26px;\r\n            color: var(--text-primary);\r\n            margin-top: 35px;\r\n            margin-bottom: 15px;\r\n        }\r\n\r\n        .article-content p {\r\n            margin-bottom: 20px;\r\n            font-size: 17px;\r\n        }\r\n\r\n        .article-content strong {\r\n            color: var(--text-primary);\r\n        }\r\n\r\n        /* Article main image */\r\n\r\n        .article-main-image {\r\n            width: 100%;\r\n            height: auto;\r\n            max-width: 850px;\r\n            display: block;\r\n            border-radius: 15px;\r\n            margin: 25px 0;\r\n        }\r\n\r\n        /* Back button */\r\n\r\n        .back-to-news {\r\n            display: inline-flex;\r\n            align-items: center;\r\n            gap: 8px;\r\n            margin-bottom: 30px;\r\n            color: var(--primary-green);\r\n            text-decoration: none;\r\n            font-weight: 700;\r\n            transition: gap 0.3s ease;\r\n        }\r\n\r\n        .back-to-news:hover {\r\n            gap: 12px;\r\n        }\r\n\r\n        /* Error message */\r\n\r\n        .article-error {\r\n            text-align: center;\r\n            padding: 80px 20px;\r\n        }\r\n\r\n        .article-error h2 {\r\n            font-size: 30px;\r\n            margin-bottom: 15px;\r\n        }\r\n\r\n        /* Mobile */\r\n\r\n        @media (max-width: 768px) {\r\n\r\n            .article-page {\r\n                overflow-x: hidden;\r\n            }\r\n\r\n            .article-page .news-hero {\r\n                padding: 55px 16px 36px;\r\n            }\r\n\r\n            .article-page .hero-container,\r\n            .article-page .hero-title,\r\n            .article-page .hero-meta,\r\n            .article-page .hero-meta span {\r\n                min-width: 0;\r\n            }\r\n\r\n            .article-page .hero-title {\r\n                font-size: clamp(26px, 8vw, 34px);\r\n                overflow-wrap: anywhere;\r\n            }\r\n\r\n            .article-page .hero-meta {\r\n                flex-wrap: wrap;\r\n                gap: 12px 18px;\r\n                align-items: center;\r\n            }\r\n\r\n            .article-page .hero-meta > span {\r\n                display: inline-flex;\r\n                align-items: center;\r\n            }\r\n\r\n            .article-content {\r\n                width: calc(100% - 24px);\r\n                max-width: 850px;\r\n                margin: 25px auto;\r\n                padding: 18px 14px;\r\n                overflow-wrap: anywhere;\r\n            }\r\n\r\n            .article-content p {\r\n                font-size: 16px;\r\n                line-height: 1.75;\r\n            }\r\n\r\n            .article-content h2 {\r\n                font-size: 22px;\r\n            }\r\n\r\n            .article-main-image {\r\n                display: block;\r\n                max-width: 100%;\r\n                border-radius: 10px;\r\n            }\r\n\r\n            .article-content img,\r\n            .article-content video,\r\n            .article-content iframe {\r\n                max-width: 100%;\r\n                height: auto;\r\n            }\r\n\r\n            .article-content pre,\r\n            .article-content table {\r\n                max-width: 100%;\r\n                overflow-x: auto;\r\n            }\r\n        }\r\n\r\n        @media (max-width: 480px) {\r\n\r\n            .article-page .news-hero {\r\n                padding: 46px 12px 30px;\r\n            }\r\n\r\n            .article-page .hero-title {\r\n                font-size: clamp(24px, 7.5vw, 30px);\r\n                line-height: 1.25;\r\n                margin-bottom: 16px;\r\n            }\r\n\r\n            .article-page .hero-meta {\r\n                gap: 10px 14px;\r\n                font-size: 13px;\r\n            }\r\n\r\n            .article-content {\r\n                width: calc(100% - 16px);\r\n                margin: 16px auto 30px;\r\n                padding: 16px 12px;\r\n                border-radius: 12px;\r\n            }\r\n\r\n            .article-content h2 {\r\n                font-size: 21px;\r\n                line-height: 1.3;\r\n                margin-top: 28px;\r\n            }\r\n\r\n            .article-content p {\r\n                font-size: 15.5px;\r\n            }\r\n\r\n            .back-to-news {\r\n                max-width: 100%;\r\n                white-space: normal;\r\n            }\r\n        }\r\n\r\n    </style>\r\n\r\n    <link rel=\"icon\" type=\"image/svg+xml\" href=\"/football-fallback.svg\">\r\n    <script defer src=\"https://cdn.jsdelivr.net/npm/lucide@0.263.0/dist/umd/lucide.min.js\"></script>\r\n</head>\r\n\r\n<body class=\"article-page\">\r\n\r\n    <!-- ========================================\r\n         HEADER\r\n    ======================================== -->\r\n\r\n    <header class=\"main-header\">\r\n        <div class=\"navbar-container\">\r\n            <div class=\"logo\">\r\n            <a href=\"/\">\r\n                <img src=\"/logo/Logo.png\" alt=\"TV96 Live Logo\">\r\n            </a>\r\n            </div><button class=\"menu-icon\" id=\"menuToggle\" type=\"button\" aria-label=\"Open navigation menu\" aria-controls=\"navMenu\" aria-expanded=\"false\"><i class=\"fas fa-bars\" aria-hidden=\"true\"></i></button>\r\n            <nav class=\"nav-menu\" id=\"navMenu\">\r\n            <a href=\"/\" class=\"nav-link\">Home</a>\r\n            <a href=\"/matches\" class=\"nav-link\">Matches</a>\r\n            <a href=\"/news\" class=\"nav-link active\">Latest News</a>\r\n            <a href=\"/about\" class=\"nav-link\">About Us</a>\r\n            <a href=\"/privacy\" class=\"nav-link\">Privacy</a>\r\n            </nav>\r\n            <div class=\"header-right\">\r\n            <button id=\"installBtn\" class=\"btn-primary header-install-btn\" hidden>Install App</button>\r\n            <div class=\"social-icons\">\r\n            <a href=\"https://www.facebook.com/share/1EVaiqB9sZ/\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"Facebook\"> <i data-lucide=\"facebook\"></i> </a>\r\n            <a href=\"https://www.tiktok.com/@user242901873?_r=1&_t=ZS-97lGYrPehTp\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"TikTok\" aria-label=\"TikTok\"><i class=\"fa-brands fa-tiktok\"></i></a>\r\n            <a href=\"https://www.youtube.com/channel/UC1UYBGeLGdB7O59qImRAGrg\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"YouTube\"> <i data-lucide=\"youtube\"></i> </a>\r\n            </div>\r\n            <button class=\"theme-toggle\" id=\"themeToggle\" type=\"button\" title=\"Switch Theme\" aria-label=\"Switch theme\">\r\n            <i data-lucide=\"moon\"></i>\r\n            </button>\r\n            </div>\r\n        </div>\r\n    </header>\r\n\r\n\r\n    <!-- ========================================\r\n         ARTICLE HERO\r\n    ======================================== -->\r\n\r\n    <section class=\"news-hero\" id=\"articleHero\">\r\n\r\n        <div class=\"hero-container\">\r\n\r\n            <!-- Generated from the central editorial record -->\r\n            <h1 class=\"hero-title\" id=\"articleTitle\">Bundesliga Guide</h1>\r\n\r\n            <div class=\"hero-meta\">\r\n\r\n                <span>\r\n                    <i class=\"fa-regular fa-clock\"></i>\r\n                    <time id=\"articlePublished\" datetime=\"2026-09-05T12:00:00+03:00\">Published 5 September 2026</time>\r\n                </span>\r\n\r\n                <span>\r\n                    <i class=\"fa-solid fa-tag\"></i>\r\n                    <span id=\"articleCategory\">Bundesliga</span>\r\n                </span>\r\n\r\n                <span>\r\n                    <i class=\"fa-solid fa-pen-nib\"></i>\r\n                    <span id=\"articleAuthor\">TV96 Live Editorial Team</span>\r\n                </span>\r\n\r\n                <span>\r\n                    <i class=\"fa-solid fa-newspaper\"></i>\r\n                    <span id=\"articleType\">Evergreen guide · 4 min read</span>\r\n                </span>\r\n\r\n            </div>\r\n\r\n        </div>\r\n\r\n    </section>\r\n\r\n\r\n    <!-- ========================================\r\n         ARTICLE CONTENT\r\n    ======================================== -->\r\n\r\n    <main class=\"article-content\" id=\"articleContent\">\r\n\r\n        <a href=\"/news\" class=\"back-to-news\">\r\n            <i class=\"fa-solid fa-arrow-left\"></i>\r\n            Back to News &amp; Guides\r\n        </a>\r\n\r\n        <!-- Trusted editorial body, rendered before JavaScript -->\r\n\r\n        <img class=\"article-main-image\" src=\"/images/articles/bundesliga-guide.webp\" alt=\"Bundesliga guide - TV96 Live\" decoding=\"async\">\n        <div id=\"articleBody\">\n<p>The Bundesliga is Germany's top men's football league. Its 18-team structure makes the schedule shorter than the 20-team leagues in England, Spain and Italy, and its relegation play-off creates an additional contest after the regular table is complete.</p>\n<p>Those differences matter when comparing points totals or following a survival race. This guide explains the framework and suggests what to notice when watching a Bundesliga match, without assuming every German club uses the same tactical approach.</p>\n<h2>Eighteen clubs and 34 matches</h2>\n<p>Every club meets the other 17 twice, once at home and once away. That gives each team 34 league matches and produces 306 fixtures across the division. Three points are awarded for a win, one for a draw and none for a loss.</p>\n<p>A perfect points return would therefore be 102, rather than the 114 available in a 38-match competition. Raw season totals across leagues need that context. Seventy points from 34 matches and 70 from 38 describe different rates of accumulation.</p>\n<p>Points per game can help with a basic comparison: divide points by matches played. It does not adjust for opposition quality, and it is not a substitute for the actual league table. It simply prevents schedule length from being overlooked.</p>\n<h2>What table positions mean</h2>\n<p>The club at the top after the season wins the championship. Leading positions also provide routes into UEFA competitions, with the final allocation affected by the applicable access list, domestic cup results and potential additional places.</p>\n<p>Teams level on points are compared using the Bundesliga's tiebreaking order, beginning with overall goal difference and goals scored. Further criteria can be needed. Before interpreting a very close table, check that you have the correct competition and completed-match totals.</p>\n<p>Our <a href=\"/articles/15\">goal difference guide</a> explains the underlying calculation. The <a href=\"/articles/13\">Champions League qualification guide</a> explains why European allocations can change even when the domestic league format stays the same.</p>\n<h2>The relegation play-off</h2>\n<p>The bottom two Bundesliga clubs, in 17th and 18th, are automatically relegated. The 16th-placed club contests a two-leg play-off against the third-placed side in Bundesliga 2. The winner earns the remaining top-flight place for the following season.</p>\n<p>This gives 16th a different meaning from both 15th and 17th. It is not automatic safety, and it is not automatic relegation. A team reaching that position still has two important fixtures after the regular league programme.</p>\n<p>For the second-tier club, third place provides an opportunity rather than confirmed promotion. The top two gain automatic promotion, while the third-place side must defeat top-flight opposition. A headline celebrating third place should make that remaining hurdle clear.</p>\n<h2>Why the run-in has several boundaries</h2>\n<p>Consider an invented late-season table with three clubs close together in 15th, 16th and 17th. A single result can move a team from automatic relegation to a play-off, or from a play-off to safety. Describing all three positions simply as the relegation zone hides an important difference.</p>\n<p>Check the points gaps to both boundaries and the remaining fixtures. A club's immediate objective may be to escape automatic relegation first, then chase outright safety. Those are separate improvements in its position, even if neither amounts to winning a trophy.</p>\n<h2>Historical context</h2>\n<p>The Bundesliga began in 1963, creating a national top-flight competition. Its history includes dominant periods, changing challengers and clubs whose local support extends well beyond a single successful season. Historical league records and all German championship records do not necessarily cover the same period.</p>\n<p>When a report uses a phrase such as record champion or first title, identify the competition and time frame. A precise historical claim tells the reader what is being counted rather than relying on a familiar club name to carry the meaning.</p>\n<h2>What to watch in the tactical contest</h2>\n<p>Pressing is worth examining through specific actions. Does a forward close down the ball carrier while blocking a pass into midfield? Does the rest of the team move up with that press? An energetic sprint alone does not show that the whole defensive structure is coordinated.</p>\n<p>Next, watch the space behind the pressing players. If the opponent escapes the first challenge, it may find room to carry the ball or release a runner. This is why the same aggressive approach can create turnovers and expose a team to dangerous counters.</p>\n<p>Do not assume every Bundesliga match will follow that pattern. Some sides defend deeper, slow the game or attack through longer passes. Describe the actual choices and their consequences rather than assigning a league-wide style to every club.</p>\n<h2>Follow the Bundesliga on TV96 Live</h2>\n<p>Use <a href=\"/matches\">Matches</a> to locate available Bundesliga fixtures, then select the league on <a href=\"/standings?league=Bundesliga\">Standings</a>. Compare points with games played and remember the 34-match ceiling when assessing the run-in.</p>\n<p>For a close finish, verify the official ranking and play-off details through the Bundesliga. The distinction between automatic relegation and the play-off is the most useful rule to keep in mind when following the bottom of the table.</p>\n</div>\r\n\r\n        <aside class=\"policy-highlight\" id=\"articleEditorialNote\">\r\n            <h2>Sources / Further Reading</h2>\r\n            <p id=\"articleSourceNote\"><a href=\"https://www.bundesliga.com/en/bundesliga/news/how-does-promotion-and-relegation-work-in-the-bundesliga-10645\" target=\"_blank\" rel=\"noopener noreferrer\">Bundesliga: promotion and relegation</a>; <a href=\"https://www.bundesliga.com/en/faq/10-things-on-the-bundesliga\" target=\"_blank\" rel=\"noopener noreferrer\">Bundesliga: competition FAQ</a></p>\r\n            <p>Found a factual error? Contact the editorial team at <a href=\"mailto:support@tv96live.org\">support@tv96live.org</a>.</p>\r\n        </aside>\r\n\r\n        <section id=\"relatedArticles\" aria-labelledby=\"relatedHeading\">\r\n            <h2 id=\"relatedHeading\">Related reading</h2>\r\n            <div class=\"editorial-grid\" id=\"relatedArticleCards\"><article class=\"editorial-summary\">\n        <span class=\"editorial-category\">Ligue 1</span>\n        <h3><a href=\"/articles/24\">Ligue 1 Guide</a></h3>\n        <p>Explore Ligue 1&#39;s 18-club season, European qualification, Ligue 2 play-off route and a practical approach to following French football.</p>\n        <p class=\"editorial-meta\"><time datetime=\"2026-09-05T12:00:00+03:00\">5 Sept 2026</time> · 5 min read</p>\n    </article>\n<article class=\"editorial-summary\">\n        <span class=\"editorial-category\">Football Guides</span>\n        <h3><a href=\"/articles/15\">What Is Goal Difference in Football?</a></h3>\n        <p>Learn GF, GA and GD with positive and negative examples, table comparisons, two-team swings and competition-specific tiebreaking cautions.</p>\n        <p class=\"editorial-meta\"><time datetime=\"2026-09-05T12:00:00+03:00\">5 Sept 2026</time> · 4 min read</p>\n    </article>\n<article class=\"editorial-summary\">\n        <span class=\"editorial-category\">Champions League</span>\n        <h3><a href=\"/articles/13\">How Champions League Qualification Works</a></h3>\n        <p>Separate domestic league places, qualifying rounds, European Performance Spots and title-holder routes into the Champions League.</p>\n        <p class=\"editorial-meta\"><time datetime=\"2026-09-05T12:00:00+03:00\">5 Sept 2026</time> · 4 min read</p>\n    </article></div>\r\n        </section>\r\n\r\n    </main>\r\n\r\n\r\n    <!-- ========================================\r\n         FOOTER\r\n    ======================================== -->\r\n\r\n    <footer class=\"main-footer\">\r\n   <div class=\"footer-container\">\r\n    <div class=\"footer-col about-col\"><a href=\"/\" aria-label=\"TV96 Live home\"><img src=\"/logo/Logo.png\" alt=\"TV96 Live Logo\" class=\"footer-logo\"></a>\r\n     <p>Football news, fixtures, standings and match updates for fans worldwide.</p>\r\n    </div>\r\n    <div class=\"footer-col links-col\">\r\n     <h4>Quick Links</h4>\r\n     <ul>\r\n      <li><a href=\"/\">Home</a></li>\r\n      <li><a href=\"/matches\">Matches</a></li>\r\n      <li><a href=\"/news\">News</a></li>\r\n      <li><a href=\"/about\">About</a></li>\r\n      <li><a href=\"/contact\">Contact</a></li>\r\n      <li><a href=\"/privacy\">Privacy Policy</a></li>\r\n      <li><a href=\"/terms\">Terms of Use</a></li>\r\n     </ul>\r\n    </div>\r\n    <div class=\"footer-col social-col\">\r\n     <h4>Contact Us</h4>\r\n     <div class=\"footer-social-links\">\r\n      <a href=\"https://www.facebook.com/share/1EVaiqB9sZ/\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Facebook\"><i data-lucide=\"facebook\"></i></a>\r\n      <a href=\"https://www.tiktok.com/@user242901873?_r=1&_t=ZS-97lGYrPehTp\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"TikTok\"><i class=\"fa-brands fa-tiktok\"></i></a>\r\n      <a href=\"https://www.youtube.com/channel/UC1UYBGeLGdB7O59qImRAGrg\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"YouTube\"><i data-lucide=\"youtube\"></i></a>\r\n     </div>\r\n    </div>\r\n   </div>\r\n   <div class=\"footer-bottom\">\r\n    <p>© 2026 <a href=\"https://www.tv96live.org\" class=\"hover:text-emerald-500 transition-colors\">www.tv96live.org</a> - All rights reserved.</p>\r\n   </div>\r\n  </footer>\r\n\r\n\r\n</body>\r\n</html>\r\n",
+  "generatedFiles": {
+    "articles/23.html": {
+      "before": "e9210afb87a2759449ccd52a2a4426578ac584ea01292223f1b4d410795f8bbf",
+      "after": "4b880e832d408109479f123faeb166a63f2d638e653d2dc95efe099c63f85b2e"
+    },
+    "articles/24.html": {
+      "before": "9709f07f026669fa18f8c6bd21b6c5deaaeca88c791c07841edbb3a1be513b58",
+      "after": "f9e35adf62e6fa72acf3e3de971df4a33edea53b553131ff0eb4e321104ce817"
+    },
+    "index.html": {
+      "before": "f65f4d798c3f01beae0a9d4d9f56a96a8e6f022278bb71a4910cbd67c74b986c",
+      "after": "8f0e99976440b0a4efdfd01ae4ff1dec52f311e750191aa141ad7aaa7ef0870f"
+    },
+    "news-data.js": {
+      "before": "4b8d719f6a94699566b6f009122ffb148830a576c19e706e4f400e17f533f011",
+      "after": "b05c6ac5f5387502218ccb0997fdf2c0a8b453d1304cfb9b546e70151e917853"
+    },
+    "news.html": {
+      "before": "a1597fb9a4bd17399d6fd2aeabe0ab86f66d7df139c401de4b4e380fd4b04df6",
+      "after": "f43596eeafb5eb119c8c129c4955c198c812f33ab14e6bdffa8b6a8a3b04679c"
+    },
+    "sitemap.xml": {
+      "before": "ba4337fb8737de1c34aa4449986728ab3f009d3fdfdae279bc8d435139ed2bf7",
+      "after": "dde9d5894c99ee347ebfcad10176813d297ea6927a2b968897672ca159cb9b82"
+    }
+  },
+  "sourceFiles": {
+    ".editorial/article-content.js": {
+      "before": "c30706b0c4e451223e612b922bc38455c9c2bb795c80b4202e853f10ef25c0bc",
+      "after": "fe51ef52ceed2b6ff18a9457511cbcf0429f29454a2bd8beecac9bded1d40cfc"
+    },
+    ".editorial/news-data.js": {
+      "before": "f2fae733f6ae7b3e7b53e4fa488d5f2795e123d4b9777cab32617a2a9976fc02",
+      "after": "f649edc78a1ee236b12ad73590514e4aaf5f427effbd4a3654fde28537720750"
+    }
+  }
+}

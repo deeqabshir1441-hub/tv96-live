@@ -1,0 +1,17 @@
+diff --git a/.editorial/image-rights-check.cjs b/.editorial/image-rights-check.cjs
+--- a/.editorial/image-rights-check.cjs
++++ b/.editorial/image-rights-check.cjs
+@@ -36,7 +36,12 @@
+ // Only active article assets may appear in public editorial navigation.
+ const archivedAndActive = model.articles.filter(a => ['original-editorial', 'user-provided'].includes(a.imageType) && a.image);
+ assert.deepEqual(Object.keys(manifest).sort(), Array.from(archivedAndActive, a => a.image).sort(), 'Orphan or unregistered manifest entry');
+-assert.deepEqual(fs.readdirSync(path.join(root, 'images/articles')).filter(name => name.endsWith('.webp')).sort(), Array.from(archivedAndActive, a => path.basename(a.image).replace(/\.png$/, '.webp')).sort(), 'Orphan or unregistered WebP file');
++assert.deepEqual(fs.readdirSync(path.join(root, 'images/articles')).filter(name => name.endsWith('.webp') && name !== 'jj-gabriel.webp').sort(), Array.from(archivedAndActive, a => path.basename(a.image).replace(/\.png$/, '.webp')).sort(), 'Orphan or unregistered WebP file');
++// Retained former Article 32 pair must be excluded and have no public editorial use.
++for (const oldAsset of ['images/articles/jj-gabriel.png', 'images/articles/jj-gabriel.webp']) {
++    assert(read('.vercelignore').split(/\r?\n/).includes(oldAsset), `Retained unlicensed derivative is deployable: ${oldAsset}`);
++    for (const file of ['index.html', 'news.html', 'news-data.js', ...published.map(a => `articles/${a.id}.html`)]) assert(!read(file).includes(oldAsset), `Retired derivative referenced: ${file}`);
++}
+ const allowed = new Set([fallback, '/football-fallback.svg', ...registered.keys()]);
+ for (const file of ['index.html', 'news.html', 'news-data.js', ...published.map(a => `articles/${a.id}.html`)]) {
+     const html = read(file);

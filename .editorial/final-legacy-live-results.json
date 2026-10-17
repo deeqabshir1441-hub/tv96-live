@@ -1,0 +1,81 @@
+{
+  "checkedAt": "2026-10-13T00:09:46.270Z",
+  "rows": [
+    {
+      "path": "news image/1.jpg",
+      "status": 200
+    },
+    {
+      "path": "news image/10.png",
+      "status": 200
+    },
+    {
+      "path": "news image/11.png",
+      "status": 200
+    },
+    {
+      "path": "news image/2.jpeg",
+      "status": 200
+    },
+    {
+      "path": "news image/3.jpg",
+      "status": 200
+    },
+    {
+      "path": "news image/4.jpg",
+      "status": 200
+    },
+    {
+      "path": "news image/5.jpg",
+      "status": 200
+    },
+    {
+      "path": "news image/6.webp",
+      "status": 200
+    },
+    {
+      "path": "news image/7.webp",
+      "status": 200
+    },
+    {
+      "path": "news image/8.png",
+      "status": 200
+    },
+    {
+      "path": "news image/9.png",
+      "status": 200
+    },
+    {
+      "path": "news image/GettyImages-2166876546-2-scaled.jpg",
+      "status": 200
+    },
+    {
+      "path": "news image/GettyImages-2262861156.jpg.webp",
+      "status": 200
+    },
+    {
+      "path": "news image/fergusan.jpg",
+      "status": 200
+    },
+    {
+      "path": "news image/images.jpg",
+      "status": 200
+    },
+    {
+      "path": "banner/banner.jpg",
+      "status": 200
+    },
+    {
+      "path": "banner/banner1.jpg",
+      "status": 200
+    },
+    {
+      "path": "banner/hero.jpg",
+      "status": 200
+    },
+    {
+      "path": "banner/omar.jpg",
+      "status": 200
+    }
+  ]
+}

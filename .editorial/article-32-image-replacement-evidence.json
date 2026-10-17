@@ -1,0 +1,745 @@
+{
+  "checkedAt": "2026-10-11T19:12:42.160Z",
+  "ownerProvenance": "ChatGPT edit of a real photograph downloaded through Google Images; underlying licence not established.",
+  "currentArticle": {
+    "id": 32,
+    "title": "JJ Gabriel, 15, Asks to Leave Manchester United as Club Fight to Keep Highly Rated Prospect",
+    "publishedAt": "2026-09-15T20:00:00+03:00",
+    "updatedAt": "2026-10-11",
+    "bodySha256": "db92850513fd658a51de378ed008dfca53a1f2bed18aa22270f1d344dd67c082",
+    "image": "/images/articles/jj-gabriel.png",
+    "imageType": "user-provided",
+    "rightsStatus": "user-provided",
+    "imageReviewRequired": true
+  },
+  "currentAssets": [
+    {
+      "path": "images/articles/jj-gabriel.png",
+      "sha256": "1403d94c1586fd3164b9533e7f5fbabbbd8c6e69f5137b0ef480c12ce78f5ff0"
+    },
+    {
+      "path": "images/articles/jj-gabriel.webp",
+      "sha256": "95b1ec83dbd334d4e73adc50c75392953e035ad17a5a7fd61f169397eabbe9d9"
+    }
+  ],
+  "references": [
+    {
+      "asset": "images/articles/jj-gabriel.png",
+      "file": ".editorial/adsense-local-inventory-results.json",
+      "line": 535,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.webp",
+      "file": ".editorial/adsense-local-inventory-results.json",
+      "line": 540,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.png",
+      "file": ".editorial/adsense-local-inventory-results.json",
+      "line": 1741,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.webp",
+      "file": ".editorial/adsense-production-results.json",
+      "line": 1123,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.webp",
+      "file": ".editorial/adsense-production-results.json",
+      "line": 3079,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.webp",
+      "file": ".editorial/adsense-production-results.json",
+      "line": 3543,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.webp",
+      "file": ".editorial/adsense-production-results.json",
+      "line": 3546,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.webp",
+      "file": ".editorial/adsense-production-results.json",
+      "line": 3551,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.png",
+      "file": ".editorial/adsense-targeted-followup-results.json",
+      "line": 2535,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.png",
+      "file": ".editorial/adsense-targeted-followup-results.json",
+      "line": 2563,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.png",
+      "file": ".editorial/adsense-targeted-followup-results.json",
+      "line": 2564,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.png",
+      "file": ".editorial/adsense-targeted-followup-results.json",
+      "line": 2566,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.webp",
+      "file": ".editorial/adsense-targeted-followup-results.json",
+      "line": 2575,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.webp",
+      "file": ".editorial/adsense-targeted-followup-results.json",
+      "line": 2610,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.webp",
+      "file": ".editorial/adsense-targeted-followup-results.json",
+      "line": 2611,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.webp",
+      "file": ".editorial/adsense-targeted-followup-results.json",
+      "line": 2613,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.png",
+      "file": ".editorial/adsense-targeted-followup-results.json",
+      "line": 5221,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.png",
+      "file": ".editorial/adsense-targeted-followup-results.json",
+      "line": 5222,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.png",
+      "file": ".editorial/adsense-targeted-followup-results.json",
+      "line": 5224,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.webp",
+      "file": ".editorial/adsense-targeted-followup-results.json",
+      "line": 5232,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.webp",
+      "file": ".editorial/adsense-targeted-followup-results.json",
+      "line": 5233,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.webp",
+      "file": ".editorial/adsense-targeted-followup-results.json",
+      "line": 5235,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.webp",
+      "file": ".editorial/ADSENSE_READINESS_AUDIT.md",
+      "line": 60,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.png",
+      "file": ".editorial/ADSENSE_RIGHTS_EVIDENCE_INVENTORY.md",
+      "line": 58,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.webp",
+      "file": ".editorial/ADSENSE_RIGHTS_EVIDENCE_INVENTORY.md",
+      "line": 59,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.png",
+      "file": ".editorial/article-32-image-replacement-evidence.json",
+      "line": 10,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.png",
+      "file": ".editorial/article-32-image-replacement-evidence.json",
+      "line": 17,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.webp",
+      "file": ".editorial/article-32-image-replacement-evidence.json",
+      "line": 21,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.png",
+      "file": ".editorial/article-32-image-replacement-evidence.json",
+      "line": 27,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.webp",
+      "file": ".editorial/article-32-image-replacement-evidence.json",
+      "line": 33,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.png",
+      "file": ".editorial/article-32-image-replacement-evidence.json",
+      "line": 39,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.webp",
+      "file": ".editorial/article-32-image-replacement-evidence.json",
+      "line": 45,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.webp",
+      "file": ".editorial/article-32-image-replacement-evidence.json",
+      "line": 51,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.webp",
+      "file": ".editorial/article-32-image-replacement-evidence.json",
+      "line": 57,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.webp",
+      "file": ".editorial/article-32-image-replacement-evidence.json",
+      "line": 63,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.webp",
+      "file": ".editorial/article-32-image-replacement-evidence.json",
+      "line": 69,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.png",
+      "file": ".editorial/article-32-image-replacement-evidence.json",
+      "line": 75,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.png",
+      "file": ".editorial/article-32-image-replacement-evidence.json",
+      "line": 81,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.png",
+      "file": ".editorial/article-32-image-replacement-evidence.json",
+      "line": 87,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.png",
+      "file": ".editorial/article-32-image-replacement-evidence.json",
+      "line": 93,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.webp",
+      "file": ".editorial/article-32-image-replacement-evidence.json",
+      "line": 99,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.webp",
+      "file": ".editorial/article-32-image-replacement-evidence.json",
+      "line": 105,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.webp",
+      "file": ".editorial/article-32-image-replacement-evidence.json",
+      "line": 111,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.webp",
+      "file": ".editorial/article-32-image-replacement-evidence.json",
+      "line": 117,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.png",
+      "file": ".editorial/article-32-image-replacement-evidence.json",
+      "line": 123,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.png",
+      "file": ".editorial/article-32-image-replacement-evidence.json",
+      "line": 129,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.png",
+      "file": ".editorial/article-32-image-replacement-evidence.json",
+      "line": 135,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.webp",
+      "file": ".editorial/article-32-image-replacement-evidence.json",
+      "line": 141,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.webp",
+      "file": ".editorial/article-32-image-replacement-evidence.json",
+      "line": 147,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.webp",
+      "file": ".editorial/article-32-image-replacement-evidence.json",
+      "line": 153,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.webp",
+      "file": ".editorial/article-32-image-replacement-evidence.json",
+      "line": 159,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.png",
+      "file": ".editorial/article-32-image-replacement-evidence.json",
+      "line": 165,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.webp",
+      "file": ".editorial/article-32-image-replacement-evidence.json",
+      "line": 171,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.png",
+      "file": ".editorial/article-32-image-replacement-evidence.json",
+      "line": 177,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.png",
+      "file": ".editorial/article-32-image-replacement-evidence.json",
+      "line": 183,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.png",
+      "file": ".editorial/article-32-image-replacement-evidence.json",
+      "line": 189,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.png",
+      "file": ".editorial/article-32-image-replacement-evidence.json",
+      "line": 195,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.webp",
+      "file": ".editorial/article-32-image-replacement-evidence.json",
+      "line": 201,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.png",
+      "file": ".editorial/article-32-image-replacement-evidence.json",
+      "line": 207,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.png",
+      "file": ".editorial/article-32-image-replacement-evidence.json",
+      "line": 213,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.png",
+      "file": ".editorial/article-32-image-replacement-evidence.json",
+      "line": 219,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.webp",
+      "file": ".editorial/article-32-image-replacement-evidence.json",
+      "line": 225,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.webp",
+      "file": ".editorial/article-32-image-replacement-evidence.json",
+      "line": 231,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.webp",
+      "file": ".editorial/article-32-image-replacement-evidence.json",
+      "line": 237,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.webp",
+      "file": ".editorial/article-32-image-replacement-evidence.json",
+      "line": 243,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.webp",
+      "file": ".editorial/article-32-image-replacement-evidence.json",
+      "line": 249,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.webp",
+      "file": ".editorial/article-32-image-replacement-evidence.json",
+      "line": 255,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.webp",
+      "file": ".editorial/article-32-image-replacement-evidence.json",
+      "line": 261,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.png",
+      "file": ".editorial/ARTICLE_32_DEPLOYMENT_EXCLUSIONS.proposed",
+      "line": 9,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.webp",
+      "file": ".editorial/ARTICLE_32_DEPLOYMENT_EXCLUSIONS.proposed",
+      "line": 10,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.png",
+      "file": ".editorial/ARTICLE_32_IMAGE_CHECK_UPDATE.patch",
+      "line": 11,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.webp",
+      "file": ".editorial/ARTICLE_32_IMAGE_CHECK_UPDATE.patch",
+      "line": 11,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.png",
+      "file": ".editorial/ARTICLE_32_IMAGE_REPLACEMENT.patch",
+      "line": 8,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.png",
+      "file": ".editorial/ARTICLE_32_IMAGE_REPLACEMENT.patch",
+      "line": 36,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.png",
+      "file": ".editorial/ARTICLE_32_IMAGE_RIGHTS_AND_REPLACEMENT_PLAN.md",
+      "line": 11,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.webp",
+      "file": ".editorial/ARTICLE_32_IMAGE_RIGHTS_AND_REPLACEMENT_PLAN.md",
+      "line": 14,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.png",
+      "file": ".editorial/ARTICLE_32_IMAGE_RIGHTS_AND_REPLACEMENT_PLAN.md",
+      "line": 57,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.png",
+      "file": ".editorial/news-data.js",
+      "line": 830,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.png",
+      "file": ".editorial/news-data.js",
+      "line": 858,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.png",
+      "file": ".editorial/optimized-images.json",
+      "line": 154,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.png",
+      "file": ".editorial/prepare-article-32-image-plan.cjs",
+      "line": 17,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.webp",
+      "file": ".editorial/prepare-article-32-image-plan.cjs",
+      "line": 17,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.png",
+      "file": ".editorial/prepare-article-32-image-plan.cjs",
+      "line": 41,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.png",
+      "file": ".editorial/prepare-article-32-image-plan.cjs",
+      "line": 48,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.png",
+      "file": ".editorial/prepare-article-32-image-plan.cjs",
+      "line": 60,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.png",
+      "file": ".editorial/prepare-article-32-image-plan.cjs",
+      "line": 68,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.webp",
+      "file": ".editorial/prepare-article-32-image-plan.cjs",
+      "line": 68,
+      "deployment": "excluded private source/test/report"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.webp",
+      "file": "articles/32.html",
+      "line": 15,
+      "deployment": "public source/output"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.webp",
+      "file": "articles/32.html",
+      "line": 19,
+      "deployment": "public source/output"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.webp",
+      "file": "articles/32.html",
+      "line": 332,
+      "deployment": "public source/output"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.webp",
+      "file": "index.html",
+      "line": 88,
+      "deployment": "public source/output"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.webp",
+      "file": "news-data.js",
+      "line": 511,
+      "deployment": "public source/output"
+    },
+    {
+      "asset": "images/articles/jj-gabriel.webp",
+      "file": "news.html",
+      "line": 209,
+      "deployment": "public source/output"
+    }
+  ],
+  "unusedDeploymentCandidates": [
+    {
+      "path": "news image/1.jpg",
+      "bytes": 20221,
+      "sha256": "ee6edd9388ec690dc358bff5551aea4b1ef6357276eb3cc787dad3fa211f836a",
+      "publicLiteralReferences": [],
+      "rightsEvidence": "Legacy image/photo/composite; no creation/licence evidence established; do not infer original authorship from appearance."
+    },
+    {
+      "path": "news image/10.png",
+      "bytes": 2483603,
+      "sha256": "1cb9d8c9097bb6b2cd0e61026d28c68b81bc38af8d2224e553e8bbe460dddee9",
+      "publicLiteralReferences": [],
+      "rightsEvidence": "Legacy image/photo/composite; no creation/licence evidence established; do not infer original authorship from appearance."
+    },
+    {
+      "path": "news image/11.png",
+      "bytes": 2169404,
+      "sha256": "eed587b775dfd41690f458afc525cf61711da4d7b52171bb445c232e09d45310",
+      "publicLiteralReferences": [],
+      "rightsEvidence": "Legacy image/photo/composite; no creation/licence evidence established; do not infer original authorship from appearance."
+    },
+    {
+      "path": "news image/2.jpeg",
+      "bytes": 31081,
+      "sha256": "381f93cfe364871fd595747ec55fc368b5e999a7ebbcb7347eee5219e94368a0",
+      "publicLiteralReferences": [],
+      "rightsEvidence": "Legacy image/photo/composite; no creation/licence evidence established; do not infer original authorship from appearance."
+    },
+    {
+      "path": "news image/3.jpg",
+      "bytes": 281136,
+      "sha256": "6c09f6bb092570c55573c8dc645c1d6c8ad476a2f869f2be885cc23853259053",
+      "publicLiteralReferences": [],
+      "rightsEvidence": "Legacy image/photo/composite; no creation/licence evidence established; do not infer original authorship from appearance."
+    },
+    {
+      "path": "news image/4.jpg",
+      "bytes": 59648,
+      "sha256": "6d606e1bd0c435ba9bd11e8b0af6dfe9c4f97ed7950be82afcaf20b2549c89e7",
+      "publicLiteralReferences": [],
+      "rightsEvidence": "Legacy image/photo/composite; no creation/licence evidence established; do not infer original authorship from appearance."
+    },
+    {
+      "path": "news image/5.jpg",
+      "bytes": 34940,
+      "sha256": "b986baba15ecab46b6a6ce95b26d898e8850b70189660ee6b2826a38eb27b348",
+      "publicLiteralReferences": [],
+      "rightsEvidence": "Legacy image/photo/composite; no creation/licence evidence established; do not infer original authorship from appearance."
+    },
+    {
+      "path": "news image/6.webp",
+      "bytes": 57516,
+      "sha256": "0e7da907b769d2708c5ef1f473798022261cc06225ab8d94e69ba3a375e0a6b2",
+      "publicLiteralReferences": [],
+      "rightsEvidence": "Legacy image/photo/composite; no creation/licence evidence established; do not infer original authorship from appearance."
+    },
+    {
+      "path": "news image/7.webp",
+      "bytes": 12100,
+      "sha256": "c0f95d3834f41f4b35faebb49ae4d7a44357e35f1da839fcf48b0b8255cf366c",
+      "publicLiteralReferences": [],
+      "rightsEvidence": "Legacy image/photo/composite; no creation/licence evidence established; do not infer original authorship from appearance."
+    },
+    {
+      "path": "news image/8.png",
+      "bytes": 2703983,
+      "sha256": "19c298d656880c912cd3b8516f912e9ab26adc75203d88a4140ca1dcff527d8b",
+      "publicLiteralReferences": [],
+      "rightsEvidence": "Legacy image/photo/composite; no creation/licence evidence established; do not infer original authorship from appearance."
+    },
+    {
+      "path": "news image/9.png",
+      "bytes": 2212701,
+      "sha256": "f570d48e289290ddfebe2b5233bc5ca714a1416c8272408cd63136f0d5ac9085",
+      "publicLiteralReferences": [],
+      "rightsEvidence": "Legacy image/photo/composite; no creation/licence evidence established; do not infer original authorship from appearance."
+    },
+    {
+      "path": "news image/GettyImages-2166876546-2-scaled.jpg",
+      "bytes": 212787,
+      "sha256": "f550f48d83755b07b83c1b2dfd8e69a7e7eb8985b65b3a102f1b27ce71db0391",
+      "publicLiteralReferences": [],
+      "rightsEvidence": "Agency-named photographic file; no licence established in available evidence; attribution/source ID requires verification."
+    },
+    {
+      "path": "news image/GettyImages-2262861156.jpg.webp",
+      "bytes": 115096,
+      "sha256": "30cd2365008aee4eae39243a16975d31e76ab3ae96a04293f160d07ecfb92c87",
+      "publicLiteralReferences": [],
+      "rightsEvidence": "Agency-named photographic file; no licence established in available evidence; attribution/source ID requires verification."
+    },
+    {
+      "path": "news image/fergusan.jpg",
+      "bytes": 432777,
+      "sha256": "fd6366e34add105fb3bc893c8d256f8230c94f6ba919d079da677af2f777080c",
+      "publicLiteralReferences": [],
+      "rightsEvidence": "Legacy image/photo/composite; no creation/licence evidence established; do not infer original authorship from appearance."
+    },
+    {
+      "path": "news image/images.jpg",
+      "bytes": 7892,
+      "sha256": "0eedea050de5e308d7abb155a65865e2fb6b9a0354eca289861479cfff870b27",
+      "publicLiteralReferences": [],
+      "rightsEvidence": "Legacy image/photo/composite; no creation/licence evidence established; do not infer original authorship from appearance."
+    },
+    {
+      "path": "banner/banner.jpg",
+      "bytes": 20159,
+      "sha256": "e6a1004e57ea06f02ce612b6f17df9c74d478cddcca8e8dd6b8a2f68c29adec6",
+      "publicLiteralReferences": [],
+      "rightsEvidence": "Legacy image/photo/composite; no creation/licence evidence established; do not infer original authorship from appearance."
+    },
+    {
+      "path": "banner/banner1.jpg",
+      "bytes": 154849,
+      "sha256": "86bb1811a7ae2f91585dc524e6d00bbabba9de13e98ad0d6a1b80689bc2e4613",
+      "publicLiteralReferences": [],
+      "rightsEvidence": "Legacy image/photo/composite; no creation/licence evidence established; do not infer original authorship from appearance."
+    },
+    {
+      "path": "banner/hero.jpg",
+      "bytes": 197066,
+      "sha256": "7b36692f8cc1850f138e79822a4d6cf00f5563b9212a48a92640eed60406c38f",
+      "publicLiteralReferences": [],
+      "rightsEvidence": "Legacy image/photo/composite; no creation/licence evidence established; do not infer original authorship from appearance."
+    },
+    {
+      "path": "banner/omar.jpg",
+      "bytes": 13744,
+      "sha256": "76bdf16ee1cb6a6b19a459c0b5ad2d6a76cb05c0680dcdd5d8a9089295e9412d",
+      "publicLiteralReferences": [],
+      "rightsEvidence": "Legacy image/photo/composite; no creation/licence evidence established; do not infer original authorship from appearance."
+    }
+  ],
+  "pendingAsset": "/images/articles/football-academy-generic.png",
+  "currentPublicOutputs": {
+    "articles/10.html": "84ab6804d2f637ef1d5d6bdb93bf68bc5ed84bc00e798c4dac30e280991869a8",
+    "articles/12.html": "02750563f2766d3a371da50120eb4c2b018f9ca8c5646a4c0371a261ebf26fe9",
+    "articles/13.html": "4a10a77ecd63289e31eacf8d3665a9b9c5d96fc74f494b4b1e5043ea7b5f9f08",
+    "articles/14.html": "4b8478a12eb0c5dcc1aae96cff9abe4e8ba7419b83d327a32bd34023fc6c2f81",
+    "articles/15.html": "ce1674c63b9549b38b256d3d6693bd4ea926d1406b6a1ab2745b760572e7e330",
+    "articles/16.html": "ac2ce10a3d402722c97a2db014d9a31a1704dc45a306e109925fa0e992ff618e",
+    "articles/17.html": "d96704208c52e4e088ecee30ad391a1327485e1c19db6441cade28a6ee60fd91",
+    "articles/18.html": "9747958db1954a0c3f723406eda27e6a2e4a71478744de615335139c1baa6545",
+    "articles/19.html": "26edc583ed91fd7bc4c17a3c98637640c07f220f8e50a4a001eb76f1261e9e5f",
+    "articles/21.html": "511c513a83018eb37c75c7c92ba4fd1665414fa437756741e117f25ae215418c",
+    "articles/22.html": "5c96ae81296fc8bebfb1fcec14c34d196ea86e6a4e19c5b9466ee4ffecdb694a",
+    "articles/23.html": "6cbd4d6e41a25b5ad0e81b802ac668b28aed805da49958ca6463e371366bbbe6",
+    "articles/24.html": "144781b8606cfbfe926f0cd2499d89d82ff7dd912930c4f204ac9e650a21cea1",
+    "articles/3.html": "697fc87885ede368d2ce5d20cb8a48520b8a69fdb7e39fa50122467518d65260",
+    "articles/32.html": "aac6dbc831d660ab5b3e9018b9f981c192d041516ef8c8d4c379bcbcc4c70bfb",
+    "articles/9.html": "59e31991daa656047458f4b129336dedb996696c53a85f99e33617d0f3b6ff01",
+    "index.html": "8c297a2396c8a887d8eff69d9506ffe34dcfc2f178aff3d0c5df2e4002a5a2fb",
+    "news-data.js": "8afd47b45b2b7198a872e2be0598b62f7f74045f52139c388d3c90d4352de73a",
+    "news.html": "194c57e9dd2aed8a61530b3939fd82601afc3eb55e671ab0e51245dbe58a20cf",
+    "sitemap.xml": "720cc596932684580de1a0959d5fc4edef286795a10b59400a404f51ba789a5f"
+  },
+  "generatedOrSubstituted": false,
+  "exclusionsApplied": false
+}

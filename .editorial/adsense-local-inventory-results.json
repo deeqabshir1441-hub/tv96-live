@@ -1,0 +1,2120 @@
+{
+  "checkedAt": "2026-10-13T00:14:23.842Z",
+  "files": [
+    {
+      "path": ".editorial/adsense-live-browser.cjs",
+      "bytes": 6120,
+      "sha256": "4bf94b730bb5b88dd47d6193a278c659b89dc449bf966d291148a99de3a91038"
+    },
+    {
+      "path": ".editorial/adsense-local-inventory.cjs",
+      "bytes": 2694,
+      "sha256": "9493435b3ce4df99600b5e862e9606d26c737dfbbf0d81e57041b52a6f04249f"
+    },
+    {
+      "path": ".editorial/adsense-production-check.cjs",
+      "bytes": 5363,
+      "sha256": "633213c5b6075300ff1b93d81754c57682c78d2c30ef19451f678a0c1919db4c"
+    },
+    {
+      "path": ".editorial/adsense-scope-followup.cjs",
+      "bytes": 3283,
+      "sha256": "d9690f97deb040c8ac4d0a11e82f7e44aaa0f2fe39bab3f412ed747e238fe2ef"
+    },
+    {
+      "path": ".editorial/adsense-targeted-followup.cjs",
+      "bytes": 13950,
+      "sha256": "868e2b87132636b153574e3b2676f55ee49ce5ef51bcc1376194a3387ec82935"
+    },
+    {
+      "path": ".editorial/ADSENSE_CONTENT_QUALITY_AUDIT.md",
+      "bytes": 57278,
+      "sha256": "c83c91f51c11ff45a6291a86504f495a54ff3322215c5968ab3a2630f9e1e17b"
+    },
+    {
+      "path": ".editorial/ADSENSE_FINAL_ACTION_PLAN.md",
+      "bytes": 27278,
+      "sha256": "37cb5f96391dd9e2a5f068c77649a5a5ffc81acbc3e8d25f49348089b7c7dfa0"
+    },
+    {
+      "path": ".editorial/ADSENSE_IMPLEMENTATION_FOLLOWUP.md",
+      "bytes": 13735,
+      "sha256": "ff7af0b01c9a74b8159c20c31fb6301942db5da5c75aad5ac3b7f4029830299c"
+    },
+    {
+      "path": ".editorial/ADSENSE_READINESS_AUDIT.md",
+      "bytes": 29467,
+      "sha256": "707773606f04520e01d3b701fec49f875006054f99b101ed813405829fc0d043"
+    },
+    {
+      "path": ".editorial/ADSENSE_RIGHTS_EVIDENCE_INVENTORY.md",
+      "bytes": 58378,
+      "sha256": "938b972a1ee7b7f999a813782393e41e77b87a9390a91c32d254bbf739dbfbc1"
+    },
+    {
+      "path": ".editorial/api-smoke.cjs",
+      "bytes": 5843,
+      "sha256": "7470ca8765f4dce3951a6437a269e986ef67c45ee518bb35f2f4845046cdda34"
+    },
+    {
+      "path": ".editorial/apply-article-21.cjs",
+      "bytes": 6127,
+      "sha256": "e5401b4d114eaefcddd5cdc86f88675d74c4e17041c47f782c2b841780f9dbd1"
+    },
+    {
+      "path": ".editorial/apply-article-22.cjs",
+      "bytes": 5924,
+      "sha256": "0bcd2ceea2d096ee3750abac72fbb535cff319ae6e463c4280ee75115b906bc3"
+    },
+    {
+      "path": ".editorial/apply-article-24-tiebreak.cjs",
+      "bytes": 5783,
+      "sha256": "bb000d8425413c4c653495ff0f656b70c748614ba523541b0dc392d00a05379c"
+    },
+    {
+      "path": ".editorial/apply-article-3.cjs",
+      "bytes": 5410,
+      "sha256": "cf31ae8c224afd51f450e2c42af937e5f9743c4c6b3bbbde599de417ea7e5b2e"
+    },
+    {
+      "path": ".editorial/apply-article-9.cjs",
+      "bytes": 6879,
+      "sha256": "7f92b8e446bf68c117939af1cab1db6604bfe66cfdeab81710f14f9a042780a1"
+    },
+    {
+      "path": ".editorial/approved-source-revisions.json",
+      "bytes": 2475,
+      "sha256": "539bcf24f55ed4e1755ce00bffbe4c181d19880076e0aa1c5d25b9d75e769c79"
+    },
+    {
+      "path": ".editorial/article-21-preservation.cjs",
+      "bytes": 811,
+      "sha256": "688207a57cc9a52c85eaad1387428a7dc0d5eca427310866e00e54b308882bf4"
+    },
+    {
+      "path": ".editorial/article-21-revision-check.cjs",
+      "bytes": 4058,
+      "sha256": "f56500b679caa189eb3324337bdf3d1869964e5ef50e3923186ebfd9bbfd2641"
+    },
+    {
+      "path": ".editorial/article-21-revision-evidence.json",
+      "bytes": 69599,
+      "sha256": "a68cb5e7623f76f05707d77c9555e089f8533da60c4f43c9de0f20fe61291c17"
+    },
+    {
+      "path": ".editorial/article-22-preservation.cjs",
+      "bytes": 726,
+      "sha256": "07f6b4ea3f8667376530001d4fb5c78651f2b48deea8b4f908acc50e2cfaf441"
+    },
+    {
+      "path": ".editorial/article-22-revision-check.cjs",
+      "bytes": 3825,
+      "sha256": "860683f36036316e8c90adcee1bd6fde0f8bf15946a253371686ab7529f79a82"
+    },
+    {
+      "path": ".editorial/article-22-revision-evidence.json",
+      "bytes": 98100,
+      "sha256": "7389a23a98b9a901f33b2d224d25b0f157f2d7c0cf053763d57759daa138a18a"
+    },
+    {
+      "path": ".editorial/article-24-revision-check.cjs",
+      "bytes": 2843,
+      "sha256": "54f7d321d44b775d53e5681c9f1ee6d99dd2e63b3ba42f3015a3c2446c1236f8"
+    },
+    {
+      "path": ".editorial/article-24-revision-evidence.json",
+      "bytes": 12937,
+      "sha256": "3a13265e1cc91c655698964acbdb0dd1446b7097a484f097ef19474a1cc4eda8"
+    },
+    {
+      "path": ".editorial/article-24-tiebreak-check.cjs",
+      "bytes": 3529,
+      "sha256": "2883e081683be1debb6001bbd48b348c4051a4bbb227899d09abaa21718319ff"
+    },
+    {
+      "path": ".editorial/article-24-tiebreak-evidence.json",
+      "bytes": 95650,
+      "sha256": "4dadfb6d204bce64a623d23c4be60e9628137a56e9b501312920a2b72f1ef1fd"
+    },
+    {
+      "path": ".editorial/article-24-tiebreak-preservation.cjs",
+      "bytes": 603,
+      "sha256": "e244b7ce37b30eee9f722f275662f76194e3c027dd2c16b9b4b49241e0adae60"
+    },
+    {
+      "path": ".editorial/article-3-revision-check.cjs",
+      "bytes": 4046,
+      "sha256": "dd01f6ec4a4560e35aba4d907fb9eb80d0a49aed32ba394291da3e31fdaf2e26"
+    },
+    {
+      "path": ".editorial/article-3-revision-evidence.json",
+      "bytes": 63549,
+      "sha256": "0c3c854180d2a2c9852215064b909ebf0a44ca67092520b11316eb1f31ef64b8"
+    },
+    {
+      "path": ".editorial/article-32-archive-check.cjs",
+      "bytes": 2152,
+      "sha256": "671968677ff8a18bd546a78f02943169b73f739b6dc1312eb54d6c9f54bea7d4"
+    },
+    {
+      "path": ".editorial/article-32-image-replacement-evidence.json",
+      "bytes": 28417,
+      "sha256": "bb13bd2f526b2d5d10b2e0976e83c58cc66b199a5a7f8b8c6a1b4b7a870884a4"
+    },
+    {
+      "path": ".editorial/article-9-revision-check.cjs",
+      "bytes": 3508,
+      "sha256": "62c276f4a5ff41d82b66c1fdde499b3b97d797854ee74630f278dae068a39cbf"
+    },
+    {
+      "path": ".editorial/article-9-revision-evidence.json",
+      "bytes": 66429,
+      "sha256": "961fb35351827e300ca13e3d23688cf7979b11e3227a67a2ee7e2838fbb0ff7d"
+    },
+    {
+      "path": ".editorial/article-content.js",
+      "bytes": 135759,
+      "sha256": "fe51ef52ceed2b6ff18a9457511cbcf0429f29454a2bd8beecac9bded1d40cfc"
+    },
+    {
+      "path": ".editorial/article-retirements.cjs",
+      "bytes": 322,
+      "sha256": "d90338f2b3166fee83b2fbf71a698049f3d4a92789583ab69acefb74b21b451e"
+    },
+    {
+      "path": ".editorial/article-template.html",
+      "bytes": 11893,
+      "sha256": "8f64aa7af51cd40fbab2cae2be615a3ae458539465d9b9c831ce3b5341ec66af"
+    },
+    {
+      "path": ".editorial/ARTICLE_21_IMPLEMENTATION_REPORT.md",
+      "bytes": 8226,
+      "sha256": "3522babff6fe09b9faa2c67b3917eac59fb90456b0a083487ddce7f8467e2780"
+    },
+    {
+      "path": ".editorial/ARTICLE_22_IMPLEMENTATION_REPORT.md",
+      "bytes": 7477,
+      "sha256": "245e714351e33f1bd54e2024b37d9a15daed7c52ea663d0cfeddfeb361321ba1"
+    },
+    {
+      "path": ".editorial/ARTICLE_23_BUNDESLIGA_PROPOSAL.md",
+      "bytes": 7726,
+      "sha256": "2e9294d6c3c96c2f6d5aaa0319be7ab7287e4c25a8c7dc97681997ea228f1fc6"
+    },
+    {
+      "path": ".editorial/ARTICLE_24_IMPLEMENTATION_REPORT.md",
+      "bytes": 5941,
+      "sha256": "8bd685db6e165568e31dfbda5f7215ebd883e7c5613cb97daa96246317540fb0"
+    },
+    {
+      "path": ".editorial/ARTICLE_24_SOURCE_CORRECTION_PROPOSAL.md",
+      "bytes": 5402,
+      "sha256": "0012663b27059ecff38dfd5fcf891ea43cba5f82de078b5ea41520b305931ce2"
+    },
+    {
+      "path": ".editorial/ARTICLE_24_TIEBREAK_IMPLEMENTATION_REPORT.md",
+      "bytes": 7885,
+      "sha256": "a83a591dad24efb60d9ddc0156b6baa600f862cb03262ff79f788af3a4b7012c"
+    },
+    {
+      "path": ".editorial/ARTICLE_32_ARCHIVE_PROPOSAL.md",
+      "bytes": 5008,
+      "sha256": "493f6ddbfd51b227c88ff9858a0537de0c215c18db12ef6081b5cf6366fe1706"
+    },
+    {
+      "path": ".editorial/ARTICLE_32_DEPLOYMENT_EXCLUSIONS.proposed",
+      "bytes": 299,
+      "sha256": "fa123d62160a072b8ecc834ede20967629c58b2ec6c2005f842bcd1172f5fd55"
+    },
+    {
+      "path": ".editorial/ARTICLE_32_IMAGE_CHECK_UPDATE.patch",
+      "bytes": 1799,
+      "sha256": "6edcbb3ae2d93510b5b3782bed0eb663acb5fae4cdaaf237b5d0f75bded82252"
+    },
+    {
+      "path": ".editorial/ARTICLE_32_IMAGE_REPLACEMENT.patch",
+      "bytes": 3262,
+      "sha256": "f135bbf022efe6f3c96cac3389e2b336bea530a68604f85a94af56fc85781c1b"
+    },
+    {
+      "path": ".editorial/ARTICLE_32_IMAGE_RIGHTS_AND_REPLACEMENT_PLAN.md",
+      "bytes": 16497,
+      "sha256": "4b0a59a7d512d54d63654fcc2a5c36f8c4be92a1f4a208bb72583ac05e6bb5fa"
+    },
+    {
+      "path": ".editorial/ARTICLE_32_OLD_MANIFEST_RETIREMENT.patch",
+      "bytes": 590,
+      "sha256": "77b59ff608413c5b4c747dce3e712cd8b7caef90003cd2aa5f40ddb445663772"
+    },
+    {
+      "path": ".editorial/ARTICLE_3_IMPLEMENTATION_REPORT.md",
+      "bytes": 7424,
+      "sha256": "263e837c438eb3d695172e50306aa24a04ad9964f01361a607c559ba43be4df5"
+    },
+    {
+      "path": ".editorial/ARTICLE_9_IMPLEMENTATION_REPORT.md",
+      "bytes": 8867,
+      "sha256": "70d4f77129d301f73d2bde3117b17d38388eb2fa5975e3a2077f5cf5db118a38"
+    },
+    {
+      "path": ".editorial/AUDIT.md",
+      "bytes": 5822,
+      "sha256": "9119dca6461bcea394e3d34a12e160df332e7cd716cd3ad34decf304f7e4aa31"
+    },
+    {
+      "path": ".editorial/browser-check.cjs",
+      "bytes": 49204,
+      "sha256": "f378fde9b1522ba601629aceb2373aa0317b709b43759e1827d110341d6cdc41"
+    },
+    {
+      "path": ".editorial/browser-results.json",
+      "bytes": 2390,
+      "sha256": "60b269586768b521ab3f6cb0ee4334cefd2d4a0562c25c4f527d9c38773fc256"
+    },
+    {
+      "path": ".editorial/CONSOLIDATED_APPROVAL_REQUEST.md",
+      "bytes": 2288,
+      "sha256": "887f903dc039534d78fef8673153811e0fcb58e0aacbc647725c5c8fd6eb6528"
+    },
+    {
+      "path": ".editorial/content-model.cjs",
+      "bytes": 1002,
+      "sha256": "d7483549eb3c466855dedc108e8cc13da55dbeba5cfb8a5458814f63a1dec3e1"
+    },
+    {
+      "path": ".editorial/create-editorial-fallback.py",
+      "bytes": 1127,
+      "sha256": "f1464cb012d19951347cb00bea25055673caa0f687bcd044974b28a8e894df92"
+    },
+    {
+      "path": ".editorial/final-ad-observation-results.json",
+      "bytes": 34879,
+      "sha256": "adb341d87d2363f1b2c4f52f304883348a56b13588d57df6da0a5a8501e413ba"
+    },
+    {
+      "path": ".editorial/final-legacy-live-results.json",
+      "bytes": 1409,
+      "sha256": "9295d1ee0b7660e694c15ed5cfb047bddfe5d9ff8af4e81ae27653c6f1985eb9"
+    },
+    {
+      "path": ".editorial/FINAL_ADSENSE_READINESS_AUDIT.md",
+      "bytes": 46152,
+      "sha256": "573a4a357017ec103deb31a53f0fbc6107e5459b43c33c8c0d13d4103ece644e"
+    },
+    {
+      "path": ".editorial/generate-static.cjs",
+      "bytes": 9310,
+      "sha256": "2f4961cbdc5b9f6a08b8d8602baae83cefe1c2c1f4ec94f337c40fd1227be9c5"
+    },
+    {
+      "path": ".editorial/HOME_ABOUT_CONTENT_AUDIT.md",
+      "bytes": 6960,
+      "sha256": "55257f735459bb1143a57a725e14dfa55e5c5c834c02b9e87bf2c0ca19b5230c"
+    },
+    {
+      "path": ".editorial/image-cleanup-baseline.json",
+      "bytes": 302389,
+      "sha256": "e9d9cc4aeaefd2c89b97723b609a7ef295e64308f34592a5d1cc69c1bc89cb99"
+    },
+    {
+      "path": ".editorial/image-rights-check.cjs",
+      "bytes": 6968,
+      "sha256": "56a715bcd3e1c2745af9f89de1b6f40be684af1b363c9c8338cb6c885bd3a242"
+    },
+    {
+      "path": ".editorial/image-rights-inventory.json",
+      "bytes": 5639,
+      "sha256": "ebd7d51dc0960de1532b1cb96e483966568b1796fb1f8e69bf11e619c9f38da8"
+    },
+    {
+      "path": ".editorial/IMAGE-SOURCE-CLEANUP-REPORT.md",
+      "bytes": 14944,
+      "sha256": "be0487f2b895e6a566b04e292fba151bda177e4c5ae467dfac60b63d3237c4f8"
+    },
+    {
+      "path": ".editorial/implement-article-24.cjs",
+      "bytes": 5228,
+      "sha256": "209f55a82a2757c2691d485bdcaa2b4f53a317a7b23a3dde6a44a886c19db895"
+    },
+    {
+      "path": ".editorial/legacy-exclusion-check.cjs",
+      "bytes": 6872,
+      "sha256": "aa496323b8a4470113287dc1d41dc9b5cb52a8f4ba91f6923f93762abf400f57"
+    },
+    {
+      "path": ".editorial/legacy-exclusion-results.json",
+      "bytes": 22058,
+      "sha256": "209ebfa79fae5fc4b844fb81fcf50e396fbbfaa145a0c1f893521fe2b87d3d7a"
+    },
+    {
+      "path": ".editorial/match-coverage-check.cjs",
+      "bytes": 9755,
+      "sha256": "10a1630b1866d352cc5433decd9c0cb4aa73c2ac49fb2bebeed6c85167c4eb17"
+    },
+    {
+      "path": ".editorial/news-data.js",
+      "bytes": 47394,
+      "sha256": "f649edc78a1ee236b12ad73590514e4aaf5f427effbd4a3654fde28537720750"
+    },
+    {
+      "path": ".editorial/optimize-article-images.cjs",
+      "bytes": 5721,
+      "sha256": "a7e80e1784a32725f1b5087fe6fc5a3c391d424c58bf56f0e3e358fe3414c745"
+    },
+    {
+      "path": ".editorial/optimized-images.json",
+      "bytes": 6546,
+      "sha256": "4a2f14d1167a17da42b867c95f0be7ddd74ebe7a06a1332e970a1b7c484df3c7"
+    },
+    {
+      "path": ".editorial/p0-check.cjs",
+      "bytes": 6755,
+      "sha256": "85c3b59458ce9ecd1c3df9c642538750b8de3fc74b9e68856a877bcedd5d5035"
+    },
+    {
+      "path": ".editorial/p0-review.json",
+      "bytes": 9046,
+      "sha256": "fcc65147ab53e4b8bf66c695478a7404eb2cd10c24d389996497c697eb8fd503"
+    },
+    {
+      "path": ".editorial/prepare-article-32-image-plan.cjs",
+      "bytes": 8332,
+      "sha256": "376f3da2145c3952600597197bf9a4e9e324eb370bbd40b5a27009a9f741ed6f"
+    },
+    {
+      "path": ".editorial/PRODUCTION-FIXES-REPORT.md",
+      "bytes": 11900,
+      "sha256": "42eab774da48ebf58f40b8317e7e430dff9a066dee6da269c9dbe780b9bbf37e"
+    },
+    {
+      "path": ".editorial/raw-html-check.cjs",
+      "bytes": 8221,
+      "sha256": "0f527d5738bddbdc9378cc650d72e4cf5602c9a962a0e28c3cf99491e0d7291d"
+    },
+    {
+      "path": ".editorial/raw-html-results.json",
+      "bytes": 4530,
+      "sha256": "4221666a6b6580e645fc87d07c4eef2224b3e54ff8e3ffde5a4cfaf2c147c239"
+    },
+    {
+      "path": ".editorial/README.md",
+      "bytes": 4866,
+      "sha256": "67b6507772ecb38f524e5c3db576c9e41998141b500e2c2cd00b94b2874de570"
+    },
+    {
+      "path": ".editorial/REPORT.md",
+      "bytes": 11448,
+      "sha256": "0ebd4eb2fd96ed0fda42f26e7b9c2c90d56dcdd95c037946b2a24006a75f7e3e"
+    },
+    {
+      "path": ".editorial/season-drafts.md",
+      "bytes": 8322,
+      "sha256": "3dc3bd7947ddc6f5905ac5d898a643d64c03259443d8f34e1d97850e29045ab5"
+    },
+    {
+      "path": ".editorial/standings-source-check.cjs",
+      "bytes": 1283,
+      "sha256": "7271a889bb57e5c9ad1d4d170d1c96bd7bb80de0db0a037d8458ce3f6218bf6a"
+    },
+    {
+      "path": ".editorial/standings-source-revision.json",
+      "bytes": 36591,
+      "sha256": "19a17da2dfc30a26666b94a30f103c1bb5c126c3081de012697bf165d6b4f796"
+    },
+    {
+      "path": ".editorial/STANDINGS_SOURCE_TRANSPARENCY_REPORT.md",
+      "bytes": 8209,
+      "sha256": "ccdfdd2c874fe998dc63a5410be2625c843f09a90c3cf1055a4dbed3e2c832c8"
+    },
+    {
+      "path": ".editorial/static-server.cjs",
+      "bytes": 2350,
+      "sha256": "ba0f234ef2d51eb7849a38074f566d5fc8dd2b472230555a25885fd36b93ddd7"
+    },
+    {
+      "path": ".editorial/sync-content.cjs",
+      "bytes": 90,
+      "sha256": "be4cc5ec61963097bc30ffef64bcd9f95cc405c73696affbbc583c902b6d624c"
+    },
+    {
+      "path": ".editorial/sync-site-chrome.cjs",
+      "bytes": 2822,
+      "sha256": "8b62eea754c33fa313b9acc1e7c4d8482cef3d82ce465657bc3d8c20e45118db"
+    },
+    {
+      "path": ".editorial/validate-content.cjs",
+      "bytes": 11739,
+      "sha256": "b993755464cb1c9d6765bc2547a2245d85b2fe3ceb134edb9ff4ebc5220cd51d"
+    },
+    {
+      "path": ".vercelignore",
+      "bytes": 468,
+      "sha256": "9ab3d3c32a5ce6503b74e59c8ca8316df8d23c285fdbf2ee2b0086ffe74988bb"
+    },
+    {
+      "path": "404.html",
+      "bytes": 606,
+      "sha256": "42970e02024b7f1878c2654adf8a020abc8a9bb0aee2e6dcaf812cfa8d7e86f5"
+    },
+    {
+      "path": "about.html",
+      "bytes": 12697,
+      "sha256": "43125679c9eab4eb95669c7ed3f7ac0fa07ae224d179700d4ff537cebc478a02"
+    },
+    {
+      "path": "ads.txt",
+      "bytes": 58,
+      "sha256": "768d59d7ca6971d7e31afa3ff6a4aa6bb3b8e9a9524f3150eaae6e2a46b94e80"
+    },
+    {
+      "path": "api/matches.js",
+      "bytes": 9531,
+      "sha256": "16dea5bea9de414635acdf047cab3c9d6dd65ef9692945e18614f0d648477edb"
+    },
+    {
+      "path": "api/standings.js",
+      "bytes": 7276,
+      "sha256": "4067f34cb3b7bc9a9946a6d986df4483c6a29cd6b1a588d91c0812f3e50aa3b4"
+    },
+    {
+      "path": "articles/10.html",
+      "bytes": 19396,
+      "sha256": "bf33c597869590955008514fb57ca2800ff3eef110d85f01582b452ba46dc5e5"
+    },
+    {
+      "path": "articles/12.html",
+      "bytes": 21834,
+      "sha256": "02750563f2766d3a371da50120eb4c2b018f9ca8c5646a4c0371a261ebf26fe9"
+    },
+    {
+      "path": "articles/13.html",
+      "bytes": 22764,
+      "sha256": "c2bea7ca5e0babad1533870b7ee03eb037ebe482cd9a5397f26d2fe919a65139"
+    },
+    {
+      "path": "articles/14.html",
+      "bytes": 24123,
+      "sha256": "38167bd14368808d25e9a3206e0bc9f3d439344724a6b00a267d074b53861af7"
+    },
+    {
+      "path": "articles/15.html",
+      "bytes": 20916,
+      "sha256": "ce1674c63b9549b38b256d3d6693bd4ea926d1406b6a1ab2745b760572e7e330"
+    },
+    {
+      "path": "articles/16.html",
+      "bytes": 20845,
+      "sha256": "38e86f162326153e5e00d41da96934f2b08d9dbe64b8b884a93cc2c28e66dcc7"
+    },
+    {
+      "path": "articles/17.html",
+      "bytes": 21264,
+      "sha256": "d96704208c52e4e088ecee30ad391a1327485e1c19db6441cade28a6ee60fd91"
+    },
+    {
+      "path": "articles/18.html",
+      "bytes": 21705,
+      "sha256": "9747958db1954a0c3f723406eda27e6a2e4a71478744de615335139c1baa6545"
+    },
+    {
+      "path": "articles/19.html",
+      "bytes": 23191,
+      "sha256": "26edc583ed91fd7bc4c17a3c98637640c07f220f8e50a4a001eb76f1261e9e5f"
+    },
+    {
+      "path": "articles/21.html",
+      "bytes": 23618,
+      "sha256": "43f9958f12d52bbcce5eaa487303da615584f02bbce1252654ce71f6181a0f9d"
+    },
+    {
+      "path": "articles/22.html",
+      "bytes": 25043,
+      "sha256": "0bdf15f010b6aa1872e5c61c80ac9220631e651438a932bd664fc4c817903b4b"
+    },
+    {
+      "path": "articles/23.html",
+      "bytes": 21144,
+      "sha256": "4b880e832d408109479f123faeb166a63f2d638e653d2dc95efe099c63f85b2e"
+    },
+    {
+      "path": "articles/24.html",
+      "bytes": 25296,
+      "sha256": "f9e35adf62e6fa72acf3e3de971df4a33edea53b553131ff0eb4e321104ce817"
+    },
+    {
+      "path": "articles/3.html",
+      "bytes": 21012,
+      "sha256": "ddd2e7dfee8aa749898e9a8eb0af1b6f3118aeef392abe1395e3568226174275"
+    },
+    {
+      "path": "articles/32.html",
+      "bytes": 22835,
+      "sha256": "aac6dbc831d660ab5b3e9018b9f981c192d041516ef8c8d4c379bcbcc4c70bfb"
+    },
+    {
+      "path": "articles/9.html",
+      "bytes": 23255,
+      "sha256": "4c595c2a88a351ce8e7d7fb320bda8bf197abc6654d931ff9f73592f1a2e6a52"
+    },
+    {
+      "path": "banner/banner.jpg",
+      "bytes": 20159,
+      "sha256": "e6a1004e57ea06f02ce612b6f17df9c74d478cddcca8e8dd6b8a2f68c29adec6"
+    },
+    {
+      "path": "banner/banner1.jpg",
+      "bytes": 154849,
+      "sha256": "86bb1811a7ae2f91585dc524e6d00bbabba9de13e98ad0d6a1b80689bc2e4613"
+    },
+    {
+      "path": "banner/banner2026.png",
+      "bytes": 2561024,
+      "sha256": "6172fd23b53766d28af05b8bd52cb8e9da381244a7b70c04d2703f2d18f8f85a"
+    },
+    {
+      "path": "banner/hero.jpg",
+      "bytes": 197066,
+      "sha256": "7b36692f8cc1850f138e79822a4d6cf00f5563b9212a48a92640eed60406c38f"
+    },
+    {
+      "path": "banner/hero1.png",
+      "bytes": 3094940,
+      "sha256": "e6e963f7af5a405e75d54f24667dcb9ee56f7cb7d118f8ae8441fe5453241cf5"
+    },
+    {
+      "path": "banner/omar.jpg",
+      "bytes": 13744,
+      "sha256": "76bdf16ee1cb6a6b19a459c0b5ad2d6a76cb05c0680dcdd5d8a9089295e9412d"
+    },
+    {
+      "path": "banner/poster .png",
+      "bytes": 749248,
+      "sha256": "57f719c28225a369b895948dd499802c389787f34432c71030e8ba03bb0c14de"
+    },
+    {
+      "path": "bundle.min.css",
+      "bytes": 44367,
+      "sha256": "3659210339428843ef05b8bcf121031f61591c08261871dd1d123dbf39c732a1"
+    },
+    {
+      "path": "contact.html",
+      "bytes": 7759,
+      "sha256": "5300149c7c98957f55eee86cc0d04581f0ce16b5ab90ff0da85f50f503615321"
+    },
+    {
+      "path": "editorial-fallback.png",
+      "bytes": 22391,
+      "sha256": "c30c531a78f34336f2c90d5dd137aa34633650026fbb3a89a11807ae85461978"
+    },
+    {
+      "path": "favicon.png",
+      "bytes": 704956,
+      "sha256": "b49af96b93185355d0779b013319fafd122da188ea57dadf5bd1976155f29469"
+    },
+    {
+      "path": "football-fallback.svg",
+      "bytes": 329,
+      "sha256": "85c4dbca08384c6b44f7396d5f9e9d56adf8c77cac3f364de4d3d38f9e6ab512"
+    },
+    {
+      "path": "googleae8e7d185b7c98c3.html",
+      "bytes": 79,
+      "sha256": "7ed52b2977744a863b6ad3c279f921a90549326301fb0b652cf82c3b73b219f3"
+    },
+    {
+      "path": "history-data.js",
+      "bytes": 5212,
+      "sha256": "633b3e8247df917b866f45b818b60dbf6ccf79f6ae49cbb14caa66b78c3a9ae3"
+    },
+    {
+      "path": "icon football/bundisliga.png",
+      "bytes": 294807,
+      "sha256": "0ab251ee0f304ae87843f5ab2c4840f25f59826c26930f660176ca74bf8541f7"
+    },
+    {
+      "path": "icon football/CAF.jpg",
+      "bytes": 11993,
+      "sha256": "f1c06377413cfe369eb0c818bd5fba84bb0c97bcec520195361362582c3d1a23"
+    },
+    {
+      "path": "icon football/champion.png",
+      "bytes": 180330,
+      "sha256": "a2ae025bac4ebfb0bbd1396e9fdc5389c148b158289fff79cb98cbd286f27ff9"
+    },
+    {
+      "path": "icon football/europa league.png",
+      "bytes": 22170,
+      "sha256": "fa0a2965a6580428c073df323f15b9a328c252caca9d0c5decdfd9ad62ccc19b"
+    },
+    {
+      "path": "icon football/europa_league.jpg",
+      "bytes": 11716,
+      "sha256": "afc93e50a60c4f8dddbd5ebf0e212d751a89b2524e8d0d16261d145cf9b6ac89"
+    },
+    {
+      "path": "icon football/FA_Cup.png",
+      "bytes": 29608,
+      "sha256": "997e251b9f3f042ba645e48c5e930a2ecd26faf9ad2228ea861b34a72650250d"
+    },
+    {
+      "path": "icon football/laliga.png",
+      "bytes": 12267,
+      "sha256": "49663c7e3b69bf418efb45846d0f861653d05bfd3c613b74d34e723d78fb72de"
+    },
+    {
+      "path": "icon football/league 1.png",
+      "bytes": 2135,
+      "sha256": "d8e9e69d9644c05931056a8a08f8795baf78823b287c2c32aa1a6ef7087d384a"
+    },
+    {
+      "path": "icon football/MLS-logo.png",
+      "bytes": 231369,
+      "sha256": "0e452876cd81afca6c7d210e5e68a64db4f25ca4e5bb1c171c1702e32d6267c4"
+    },
+    {
+      "path": "icon football/premier league.png",
+      "bytes": 87629,
+      "sha256": "9ec24bb2dd0a3a2e6cef8fedcc95ba476b934dac36bb755608c7541e11475636"
+    },
+    {
+      "path": "icon football/PSG-logo.jpg",
+      "bytes": 388879,
+      "sha256": "f4e64074292f9d1ff06db1d9400f9dc943dd34d34af57752fd89b3f4e7a20d2f"
+    },
+    {
+      "path": "icon football/serie a.png",
+      "bytes": 2375,
+      "sha256": "eee85b0b5193efd54eef52918334beb0ed4a907843c3d9c3ec696cb1a5b52779"
+    },
+    {
+      "path": "icon football/Suadi-Pro-League.jpg",
+      "bytes": 44018,
+      "sha256": "145793e87b8096f3f21ba07ba036bd2881f6846156a6889837f29435c92937de"
+    },
+    {
+      "path": "icon football/world cup.jpg",
+      "bytes": 8995,
+      "sha256": "fdcb532c268af6a2aaa53820a3f2ccd17080fbf7e977387ed4dca6295f23a5e2"
+    },
+    {
+      "path": "icon football/world cup1.png",
+      "bytes": 731131,
+      "sha256": "d4965ffbf8fee5166701050c92d08af8d54e4106984bb576b04b252666752805"
+    },
+    {
+      "path": "icon-192.png",
+      "bytes": 1540419,
+      "sha256": "8ad98a51f40f7fd059367760748a7f0288b2ffa7d742ad4c95d05e79006027f8"
+    },
+    {
+      "path": "icon-512.png",
+      "bytes": 1541724,
+      "sha256": "fefac0891f2dc9aa62c8454d4ab32d5e5cacd7161ad5d82ea5021116bcb65062"
+    },
+    {
+      "path": "images/articles/alvarez-meeting-report.png",
+      "bytes": 1875623,
+      "sha256": "6b18ff76cf9210bdf2c3398d4a863cdf42b5836b0626c0d456f1f47106333239"
+    },
+    {
+      "path": "images/articles/alvarez-meeting-report.webp",
+      "bytes": 122206,
+      "sha256": "e6e86202c7f3efa9a7ed2b1855b2e9040d67f38725274053a5d331f096c28dae"
+    },
+    {
+      "path": "images/articles/arsenal-alvarez-statement.png",
+      "bytes": 1975267,
+      "sha256": "9bbbd9ac8c625ba6ed587309cd3615e1bc90a49a795f5792b7395f52d2bd46fa"
+    },
+    {
+      "path": "images/articles/arsenal-alvarez-statement.webp",
+      "bytes": 120524,
+      "sha256": "3b0da999dd601cbb4a74d0747e7914d9efdf7097f3cb510558168f8d9530a6d4"
+    },
+    {
+      "path": "images/articles/bundesliga-guide.png",
+      "bytes": 2466434,
+      "sha256": "224fb3b2e40d2088f06c0b36e725716d46b1823d8a522815ba72b42484257276"
+    },
+    {
+      "path": "images/articles/bundesliga-guide.webp",
+      "bytes": 220900,
+      "sha256": "bcc17dfdd09ce171c6271d49787035d54e40743a03ea072bdfdfb468c1ecfd6d"
+    },
+    {
+      "path": "images/articles/champions-league-format.png",
+      "bytes": 2125176,
+      "sha256": "ce913735c22b1bda59a288c955176febd21e89bd65c3df76e63fa7d30a022282"
+    },
+    {
+      "path": "images/articles/champions-league-format.webp",
+      "bytes": 166542,
+      "sha256": "8d6fa23f9adf5dbc694e2c9dc30fa904c1c5c5118d3741ced526c697ba84151a"
+    },
+    {
+      "path": "images/articles/champions-league-qualification.png",
+      "bytes": 2604647,
+      "sha256": "eb79b105dadc6d03188250cb901539740138e93c23e221eaf17d4afeec38c536"
+    },
+    {
+      "path": "images/articles/champions-league-qualification.webp",
+      "bytes": 271000,
+      "sha256": "999f600e0d8944354b1fbef2ef0e97c70fa0421102a8daab25b654789ab8036c"
+    },
+    {
+      "path": "images/articles/expected-goals-xg.png",
+      "bytes": 2203305,
+      "sha256": "52c12823fb2c5e4e4d4619c4aae1783a68a851a53462a4855064dd375fa31216"
+    },
+    {
+      "path": "images/articles/expected-goals-xg.webp",
+      "bytes": 182018,
+      "sha256": "8a23065c225860059bd21fc6711fcb39d8814a35b2b1b5bcfd4577462e2f436f"
+    },
+    {
+      "path": "images/articles/fernandez-omission.png",
+      "bytes": 2350092,
+      "sha256": "082e9d1d18699211381040e8e13a2af24d14233c8c89ca9cfb9ed566d7d51313"
+    },
+    {
+      "path": "images/articles/fernandez-omission.webp",
+      "bytes": 195384,
+      "sha256": "10ebcaea49e6b8c5e14487012b561c91a029244c9e0c02c711c382a3f4c31210"
+    },
+    {
+      "path": "images/articles/goal-difference-football.png",
+      "bytes": 2206193,
+      "sha256": "0451fe974a0ec7fcbf5237295c2b3ecf6a1cdbb73ac8d84c0b05d73874656e38"
+    },
+    {
+      "path": "images/articles/goal-difference-football.webp",
+      "bytes": 191232,
+      "sha256": "f97370e782bd0ed045ce629c2cece05fa5b29d81e86167bcef61cb3feb86a6ce"
+    },
+    {
+      "path": "images/articles/how-var-works.png",
+      "bytes": 2258782,
+      "sha256": "1864bc65ec1f8783efa7f921b598960f966eb7f083e780c6ebe0ad8460180ce5"
+    },
+    {
+      "path": "images/articles/how-var-works.webp",
+      "bytes": 154918,
+      "sha256": "b97013553d95e4639e9b8d16863ebbcb05f9d952d19348860a87344b4589f657"
+    },
+    {
+      "path": "images/articles/jj-gabriel.png",
+      "bytes": 2690796,
+      "sha256": "1403d94c1586fd3164b9533e7f5fbabbbd8c6e69f5137b0ef480c12ce78f5ff0"
+    },
+    {
+      "path": "images/articles/jj-gabriel.webp",
+      "bytes": 247896,
+      "sha256": "95b1ec83dbd334d4e73adc50c75392953e035ad17a5a7fd61f169397eabbe9d9"
+    },
+    {
+      "path": "images/articles/johan-manzambi-aston-villa.png",
+      "bytes": 2036536,
+      "sha256": "5042dbf82b3e94e20a9d477f7288e6674316b864e117dcd05934933142dfd9cf"
+    },
+    {
+      "path": "images/articles/johan-manzambi-aston-villa.webp",
+      "bytes": 133718,
+      "sha256": "777481674336e129516cfdc2ed44cddfdfb983cacd2687b3c48f0d5793bb0c14"
+    },
+    {
+      "path": "images/articles/la-liga-guide.png",
+      "bytes": 2323274,
+      "sha256": "1966e97148fe217fbb320358a9a757894fbc94b12b0dfe7623676342d51e8c50"
+    },
+    {
+      "path": "images/articles/la-liga-guide.webp",
+      "bytes": 200656,
+      "sha256": "39919398499a6f48f7a04466a068c2f128dde2637ba77882d500c03afcd9fa57"
+    },
+    {
+      "path": "images/articles/ligue-1-guide.png",
+      "bytes": 2363681,
+      "sha256": "1c8f7f23ceb8f965433baf5c522fcbed2d22682531b41261ad00443d96bc1cdb"
+    },
+    {
+      "path": "images/articles/ligue-1-guide.webp",
+      "bytes": 188076,
+      "sha256": "b60807465395291c26aea9c52f6fb760b760c34eb661b09f1e968358341ca15c"
+    },
+    {
+      "path": "images/articles/mbappe-world-cup-contributions.png",
+      "bytes": 2395515,
+      "sha256": "9781d8c8da474bfc058ee7ef969a9edb95647f061121f3aeb5d94e840d21d2ca"
+    },
+    {
+      "path": "images/articles/mbappe-world-cup-contributions.webp",
+      "bytes": 197626,
+      "sha256": "c5456f907bc059d3cf84237e162037a6b6540fb36b9024838b9934a6253e7fb8"
+    },
+    {
+      "path": "images/articles/premier-league-european-qualification.png",
+      "bytes": 2536013,
+      "sha256": "2edbbc2d8e605811849491b2adf03a83fe99226d55dff249ac64af117d80bc4d"
+    },
+    {
+      "path": "images/articles/premier-league-european-qualification.webp",
+      "bytes": 222938,
+      "sha256": "0c6cdafc508e77b376358016253955f5923741c33fff8a4e2b03f7e4411417c4"
+    },
+    {
+      "path": "images/articles/premier-league-guide.png",
+      "bytes": 2498703,
+      "sha256": "abb5ff8f87fd977cac98306e239d28cd05c889ca90631a7b41270e5b9262acaf"
+    },
+    {
+      "path": "images/articles/premier-league-guide.webp",
+      "bytes": 243376,
+      "sha256": "0075366bca94c810ac1c92b7316f09be9296ffd3bfeb1039dd6a9e5174b569ce"
+    },
+    {
+      "path": "images/articles/premier-league-relegation.png",
+      "bytes": 2504743,
+      "sha256": "fde4b3abb25f64c67ded7fb61d8abb621941a317b5aff9d5c023701e89950763"
+    },
+    {
+      "path": "images/articles/premier-league-relegation.webp",
+      "bytes": 229164,
+      "sha256": "36744bba5f0c1504ff97ee157ade6e56d0bb640daadd0061924e6fc0d310a195"
+    },
+    {
+      "path": "images/articles/reading-european-draw.png",
+      "bytes": 2150134,
+      "sha256": "641b22d2f162c1a99535d968ea554b4a5e254059aeeb5f4a918c4db4007ae4c6"
+    },
+    {
+      "path": "images/articles/reading-european-draw.webp",
+      "bytes": 183898,
+      "sha256": "dbd1ac6d0a0402064f9da5744dfe1c299faf47b201e348245c67fa78b61bf3e7"
+    },
+    {
+      "path": "images/articles/serie-a-guide.png",
+      "bytes": 2491943,
+      "sha256": "1f90586ca8cc417582d4bee9c39c1f8f043bd304066c73061cf457a0b4e002fe"
+    },
+    {
+      "path": "images/articles/serie-a-guide.webp",
+      "bytes": 241282,
+      "sha256": "db0b93bae8f1fab5a3a02939f6c66e78f30ab4fa38eaafa497a39e96039b2310"
+    },
+    {
+      "path": "images/articles/uefa-champions-league-guide.png",
+      "bytes": 2464945,
+      "sha256": "b6ff9654379cf5cff5a4d59e3b432ada609d715b2e16e052712060184bb8a086"
+    },
+    {
+      "path": "images/articles/uefa-champions-league-guide.webp",
+      "bytes": 235104,
+      "sha256": "f3a3e7af7fc05bae8d95e76633588cc0d2f6e6d05265c6d675a91180b5f75fcf"
+    },
+    {
+      "path": "index.html",
+      "bytes": 51616,
+      "sha256": "8f0e99976440b0a4efdfd01ae4ff1dec52f311e750191aa141ad7aaa7ef0870f"
+    },
+    {
+      "path": "logo/bann.png",
+      "bytes": 37063,
+      "sha256": "de0e69dcb6ce8c3c7c119184b21d12573e26eca4a8c337ee8dff05f73bf7d9b7"
+    },
+    {
+      "path": "logo/banner middle .png",
+      "bytes": 70570,
+      "sha256": "f6e356cb607a49a5a6e542e71c520611c63fc994743c6bdbc7d5031d9f5f7d94"
+    },
+    {
+      "path": "logo/click.png",
+      "bytes": 655725,
+      "sha256": "04a5c56b76bc59798480dac61748335ae4fa24a20f5db5c4478bad6965a249b4"
+    },
+    {
+      "path": "logo/content .png",
+      "bytes": 5566,
+      "sha256": "615c1426fd126bcd72bf3e498b847ee5df928e8111772490b5cb8c414a311a20"
+    },
+    {
+      "path": "logo/header .png",
+      "bytes": 110136,
+      "sha256": "5555a282a98cd111838dee1f23247dea6a876bfd2e04a1974230e92833e9214d"
+    },
+    {
+      "path": "logo/icons .png",
+      "bytes": 15461,
+      "sha256": "eb9b947685673ece67aef841067c28815f6a197c99313af6488ea5a27c4fb44c"
+    },
+    {
+      "path": "logo/logo.png",
+      "bytes": 746006,
+      "sha256": "8781c0205ba320247de1cfe6cc4d2a8d7a92cc64db8d9480f25caf6342712a39"
+    },
+    {
+      "path": "logo/sameey .png",
+      "bytes": 44948,
+      "sha256": "a8d4531561e19f833d5819b4ba5b75fb60b3a1fdb3e4f50d6d9445a391e4a3d3"
+    },
+    {
+      "path": "logo.png",
+      "bytes": 151675,
+      "sha256": "780c6af988f8791dbaf5e6542e348de576be7943dd442984582956d38ea099f5"
+    },
+    {
+      "path": "manifest.json",
+      "bytes": 571,
+      "sha256": "67945282e1f296793ac914af40de395f22b3acc3c8e60fb485c541ba1bef9b99"
+    },
+    {
+      "path": "match-ids.html",
+      "bytes": 10045,
+      "sha256": "6fed716b58ea54506ac3e777561dde41e2d4cb4615c47a1276e505d57c413322"
+    },
+    {
+      "path": "matches-data.js",
+      "bytes": 4426,
+      "sha256": "e16c0fafb70ec8e9b9da0d3e2b31240c80ddf613dbdc938f2bb192564cf2bddb"
+    },
+    {
+      "path": "matches.html",
+      "bytes": 18621,
+      "sha256": "f5756923f8a9f7b8199f0d21b3ae6028cc3874e55ee940f48fae8e1c70dd3bb0"
+    },
+    {
+      "path": "news image/1.jpg",
+      "bytes": 20221,
+      "sha256": "ee6edd9388ec690dc358bff5551aea4b1ef6357276eb3cc787dad3fa211f836a"
+    },
+    {
+      "path": "news image/10.png",
+      "bytes": 2483603,
+      "sha256": "1cb9d8c9097bb6b2cd0e61026d28c68b81bc38af8d2224e553e8bbe460dddee9"
+    },
+    {
+      "path": "news image/11.png",
+      "bytes": 2169404,
+      "sha256": "eed587b775dfd41690f458afc525cf61711da4d7b52171bb445c232e09d45310"
+    },
+    {
+      "path": "news image/2.jpeg",
+      "bytes": 31081,
+      "sha256": "381f93cfe364871fd595747ec55fc368b5e999a7ebbcb7347eee5219e94368a0"
+    },
+    {
+      "path": "news image/3.jpg",
+      "bytes": 281136,
+      "sha256": "6c09f6bb092570c55573c8dc645c1d6c8ad476a2f869f2be885cc23853259053"
+    },
+    {
+      "path": "news image/4.jpg",
+      "bytes": 59648,
+      "sha256": "6d606e1bd0c435ba9bd11e8b0af6dfe9c4f97ed7950be82afcaf20b2549c89e7"
+    },
+    {
+      "path": "news image/5.jpg",
+      "bytes": 34940,
+      "sha256": "b986baba15ecab46b6a6ce95b26d898e8850b70189660ee6b2826a38eb27b348"
+    },
+    {
+      "path": "news image/6.webp",
+      "bytes": 57516,
+      "sha256": "0e7da907b769d2708c5ef1f473798022261cc06225ab8d94e69ba3a375e0a6b2"
+    },
+    {
+      "path": "news image/7.webp",
+      "bytes": 12100,
+      "sha256": "c0f95d3834f41f4b35faebb49ae4d7a44357e35f1da839fcf48b0b8255cf366c"
+    },
+    {
+      "path": "news image/8.png",
+      "bytes": 2703983,
+      "sha256": "19c298d656880c912cd3b8516f912e9ab26adc75203d88a4140ca1dcff527d8b"
+    },
+    {
+      "path": "news image/9.png",
+      "bytes": 2212701,
+      "sha256": "f570d48e289290ddfebe2b5233bc5ca714a1416c8272408cd63136f0d5ac9085"
+    },
+    {
+      "path": "news image/fergusan.jpg",
+      "bytes": 432777,
+      "sha256": "fd6366e34add105fb3bc893c8d256f8230c94f6ba919d079da677af2f777080c"
+    },
+    {
+      "path": "news image/GettyImages-2166876546-2-scaled.jpg",
+      "bytes": 212787,
+      "sha256": "f550f48d83755b07b83c1b2dfd8e69a7e7eb8985b65b3a102f1b27ce71db0391"
+    },
+    {
+      "path": "news image/GettyImages-2262861156.jpg.webp",
+      "bytes": 115096,
+      "sha256": "30cd2365008aee4eae39243a16975d31e76ab3ae96a04293f160d07ecfb92c87"
+    },
+    {
+      "path": "news image/images.jpg",
+      "bytes": 7892,
+      "sha256": "0eedea050de5e308d7abb155a65865e2fb6b9a0354eca289861479cfff870b27"
+    },
+    {
+      "path": "news-data.js",
+      "bytes": 31852,
+      "sha256": "b05c6ac5f5387502218ccb0997fdf2c0a8b453d1304cfb9b546e70151e917853"
+    },
+    {
+      "path": "news-style.css",
+      "bytes": 8810,
+      "sha256": "82e9b518d55759075e7e65e50e74e1422d166514d4cb465263513212c5e59d51"
+    },
+    {
+      "path": "news.html",
+      "bytes": 36792,
+      "sha256": "f43596eeafb5eb119c8c129c4955c198c812f33ab14e6bdffa8b6a8a3b04679c"
+    },
+    {
+      "path": "offline.html",
+      "bytes": 1957,
+      "sha256": "474d6cca89ba8382f220caa460410790b0a6813efa3673bb074d5611bd669700"
+    },
+    {
+      "path": "privacy-style.css",
+      "bytes": 13796,
+      "sha256": "cd845d543de3c09bee363d9fa8d028d1378e44f6ffd6bb6d815cc350a32740b7"
+    },
+    {
+      "path": "privacy.html",
+      "bytes": 16457,
+      "sha256": "68949b0162bc6a70a79bc0febff851ddf5fb6bcd715a5a10217ad3bf74be4ee5"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1060,
+      "sha256": "15c8a00f74837ab1342576d3e38e9388023fa740ef6a9503a26861ab6ec5ba71"
+    },
+    {
+      "path": "robots.txt",
+      "bytes": 72,
+      "sha256": "ee9194745e015d319217e4a53b5e6560cc42298b5f9ec3ff2be83dadedead7e5"
+    },
+    {
+      "path": "site-chrome.css",
+      "bytes": 6116,
+      "sha256": "6852b619bc1b5a02a8885005a4b2b0f658b25fb5316eca1bb2ea991f07229fcf"
+    },
+    {
+      "path": "site-config.js",
+      "bytes": 181,
+      "sha256": "cba6564e10835762ad91c9d94fae2bd0b50193ecdfc094c320032ebe0ad33a7d"
+    },
+    {
+      "path": "site-header.js",
+      "bytes": 3186,
+      "sha256": "d7a18c70111a08b717225e40fb617db6f7c208eb9c7b119a89bf67ab8f8b9367"
+    },
+    {
+      "path": "sitemap.xml",
+      "bytes": 1992,
+      "sha256": "dde9d5894c99ee347ebfcad10176813d297ea6927a2b968897672ca159cb9b82"
+    },
+    {
+      "path": "standings.html",
+      "bytes": 32599,
+      "sha256": "7f82e4619fc52b72f00d41b42d661d37c682764fcc0ab65d72cfc6e3a692b9d1"
+    },
+    {
+      "path": "streams.js",
+      "bytes": 3828,
+      "sha256": "01553c80b1b71229e8058dc86658f57dddfb8399a5c71cd2e59449a63214a362"
+    },
+    {
+      "path": "style.css",
+      "bytes": 125014,
+      "sha256": "8c67c1872741378b004620e31bb9ba6e4843e7e43c4933673a9ec6756073de25"
+    },
+    {
+      "path": "sw.js",
+      "bytes": 694,
+      "sha256": "dbb0271247a1046fdf9e591d94b7ff6f2b9d3a4a5d8bffa36356f55c61291c44"
+    },
+    {
+      "path": "tatus --short",
+      "bytes": 4149,
+      "sha256": "29af68b69616e8da9432e64335fca4c2965d27c3690b909913665587edf90282"
+    },
+    {
+      "path": "teams/AC_Milan.png",
+      "bytes": 73375,
+      "sha256": "a54524fbbb8407921c8340425d66812fdf69c9facdf9e15d0b669ba5dffc7fd1"
+    },
+    {
+      "path": "teams/Arsenal_FC.png",
+      "bytes": 56550,
+      "sha256": "95ff5e1e3f161d1e732ff6371930139c7f1fef468a2602f64f45af94f5740d22"
+    },
+    {
+      "path": "teams/Aston_Villa.png",
+      "bytes": 37476,
+      "sha256": "8799c2e73edbacd462b7ec01f951f5304abed6d0f8c0fdaa8da91b95b86dec72"
+    },
+    {
+      "path": "teams/Atletico_Madrid.png",
+      "bytes": 16999,
+      "sha256": "fe41670d1a1ce4da6373ecfa6f1e148cf426cc14f04436611f916c52a685e32c"
+    },
+    {
+      "path": "teams/Bayern_München.png",
+      "bytes": 164570,
+      "sha256": "7e674a3fbdc5dc7dfc0dbbab01cce5d681d1f17f9400631ef9e3771549f9de7e"
+    },
+    {
+      "path": "teams/betis.png",
+      "bytes": 19823,
+      "sha256": "984372d961963394401d735fe77eb78c34f7ba69649edc1e21fecd523b470fbd"
+    },
+    {
+      "path": "teams/Brentford.png",
+      "bytes": 42576,
+      "sha256": "b1540475282278f3f85db70002f3a56f6e3b0ce9180c0111b380c4cdb6fdd2ba"
+    },
+    {
+      "path": "teams/Burnley_FC.png",
+      "bytes": 169628,
+      "sha256": "469a5907b7bdb46fb86e952922ba977e0333878f7997cd8d8b0c997cd3f90075"
+    },
+    {
+      "path": "teams/Chelsea_FC.png",
+      "bytes": 1054169,
+      "sha256": "987c3e3e8eb2e05357edb36ff4aa7ac47311726da675b574fb558007d2e0b3c3"
+    },
+    {
+      "path": "teams/FC_Barcelona_(crest).svg.png",
+      "bytes": 19677,
+      "sha256": "c61079179d2d94cc48077b67674914923c031a497b89de1ae6ec0ccfaa549e41"
+    },
+    {
+      "path": "teams/Juventus_FC.png",
+      "bytes": 25221,
+      "sha256": "106e02b67df1d1e66a9c5e05f3d3ec788915b25fc706e3a3567e94289951279a"
+    },
+    {
+      "path": "teams/Leeds_United.png",
+      "bytes": 27914,
+      "sha256": "8aaa0edbd63b950e86d275c874059c491358359cf53cddae1e7f380e5ac28266"
+    },
+    {
+      "path": "teams/Leeds_United_F.C",
+      "bytes": 27914,
+      "sha256": "8aaa0edbd63b950e86d275c874059c491358359cf53cddae1e7f380e5ac28266"
+    },
+    {
+      "path": "teams/liverpool.png",
+      "bytes": 138063,
+      "sha256": "99577454ec631b5789927f20c71714020255dc453f9ec9b539a824966449b847"
+    },
+    {
+      "path": "teams/manchester united.png",
+      "bytes": 2444626,
+      "sha256": "5d51b8f8e4e4315605a7383e9d73aa5951ec23ec13d7b84afb961aeb186580e9"
+    },
+    {
+      "path": "teams/Nottingham Forest.png",
+      "bytes": 137385,
+      "sha256": "ca8d16763dda9a64eeaca93162cfbc088f9cdd99c3b2dfe7cf2ddd019682b859"
+    },
+    {
+      "path": "teams/Paris_Saint-Germain.png",
+      "bytes": 107255,
+      "sha256": "c53ea4912ebe341b7951de6ac27feaa24ca406729ebc6dcc0a4afce1994cfc7d"
+    },
+    {
+      "path": "teams/Rmadrid.png",
+      "bytes": 50064,
+      "sha256": "436f841e3a09fdfd1733192bcb3023400a4536ac2560fe966dd52db4eb0a7513"
+    },
+    {
+      "path": "teams/Sunderland.png",
+      "bytes": 51046,
+      "sha256": "bb359e3ecbe8bd3c8aec144967632fa9341010bbd051b9821dea75c4b6b93873"
+    },
+    {
+      "path": "terms.html",
+      "bytes": 13152,
+      "sha256": "78dc149245bba49bf09984898a039df5dc6f37dc3adf926c45cb147a11c687e3"
+    },
+    {
+      "path": "tv96-banner.png",
+      "bytes": 2330655,
+      "sha256": "3f4fd7bb9d1ebf105c6aa0f39aa8c13a595ff6b711c1059b69defb5377884d40"
+    },
+    {
+      "path": "vercel.json",
+      "bytes": 5225,
+      "sha256": "6b359c180e6cb0974d059212c7897d73058246a850775fd41fd96067fe5776fc"
+    },
+    {
+      "path": "watch-live.html",
+      "bytes": 22640,
+      "sha256": "ea1d66f8febdf53f2c666355f48b920e244c632a5158507b5e3df0196e2c333d"
+    }
+  ],
+  "counts": {
+    "files": 251,
+    "published": 16,
+    "unpublished": 16,
+    "sitemap": 24
+  },
+  "articles": [
+    {
+      "id": 3,
+      "title": "How to Read World Cup Knockout Assist Statistics",
+      "description": "A careful way to compare knockout assists: define the competition stage, check the counting method and look beyond the final pass.",
+      "image": "",
+      "imageCandidate": "news image/3.jpg",
+      "category": "FIFA World Cup",
+      "articleType": "Editorial analysis",
+      "author": "TV96 Live Editorial Team",
+      "publishedAt": "2026-07-14T12:02:02+03:00",
+      "updatedAt": "2026-10-12",
+      "sources": [
+        {
+          "name": "FIFA: Netherlands–Argentina 2022 full-time match report (pages 2 and 5)",
+          "url": "https://fdp.fifa.org/assetspublic/ce44/r2859/pdf/FullTimeMatchReport-English.pdf"
+        },
+        {
+          "name": "Opta Analyst: contemporary analysis of Messi’s pass to Molina",
+          "url": "https://theanalyst.com/articles/lionel-messi-world-cup-stats-argentina-2022-final"
+        },
+        {
+          "name": "Stats Perform: Opta event definitions — Goal Assist and Fantasy Goal Assist",
+          "url": "https://www.statsperform.com/opta-event-definitions/"
+        },
+        {
+          "name": "Further reading: TV96 Live expected goals explainer",
+          "url": "https://www.tv96live.org/articles/16"
+        }
+      ],
+      "imageCredit": "Original TV96 Live text and geometric artwork",
+      "sourceReviewRequired": false,
+      "imageReviewRequired": true,
+      "isPublished": true,
+      "wordCount": 684,
+      "imageAlt": "TV96 Live - Football News & Guides",
+      "section": "Football Guides",
+      "relatedIds": [
+        16,
+        15,
+        14
+      ],
+      "metadataLine": 60,
+      "bodyLine": 5,
+      "generatedPath": "articles/3.html",
+      "words": 684,
+      "h2": 5,
+      "internalLinks": [
+        "/articles/16"
+      ],
+      "mediaElements": 0,
+      "visibleTextSha256": "b7de5c6ae20920fcaad35d432ae4c189b9288995fad58f359a5c01cdd4f9f27b"
+    },
+    {
+      "id": 9,
+      "title": "Reading a European Draw: Opponents, Travel and Fixture Context",
+      "description": "A practical framework for assessing a European draw without confusing opponent lists, confirmed schedules and predictions.",
+      "category": "Europa League",
+      "articleType": "Editorial analysis",
+      "author": "TV96 Live Editorial Team",
+      "publishedAt": "2026-08-28T15:00:00+03:00",
+      "updatedAt": "2026-10-12",
+      "image": "/images/articles/reading-european-draw.png",
+      "imageAlt": "Reading a European draw: opponents, travel and fixture context - TV96 Live",
+      "imageReviewRequired": true,
+      "isPublished": true,
+      "sources": [
+        {
+          "name": "UEFA: historical 2024/25 Europa League draw results (30 August 2024)",
+          "url": "https://www.uefa.com/uefaeuropaleague/news/0290-1bbc3ce94923-e3a70688bbdd-1000--europa-league-league-phase-draw-contenders-set-for-competitions-new-era/"
+        },
+        {
+          "name": "UEFA: 2024/25 Europa League draw procedure and announced calendar-release date",
+          "url": "https://www.uefa.com/uefaeuropaleague/news/028e-1b11797faef1-56c7d70b74aa-1000--uefa-europa-league-league-phase-draw/"
+        },
+        {
+          "name": "UEFA: published 2024/25 Europa League match calendar (PDF; no independently verified publication timestamp)",
+          "url": "https://editorial.uefa.com/resources/0290-1bbea0181c18-c9285f327c80-1000/draw_results_-_uefa_-_uel_-_league_phase_draw_fixtures_by_matchday.pdf"
+        },
+        {
+          "name": "Manchester United: Tottenham coverage (29 September 2024)",
+          "url": "https://www.manutd.com/en/news/erik-ten-hag-names-team-to-face-tottenham-on-29-september"
+        },
+        {
+          "name": "Manchester United: Aston Villa coverage (6 October 2024)",
+          "url": "https://www.manutd.com/en/news/every-word-from-erik-ten-hag-press-conference-after-aston-villa-0-man-utd-0-on-6-october-2024"
+        },
+        {
+          "name": "Comparison reading: TV96 Live Champions League format explainer",
+          "url": "https://www.tv96live.org/articles/14"
+        },
+        {
+          "name": "Comparison reading only: UEFA 2026/27 Champions League draw announcement; not evidence for the Europa League example",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-215821715a96-9a3b43fad585-1000--uefa-champions-league-league-phase-draw/"
+        }
+      ],
+      "wordCount": 742,
+      "imageCandidate": "/news image/9.png",
+      "imageCredit": "AI-generated editorial illustration for TV96 Live",
+      "section": "Football Guides",
+      "relatedIds": [
+        14,
+        13,
+        23
+      ],
+      "imageType": "original-editorial",
+      "rightsStatus": "reviewed",
+      "brandingReview": "required",
+      "metadataLine": 208,
+      "bodyLine": 11,
+      "generatedPath": "articles/9.html",
+      "words": 742,
+      "h2": 5,
+      "internalLinks": [
+        "/articles/14",
+        "/news"
+      ],
+      "mediaElements": 0,
+      "visibleTextSha256": "74f4dbf5a07cbca245018c3bed55530d0e1d7e1b77d590925a666d4d396dbf33"
+    },
+    {
+      "id": 10,
+      "title": "Álvarez in August 2026: Atlético's Statement and the Reported Meeting",
+      "description": "A dated account of Atlético's Barcelona statement and the August 27 reports about Álvarez, separating confirmed positions from reported discussions.",
+      "category": "Premier League",
+      "articleType": "Sourced news summary and analysis",
+      "author": "TV96 Live Editorial Team",
+      "publishedAt": "2026-08-28T15:30:00+03:00",
+      "updatedAt": "2026-09-22",
+      "image": "/images/articles/alvarez-meeting-report.png",
+      "imageAlt": "Illustration of an empty meeting room for the Alvarez meeting report - TV96 Live",
+      "imageReviewRequired": true,
+      "isPublished": true,
+      "sources": [
+        {
+          "name": "Atlético de Madrid",
+          "url": "https://en.atleticodemadrid.com/noticias/unanimous-support-from-the-board-of-directors-for-the-club-s-strategy"
+        },
+        {
+          "name": "Cadena SER",
+          "url": "https://cadenaser.com/nacional/2026/08/27/julian-alvarez-con-su-futuro-en-el-aire-ha-tenido-una-reunion-de-mas-de-cinco-horas-para-decidir-que-hacer-cadena-ser/"
+        },
+        {
+          "name": "Sky Sports",
+          "url": "https://www.skysports.com/football/news/11095/13577751/julian-alvarez-transfer-news-atletico-madrid-wont-sell-striker-to-barcelona-with-arsenal-the-only-option"
+        }
+      ],
+      "wordCount": 324,
+      "imageCandidate": "/news image/10.png",
+      "imageCredit": "AI-generated editorial illustration for TV96 Live",
+      "section": "Archived Reports",
+      "relatedIds": [
+        32,
+        21,
+        12
+      ],
+      "imageType": "original-editorial",
+      "rightsStatus": "reviewed",
+      "brandingReview": "required",
+      "metadataLine": 246,
+      "bodyLine": 12,
+      "generatedPath": "articles/10.html",
+      "words": 324,
+      "h2": 4,
+      "internalLinks": [
+        "/articles/21",
+        "/articles/12"
+      ],
+      "mediaElements": 0,
+      "visibleTextSha256": "762dc15d7e430bb7ec3b728ddf5bd1a0498a215e9addb667b0a82f8f3ae868ef"
+    },
+    {
+      "id": 12,
+      "title": "How the Premier League Works: Complete Guide",
+      "description": "Understand the Premier League's 20-team season, points, table, tiebreakers, title, relegation and European routes with worked examples.",
+      "category": "Premier League",
+      "section": "Football Guides",
+      "relatedIds": [
+        15,
+        18,
+        19
+      ],
+      "articleType": "Evergreen guide",
+      "author": "TV96 Live Editorial Team",
+      "publishedAt": "2026-09-05T12:00:00+03:00",
+      "image": "/images/articles/premier-league-guide.png",
+      "sources": [
+        {
+          "name": "Premier League: competition explained",
+          "url": "https://www.premierleague.com/en/premier-league-explained"
+        },
+        {
+          "name": "Premier League: relegation and tiebreakers",
+          "url": "https://www.premierleague.com/en/news/4657245/202526-premier-league-relegation-faq"
+        },
+        {
+          "name": "Premier League: European qualification routes",
+          "url": "https://www.premierleague.com/en/news/373663"
+        }
+      ],
+      "isPublished": true,
+      "wordCount": 881,
+      "imageAlt": "How the Premier League works: complete guide - TV96 Live",
+      "imageCredit": "AI-generated editorial artwork for TV96 Live",
+      "updatedAt": "2026-09-22",
+      "imageType": "original-editorial",
+      "rightsStatus": "reviewed",
+      "brandingReview": "required",
+      "metadataLine": 310,
+      "bodyLine": 14,
+      "generatedPath": "articles/12.html",
+      "words": 881,
+      "h2": 7,
+      "internalLinks": [
+        "/articles/15",
+        "/articles/16",
+        "/articles/18",
+        "/articles/19",
+        "/matches",
+        "/standings?league=Premier%20League"
+      ],
+      "mediaElements": 0,
+      "visibleTextSha256": "75e884a020b33b24054743c12bc88ce3196bf23527140170e162c030262fba66"
+    },
+    {
+      "id": 13,
+      "title": "How Champions League Qualification Works",
+      "description": "Separate domestic league places, qualifying rounds, European Performance Spots and title-holder routes into the Champions League.",
+      "category": "Champions League",
+      "section": "Football Guides",
+      "relatedIds": [
+        14,
+        19
+      ],
+      "articleType": "Evergreen guide",
+      "author": "TV96 Live Editorial Team",
+      "publishedAt": "2026-09-05T12:00:00+03:00",
+      "image": "/images/articles/champions-league-qualification.png",
+      "sources": [
+        {
+          "name": "UEFA: Champions League format and access",
+          "url": "https://www.uefa.com/news-media/news/0268-12157d69ce2d-9f011c70f6fa-1000--how-clubs-qualify-for-europe/"
+        },
+        {
+          "name": "UEFA: European Performance Spots",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a2-1fdbe9a25733-8d37ff5f9226-1000--202627-uefa-champions-league-which-teams-are-in-the-european-performance-spots-as-it-stands/"
+        },
+        {
+          "name": "UEFA 2026/27: Article 3 - entries, title holders and performance spots",
+          "url": "https://documents.uefa.com/r/Regulations-of-the-UEFA-Champions-League-2026/27/Article-3-Entries-for-the-competition-Online?contentId=EgXhqnzQsuW60mwbyCqWtw"
+        },
+        {
+          "name": "UEFA 2026/27: Annex A - access list",
+          "url": "https://documents.uefa.com/r/Regulations-of-the-UEFA-Champions-League-2026/27/Annex-A-Access-List-for-the-2026/27-UEFA-Club-Competitions-Online?contentId=aLaDNKItLtBltlOvVMG_jw"
+        }
+      ],
+      "isPublished": true,
+      "wordCount": 823,
+      "imageAlt": "How Champions League qualification works - TV96 Live",
+      "imageCredit": "AI-generated editorial artwork for TV96 Live",
+      "updatedAt": "2026-09-22",
+      "imageType": "original-editorial",
+      "rightsStatus": "reviewed",
+      "brandingReview": "required",
+      "metadataLine": 345,
+      "bodyLine": 15,
+      "generatedPath": "articles/13.html",
+      "words": 823,
+      "h2": 6,
+      "internalLinks": [
+        "/articles/14",
+        "/standings",
+        "/articles/19",
+        "/articles/14"
+      ],
+      "mediaElements": 0,
+      "visibleTextSha256": "9db16a089f42878bacb2eeeca150df2d9a7edf174d38f699832e99811caa7b12"
+    },
+    {
+      "id": 14,
+      "title": "Champions League Format Explained",
+      "description": "A practical guide to the 36-team league phase, eight fixtures, top-eight race, knockout play-offs, aggregate scores and final.",
+      "category": "Champions League",
+      "section": "Football Guides",
+      "relatedIds": [
+        13,
+        9,
+        17
+      ],
+      "articleType": "Evergreen guide",
+      "author": "TV96 Live Editorial Team",
+      "publishedAt": "2026-09-05T12:00:00+03:00",
+      "image": "/images/articles/champions-league-format.png",
+      "sources": [
+        {
+          "name": "UEFA: Champions League format and access",
+          "url": "https://www.uefa.com/news-media/news/0268-12157d69ce2d-9f011c70f6fa-1000--how-clubs-qualify-for-europe/"
+        },
+        {
+          "name": "UEFA 2026/27: Article 17 - league phase and progression",
+          "url": "https://documents.uefa.com/r/Regulations-of-the-UEFA-Champions-League-2026/27/Article-17-Match-system-league-phase-Online?contentId=z80npkZwtB5MkmwVqnk6XA"
+        },
+        {
+          "name": "UEFA 2026/27: Article 18 - league-phase tiebreakers",
+          "url": "https://documents.uefa.com/r/Regulations-of-the-UEFA-Champions-League-2026/27/Article-18-Equality-of-points-league-phase-Online?contentId=d~m2tmtG82UhZujMH0i~aQ"
+        },
+        {
+          "name": "UEFA 2026/27: Article 20 - two legs and aggregate score",
+          "url": "https://documents.uefa.com/r/Regulations-of-the-UEFA-Champions-League-2026/27/Article-20-Match-system-knockout-phase-Online?contentId=5j1kwD2WHBsLErtGHWuxOA"
+        },
+        {
+          "name": "UEFA 2026/27: Article 21 - extra time and penalties",
+          "url": "https://documents.uefa.com/r/Regulations-of-the-UEFA-Champions-League-2026/27/Article-21-Knockout-system-extra-time-and-penalty-shoot-outs-Online?contentId=aBOyMYjtgYYIYwn~YRHF5Q"
+        },
+        {
+          "name": "UEFA 2026/27: Article 22 - the final",
+          "url": "https://documents.uefa.com/r/Regulations-of-the-UEFA-Champions-League-2026/27/Article-22-Match-system-final-Online?contentId=p6pndZ3IAsUzrTVR64sVPw"
+        }
+      ],
+      "isPublished": true,
+      "wordCount": 951,
+      "imageAlt": "Champions League format explained - TV96 Live",
+      "imageCredit": "Original TV96 Live text and geometric artwork",
+      "updatedAt": "2026-09-22",
+      "imageType": "original-editorial",
+      "rightsStatus": "reviewed",
+      "brandingReview": "required",
+      "metadataLine": 383,
+      "bodyLine": 16,
+      "generatedPath": "articles/14.html",
+      "words": 951,
+      "h2": 7,
+      "internalLinks": [
+        "/articles/13",
+        "/articles/15",
+        "/articles/9",
+        "/matches",
+        "/standings?league=UEFA%20Champions%20League"
+      ],
+      "mediaElements": 0,
+      "visibleTextSha256": "b1a17d844aa46b3b43209a9eb8931f91ed69fe35a9c3048d6667ad531fcbb9b0"
+    },
+    {
+      "id": 15,
+      "title": "What Is Goal Difference in Football?",
+      "description": "Learn GF, GA and GD with positive and negative examples, table comparisons, two-team swings and competition-specific tiebreaking cautions.",
+      "category": "Football Guides",
+      "section": "Football Guides",
+      "relatedIds": [
+        12,
+        18
+      ],
+      "articleType": "Evergreen guide",
+      "author": "TV96 Live Editorial Team",
+      "publishedAt": "2026-09-05T12:00:00+03:00",
+      "image": "/images/articles/goal-difference-football.png",
+      "sources": [
+        {
+          "name": "Premier League: competition explained",
+          "url": "https://www.premierleague.com/en/premier-league-explained"
+        },
+        {
+          "name": "Premier League: relegation and tiebreakers",
+          "url": "https://www.premierleague.com/en/news/4657245/202526-premier-league-relegation-faq"
+        },
+        {
+          "name": "Lega Serie A: relegation play-off context",
+          "url": "https://en.legaseriea.it/serie-a/news/the-final-reckoning-lecce-and-cremonese-face-a-decisive-final-day"
+        }
+      ],
+      "isPublished": true,
+      "wordCount": 782,
+      "imageAlt": "What is goal difference in football? - TV96 Live",
+      "imageCredit": "AI-generated editorial artwork for TV96 Live",
+      "imageType": "original-editorial",
+      "rightsStatus": "reviewed",
+      "brandingReview": "required",
+      "metadataLine": 430,
+      "bodyLine": 17,
+      "generatedPath": "articles/15.html",
+      "words": 782,
+      "h2": 6,
+      "internalLinks": [
+        "/articles/12",
+        "/articles/16",
+        "/standings"
+      ],
+      "mediaElements": 0,
+      "visibleTextSha256": "22faabf584d7cad91eef21bd46dbe0c4bcb943c03bfffc0537348f4abb51f771"
+    },
+    {
+      "id": 16,
+      "title": "What Is Expected Goals (xG)?",
+      "description": "Understand shot quality, match xG totals, differences between providers and the limits of using expected goals to assess a performance.",
+      "category": "Football Guides",
+      "section": "Football Guides",
+      "relatedIds": [
+        3,
+        15,
+        17
+      ],
+      "articleType": "Evergreen guide",
+      "author": "TV96 Live Editorial Team",
+      "publishedAt": "2026-09-05T12:00:00+03:00",
+      "image": "/images/articles/expected-goals-xg.png",
+      "sources": [
+        {
+          "name": "Hudl Statsbomb: expected goals methodology",
+          "url": "https://statsbomb.com/soccer-metrics/expected-goals-xg-explained/"
+        }
+      ],
+      "isPublished": true,
+      "wordCount": 823,
+      "imageAlt": "What is expected goals (xG)? - TV96 Live",
+      "imageCredit": "AI-generated editorial artwork for TV96 Live",
+      "imageType": "original-editorial",
+      "rightsStatus": "reviewed",
+      "brandingReview": "required",
+      "metadataLine": 463,
+      "bodyLine": 18,
+      "generatedPath": "articles/16.html",
+      "words": 823,
+      "h2": 6,
+      "internalLinks": [
+        "/matches",
+        "/articles/15"
+      ],
+      "mediaElements": 0,
+      "visibleTextSha256": "9d220f23e451d787c25c164b7abc1a598d8a2e03cc37cb0d4b2889c36d3a83d6"
+    },
+    {
+      "id": 17,
+      "title": "How VAR Works in Football",
+      "description": "Understand checks, reviews and referee decisions, including the 2026/27 second-yellow changes and optional immediate corner corrections.",
+      "category": "Football Guides",
+      "section": "Football Guides",
+      "relatedIds": [
+        16,
+        12,
+        14
+      ],
+      "articleType": "Evergreen guide",
+      "author": "TV96 Live Editorial Team",
+      "publishedAt": "2026-09-05T12:00:00+03:00",
+      "image": "/images/articles/how-var-works.png",
+      "sources": [
+        {
+          "name": "IFAB: VAR protocol (2026/27)",
+          "url": "https://www.theifab.com/laws/latest/video-assistant-referee-var-protocol/"
+        },
+        {
+          "name": "IFAB: latest law changes",
+          "url": "https://theifab.com/law-changes/latest/"
+        }
+      ],
+      "isPublished": true,
+      "wordCount": 839,
+      "imageAlt": "How VAR works in football - TV96 Live",
+      "imageCredit": "AI-generated editorial artwork for TV96 Live",
+      "imageType": "original-editorial",
+      "rightsStatus": "reviewed",
+      "brandingReview": "required",
+      "metadataLine": 489,
+      "bodyLine": 19,
+      "generatedPath": "articles/17.html",
+      "words": 839,
+      "h2": 6,
+      "internalLinks": [
+        "/matches",
+        "/news?category=Football%20Guides"
+      ],
+      "mediaElements": 0,
+      "visibleTextSha256": "6f1c67e99c2e067e9bed38b054fc6b32b422a27af519744f6f733ecdcd00ec98"
+    },
+    {
+      "id": 18,
+      "title": "Premier League Relegation Explained",
+      "description": "How the bottom three go down, Championship promotion works and survival calculations depend on points, tiebreakers and remaining fixtures.",
+      "category": "Premier League",
+      "section": "Football Guides",
+      "relatedIds": [
+        12,
+        15
+      ],
+      "articleType": "Evergreen guide",
+      "author": "TV96 Live Editorial Team",
+      "publishedAt": "2026-09-05T12:00:00+03:00",
+      "image": "/images/articles/premier-league-relegation.png",
+      "sources": [
+        {
+          "name": "Premier League: relegation and tiebreakers",
+          "url": "https://www.premierleague.com/en/news/4657245/202526-premier-league-relegation-faq"
+        },
+        {
+          "name": "Premier League: competition explained",
+          "url": "https://www.premierleague.com/en/premier-league-explained"
+        },
+        {
+          "name": "EFL: Championship play-off format change",
+          "url": "https://www.efl.com/news/2026/march/05/efl-statement--sky-bet-championship-play-off-format/"
+        }
+      ],
+      "isPublished": true,
+      "wordCount": 841,
+      "imageAlt": "Premier League relegation explained - TV96 Live",
+      "imageCredit": "AI-generated editorial artwork for TV96 Live",
+      "updatedAt": "2026-09-22",
+      "imageType": "original-editorial",
+      "rightsStatus": "reviewed",
+      "brandingReview": "required",
+      "metadataLine": 519,
+      "bodyLine": 20,
+      "generatedPath": "articles/18.html",
+      "words": 841,
+      "h2": 7,
+      "internalLinks": [
+        "/articles/15",
+        "/standings?league=Premier%20League",
+        "/matches"
+      ],
+      "mediaElements": 0,
+      "visibleTextSha256": "b34a96ffaf90f06f0330a27c01c712ee73df6593e0277d229d4c30d7aa62e3c1"
+    },
+    {
+      "id": 19,
+      "title": "How European Qualification Works in the Premier League",
+      "description": "Follow England's European places through league finishes, domestic cups, additional performance spots and overlapping title-holder routes.",
+      "category": "Premier League",
+      "section": "Football Guides",
+      "relatedIds": [
+        13,
+        14,
+        12
+      ],
+      "articleType": "Evergreen guide",
+      "author": "TV96 Live Editorial Team",
+      "publishedAt": "2026-09-05T12:00:00+03:00",
+      "image": "/images/articles/premier-league-european-qualification.png",
+      "sources": [
+        {
+          "name": "Premier League: European qualification routes",
+          "url": "https://www.premierleague.com/en/news/373663"
+        },
+        {
+          "name": "UEFA: European Performance Spots",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a2-1fdbe9a25733-8d37ff5f9226-1000--202627-uefa-champions-league-which-teams-are-in-the-european-performance-spots-as-it-stands/"
+        },
+        {
+          "name": "UEFA 2026/27: Article 3 - entries, title holders and performance spots",
+          "url": "https://documents.uefa.com/r/Regulations-of-the-UEFA-Champions-League-2026/27/Article-3-Entries-for-the-competition-Online?contentId=EgXhqnzQsuW60mwbyCqWtw"
+        },
+        {
+          "name": "UEFA 2026/27: Annex A - access list",
+          "url": "https://documents.uefa.com/r/Regulations-of-the-UEFA-Champions-League-2026/27/Annex-A-Access-List-for-the-2026/27-UEFA-Club-Competitions-Online?contentId=aLaDNKItLtBltlOvVMG_jw"
+        }
+      ],
+      "isPublished": true,
+      "wordCount": 904,
+      "imageAlt": "How European qualification works in the Premier League - TV96 Live",
+      "imageCredit": "AI-generated editorial artwork for TV96 Live",
+      "updatedAt": "2026-09-22",
+      "imageType": "original-editorial",
+      "rightsStatus": "reviewed",
+      "brandingReview": "required",
+      "metadataLine": 553,
+      "bodyLine": 21,
+      "generatedPath": "articles/19.html",
+      "words": 904,
+      "h2": 7,
+      "internalLinks": [
+        "/articles/13",
+        "/standings?league=Premier%20League",
+        "/matches",
+        "/articles/12"
+      ],
+      "mediaElements": 0,
+      "visibleTextSha256": "79ec88ede26992f09db469cd38ada5cadc8f75ae6585f1f7508c463c79b1100e"
+    },
+    {
+      "id": 21,
+      "title": "La Liga Guide",
+      "description": "Follow Spain's top flight with its season structure, head-to-head ranking context, European routes and practical tactical viewing questions.",
+      "category": "La Liga",
+      "section": "League & Competition Guides",
+      "relatedIds": [
+        22,
+        23,
+        13
+      ],
+      "articleType": "Evergreen guide",
+      "author": "TV96 Live Editorial Team",
+      "publishedAt": "2026-09-05T12:00:00+03:00",
+      "image": "/images/articles/la-liga-guide.png",
+      "sources": [
+        {
+          "name": "RFEF: 2026/27 Primera and Segunda Division competition regulations - Article 10, pages 6-7",
+          "url": "https://rfef.es/sites/default/files/pdf/circulares/1._Circular_84_-_CNL_Primera_y_Segunda_Division___Anexo.pdf?cb=6df81e55"
+        },
+        {
+          "name": "LALIGA: official standings and competition information",
+          "url": "https://www.laliga.com/en-GB/laliga-easports/standing"
+        }
+      ],
+      "isPublished": true,
+      "wordCount": 1083,
+      "imageAlt": "La Liga guide - TV96 Live",
+      "imageCredit": "AI-generated editorial artwork for TV96 Live",
+      "updatedAt": "2026-10-13",
+      "imageType": "original-editorial",
+      "rightsStatus": "reviewed",
+      "brandingReview": "required",
+      "metadataLine": 622,
+      "bodyLine": 23,
+      "generatedPath": "articles/21.html",
+      "words": 1083,
+      "h2": 7,
+      "internalLinks": [
+        "/articles/15",
+        "/articles/13",
+        "/matches",
+        "/standings?league=La%20Liga",
+        "/articles/23"
+      ],
+      "mediaElements": 0,
+      "visibleTextSha256": "6a63cd25f3bc771743057a86943b5d699780c72b539817f596318692c8895427"
+    },
+    {
+      "id": 22,
+      "title": "Serie A Guide",
+      "description": "A guide to Italy's league season, decisive tied-position play-offs, European routes and reading the tactical contest beyond formation graphics.",
+      "category": "Serie A",
+      "section": "League & Competition Guides",
+      "relatedIds": [
+        21,
+        15,
+        16
+      ],
+      "articleType": "Evergreen guide",
+      "author": "TV96 Live Editorial Team",
+      "publishedAt": "2026-09-05T12:00:00+03:00",
+      "image": "/images/articles/serie-a-guide.png",
+      "sources": [
+        {
+          "name": "FIGC: 2026/27 regulation 244/A — championship and survival ties, mini-table criteria and UEFA-finalist exception, clauses i–iv",
+          "url": "https://files.figc.it/version/c%3AZmUzYzk0MzUtMzU0Zi00%3AYTk3YzZiZGEtYmExYi00/244%20-%20Deroga%20art.%2051%20NOIF%20-%20Determinazione%20classifica%20Campionato%20Serie%20A%20ss%202026%20-%202027.pdf"
+        },
+        {
+          "name": "Historical context: Lega Serie A — 2025/26 Lecce–Cremonese survival scenario; not authority for the 2026/27 procedure",
+          "url": "https://en.legaseriea.it/serie-a/news/the-final-reckoning-lecce-and-cremonese-face-a-decisive-final-day"
+        },
+        {
+          "name": "Lega Serie A: the first unified championship",
+          "url": "https://www.legaseriea.it/serie-a/news/96-anni-fa-l-inter-vinceva-il-primo-scudetto-a-girone-unico"
+        }
+      ],
+      "isPublished": true,
+      "wordCount": 1168,
+      "imageAlt": "Serie A guide - TV96 Live",
+      "imageCredit": "AI-generated editorial artwork for TV96 Live",
+      "updatedAt": "2026-10-13",
+      "imageType": "original-editorial",
+      "rightsStatus": "reviewed",
+      "brandingReview": "required",
+      "metadataLine": 650,
+      "bodyLine": 24,
+      "generatedPath": "articles/22.html",
+      "words": 1168,
+      "h2": 7,
+      "internalLinks": [
+        "/articles/15",
+        "/articles/16",
+        "/standings?league=Serie%20A",
+        "/matches",
+        "/articles/13"
+      ],
+      "mediaElements": 0,
+      "visibleTextSha256": "5ff0f04913e6653885533b0a2ce28dacce3f8fceb5b37931ed3b9eddaf468ed4"
+    },
+    {
+      "id": 23,
+      "title": "Bundesliga Guide",
+      "description": "Understand Germany's 18-team league, 34-match schedule, relegation play-off and the different boundaries at the bottom of the table.",
+      "category": "Bundesliga",
+      "section": "League & Competition Guides",
+      "relatedIds": [
+        24,
+        15,
+        13
+      ],
+      "articleType": "Evergreen guide",
+      "author": "TV96 Live Editorial Team",
+      "publishedAt": "2026-09-05T12:00:00+03:00",
+      "image": "/images/articles/bundesliga-guide.png",
+      "sources": [
+        {
+          "name": "Bundesliga: promotion and relegation",
+          "url": "https://www.bundesliga.com/en/bundesliga/news/how-does-promotion-and-relegation-work-in-the-bundesliga-10645"
+        },
+        {
+          "name": "Bundesliga: competition FAQ",
+          "url": "https://www.bundesliga.com/en/faq/10-things-on-the-bundesliga"
+        }
+      ],
+      "isPublished": true,
+      "wordCount": 814,
+      "imageAlt": "Bundesliga guide - TV96 Live",
+      "imageCredit": "AI-generated editorial artwork for TV96 Live",
+      "imageType": "original-editorial",
+      "rightsStatus": "reviewed",
+      "brandingReview": "required",
+      "metadataLine": 682,
+      "bodyLine": 25,
+      "generatedPath": "articles/23.html",
+      "words": 814,
+      "h2": 7,
+      "internalLinks": [
+        "/articles/15",
+        "/articles/13",
+        "/matches",
+        "/standings?league=Bundesliga"
+      ],
+      "mediaElements": 0,
+      "visibleTextSha256": "0526e1bf095b9b1ab7b37a0339094d29ac826ec329f8d09e7b4ee223158f8b03"
+    },
+    {
+      "id": 24,
+      "title": "Ligue 1 Guide",
+      "description": "Explore Ligue 1's 18-club season, European qualification, Ligue 2 play-off route and a practical approach to following French football.",
+      "category": "Ligue 1",
+      "section": "League & Competition Guides",
+      "relatedIds": [
+        23,
+        13,
+        15
+      ],
+      "articleType": "Evergreen guide",
+      "author": "TV96 Live Editorial Team",
+      "publishedAt": "2026-09-05T12:00:00+03:00",
+      "image": "/images/articles/ligue-1-guide.png",
+      "updatedAt": "2026-10-13",
+      "sources": [
+        {
+          "name": "LFP: 2026/27 regulations — Article 519 (promotion/relegation), Article 519 ter (playoff format)",
+          "url": "https://www.lfp.fr/assets/26_27_LFP_STATUTS_REGLEMENTS_08_09_2026_f2aaaaa325.pdf"
+        },
+        {
+          "name": "LFP: official 2026/27 Ligue 2 calendar and playoff pathway",
+          "url": "https://www.lfp.fr/article/ligue-2-bkt-le-calendrier-de-la-saison-2026-2027"
+        },
+        {
+          "name": "Historical context (2024): Ligue 1 survival and relegation positions",
+          "url": "https://ligue1.com/en/articles/l1_article_93-"
+        },
+        {
+          "name": "Historical context (11 May 2026, 2025/26 season): Ligue 2 play-off route",
+          "url": "https://ligue1.com/en/articles/l1_article_5074-"
+        },
+        {
+          "name": "LFP: 2026/27 regulations — Article 518 ter, printed page 121: tiebreaking order and head-to-head applicability.",
+          "url": "https://www.lfp.fr/assets/26_27_LFP_STATUTS_REGLEMENTS_08_09_2026_f2aaaaa325.pdf"
+        }
+      ],
+      "isPublished": true,
+      "wordCount": 1205,
+      "imageAlt": "Ligue 1 guide - TV96 Live",
+      "imageCredit": "AI-generated editorial artwork for TV96 Live",
+      "imageType": "original-editorial",
+      "rightsStatus": "reviewed",
+      "brandingReview": "required",
+      "metadataLine": 712,
+      "bodyLine": 26,
+      "generatedPath": "articles/24.html",
+      "words": 1205,
+      "h2": 7,
+      "internalLinks": [
+        "/articles/13",
+        "/articles/15",
+        "/matches",
+        "/standings?league=Ligue%201",
+        "/articles/23"
+      ],
+      "mediaElements": 0,
+      "visibleTextSha256": "582cf60db90be8bd4466f67b3b2df0d9063721fa0856a7dff990770d9a5d8b66"
+    },
+    {
+      "id": 32,
+      "title": "JJ Gabriel, 15, Asks to Leave Manchester United as Club Fight to Keep Highly Rated Prospect",
+      "description": "Archived report first published 15 September 2026: BBC Sport reported that JJ Gabriel had requested cancellation of his Manchester United registration. This account describes the situation reported at that time.",
+      "category": "Manchester United / Archived Reports",
+      "section": "Archived Reports",
+      "relatedIds": [
+        10,
+        12,
+        16
+      ],
+      "articleType": "Archived report",
+      "author": "TV96 Live Editorial Team",
+      "publishedAt": "2026-09-15T20:00:00+03:00",
+      "updatedAt": "2026-10-11",
+      "image": "/images/articles/jj-gabriel.png",
+      "imageAlt": "JJ Gabriel in a Manchester United shirt with the club crest and stadium background",
+      "imageType": "user-provided",
+      "rightsStatus": "user-provided",
+      "imageReviewRequired": true,
+      "brandingReview": "required",
+      "imageCredit": "Image supplied by the TV96 Live publisher",
+      "sources": [
+        {
+          "name": "BBC Sport: JJ Gabriel asks to leave Manchester United",
+          "url": "https://www.bbc.co.uk/sport/football/articles/c95y4dxr0v6do"
+        },
+        {
+          "name": "Manchester Evening News: JJ Gabriel and Ryan Giggs context",
+          "url": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-utd-jj-gabriel-carrick-34607865"
+        }
+      ],
+      "isPublished": true,
+      "wordCount": 956,
+      "metadataLine": 836,
+      "bodyLine": 28,
+      "generatedPath": "articles/32.html",
+      "words": 956,
+      "h2": 6,
+      "internalLinks": [
+        "/articles/12",
+        "/matches"
+      ],
+      "mediaElements": 0,
+      "visibleTextSha256": "d827812f08dda061a219c0dbe2d7d2a1488ef26d50ebedcd8444d2e0c6848a25"
+    }
+  ],
+  "exactRepeatedParagraphs": [
+    {
+      "text": "UEFA Article 3 sets out the 2026/27 entry provisions, including title holders, vacancies and performance spots.",
+      "ids": [
+        13,
+        19
+      ]
+    }
+  ],
+  "retirements": {
+    "removed": [
+      1,
+      2,
+      4,
+      7,
+      11
+    ],
+    "merged": {
+      "8": 10,
+      "20": 12,
+      "25": 14
+    }
+  }
+}

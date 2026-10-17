@@ -1,0 +1,530 @@
+{
+  "checkedAt": "2026-10-13T00:10:41.689Z",
+  "mode": "Unmocked live Chromium; fresh profile, no geographic emulation; timed observation, third-party/ad delivery not guaranteed",
+  "results": [
+    {
+      "route": "/",
+      "width": 1440,
+      "url": "https://www.tv96live.org/",
+      "title": "TV96 Live - Football News, Fixtures and Guides",
+      "canonical": "https://www.tv96live.org/",
+      "robots": "index, follow",
+      "bodyText": "Home\nMatches\nLatest News\nAbout Us\nPrivacy\nPremier League\nLa Liga\nSerie A\nLigue 1\nBundesliga\nUEFA Champions League\nEuropa League\nFeatured\n\nUnderstand the rules, follow the leagues and explore the stories\n\nView News & Guides\nManchester United / Latest News\nJJ Gabriel, 15, Asks to Leave Manchester United as Club Fight to Keep Highly Rated Prospect\n15 Sept 2026\n5 min read\n\nBBC Sport reports JJ Gabriel has asked for his Manchester United registration to be cancelled. United are seeking a resolution as the 15-year-old forward's future remains unsettled.\n\nRead full story →\nLigue 1\nLigue 1 Guide\n5 Sept 2026\n4 min read\nBundesliga\nBundesliga Guide\n5 Sept 2026\n4 min read\nSerie A\nSerie A Guide\n5 Sept 2026\n4 min read\nToday's Matches\n\nLive scores and upcoming fixtures\n\n2 Live\nUpdated 03:10\nYesterday\nToday\nTomorrow\nCampeonato Brasileiro Série A\nChapecoense\n1\nParanaense\n3\n01:30\nLive\nIn progress\nCampeonato Brasileiro Série A\nBragantino\n0\nCruzeiro\n0\n03:00\nLive\nIn progress\nUEFA Champions League\nRC Lens\n0\nSporting CP\n0\n19:45\nUpcoming\nStarts in 17 hr\nUEFA Champions League\nSabah FK\n0\nSlavia Praha\n0\n19:45\nUpcoming\nStarts in 17 hr\nChampionship\nBurnley\n0\nCharlton\n0\n21:45\nUpcoming\nStarts in 19 hr\nChampionship\nWolverhampton\n0\nBolton\n0\n21:45\nUpcoming\nStarts in 19 hr\nChampionship\nMillwall\n0\nSwansea\n0\n21:45\nUpcoming\nStarts in 19 hr\nChampionship\nCardiff\n0\nWatford\n0\n21:45\nUpcoming\nStarts in 19 hr\nChampionship\nBristol City\n0\nBlackburn\n0\n21:45\nUpcoming\nStarts in 19 hr\nChampionship\nWrexham\n0\nWest Brom\n0\n21:45\nUpcoming\nStarts in 19 hr\nUEFA Champions League\nViking\n0\nBayern\n0\n22:00\nUpcoming\nStarts in 19 hr\nUEFA Champions League\nInter\n0\nClub Brugge\n0\n22:00\nUpcoming\nStarts in 19 hr\nUEFA Champions League\nVillarreal\n0\nNapoli\n0\n22:00\nUpcoming\nStarts in 19 hr\nUEFA Champions League\nAtleti\n0\nMan United\n0\n22:00\nUpcoming\nStarts in 19 hr\nChampionship\nBirmingham\n0\nPreston NE\n0\n22:00\nUpcoming\nStarts in 19 hr\nUEFA Champions League\nRB Leipzig\n0\nPSV\n0\n22:00\nUpcoming\nStarts in 19 hr\nUEFA Champions League\nGalatasaray\n0\nBarça\n0\n22:00\nUpcoming\nStarts in 19 hr\nUEFA Champions League\nArsenal\n0\nLille\n0\n22:00\nUpcoming\nStarts in 19 hr\nChampionship\nStoke\n0\nMiddlesbrough\n0\n22:00\nUpcoming\nStarts in 19 hr\nPopular Leagues\nChampions League\nPremier League\nLa Liga\nSerie A\nLigue 1\nBundesliga\nJoin Us\n\nJoin us on TikTok for the latest highlights and videos!\n\nFOLLOW US\nAbout Us - TV96 Live\n\nTV96 Live is a large platform built for football fans wherever they are. We provide live match results (Live Scores), fact-based analysis, and the latest transfer market news. Our goal is to connect fans with their teams.\n\nFootball news, fixtures, standings and match updates for fans worldwide.\n\nQUICK LINKS\nHome\nMatches\nNews\nAbout\nContact\nPrivacy Policy\nTerms of Use\nCONTACT US\n\n© 2026 www.tv96live.org - All rights reserved.",
+      "overflow": false,
+      "brokenImages": [
+        {
+          "url": "https://www.tv96live.org/",
+          "id": "matchModalHomeLogo",
+          "src": "",
+          "visible": false
+        }
+      ],
+      "links": [
+        "https://www.tv96live.org/",
+        "https://www.tv96live.org/matches",
+        "https://www.tv96live.org/news",
+        "https://www.tv96live.org/about",
+        "https://www.tv96live.org/privacy"
+      ],
+      "adFrames": [
+        {
+          "id": "aswift_0",
+          "src": "https://googleads.g.doubleclick.net/pagead/ads",
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "visible": false
+        },
+        {
+          "id": "",
+          "src": "https://ep2.adtrafficquality.google/sodar/sodar2/255/runner.html",
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "visible": false
+        },
+        {
+          "id": "",
+          "src": "https://www.google.com/recaptcha/api2/aframe",
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "visible": false
+        },
+        {
+          "id": "google_esf",
+          "src": "https://googleads.g.doubleclick.net/pagead/html/r20261012/r20190131/zrt_lookup.html",
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "visible": false
+        }
+      ],
+      "videoCount": 0,
+      "cmpPresent": false,
+      "fundingChoices": false,
+      "scriptSources": [
+        "https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202610080101/show_ads_impl.js?bust=122881549",
+        "https://cdn.jsdelivr.net/npm/lucide@0.263.0/dist/umd/lucide.min.js",
+        "https://cdn.tailwindcss.com/3.4.17",
+        "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9924964891667864",
+        "https://cloud.umami.is/script.js",
+        "https://www.tv96live.org/_vercel/insights/script.js",
+        "https://www.tv96live.org/news-data.js",
+        "https://www.tv96live.org/site-config.js",
+        "https://www.tv96live.org/matches-data.js"
+      ],
+      "events": []
+    },
+    {
+      "route": "/matches",
+      "width": 1440,
+      "url": "https://www.tv96live.org/matches",
+      "title": "TV96 Live - Matches",
+      "canonical": "https://www.tv96live.org/matches",
+      "bodyText": "Home\nMatches\nLatest News\nAbout Us\nPrivacy\nPremier League\nLa Liga\nSerie A\nLigue 1\nBundesliga\nUEFA Champions League\nToday's Matches\n\nLive scores and upcoming fixtures\n\n2 Live\nUpdated 03:10\nYesterday\nToday\nTomorrow\nCampeonato Brasileiro Série A\nChapecoense\n1\nParanaense\n3\n01:30\nLive\nIn progress\nCampeonato Brasileiro Série A\nBragantino\n0\nCruzeiro\n0\n03:00\nLive\nIn progress\nUEFA Champions League\nRC Lens\n0\nSporting CP\n0\n19:45\nUpcoming\nStarts in 17 hr\nUEFA Champions League\nSabah FK\n0\nSlavia Praha\n0\n19:45\nUpcoming\nStarts in 17 hr\nChampionship\nBurnley\n0\nCharlton\n0\n21:45\nUpcoming\nStarts in 19 hr\nChampionship\nWolverhampton\n0\nBolton\n0\n21:45\nUpcoming\nStarts in 19 hr\nChampionship\nMillwall\n0\nSwansea\n0\n21:45\nUpcoming\nStarts in 19 hr\nChampionship\nCardiff\n0\nWatford\n0\n21:45\nUpcoming\nStarts in 19 hr\nChampionship\nBristol City\n0\nBlackburn\n0\n21:45\nUpcoming\nStarts in 19 hr\nChampionship\nWrexham\n0\nWest Brom\n0\n21:45\nUpcoming\nStarts in 19 hr\nUEFA Champions League\nViking\n0\nBayern\n0\n22:00\nUpcoming\nStarts in 19 hr\nUEFA Champions League\nInter\n0\nClub Brugge\n0\n22:00\nUpcoming\nStarts in 19 hr\nUEFA Champions League\nVillarreal\n0\nNapoli\n0\n22:00\nUpcoming\nStarts in 19 hr\nUEFA Champions League\nAtleti\n0\nMan United\n0\n22:00\nUpcoming\nStarts in 19 hr\nChampionship\nBirmingham\n0\nPreston NE\n0\n22:00\nUpcoming\nStarts in 19 hr\nUEFA Champions League\nRB Leipzig\n0\nPSV\n0\n22:00\nUpcoming\nStarts in 19 hr\nUEFA Champions League\nGalatasaray\n0\nBarça\n0\n22:00\nUpcoming\nStarts in 19 hr\nUEFA Champions League\nArsenal\n0\nLille\n0\n22:00\nUpcoming\nStarts in 19 hr\nChampionship\nStoke\n0\nMiddlesbrough\n0\n22:00\nUpcoming\nStarts in 19 hr\nCoverage and match times\n\nTV96 displays all matches returned by football-data.org for the FIFA World Cup, UEFA Champions League, Bundesliga, Eredivisie, Campeonato Brasileiro Série A, La Liga, Ligue 1, Championship, Primeira Liga, European Championship, Serie A and Premier League. Coverage depends on the provider and the competitions available to our account; matches are not restricted to selected clubs.\n\nYesterday, Today and Tomorrow use East Africa Time (Africa/Nairobi, UTC+3). Kick-off times use that same zone. An ongoing match that crosses midnight stays in Today while live. The Updated label uses your browser's local time and records when the display was refreshed, not when the provider last confirmed a score.\n\nFixtures, scores and statuses come from football-data.org; occasional featured fixtures may be curated separately. Updates can be delayed or unavailable. An empty day means no matching fixtures were returned for our coverage, not that no football is being played. Try another day; if loading fails, reload later or consult the competition's official fixtures.\n\nUse Standings for table context, or read how Premier League results become points and how Champions League ties work.\n\nFootball news, fixtures, standings and match updates for fans worldwide.\n\nQUICK LINKS\nHome\nMatches\nNews\nAbout\nContact\nPrivacy Policy\nTerms of Use\nCONTACT US\n\n© 2026 www.tv96live.org - All rights reserved.",
+      "overflow": false,
+      "brokenImages": [],
+      "links": [
+        "https://www.tv96live.org/",
+        "https://www.tv96live.org/matches",
+        "https://www.tv96live.org/news",
+        "https://www.tv96live.org/about",
+        "https://www.tv96live.org/privacy"
+      ],
+      "adFrames": [
+        {
+          "id": "aswift_0",
+          "src": "https://googleads.g.doubleclick.net/pagead/ads",
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "visible": false
+        },
+        {
+          "id": "",
+          "src": "https://ep2.adtrafficquality.google/sodar/sodar2/255/runner.html",
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "visible": false
+        },
+        {
+          "id": "",
+          "src": "https://www.google.com/recaptcha/api2/aframe",
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "visible": false
+        },
+        {
+          "id": "google_esf",
+          "src": "https://googleads.g.doubleclick.net/pagead/html/r20261012/r20190131/zrt_lookup.html",
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "visible": false
+        }
+      ],
+      "videoCount": 0,
+      "cmpPresent": false,
+      "fundingChoices": false,
+      "scriptSources": [
+        "https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202610080101/show_ads_impl.js?bust=122881549",
+        "https://www.tv96live.org/site-header.js",
+        "https://cdn.jsdelivr.net/npm/lucide@0.263.0/dist/umd/lucide.min.js",
+        "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9924964891667864",
+        "https://www.tv96live.org/site-config.js",
+        "https://www.tv96live.org/matches-data.js"
+      ],
+      "events": [
+        {
+          "type": "network",
+          "message": "net::ERR_ABORTED"
+        }
+      ]
+    },
+    {
+      "route": "/standings",
+      "width": 1440,
+      "url": "https://www.tv96live.org/standings",
+      "title": "TV96 Live - League Standings",
+      "canonical": "https://www.tv96live.org/standings",
+      "bodyText": "Home\nMatches\nLatest News\nAbout Us\nPrivacy\nPremier League\n\n2026/27 Season\n\nBack\n#\tTEAM\tP\tW\tD\tL\tGF\tGA\tGD\tPTS\tFORM\n1\t\nMan City\n\t6\t6\t0\t0\t16\t5\t11\t18\t\n\n2\t\nArsenal\n\t6\t5\t0\t1\t10\t5\t5\t15\t\n\n3\t\nBrighton Hove\n\t6\t4\t1\t1\t18\t5\t13\t13\t\n\n4\t\nBrentford\n\t6\t2\t4\t0\t12\t6\t6\t10\t\n\n5\t\nEverton\n\t6\t2\t4\t0\t8\t5\t3\t10\t\n\n6\t\nChelsea\n\t6\t3\t1\t2\t15\t13\t2\t10\t\n\n7\t\nLeeds United\n\t6\t2\t3\t1\t8\t5\t3\t9\t\n\n8\t\nHull City\n\t6\t2\t3\t1\t8\t6\t2\t9\t\n\n9\t\nLiverpool\n\t6\t2\t3\t1\t7\t7\t0\t9\t\n\n10\t\nIpswich Town\n\t6\t3\t0\t3\t9\t12\t-3\t9\t\n\n11\t\nNewcastle\n\t6\t2\t2\t2\t10\t13\t-3\t8\t\n\n12\t\nCrystal Palace\n\t6\t2\t1\t3\t9\t12\t-3\t7\t\n\n13\t\nMan United\n\t6\t1\t3\t2\t9\t9\t0\t6\t\n\n14\t\nCoventry City\n\t6\t2\t0\t4\t5\t11\t-6\t6\t\n\n15\t\nNottingham\n\t6\t1\t2\t3\t5\t8\t-3\t5\t\n\n16\t\nAston Villa\n\t6\t1\t2\t3\t6\t11\t-5\t5\t\n\n17\t\nSunderland\n\t6\t1\t1\t4\t6\t12\t-6\t4\t\n\n18\t\nBournemouth\n\t6\t0\t3\t3\t7\t13\t-6\t3\t\n\n19\t\nTottenham\n\t6\t0\t3\t3\t3\t9\t-6\t3\t\n\n20\t\nFulham\n\t6\t0\t2\t4\t6\t10\t-4\t2\t\nReading this table\nP\nMatches played.\nW / D / L\nWins, draws and losses.\nGF / GA\nGoals scored and goals conceded.\nGD\nGoal difference: GF minus GA.\nPts\nLeague points. Three for a win and one for a draw; official adjustments can change the total.\n\nPosition colours are indicative guides. European places can change with cup winners, title holders and season-specific allocations; relegation and play-off rules also vary by competition. A highlighted position is not confirmation of qualification or relegation. See the European qualification guide and tiebreaker explanation.\n\nTables depend on football-data.org and may lag completed matches. An empty or failed response cannot establish a club's position. Reload later, select another competition, or check the official league table before treating an outcome as final.\n\nLeague guides: Premier League, La Liga, Serie A, Bundesliga, Ligue 1 and Champions League.\n\nTrending News\nJJ Gabriel, 15, Asks to Leave Manchester United as Club Fight to Keep Highly Rated Prospect\nLigue 1 Guide\nBundesliga Guide\nSerie A Guide\nLa Liga Guide\nTrending Matches\nRC Lens vs Sporting CP\nUEFA Champions League\n19:45\nSabah FK vs Slavia Praha\nUEFA Champions League\n19:45\nBurnley vs Charlton\nChampionship\n21:45\nWolverhampton vs Bolton\nChampionship\n21:45\nMillwall vs Swansea\nChampionship\n21:45\n\nFootball news, fixtures, standings and match updates for fans worldwide.\n\nQUICK LINKS\nHome\nMatches\nNews\nAbout\nContact\nPrivacy Policy\nTerms of Use\nCONTACT US\n\n© 2026 www.tv96live.org - All rights reserved.",
+      "overflow": false,
+      "brokenImages": [],
+      "links": [
+        "https://www.tv96live.org/",
+        "https://www.tv96live.org/matches",
+        "https://www.tv96live.org/news",
+        "https://www.tv96live.org/about",
+        "https://www.tv96live.org/privacy"
+      ],
+      "adFrames": [
+        {
+          "id": "aswift_0",
+          "src": "https://googleads.g.doubleclick.net/pagead/ads",
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "visible": false
+        },
+        {
+          "id": "",
+          "src": "https://ep2.adtrafficquality.google/sodar/sodar2/255/runner.html",
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "visible": false
+        },
+        {
+          "id": "",
+          "src": "https://www.google.com/recaptcha/api2/aframe",
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "visible": false
+        },
+        {
+          "id": "google_esf",
+          "src": "https://googleads.g.doubleclick.net/pagead/html/r20261012/r20190131/zrt_lookup.html",
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "visible": false
+        }
+      ],
+      "videoCount": 0,
+      "cmpPresent": false,
+      "fundingChoices": false,
+      "scriptSources": [
+        "https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202610080101/show_ads_impl.js?bust=122881549",
+        "https://www.tv96live.org/site-header.js",
+        "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9924964891667864",
+        "https://cdn.jsdelivr.net/npm/lucide@0.263.0/dist/umd/lucide.min.js",
+        "https://www.tv96live.org/site-config.js",
+        "https://www.tv96live.org/news-data.js",
+        "https://www.tv96live.org/matches-data.js"
+      ],
+      "events": []
+    },
+    {
+      "route": "/watch-live",
+      "width": 1440,
+      "url": "https://www.tv96live.org/watch-live",
+      "title": "Live Viewing Unavailable | TV96 Live",
+      "canonical": "https://www.tv96live.org/watch-live",
+      "robots": "noindex, follow",
+      "bodyText": "Home\nMatches\nLatest News\nAbout Us\nPrivacy\nInstall App\nLive viewing is currently unavailable\n\nTV96 Live is currently focused on football fixtures, scores, standings, news, and editorial coverage.\n\nView Matches View Standings Read News\n\nFootball news, fixtures, standings and match updates for fans worldwide.\n\nQUICK LINKS\nHome\nMatches\nNews\nAbout\nContact\nPrivacy Policy\nTerms of Use\nCONTACT US\n\n© 2026 www.tv96live.org - All rights reserved.",
+      "overflow": false,
+      "brokenImages": [],
+      "links": [
+        "https://www.tv96live.org/",
+        "https://www.tv96live.org/matches",
+        "https://www.tv96live.org/news",
+        "https://www.tv96live.org/about",
+        "https://www.tv96live.org/privacy"
+      ],
+      "adFrames": [],
+      "videoCount": 0,
+      "cmpPresent": false,
+      "fundingChoices": false,
+      "scriptSources": [
+        "https://www.tv96live.org/site-config.js",
+        "https://www.tv96live.org/site-header.js",
+        "https://www.tv96live.org/_vercel/insights/script.js",
+        "https://cdn.jsdelivr.net/npm/lucide@0.263.0/dist/umd/lucide.min.js",
+        "https://www.tv96live.org/news-data.js",
+        "https://www.tv96live.org/matches-data.js"
+      ],
+      "events": []
+    },
+    {
+      "route": "/offline",
+      "width": 1440,
+      "url": "https://www.tv96live.org/offline",
+      "title": "Offline | TV96 Live",
+      "robots": "noindex, follow",
+      "bodyText": "You are offline\n\nIt seems like you don't have an internet connection. Please reconnect to access football matches, standings, and news.\n\nTry again",
+      "overflow": false,
+      "brokenImages": [],
+      "links": [],
+      "adFrames": [],
+      "videoCount": 0,
+      "cmpPresent": false,
+      "fundingChoices": false,
+      "scriptSources": [],
+      "events": [
+        {
+          "type": "http",
+          "status": 404,
+          "url": "https://www.tv96live.org/favicon.ico"
+        }
+      ]
+    },
+    {
+      "route": "/",
+      "width": 360,
+      "url": "https://www.tv96live.org/",
+      "title": "TV96 Live - Football News, Fixtures and Guides",
+      "canonical": "https://www.tv96live.org/",
+      "robots": "index, follow",
+      "bodyText": "Premier League\nLa Liga\nSerie A\nLigue 1\nBundesliga\nUEFA Champions League\nEuropa League\nFeatured\n\nUnderstand the rules, follow the leagues and explore the stories\n\nView News & Guides\nManchester United / Latest News\nJJ Gabriel, 15, Asks to Leave Manchester United as Club Fight to Keep Highly Rated Prospect\n15 Sept 2026\n5 min read\n\nBBC Sport reports JJ Gabriel has asked for his Manchester United registration to be cancelled. United are seeking a resolution as the 15-year-old forward's future remains unsettled.\n\nRead full story →\nLigue 1\nLigue 1 Guide\n5 Sept 2026\n4 min read\nBundesliga\nBundesliga Guide\n5 Sept 2026\n4 min read\nSerie A\nSerie A Guide\n5 Sept 2026\n4 min read\nToday's Matches\n\nLive scores and upcoming fixtures\n\n2 Live\nUpdated 03:10\nYesterday\nToday\nTomorrow\nCampeonato Brasileiro Série A\nChapecoense\n1\nParanaense\n3\n01:30\nLive\nIn progress\nCampeonato Brasileiro Série A\nBragantino\n0\nCruzeiro\n0\n03:00\nLive\nIn progress\nUEFA Champions League\nRC Lens\n0\nSporting CP\n0\n19:45\nUpcoming\nStarts in 17 hr\nUEFA Champions League\nSabah FK\n0\nSlavia Praha\n0\n19:45\nUpcoming\nStarts in 17 hr\nChampionship\nBurnley\n0\nCharlton\n0\n21:45\nUpcoming\nStarts in 19 hr\nChampionship\nWolverhampton\n0\nBolton\n0\n21:45\nUpcoming\nStarts in 19 hr\nChampionship\nMillwall\n0\nSwansea\n0\n21:45\nUpcoming\nStarts in 19 hr\nChampionship\nCardiff\n0\nWatford\n0\n21:45\nUpcoming\nStarts in 19 hr\nChampionship\nBristol City\n0\nBlackburn\n0\n21:45\nUpcoming\nStarts in 19 hr\nChampionship\nWrexham\n0\nWest Brom\n0\n21:45\nUpcoming\nStarts in 19 hr\nUEFA Champions League\nViking\n0\nBayern\n0\n22:00\nUpcoming\nStarts in 19 hr\nUEFA Champions League\nInter\n0\nClub Brugge\n0\n22:00\nUpcoming\nStarts in 19 hr\nUEFA Champions League\nVillarreal\n0\nNapoli\n0\n22:00\nUpcoming\nStarts in 19 hr\nUEFA Champions League\nAtleti\n0\nMan United\n0\n22:00\nUpcoming\nStarts in 19 hr\nChampionship\nBirmingham\n0\nPreston NE\n0\n22:00\nUpcoming\nStarts in 19 hr\nUEFA Champions League\nRB Leipzig\n0\nPSV\n0\n22:00\nUpcoming\nStarts in 19 hr\nUEFA Champions League\nGalatasaray\n0\nBarça\n0\n22:00\nUpcoming\nStarts in 19 hr\nUEFA Champions League\nArsenal\n0\nLille\n0\n22:00\nUpcoming\nStarts in 19 hr\nChampionship\nStoke\n0\nMiddlesbrough\n0\n22:00\nUpcoming\nStarts in 19 hr\nPopular Leagues\nChampions League\nPremier League\nLa Liga\nSerie A\nLigue 1\nBundesliga\nJoin Us\n\nJoin us on TikTok for the latest highlights and videos!\n\nFOLLOW US\nAbout Us - TV96 Live\n\nTV96 Live is a large platform built for football fans wherever they are. We provide live match results (Live Scores), fact-based analysis, and the latest transfer market news. Our goal is to connect fans with their teams.\n\nFootball news, fixtures, standings and match updates for fans worldwide.\n\nQUICK LINKS\nHome\nMatches\nNews\nAbout\nContact\nPrivacy Policy\nTerms of Use\nCONTACT US\n\n© 2026 www.tv96live.org - All rights reserved.",
+      "overflow": false,
+      "brokenImages": [
+        {
+          "url": "https://www.tv96live.org/",
+          "id": "matchModalHomeLogo",
+          "src": "",
+          "visible": false
+        }
+      ],
+      "links": [
+        "https://www.tv96live.org/",
+        "https://www.tv96live.org/matches",
+        "https://www.tv96live.org/news",
+        "https://www.tv96live.org/about",
+        "https://www.tv96live.org/privacy"
+      ],
+      "adFrames": [
+        {
+          "id": "aswift_0",
+          "src": "https://googleads.g.doubleclick.net/pagead/ads",
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "visible": false
+        },
+        {
+          "id": "",
+          "src": "https://ep2.adtrafficquality.google/sodar/sodar2/255/runner.html",
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "visible": false
+        },
+        {
+          "id": "",
+          "src": "https://www.google.com/recaptcha/api2/aframe",
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "visible": false
+        },
+        {
+          "id": "google_esf",
+          "src": "https://googleads.g.doubleclick.net/pagead/html/r20261012/r20190131/zrt_lookup.html",
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "visible": false
+        }
+      ],
+      "videoCount": 0,
+      "cmpPresent": false,
+      "fundingChoices": false,
+      "scriptSources": [
+        "https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202610080101/show_ads_impl.js?bust=122881549",
+        "https://cdn.jsdelivr.net/npm/lucide@0.263.0/dist/umd/lucide.min.js",
+        "https://cdn.tailwindcss.com/3.4.17",
+        "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9924964891667864",
+        "https://cloud.umami.is/script.js",
+        "https://www.tv96live.org/_vercel/insights/script.js",
+        "https://www.tv96live.org/news-data.js",
+        "https://www.tv96live.org/site-config.js",
+        "https://www.tv96live.org/matches-data.js"
+      ],
+      "navigation": {
+        "opened": "true",
+        "visible": 5,
+        "closed": "false"
+      },
+      "events": []
+    },
+    {
+      "route": "/matches",
+      "width": 360,
+      "url": "https://www.tv96live.org/matches",
+      "title": "TV96 Live - Matches",
+      "canonical": "https://www.tv96live.org/matches",
+      "bodyText": "Premier League\nLa Liga\nSerie A\nLigue 1\nBundesliga\nUEFA Champions League\nToday's Matches\n\nLive scores and upcoming fixtures\n\n2 Live\nUpdated 03:10\nYesterday\nToday\nTomorrow\nCampeonato Brasileiro Série A\nChapecoense\n1\nParanaense\n3\n01:30\nLive\nIn progress\nCampeonato Brasileiro Série A\nBragantino\n0\nCruzeiro\n0\n03:00\nLive\nIn progress\nUEFA Champions League\nRC Lens\n0\nSporting CP\n0\n19:45\nUpcoming\nStarts in 17 hr\nUEFA Champions League\nSabah FK\n0\nSlavia Praha\n0\n19:45\nUpcoming\nStarts in 17 hr\nChampionship\nBurnley\n0\nCharlton\n0\n21:45\nUpcoming\nStarts in 19 hr\nChampionship\nWolverhampton\n0\nBolton\n0\n21:45\nUpcoming\nStarts in 19 hr\nChampionship\nMillwall\n0\nSwansea\n0\n21:45\nUpcoming\nStarts in 19 hr\nChampionship\nCardiff\n0\nWatford\n0\n21:45\nUpcoming\nStarts in 19 hr\nChampionship\nBristol City\n0\nBlackburn\n0\n21:45\nUpcoming\nStarts in 19 hr\nChampionship\nWrexham\n0\nWest Brom\n0\n21:45\nUpcoming\nStarts in 19 hr\nUEFA Champions League\nViking\n0\nBayern\n0\n22:00\nUpcoming\nStarts in 19 hr\nUEFA Champions League\nInter\n0\nClub Brugge\n0\n22:00\nUpcoming\nStarts in 19 hr\nUEFA Champions League\nVillarreal\n0\nNapoli\n0\n22:00\nUpcoming\nStarts in 19 hr\nUEFA Champions League\nAtleti\n0\nMan United\n0\n22:00\nUpcoming\nStarts in 19 hr\nChampionship\nBirmingham\n0\nPreston NE\n0\n22:00\nUpcoming\nStarts in 19 hr\nUEFA Champions League\nRB Leipzig\n0\nPSV\n0\n22:00\nUpcoming\nStarts in 19 hr\nUEFA Champions League\nGalatasaray\n0\nBarça\n0\n22:00\nUpcoming\nStarts in 19 hr\nUEFA Champions League\nArsenal\n0\nLille\n0\n22:00\nUpcoming\nStarts in 19 hr\nChampionship\nStoke\n0\nMiddlesbrough\n0\n22:00\nUpcoming\nStarts in 19 hr\nCoverage and match times\n\nTV96 displays all matches returned by football-data.org for the FIFA World Cup, UEFA Champions League, Bundesliga, Eredivisie, Campeonato Brasileiro Série A, La Liga, Ligue 1, Championship, Primeira Liga, European Championship, Serie A and Premier League. Coverage depends on the provider and the competitions available to our account; matches are not restricted to selected clubs.\n\nYesterday, Today and Tomorrow use East Africa Time (Africa/Nairobi, UTC+3). Kick-off times use that same zone. An ongoing match that crosses midnight stays in Today while live. The Updated label uses your browser's local time and records when the display was refreshed, not when the provider last confirmed a score.\n\nFixtures, scores and statuses come from football-data.org; occasional featured fixtures may be curated separately. Updates can be delayed or unavailable. An empty day means no matching fixtures were returned for our coverage, not that no football is being played. Try another day; if loading fails, reload later or consult the competition's official fixtures.\n\nUse Standings for table context, or read how Premier League results become points and how Champions League ties work.\n\nFootball news, fixtures, standings and match updates for fans worldwide.\n\nQUICK LINKS\nHome\nMatches\nNews\nAbout\nContact\nPrivacy Policy\nTerms of Use\nCONTACT US\n\n© 2026 www.tv96live.org - All rights reserved.",
+      "overflow": false,
+      "brokenImages": [],
+      "links": [
+        "https://www.tv96live.org/",
+        "https://www.tv96live.org/matches",
+        "https://www.tv96live.org/news",
+        "https://www.tv96live.org/about",
+        "https://www.tv96live.org/privacy"
+      ],
+      "adFrames": [
+        {
+          "id": "aswift_0",
+          "src": "https://googleads.g.doubleclick.net/pagead/ads",
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "visible": false
+        },
+        {
+          "id": "",
+          "src": "https://www.google.com/recaptcha/api2/aframe",
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "visible": false
+        },
+        {
+          "id": "google_esf",
+          "src": "https://googleads.g.doubleclick.net/pagead/html/r20261012/r20190131/zrt_lookup.html",
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "visible": false
+        }
+      ],
+      "videoCount": 0,
+      "cmpPresent": false,
+      "fundingChoices": false,
+      "scriptSources": [
+        "https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202610080101/show_ads_impl.js?bust=122881549",
+        "https://www.tv96live.org/site-header.js",
+        "https://cdn.jsdelivr.net/npm/lucide@0.263.0/dist/umd/lucide.min.js",
+        "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9924964891667864",
+        "https://www.tv96live.org/site-config.js",
+        "https://www.tv96live.org/matches-data.js"
+      ],
+      "navigation": {
+        "opened": "true",
+        "visible": 5,
+        "closed": "false"
+      },
+      "events": []
+    },
+    {
+      "route": "/standings",
+      "width": 360,
+      "url": "https://www.tv96live.org/standings",
+      "title": "TV96 Live - League Standings",
+      "canonical": "https://www.tv96live.org/standings",
+      "bodyText": "Premier League\n\n2026/27 Season\n\nBack\n#\tTEAM\tP\tGD\tPTS\n1\t\nMan City\n\t6\t11\t18\n2\t\nArsenal\n\t6\t5\t15\n3\t\nBrighton Hove\n\t6\t13\t13\n4\t\nBrentford\n\t6\t6\t10\n5\t\nEverton\n\t6\t3\t10\n6\t\nChelsea\n\t6\t2\t10\n7\t\nLeeds United\n\t6\t3\t9\n8\t\nHull City\n\t6\t2\t9\n9\t\nLiverpool\n\t6\t0\t9\n10\t\nIpswich Town\n\t6\t-3\t9\n11\t\nNewcastle\n\t6\t-3\t8\n12\t\nCrystal Palace\n\t6\t-3\t7\n13\t\nMan United\n\t6\t0\t6\n14\t\nCoventry City\n\t6\t-6\t6\n15\t\nNottingham\n\t6\t-3\t5\n16\t\nAston Villa\n\t6\t-5\t5\n17\t\nSunderland\n\t6\t-6\t4\n18\t\nBournemouth\n\t6\t-6\t3\n19\t\nTottenham\n\t6\t-6\t3\n20\t\nFulham\n\t6\t-4\t2\nReading this table\nP\nMatches played.\nW / D / L\nWins, draws and losses.\nGF / GA\nGoals scored and goals conceded.\nGD\nGoal difference: GF minus GA.\nPts\nLeague points. Three for a win and one for a draw; official adjustments can change the total.\n\nPosition colours are indicative guides. European places can change with cup winners, title holders and season-specific allocations; relegation and play-off rules also vary by competition. A highlighted position is not confirmation of qualification or relegation. See the European qualification guide and tiebreaker explanation.\n\nTables depend on football-data.org and may lag completed matches. An empty or failed response cannot establish a club's position. Reload later, select another competition, or check the official league table before treating an outcome as final.\n\nLeague guides: Premier League, La Liga, Serie A, Bundesliga, Ligue 1 and Champions League.\n\nTrending News\nJJ Gabriel, 15, Asks to Leave Manchester United as Club Fight to Keep Highly Rated Prospect\nLigue 1 Guide\nBundesliga Guide\nSerie A Guide\nLa Liga Guide\nTrending Matches\nRC Lens vs Sporting CP\nUEFA Champions League\n19:45\nSabah FK vs Slavia Praha\nUEFA Champions League\n19:45\nBurnley vs Charlton\nChampionship\n21:45\nWolverhampton vs Bolton\nChampionship\n21:45\nMillwall vs Swansea\nChampionship\n21:45\n\nFootball news, fixtures, standings and match updates for fans worldwide.\n\nQUICK LINKS\nHome\nMatches\nNews\nAbout\nContact\nPrivacy Policy\nTerms of Use\nCONTACT US\n\n© 2026 www.tv96live.org - All rights reserved.",
+      "overflow": false,
+      "brokenImages": [],
+      "links": [
+        "https://www.tv96live.org/",
+        "https://www.tv96live.org/matches",
+        "https://www.tv96live.org/news",
+        "https://www.tv96live.org/about",
+        "https://www.tv96live.org/privacy"
+      ],
+      "adFrames": [
+        {
+          "id": "aswift_0",
+          "src": "https://googleads.g.doubleclick.net/pagead/ads",
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "visible": false
+        },
+        {
+          "id": "",
+          "src": "https://ep2.adtrafficquality.google/sodar/sodar2/255/runner.html",
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "visible": false
+        },
+        {
+          "id": "",
+          "src": "https://www.google.com/recaptcha/api2/aframe",
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "visible": false
+        },
+        {
+          "id": "google_esf",
+          "src": "https://googleads.g.doubleclick.net/pagead/html/r20261012/r20190131/zrt_lookup.html",
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "visible": false
+        }
+      ],
+      "videoCount": 0,
+      "cmpPresent": false,
+      "fundingChoices": false,
+      "scriptSources": [
+        "https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202610080101/show_ads_impl.js?bust=122881549",
+        "https://www.tv96live.org/site-header.js",
+        "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9924964891667864",
+        "https://cdn.jsdelivr.net/npm/lucide@0.263.0/dist/umd/lucide.min.js",
+        "https://www.tv96live.org/site-config.js",
+        "https://www.tv96live.org/news-data.js",
+        "https://www.tv96live.org/matches-data.js"
+      ],
+      "navigation": {
+        "opened": "true",
+        "visible": 5,
+        "closed": "false"
+      },
+      "events": []
+    },
+    {
+      "route": "/watch-live",
+      "width": 360,
+      "url": "https://www.tv96live.org/watch-live",
+      "title": "Live Viewing Unavailable | TV96 Live",
+      "canonical": "https://www.tv96live.org/watch-live",
+      "robots": "noindex, follow",
+      "bodyText": "Live viewing is currently unavailable\n\nTV96 Live is currently focused on football fixtures, scores, standings, news, and editorial coverage.\n\nView Matches View Standings Read News\n\nFootball news, fixtures, standings and match updates for fans worldwide.\n\nQUICK LINKS\nHome\nMatches\nNews\nAbout\nContact\nPrivacy Policy\nTerms of Use\nCONTACT US\n\n© 2026 www.tv96live.org - All rights reserved.",
+      "overflow": false,
+      "brokenImages": [],
+      "links": [
+        "https://www.tv96live.org/",
+        "https://www.tv96live.org/matches",
+        "https://www.tv96live.org/news",
+        "https://www.tv96live.org/about",
+        "https://www.tv96live.org/privacy"
+      ],
+      "adFrames": [],
+      "videoCount": 0,
+      "cmpPresent": false,
+      "fundingChoices": false,
+      "scriptSources": [
+        "https://www.tv96live.org/site-config.js",
+        "https://www.tv96live.org/site-header.js",
+        "https://www.tv96live.org/_vercel/insights/script.js",
+        "https://cdn.jsdelivr.net/npm/lucide@0.263.0/dist/umd/lucide.min.js",
+        "https://www.tv96live.org/news-data.js",
+        "https://www.tv96live.org/matches-data.js"
+      ],
+      "navigation": {
+        "opened": "true",
+        "visible": 5,
+        "closed": "false"
+      },
+      "events": []
+    },
+    {
+      "route": "/offline",
+      "width": 360,
+      "url": "https://www.tv96live.org/offline",
+      "title": "Offline | TV96 Live",
+      "robots": "noindex, follow",
+      "bodyText": "You are offline\n\nIt seems like you don't have an internet connection. Please reconnect to access football matches, standings, and news.\n\nTry again",
+      "overflow": false,
+      "brokenImages": [],
+      "links": [],
+      "adFrames": [],
+      "videoCount": 0,
+      "cmpPresent": false,
+      "fundingChoices": false,
+      "scriptSources": [],
+      "navigation": {
+        "missing": true
+      },
+      "events": []
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "checkedAt": "2026-10-11T18:40:38.265Z",
+  "results": [
+    {
+      "requested": "http://tv96live.org/",
+      "chain": [
+        {
+          "url": "http://tv96live.org/",
+          "status": 308,
+          "location": "https://tv96live.org/"
+        },
+        {
+          "url": "https://tv96live.org/",
+          "status": 308,
+          "location": "https://www.tv96live.org/"
+        },
+        {
+          "url": "https://www.tv96live.org/",
+          "status": 200,
+          "location": null
+        }
+      ]
+    },
+    {
+      "requested": "https://ligue1.com/en/articles/l1_article_93-",
+      "chain": [
+        {
+          "url": "https://ligue1.com/en/articles/l1_article_93-",
+          "status": 500,
+          "location": null
+        }
+      ]
+    },
+    {
+      "requested": "https://ligue1.com/en/articles/l1_article_5074-",
+      "chain": [
+        {
+          "url": "https://ligue1.com/en/articles/l1_article_5074-",
+          "status": 500,
+          "location": null
+        }
+      ]
+    },
+    {
+      "requested": "https://ligue1.com/en/articles/l1_article_5074-everything-you-need-to-know-about-the-ligue-2-bkt-play-offs",
+      "chain": [
+        {
+          "url": "https://ligue1.com/en/articles/l1_article_5074-everything-you-need-to-know-about-the-ligue-2-bkt-play-offs",
+          "status": 500,
+          "location": null
+        }
+      ]
+    }
+  ]
+}

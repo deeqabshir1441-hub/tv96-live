@@ -1,0 +1,136 @@
+{
+  "authorizedAt": "2026-10-12",
+  "bodies": {
+    "1": "d62da1bf33ea900f5f83f90eb6eeb57f6f34a4245d7803a162b78450258b5147",
+    "2": "d87a6db2bc8ccae9e4cebd6a2c92e4dcc1401e21ffc594629df4c086fd45f874",
+    "3": "5bded1d323053f657e3089fdfe2a7d510ec3ea1ecd6d777010e869b9ea5d0b36",
+    "4": "816b6ec6ec53b61686d7bf5866ab11a0ae9159d22aa196a3533ccf632a2523e8",
+    "5": "cb946710e494d06cad6d2e104b2c2d02f4a861b99ca143354c6bb2a9a03c05db",
+    "6": "328611222cf78a0741009b1a1ff9f7ee1201e7f23e7b49b0b1be11d16c398817",
+    "7": "c70d085806c06fba5c2fc436de546d3937b7deb3f6753df98c77d45271f366a4",
+    "8": "ea72e0f0dc7154a8816982d89abba4846aaf5ef450afc673f353e624aadc2dcd",
+    "9": "153303e0e6b145de8cf67dc9aa09e25f9a19b8ef02417c04351bfe0e409e0698",
+    "10": "afc81f59907d19a824d12f627a9a4d528bb9f4215f1519edbde62c1645dd8611",
+    "11": "1f287d06e85355d2c702fac22b79d5a85bba82f9d008c9591f53f63e313c5892",
+    "12": "a424391ab3934f7f818b64ba3a4d4a706ba93179756085bf95c0f950ffcd38c6",
+    "13": "7687bc47b893934b3ca838bc738ae02ef54be67ded0184a46b7b48428ea8491e",
+    "14": "3bc76559925e95db6af5daf1b0d5d6f53aa4fbebab6a5ce4fdff546ce6eb7dce",
+    "15": "8db0c070f746b803e757e941183237861149f187db2d77f3242389905194a9c9",
+    "16": "24cac0f2501d007e8dff76d7799052bc0df77b456217dd3f824fbf6a6806ac92",
+    "17": "00ee0dbacb6daa823026d8f5c3c0511aea99b8c6a5c7f0e1692b1e66bbcbaece",
+    "18": "5c49b920a5639b6c7977a3004bcbbfed6d2f50356435f5403fe7fd943103e095",
+    "19": "33f0fb161e273ab2f89be3eb74515526e0e76a959bcfcb5edf1e929c2c097236",
+    "20": "9d3d1581e9a6e1134c7d526cce5b171aa774768712c4d37460be8865dd572a7b",
+    "21": "85d2ddfc243a599b23e84cccef46b4a761b9c5bddfeaa981bdd032fcab22bad8",
+    "22": "fd23a5d2be8d2193ed5880095d54cffc036c90866bb3c9917fcd211eb0aa5534",
+    "23": "a4286ac81baed1665636782029f764e87d935a91b01f45d81936aee2902dc231",
+    "24": "02e8db6b47eb20fdc9d0ddf5d33e73699aafd396625e28779caec66874e2358b",
+    "25": "ae4b2d8d206fc9921e99071851165e59dda177aa3fcf27247b90dacbbe41c09e",
+    "32": "db92850513fd658a51de378ed008dfca53a1f2bed18aa22270f1d344dd67c082"
+  },
+  "article24": {
+    "id": 24,
+    "title": "Ligue 1 Guide",
+    "description": "Explore Ligue 1's 18-club season, European qualification, Ligue 2 play-off route and a practical approach to following French football.",
+    "category": "Ligue 1",
+    "section": "League & Competition Guides",
+    "relatedIds": [
+      23,
+      13,
+      15
+    ],
+    "articleType": "Evergreen guide",
+    "author": "TV96 Live Editorial Team",
+    "publishedAt": "2026-09-05T12:00:00+03:00",
+    "image": "/images/articles/ligue-1-guide.png",
+    "sources": [
+      {
+        "name": "Ligue 1: survival and relegation positions",
+        "url": "https://ligue1.com/en/articles/l1_article_93-"
+      },
+      {
+        "name": "Ligue 1: the Ligue 2 play-off route",
+        "url": "https://ligue1.com/en/articles/l1_article_5074-"
+      }
+    ],
+    "isPublished": true,
+    "wordCount": 843,
+    "imageAlt": "Ligue 1 guide - TV96 Live",
+    "imageCredit": "AI-generated editorial artwork for TV96 Live",
+    "imageType": "original-editorial",
+    "rightsStatus": "reviewed",
+    "brandingReview": "required"
+  },
+  "article32": {
+    "id": 32,
+    "title": "JJ Gabriel, 15, Asks to Leave Manchester United as Club Fight to Keep Highly Rated Prospect",
+    "description": "Archived report first published 15 September 2026: BBC Sport reported that JJ Gabriel had requested cancellation of his Manchester United registration. This account describes the situation reported at that time.",
+    "category": "Manchester United / Archived Reports",
+    "section": "Archived Reports",
+    "relatedIds": [
+      10,
+      12,
+      16
+    ],
+    "articleType": "Archived report",
+    "author": "TV96 Live Editorial Team",
+    "publishedAt": "2026-09-15T20:00:00+03:00",
+    "updatedAt": "2026-10-11",
+    "image": "/images/articles/jj-gabriel.png",
+    "imageAlt": "JJ Gabriel in a Manchester United shirt with the club crest and stadium background",
+    "imageType": "user-provided",
+    "rightsStatus": "user-provided",
+    "imageReviewRequired": true,
+    "brandingReview": "required",
+    "imageCredit": "Image supplied by the TV96 Live publisher",
+    "sources": [
+      {
+        "name": "BBC Sport: JJ Gabriel asks to leave Manchester United",
+        "url": "https://www.bbc.co.uk/sport/football/articles/c95y4dxr0v6do"
+      },
+      {
+        "name": "Manchester Evening News: JJ Gabriel and Ryan Giggs context",
+        "url": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-utd-jj-gabriel-carrick-34607865"
+      }
+    ],
+    "isPublished": true,
+    "wordCount": 956
+  },
+  "article32Page": "043238c10939aa69110a38ff66be8fcdd18e96e9da1ba060e107ea595d55a04b",
+  "article32Images": {
+    "png": "1403d94c1586fd3164b9533e7f5fbabbbd8c6e69f5137b0ef480c12ce78f5ff0",
+    "webp": "95b1ec83dbd334d4e73adc50c75392953e035ad17a5a7fd61f169397eabbe9d9"
+  },
+  "replacement": [
+    "Under the LFP’s 2026/27 regulations, the clubs finishing 17th and 18th in Ligue 1 are relegated automatically. Ligue 2’s top two clubs gain automatic promotion, subject to meeting Ligue 1 participation requirements. Ligue 1’s 16th-placed club faces the Ligue 2 playoff winner over two legs.",
+    "The Ligue 2 playoffs involve the clubs finishing third, fourth and fifth. Fifth plays away at fourth in a single match; the winner then plays away at third in another single match. The winner advances to the promotion-relegation playoff, with the Ligue 2 club hosting the first leg and the Ligue 1 club the return. Exceptional interruption and reinstatement provisions can affect final outcomes."
+  ],
+  "revisionNote": "<p><em>Revision, 12 October 2026: verified the promotion, relegation and playoff pathway against Articles 519 and 519 ter of the official LFP 2026/27 regulations and the official 2026/27 Ligue 2 calendar. The original publication date is retained.</em></p>\n",
+  "beforeBody": "\n<p>Ligue 1 is the top division of men's club football in France's professional league system. Its current 18-club format produces a 34-match season, while European places and a promotion-relegation play-off give the table several meaningful boundaries.</p>\n<p>A useful way to follow the league is to connect those boundaries with the performances behind them. A club can be developing young players, managing European fixtures and competing for a league objective at the same time. None of those stories should be reduced to a single weekend's score.</p>\n<h2>The league structure</h2>\n<p>Each of the 18 clubs plays every other club twice, at home and away. Wins earn three points, draws one and defeats none. With 34 matches per team, the maximum available return is 102 points. The final table determines the championship and the relevant league-based European and relegation positions.</p>\n<p>The present league size is important when reading older articles, because Ligue 1 previously had a 20-team format. A historical total from a 38-match season should not be compared uncritically with one from 34 matches.</p>\n<p>For an invented example, 51 points in 34 matches is 1.5 points per game. The same total from 38 is a lower rate. This simple adjustment helps describe the difference, although it does not establish that one team faced stronger opponents.</p>\n<h2>Championship and European qualification</h2>\n<p>The top side in the final table wins the league. Clubs below it can qualify for UEFA competitions through the season's allocation. The Coupe de France is a separate competition whose outcome can also affect the European picture.</p>\n<p>Do not assume every European place means direct entry into the main phase of a tournament. Some allocations involve qualifying rounds. The distinction affects when a club begins its European season and how many ties it must win before the main draw.</p>\n<p>Association rankings, additional European Performance Spots and European title holders can alter the arrangements. Our <a href=\"/articles/13\">Champions League qualification explainer</a> provides the wider framework; official UEFA and league information supplies the season-specific allocation.</p>\n<h2>Relegation and the play-off route</h2>\n<p>The clubs finishing 17th and 18th go down automatically. The team in 16th enters a promotion-relegation play-off against the winner of the Ligue 2 play-off route. That opponent is not necessarily the club that finished third in the second division.</p>\n<p>Under the established Ligue 2 route, clubs finishing third, fourth and fifth contest the play-off pathway before its winner faces the Ligue 1 side. The top two Ligue 2 clubs gain automatic promotion. Check the current official schedule for the dates and tie arrangements.</p>\n<p>This means a team finishing 16th has neither completed survival nor definitely been relegated. Its season continues with a decisive contest. A table summary should preserve that distinction, especially when comparing the outcomes for clubs immediately above and below it.</p>\n<h2>Reading the table carefully</h2>\n<p>Start with points and games played, then examine goals scored and conceded. Goal difference helps describe the balance of a team's results, but final tied positions must follow the league's full tiebreaking procedure. A live table can be provisional while matches are still being completed.</p>\n<p>A positive GD can coexist with inconsistent points collection. A team may win a few matches comfortably and lose several others narrowly. The <a href=\"/articles/15\">goal difference guide</a> shows why the total should be read alongside the sequence of results.</p>\n<h2>History and development</h2>\n<p>French professional top-flight football began in the 1930s, long before the current league size and commercial name. Different clubs and regions have shaped its history. A present-day period of dominance should not erase the competition's earlier champions or the importance of its local rivalries.</p>\n<p>Player development is a useful subject to follow, but an academy reputation is not evidence that every young player is ready for a major role. Evaluate minutes, responsibilities and the level of the matches. An impressive substitute appearance and a sustained run as a starter provide different amounts of evidence.</p>\n<h2>Questions to ask during a match</h2>\n<p>Watch how a team protects the centre when it loses possession. If both full-backs are advanced, who covers the space behind them? If a midfielder moves forward to join an attack, does another player remain in position to interrupt a counter?</p>\n<p>Then look at chance creation rather than possession alone. A side may circulate the ball comfortably without finding a pass into the penalty area. Another may attack less often but reach more dangerous positions. A useful report identifies those patterns instead of using territorial pressure as a synonym for clear chances.</p>\n<p>When discussing a young player's performance, describe the task: receiving under pressure, defending a wide channel or making runs beyond the back line. This is more informative than assigning a future transfer value based on one game.</p>\n<h2>Using TV96 Live for Ligue 1</h2>\n<p>Find available fixtures on <a href=\"/matches\">Matches</a> and select Ligue 1 on <a href=\"/standings?league=Ligue%201\">Standings</a>. Check how many matches each club has played before assessing a gap, and allow for data updates after full time.</p>\n<p>For decisive qualification or play-off questions, use the official competition information. As a comparison, our <a href=\"/articles/23\">Bundesliga Guide</a> explains another 18-team league whose relegation play-off opponent is selected differently.</p>\n",
+  "generatedFiles": {
+    "articles/23.html": {
+      "before": "6cbd4d6e41a25b5ad0e81b802ac668b28aed805da49958ca6463e371366bbbe6",
+      "after": "e9210afb87a2759449ccd52a2a4426578ac584ea01292223f1b4d410795f8bbf"
+    },
+    "articles/24.html": {
+      "before": "144781b8606cfbfe926f0cd2499d89d82ff7dd912930c4f204ac9e650a21cea1",
+      "after": "9709f07f026669fa18f8c6bd21b6c5deaaeca88c791c07841edbb3a1be513b58"
+    },
+    "index.html": {
+      "before": "8c297a2396c8a887d8eff69d9506ffe34dcfc2f178aff3d0c5df2e4002a5a2fb",
+      "after": "d641fb4154f4c1733cc1219296c33fa06a94266d5d298f3ca745f38f0d130d06"
+    },
+    "news-data.js": {
+      "before": "8afd47b45b2b7198a872e2be0598b62f7f74045f52139c388d3c90d4352de73a",
+      "after": "2878e88491f471530cd5ea3978d02576c92c9c703839a28e7c5ec175c2401f44"
+    },
+    "news.html": {
+      "before": "194c57e9dd2aed8a61530b3939fd82601afc3eb55e671ab0e51245dbe58a20cf",
+      "after": "787554ae9b1ab697d43818f7fdeb5a66a883f062d808d45146e40f4cce780ef9"
+    },
+    "sitemap.xml": {
+      "before": "720cc596932684580de1a0959d5fc4edef286795a10b59400a404f51ba789a5f",
+      "after": "38937ef4728b5b5ec54b368f7a802a4e09c7f0a4b64f03eb5024053330e6cb1c"
+    }
+  }
+}

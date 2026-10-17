@@ -4,14 +4,14 @@
     {
       "route": "/articles/3",
       "status": 200,
-      "words": 466,
+      "words": 684,
       "h1": 1,
       "related": 3
     },
     {
       "route": "/articles/9",
       "status": 200,
-      "words": 477,
+      "words": 742,
       "h1": 1,
       "related": 3
     },
@@ -81,35 +81,35 @@
     {
       "route": "/articles/21",
       "status": 200,
-      "words": 777,
+      "words": 1083,
       "h1": 1,
       "related": 3
     },
     {
       "route": "/articles/22",
       "status": 200,
-      "words": 849,
+      "words": 1168,
       "h1": 1,
       "related": 3
     },
     {
       "route": "/articles/23",
       "status": 200,
-      "words": 814,
+      "words": 1050,
       "h1": 1,
       "related": 3
     },
     {
       "route": "/articles/24",
       "status": 200,
-      "words": 843,
+      "words": 1205,
       "h1": 1,
       "related": 3
     },
     {
       "route": "/articles/32",
       "status": 200,
-      "words": 885,
+      "words": 956,
       "h1": 1,
       "related": 3
     }
